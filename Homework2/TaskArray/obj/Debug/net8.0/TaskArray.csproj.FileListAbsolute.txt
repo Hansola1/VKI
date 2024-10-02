@@ -1,0 +1,14 @@
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\bin\Debug\net8.0\TaskArray.exe
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\bin\Debug\net8.0\TaskArray.deps.json
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\bin\Debug\net8.0\TaskArray.runtimeconfig.json
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\bin\Debug\net8.0\TaskArray.dll
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\bin\Debug\net8.0\TaskArray.pdb
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.AssemblyInfoInputs.cache
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.AssemblyInfo.cs
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.csproj.CoreCompileInputs.cache
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.dll
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\refint\TaskArray.dll
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.pdb
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\TaskArray.genruntimeconfig.cache
+D:\С# и С++ и HTML\C#\ДЗ\TaskArray\TaskArray\obj\Debug\net8.0\ref\TaskArray.dll

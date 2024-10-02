@@ -1,0 +1,7 @@
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\С# и С++ и HTML\C#\ДЗ\Calculator\Calculator\obj\Debug\Calculator.pdb

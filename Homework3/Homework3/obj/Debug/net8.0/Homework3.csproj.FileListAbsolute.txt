@@ -1,0 +1,14 @@
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\bin\Debug\net8.0\Homework3.exe
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\bin\Debug\net8.0\Homework3.deps.json
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\bin\Debug\net8.0\Homework3.runtimeconfig.json
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\bin\Debug\net8.0\Homework3.dll
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\bin\Debug\net8.0\Homework3.pdb
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.AssemblyInfoInputs.cache
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.AssemblyInfo.cs
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.csproj.CoreCompileInputs.cache
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.dll
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\refint\Homework3.dll
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.pdb
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\Homework3.genruntimeconfig.cache
+D:\С# С++ HTML\C#\ДЗ\Homework3\Homework3\obj\Debug\net8.0\ref\Homework3.dll
