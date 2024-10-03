@@ -1,30 +1,53 @@
-﻿using System;
-
-namespace Homework2
+namespace _2
 {
-    internal class Calculator
+    internal class Program
     {
         static void Main(string[] args)
         {
+            Start();
+        }
+
+        private static void Start()
+        {
             int resultOne = Sum(1, 1);
-            Console.WriteLine(resultOne);
+            Print(resultOne);
 
-            int resultTwo = Sum("1", "1");
-            Console.WriteLine(resultTwo);
+            string resultTwo = Sum("1", "1");
+            Print(resultTwo);
 
-            int resultFour = Sum(1, "1");
-            Console.WriteLine(resultFour);
+            int resultFour = Sum(1, "2");
+            Print(resultFour);
 
+            int[] arr = Arr();
+            ArrPrint(arr);
+            int resultThree = Sum(arr);
+            Print(resultThree);
+        }
+
+        private static void Print<T>(T value)
+        {
+            Console.WriteLine($"Результат {value}");
+        }
+
+
+        private static void ArrPrint <T> (T[] arr)
+        {
+            for(int i = 0; i < arr.Length; i++ )
+            {
+                Console.WriteLine(arr[i]);
+            }
+        }
+
+        private static int[] Arr()
+        {
             Random rand = new Random();
             int[] arr = new int[100];
 
             for (int i = 0; i < arr.Length; i++)
             {
-                arr[i] = rand.Next();
+                arr[i] = rand.Next(-100, 100);
             }
-
-            int resultThree = Sum(arr);
-            Console.WriteLine(resultThree);
+            return arr;
         }
 
         private static int Sum(int a, int b)
@@ -33,9 +56,9 @@ namespace Homework2
             return c;
         }
 
-        private static int Sum(string a, string b)
+        private static string Sum(string a, string b)
         {
-            int c = Convert.ToInt32(a) + Convert.ToInt32(b);
+            string c = a + b;
             return c;
         }
 
@@ -52,17 +75,19 @@ namespace Homework2
 
         private static int Sum(int a, string b)
         {
-            int c = a + Convert.ToInt32(b);
+            bool s = int.TryParse(b, out int result);
+            int answer;
 
-            if (c == 0)
+            if (s)
             {
-                Console.WriteLine("У вас ошибка!!!");
-                return 0;
+                answer = a + result;
             }
             else
             {
-                return c;
+                Console.WriteLine("У вас ошибка!!!");
+                answer = 0;
             }
+            return answer;
         }
     }
 }
