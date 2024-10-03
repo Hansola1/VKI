@@ -53,7 +53,7 @@ namespace Tasks
                 {
                     Print("Все плохо");
                 }
-            } 
+            }
 
         }
 
@@ -82,7 +82,7 @@ namespace Tasks
                     countForMultThree++;
                 }
             }
-            ArrPrint(array);
+            //ArrPrint(array);
 
             if (countForMultThree > 0)
             {
@@ -97,7 +97,7 @@ namespace Tasks
             int[] array = Arr(size);
             int maxIndex = 0, minIndex = 0;
 
-            ArrPrint(array);
+            //ArrPrint(array);
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] == array.Max())
@@ -157,7 +157,7 @@ namespace Tasks
         {
             int factorialA = Factorial(a);
             int factorialB = Factorial(b);
-            
+
             int sumFactorial = factorialA + factorialB;
             Console.WriteLine($"Cумма факториалов {a}! + {b}! = {sumFactorial}");
         }
