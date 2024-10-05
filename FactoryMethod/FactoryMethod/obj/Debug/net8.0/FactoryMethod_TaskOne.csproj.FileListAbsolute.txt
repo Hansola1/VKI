@@ -1,0 +1,15 @@
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\bin\Debug\net8.0\FactoryMethod_TaskOne.exe
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\bin\Debug\net8.0\FactoryMethod_TaskOne.deps.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\bin\Debug\net8.0\FactoryMethod_TaskOne.runtimeconfig.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\bin\Debug\net8.0\FactoryMethod_TaskOne.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\bin\Debug\net8.0\FactoryMethod_TaskOne.pdb
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.AssemblyInfoInputs.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.AssemblyInfo.cs
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.csproj.CoreCompileInputs.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.sourcelink.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\refint\FactoryMethod_TaskOne.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.pdb
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\FactoryMethod_TaskOne.genruntimeconfig.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod\obj\Debug\net8.0\ref\FactoryMethod_TaskOne.dll
