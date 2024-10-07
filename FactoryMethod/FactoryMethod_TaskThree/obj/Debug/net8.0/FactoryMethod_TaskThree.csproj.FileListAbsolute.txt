@@ -1,0 +1,15 @@
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.AssemblyInfoInputs.cache
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.AssemblyInfo.cs
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.csproj.CoreCompileInputs.cache
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.sourcelink.json
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.exe
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.deps.json
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.runtimeconfig.json
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.dll
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.pdb
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.dll
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\refint\FactoryMethod_TaskThree.dll
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.pdb
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.genruntimeconfig.cache
+C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\ref\FactoryMethod_TaskThree.dll
