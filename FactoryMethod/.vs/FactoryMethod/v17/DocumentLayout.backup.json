@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\creator\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|solutionrelative:factorymethod\\creator\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\amimalscreators\\catcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\amimalscreators\\catcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\product\\concreteproduct1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|solutionrelative:factorymethod\\product\\concreteproduct1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animalcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animalcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|solutionrelative:factorymethod\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animals\\chimpanze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animals\\chimpanze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\creator\\concretecreator2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|solutionrelative:factorymethod\\creator\\concretecreator2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animals\\orangutan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animals\\orangutan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\creator\\concretecreator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|solutionrelative:factorymethod\\creator\\concretecreator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animals\\gorilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animals\\gorilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod\\product\\concreteproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CA1F4E-3EAE-496B-98E9-D13D0148BEF6}|FactoryMethod\\FactoryMethod_TaskOne.csproj|solutionrelative:factorymethod\\product\\concreteproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animals\\leopard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animals\\leopard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animals\\tiger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animals\\tiger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\factorymethod\\factorymethod_taskthree\\animals\\lion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17923C30-914F-4F88-8AE5-18806DFE1ACE}|FactoryMethod_TaskThree\\FactoryMethod_TaskThree.csproj|solutionrelative:factorymethod_taskthree\\animals\\lion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConcreteCreator2.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Creator\\ConcreteCreator2.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Creator\\ConcreteCreator2.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Creator\\ConcreteCreator2.cs",
-              "RelativeToolTip": "FactoryMethod\\Creator\\ConcreteCreator2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CatCreator.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\AmimalsCreators\\CatCreator.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\AmimalsCreators\\CatCreator.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\AmimalsCreators\\CatCreator.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\AmimalsCreators\\CatCreator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:37:28.783Z",
+              "WhenOpened": "2024-10-07T12:15:10.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimalCreator.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\AnimalCreator.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\AnimalCreator.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\AnimalCreator.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\AnimalCreator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:14:38.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chimpanze.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Chimpanze.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Animals\\Chimpanze.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Chimpanze.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Animals\\Chimpanze.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:25:57.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orangutan.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Orangutan.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Animals\\Orangutan.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Orangutan.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Animals\\Orangutan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:25:17.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ConcreteCreator1.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Creator\\ConcreteCreator1.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Creator\\ConcreteCreator1.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Creator\\ConcreteCreator1.cs",
-              "RelativeToolTip": "FactoryMethod\\Creator\\ConcreteCreator1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "Gorilla.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Gorilla.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Animals\\Gorilla.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Gorilla.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Animals\\Gorilla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:37:17.058Z",
+              "WhenOpened": "2024-10-07T11:24:41.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Creator.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Creator\\Creator.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Creator\\Creator.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Creator\\Creator.cs*",
-              "RelativeToolTip": "FactoryMethod\\Creator\\Creator.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Leopard.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Leopard.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Animals\\Leopard.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Leopard.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Animals\\Leopard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:36:42.147Z",
+              "WhenOpened": "2024-10-07T11:23:57.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tiger.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Tiger.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Animals\\Tiger.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Tiger.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Animals\\Tiger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:23:40.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lion.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Lion.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Animals\\Lion.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Animals\\Lion.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Animals\\Lion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T11:20:11.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Program.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Program.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Program.cs*",
-              "RelativeToolTip": "FactoryMethod\\Program.cs*",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwA4AAAAsAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Program.cs",
+              "RelativeDocumentMoniker": "FactoryMethod_TaskThree\\Program.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod_TaskThree\\Program.cs",
+              "RelativeToolTip": "FactoryMethod_TaskThree\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T13:52:08.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConcreteProduct2.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Product\\ConcreteProduct2.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Product\\ConcreteProduct2.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Product\\ConcreteProduct2.cs",
-              "RelativeToolTip": "FactoryMethod\\Product\\ConcreteProduct2.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAABAwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:07:53.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConcreteProduct1.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Product\\ConcreteProduct1.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Product\\ConcreteProduct1.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Product\\ConcreteProduct1.cs",
-              "RelativeToolTip": "FactoryMethod\\Product\\ConcreteProduct1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:07:36.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Product\\Product.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\Product\\Product.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\FactoryMethod\\FactoryMethod\\Product\\Product.cs",
-              "RelativeToolTip": "FactoryMethod\\Product\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T13:54:58.874Z",
+              "WhenOpened": "2024-10-05T16:48:17.206Z",
               "EditorCaption": ""
             }
           ]

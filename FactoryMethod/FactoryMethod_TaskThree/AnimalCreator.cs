@@ -11,17 +11,27 @@ namespace FactoryMethod_TaskThree
     {
         public abstract Animal CreateAnimal(int ind, string name);  
 
-        public Animal[] GetZoo(int[] inds, string [] names)
+        public List<Animal> GetZoo(int[] inds, string[] names)
         {
-            Animal[] animals = new Animal[inds.Length];
-
-
+            List<Animal> zoo = new List<Animal>();
             for (int i = 0; i < inds.Length; i++)
             {
-                animals[i] += CreateAnimal(inds[i], names[i]);
+                zoo.Add(CreateAnimal(inds[i], names[i]));
             }
-            return animals;
+            return zoo;
         }
+
+            /*public Animal[] GetZoo(int[] inds, string [] names)
+    {
+        Animal[] animals = new Animal[inds.Length];
+
+
+        for (int i = 0; i < inds.Length; i++)
+        {
+            animals[i] += CreateAnimal(inds[i], names[i]);
+        }
+        return animals;
+    }*/
 
     }
 }

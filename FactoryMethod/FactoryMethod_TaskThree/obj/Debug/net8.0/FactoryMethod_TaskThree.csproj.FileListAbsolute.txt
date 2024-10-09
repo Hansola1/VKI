@@ -13,3 +13,18 @@ C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\De
 C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.pdb
 C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.genruntimeconfig.cache
 C:\Users\danil\Documents\GitHub\VKI\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\ref\FactoryMethod_TaskThree.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.exe
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.deps.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.runtimeconfig.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\bin\Debug\net8.0\FactoryMethod_TaskThree.pdb
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.AssemblyInfoInputs.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.AssemblyInfo.cs
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.csproj.CoreCompileInputs.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.sourcelink.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\refint\FactoryMethod_TaskThree.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.pdb
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\FactoryMethod_TaskThree.genruntimeconfig.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskThree\obj\Debug\net8.0\ref\FactoryMethod_TaskThree.dll

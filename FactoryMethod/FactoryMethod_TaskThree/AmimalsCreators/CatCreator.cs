@@ -9,31 +9,21 @@ namespace FactoryMethod_TaskThree.AmimalsCreators
 {
     public class CatCreator: AnimalCreator
     {
-        public string name { get; set; }
-        public int idx { get; set; }
-
-        public CatCreator(int idx, string name)
-        {
-            this.name = name;
-            this.idx = idx;
-        }
 
         public override Animal CreateAnimal(int ind, string name)
         {
-           // name = lion.name;
-            if(ind == 0)
+            // name = lion.name;
+            switch (ind)
             {
-                return new Lion(name);
+                case 0:
+                    return new Lion(name);
+                case 1:
+                    return new Tiger(name);
+                case 2:
+                    return new Leopard(name);
+                default:
+                    throw new ArgumentException($"Нет индекса: {ind}");
             }
-            else if (ind == 1)
-            {
-                return new Tiger(name);
-            }
-            else if (ind == 2)
-            {
-                return new Leopard(name);
-            }
-            return new Lion(name);
         }
     }
 }

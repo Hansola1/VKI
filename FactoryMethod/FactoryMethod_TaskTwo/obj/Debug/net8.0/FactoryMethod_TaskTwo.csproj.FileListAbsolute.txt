@@ -1,0 +1,15 @@
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\bin\Debug\net8.0\FactoryMethod_TaskTwo.exe
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\bin\Debug\net8.0\FactoryMethod_TaskTwo.deps.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\bin\Debug\net8.0\FactoryMethod_TaskTwo.runtimeconfig.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\bin\Debug\net8.0\FactoryMethod_TaskTwo.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\bin\Debug\net8.0\FactoryMethod_TaskTwo.pdb
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.AssemblyInfoInputs.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.AssemblyInfo.cs
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.csproj.CoreCompileInputs.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.sourcelink.json
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\refint\FactoryMethod_TaskTwo.dll
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.pdb
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\FactoryMethod_TaskTwo.genruntimeconfig.cache
+D:\С# С++ HTML\C#\ДЗ\FactoryMethod\FactoryMethod_TaskTwo\obj\Debug\net8.0\ref\FactoryMethod_TaskTwo.dll
