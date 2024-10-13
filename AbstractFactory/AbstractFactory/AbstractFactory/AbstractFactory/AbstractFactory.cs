@@ -1,4 +1,6 @@
-﻿using AbstractFactory_TaskOne.AbstractProduct;
+﻿using AbstractFactory_TaskOne.A;
+using AbstractFactory_TaskOne.AbstractProduct;
+using AbstractFactory_TaskOne.B;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,7 @@ namespace AbstractFactory_TaskOne.AbstractFactory
 {
     public abstract class AbstractFactory
     {
-    //    public abstract CreateProductA (string info);
+        public abstract AbstractProductA CreateProductA(int value);
+        public abstract AbstractProductB CreateProductB(int value);
     }
 }

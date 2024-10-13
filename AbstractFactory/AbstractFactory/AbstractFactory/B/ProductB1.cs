@@ -10,26 +10,15 @@ namespace AbstractFactory_TaskOne.B
 {
     public class ProductB1 : AbstractProductB
     {
-        public string objA { get; set; }
-        public string objB {  get; set; }
-        public string info {  get; set; }
+        public ProductB1(int value) : base(value) { }
 
-        public ProductB1(string info)
+        public override void B(AbstractProductA productA)
         {
-            this.info = info;
-            this.objB = info(objB);
-            this.objA = info(objA);
+            int numberA = int.Parse(productA.GetInfo());
+            int numberB = int.Parse(info);
+            info = (numberA + numberB).ToString();
         }
 
-        public string obj(string info)
-        {
-            int answer = Convert.ToInt32(info);
-            return answer.ToString();
-        }
-
-        public override AbstractProductB CreateProductB(string info)
-        {
-            return new ProductB1(info);
-        }
+        public override string GetInfo() => info;
     }
 }

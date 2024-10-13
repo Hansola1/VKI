@@ -8,10 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AbstractFactory\ConcreteFactory1\**" />
+    <Compile Remove="AbstractFactory\ConcreteFactory2\**" />
+    <Compile Remove="AbstractProduct\**" />
+    <EmbeddedResource Remove="AbstractFactory\ConcreteFactory1\**" />
+    <EmbeddedResource Remove="AbstractFactory\ConcreteFactory2\**" />
+    <EmbeddedResource Remove="AbstractProduct\**" />
+    <None Remove="AbstractFactory\ConcreteFactory1\**" />
+    <None Remove="AbstractFactory\ConcreteFactory2\**" />
+    <None Remove="AbstractProduct\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="AbstractFactory\" />
-    <Folder Include="AbstractFactory\ConcreteFactory1\" />
-    <Folder Include="AbstractFactory\ConcreteFactory2\" />
-    <Folder Include="AbstractProduct\" />
   </ItemGroup>
 
 </Project>

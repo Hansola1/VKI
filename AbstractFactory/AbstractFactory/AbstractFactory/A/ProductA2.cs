@@ -9,23 +9,13 @@ namespace AbstractFactory_TaskOne.AbstractProduct
 {
     public class ProductA2 : AbstractProductA
     {
-        public string info { get; set; }
+        public ProductA2(int value) : base(value) { }
 
-        public ProductA2(string info)
+        public override void A()
         {
-            this.info = info;
+            info += info; // Удваиваем строку
         }
 
-        public string A(string info)
-        {
-            string infoReplace = info.Replace(info, info);
-            return infoReplace;
-        }
-
-        public override AbstractProductA CreateProductA(string info)
-        {
-            info = A(info);
-            return new ProductA1(info);
-        }
+        public override string GetInfo() => info;
     }
 }

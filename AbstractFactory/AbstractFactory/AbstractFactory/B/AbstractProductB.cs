@@ -9,6 +9,14 @@ namespace AbstractFactory_TaskOne.B
 {
     public abstract class AbstractProductB
     {
-        public abstract AbstractProductB CreateProductB(string info);
+        protected string info;
+
+        protected AbstractProductB(int value)
+        {
+            info = value.ToString();
+        }
+
+        public abstract void B(AbstractProductA productA);
+        public abstract string GetInfo();
     }
 }

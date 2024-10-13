@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BorodinaAV\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Анастасия\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BorodinaAV\\Source\\Repos\\VKI\\AbstractFactory\\AbstractFactory\\AbstractFactory_TaskOne.csproj",
+      "projectUniqueName": "D:\\С# С++ HTML\\C#\\ДЗ\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory_TaskOne.csproj",
       "projectName": "AbstractFactory_TaskOne",
-      "projectPath": "C:\\Users\\BorodinaAV\\Source\\Repos\\VKI\\AbstractFactory\\AbstractFactory\\AbstractFactory_TaskOne.csproj",
-      "packagesPath": "C:\\Users\\BorodinaAV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BorodinaAV\\Source\\Repos\\VKI\\AbstractFactory\\AbstractFactory\\obj\\",
+      "projectPath": "D:\\С# С++ HTML\\C#\\ДЗ\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory_TaskOne.csproj",
+      "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
+      "outputPath": "D:\\С# С++ HTML\\C#\\ДЗ\\AbstractFactory\\AbstractFactory\\AbstractFactory\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "\\\\iscsi\\profstud\\BorodinaAV\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,22 +9,16 @@ namespace AbstractFactory_TaskOne.AbstractProduct
 {
     public class ProductA1: AbstractProductA
     {
-        public string info { get; set; }
+        public ProductA1(int value) : base(value) { }
 
-        public ProductA1(string info)
+
+        public override void A()
         {
-           this.info = A(info);
+            int number = int.Parse(info);
+            number *= 2;
+            info = number.ToString();
         }
 
-        public string A(string info)
-        {
-            int answer = Convert.ToInt32(info) * 2;
-            return answer.ToString();
-        }
-
-        public override AbstractProductA CreateProductA(string info)
-        {
-            return new ProductA1(info);
-        }
+        public override string GetInfo() => info; // записываем значение в свойство
     }
 }

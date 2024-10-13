@@ -1,10 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\",
+  "WorkspaceRootPath": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\b\\abstractproductb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\b\\abstractproductb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\b\\productb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\b\\productb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\b\\productb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\b\\productb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\a\\producta2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\a\\producta2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\a\\producta1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\a\\producta1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\a\\abstractproducta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\a\\abstractproducta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\abstractfactory\\concretefactory2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\abstractfactory\\concretefactory2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\abstractfactory\\concretefactory1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\abstractfactory\\concretefactory1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|d:\\\u0441# \u0441\u002B\u002B html\\c#\\\u0434\u0437\\abstractfactory\\abstractfactory\\abstractfactory\\abstractfactory\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75F8500-A83C-4C89-9566-A67F09211C30}|AbstractFactory\\AbstractFactory_TaskOne.csproj|solutionrelative:abstractfactory\\abstractfactory\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductB1.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\B\\ProductB1.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\B\\ProductB1.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\B\\ProductB1.cs",
+              "RelativeToolTip": "AbstractFactory\\B\\ProductB1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:57.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbstractProductB.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\B\\AbstractProductB.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\B\\AbstractProductB.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\B\\AbstractProductB.cs",
+              "RelativeToolTip": "AbstractFactory\\B\\AbstractProductB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:56.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductA2.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\A\\ProductA2.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\A\\ProductA2.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\A\\ProductA2.cs",
+              "RelativeToolTip": "AbstractFactory\\A\\ProductA2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductA1.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\A\\ProductA1.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\A\\ProductA1.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\A\\ProductA1.cs",
+              "RelativeToolTip": "AbstractFactory\\A\\ProductA1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:48.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbstractProductA.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\A\\AbstractProductA.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\A\\AbstractProductA.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\A\\AbstractProductA.cs",
+              "RelativeToolTip": "AbstractFactory\\A\\AbstractProductA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:47.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConcreteFactory2.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory\\ConcreteFactory2.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractFactory\\ConcreteFactory2.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory\\ConcreteFactory2.cs",
+              "RelativeToolTip": "AbstractFactory\\AbstractFactory\\ConcreteFactory2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:54.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductB2.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\B\\ProductB2.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\B\\ProductB2.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\B\\ProductB2.cs",
+              "RelativeToolTip": "AbstractFactory\\B\\ProductB2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:58.023Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\Program.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Program.cs",
               "RelativeDocumentMoniker": "AbstractFactory\\Program.cs",
-              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\Program.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Program.cs",
               "RelativeToolTip": "AbstractFactory\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:50:57.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConcreteFactory1.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory\\ConcreteFactory1.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractFactory\\ConcreteFactory1.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory\\ConcreteFactory1.cs",
+              "RelativeToolTip": "AbstractFactory\\AbstractFactory\\ConcreteFactory1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:51.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AbstractFactory.cs",
+              "DocumentMoniker": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractFactory\\AbstractFactory.cs",
+              "ToolTip": "D:\\\u0421# \u0421\u002B\u002B HTML\\C#\\\u0414\u0417\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory\\AbstractFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\AbstractFactory\\AbstractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:17:52.287Z",
               "EditorCaption": ""
             }
           ]

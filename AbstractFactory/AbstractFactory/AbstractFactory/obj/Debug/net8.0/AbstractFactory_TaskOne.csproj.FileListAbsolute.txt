@@ -1,0 +1,15 @@
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.AssemblyInfoInputs.cache
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.AssemblyInfo.cs
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.csproj.CoreCompileInputs.cache
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.sourcelink.json
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\bin\Debug\net8.0\AbstractFactory_TaskOne.exe
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\bin\Debug\net8.0\AbstractFactory_TaskOne.deps.json
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\bin\Debug\net8.0\AbstractFactory_TaskOne.runtimeconfig.json
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\bin\Debug\net8.0\AbstractFactory_TaskOne.dll
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\bin\Debug\net8.0\AbstractFactory_TaskOne.pdb
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.dll
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\refint\AbstractFactory_TaskOne.dll
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.pdb
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\AbstractFactory_TaskOne.genruntimeconfig.cache
+D:\С# С++ HTML\C#\ДЗ\AbstractFactory\AbstractFactory\AbstractFactory\obj\Debug\net8.0\ref\AbstractFactory_TaskOne.dll
