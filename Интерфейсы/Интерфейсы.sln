@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Интерфейсы", "Интерфейсы\Интерфейсы.csproj", "{5A9905A1-6E1A-45A0-A73C-C7335E6DDABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Абстракные классы", "Абстракные классы\Абстракные классы.csproj", "{A9829FEC-AE12-4ACD-A175-D513A9A36F68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A9905A1-6E1A-45A0-A73C-C7335E6DDABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9905A1-6E1A-45A0-A73C-C7335E6DDABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9905A1-6E1A-45A0-A73C-C7335E6DDABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9905A1-6E1A-45A0-A73C-C7335E6DDABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9829FEC-AE12-4ACD-A175-D513A9A36F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9829FEC-AE12-4ACD-A175-D513A9A36F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9829FEC-AE12-4ACD-A175-D513A9A36F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9829FEC-AE12-4ACD-A175-D513A9A36F68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98EF74D4-A484-4813-A6AB-A57457A13B85}
+	EndGlobalSection
+EndGlobal

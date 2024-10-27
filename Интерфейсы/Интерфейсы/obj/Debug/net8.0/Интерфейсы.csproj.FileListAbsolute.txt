@@ -1,0 +1,15 @@
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\bin\Debug\net8.0\Интерфейсы.exe
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\bin\Debug\net8.0\Интерфейсы.deps.json
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\bin\Debug\net8.0\Интерфейсы.runtimeconfig.json
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\bin\Debug\net8.0\Интерфейсы.dll
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\bin\Debug\net8.0\Интерфейсы.pdb
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.GeneratedMSBuildEditorConfig.editorconfig
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.AssemblyInfoInputs.cache
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.AssemblyInfo.cs
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.csproj.CoreCompileInputs.cache
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.sourcelink.json
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.dll
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\refint\Интерфейсы.dll
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.pdb
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\Интерфейсы.genruntimeconfig.cache
+D:\С# С++ HTML\C#\ДЗ\Интерфейсы\Интерфейсы\obj\Debug\net8.0\ref\Интерфейсы.dll
