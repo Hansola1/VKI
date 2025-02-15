@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.block{
+    background: red;
+    height: 200px;
+    width: 300px;
+    border: 7px solid rgb(255, 197, 197);
+
+    border-radius: 15px;
+
+    margin: 20px 50px; /*внешний отступ*/
+    padding: 20px 50px; /*внутр отступ*/
+
+    opacity: 0.8;
+
+    display:block;
+}
+
+

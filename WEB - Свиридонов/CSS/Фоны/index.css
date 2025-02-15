@@ -1,0 +1,17 @@
+body{
+ /*   background-color: color rgb(91, 128, 83);
+    background-image: url('https://de-fragrance.ru/wp-content/uploads/4/8/2/4825539f606d29d79b47c7dcbf1a9693.jpeg');
+    background-repeat: no-repeat; пусть не повторяется
+    background-position: center; */
+
+    color: green;
+    background: green url('https://de-fragrance.ru/wp-content/uploads/4/8/2/4825539f606d29d79b47c7dcbf1a9693.jpeg')
+     no-repeat center top;
+    height: 500px;
+    background-size:contain; /*cover- на весь экран, без повторений*/
+    background-attachment: fixed; /*фиксируем картинку, чтобы когда скролили она оставалась на своем месте*/
+}
+
+#second{
+    height: 2000px;
+}

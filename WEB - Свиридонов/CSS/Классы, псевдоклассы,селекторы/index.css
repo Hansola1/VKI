@@ -1,0 +1,70 @@
+  /* Cелекторы*/
+
+.main {
+    color: rebeccapurple;
+}
+.id{
+    color:brown;
+}
+
+#text-in-p{
+    color: blue;
+}
+
+b{
+    color: goldenrod 
+    /* обращаемся ко всем тегам b*/
+}
+
+i, k{
+    color: aqua;
+}
+
+.mainLink{
+    color: bisque;
+    text-decoration: none;
+}
+
+/*псевдокласс позволяет реализовать состояние объекта :*/
+.mainLink:hover{
+    color: rgb(140, 49, 49);
+    text-decoration: underline;
+    text-decoration-color: brown;
+    cursor: pointer;
+} /*hover - стили применяются при наведении*/
+
+.mainLink:active{
+    text-decoration: line-through;
+}
+/*active - срабатывает, когда нажимаем*/
+
+.mainLink:visited{
+    color: gray;
+}
+/*visited - делаем ссылки по которым переходили серыми*/
+
+
+input{color:gray}
+input:focus{
+    color: red;
+}
+/*focus - срабатывает когда навели мышку на текстовое поле и в нем пишем*/
+
+p.text:empty{
+    color: gray;
+}
+/*empty - применим ток к пустым, :not(:empy) - применим ток к не пустым*/
+
+
+
+
+/*псевдоэлементы позволяют работать с опрeделенной часть текста внутри хтмл объекта ::*/
+#someID::after{
+    content: 'пипипопо';
+}
+/*after - выводим после объекта(рядом), before - перед*/
+
+p.mainLink::first-letter{
+    color: green;
+}
+/*first - стили к первому символу, строке*/

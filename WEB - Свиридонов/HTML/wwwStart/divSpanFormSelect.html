@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1 title="елки палки">Анастасия Владимировна Сливочно-Оливковая</h1><hr>
+
+        <div>Просто текст</div> <!--создает блок к которому добавляется стиль CSS-->
+        <span>Строка</span> <!--создает блок к которому добавляется стиль CSS-->
+        <div>Просто текст <span>Кусок текста</span> Просто текст</div><br><br>
+
+        <form action="" method="post"> <!--action - страница гд обрабатываются действия-->
+
+            <label for="nameForCode" >Введите имя</label><br>
+            <input type="text" placeholder="Подсказка" maxlength="10" name="nameForCode" id="nameForCode"><br>
+            
+            <label>Введите дату рождения</label><br>
+            <input type="datetime-local"><br>
+
+            <label>Введите почту</label><br>
+            <input type="email"><br>
+
+            <label>Введите пароль</label><br>
+            <input type="password"><br>
+
+            <label>Выберете свой цвет</label><br>
+            <input type="color"><br>
+            
+            <label>Вы дурак?</label><br>
+            <label>Да</label><input type="checkbox">  <label>Не</label><input type="checkbox"><br>
+
+            <label>Вы дурак?</label><br>
+            <label>Да</label><input type="radio" name="state">  <label>Не</label><input type="radio" name="state">
+            <br><br> <!--чтобы выбирать один вариант ответа-->
+
+            <input type="button" value="Отправить"> <!--submit - перезагружает страницу -->
+            <input type="reset" value="Очистить"> <!--submit - перезагружает страницу -->
+        </form>
+
+        <form action="" method="post"> 
+             <!--для ввода массива текста-->
+            <textarea placeholder="Пиши свой доклад, украду" maxlength="1000">
+            </textarea>
+            <button type="button">Готово</button><br><br><br>
+
+             <!--выбор-->
+            <label>Выбирай сок</label>
+            <select>
+                <option disabled selected>-</option>
+                <option>Мамин сок</option>
+                <option>Папин сок</option>
+                <option>Дыричий сок</option>
+            </select>
+        </form><br><br>
+
+        <!--спец теги-->
+        <header>шапка сайта</header>
+        <main>Основная часть сайта</main>
+        <aside>боковая часть</aside> 
+        <footer>нижняя часть</footer> 
+
+        <progress max="100" value="40"></progress>
+
+        <details>
+            <summary>Подробнее</summary>
+            Поаоаоао оаоаоаоао оаоаоаоао аоаоаооа
+            аоаоаоао оаоаоао аоаоаоао аооааооаао
+            аоаоаоа аооаоаоа аоаоаоаоа оаоаоаоа
+        </details>
+
+    </body>
+</html
