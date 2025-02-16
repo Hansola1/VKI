@@ -5,8 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:data"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="GetSetBD" Height="720" Width="1080" MaxHeight="720" MaxWidth="1080">
     <Grid>
+        <TextBlock Text="Добавь или получи ;)" FontSize="40" FontWeight="Bold" HorizontalAlignment="Left"
+                   VerticalAlignment="Top" Foreground="Black" Width="432" Margin="302,51,0,0"/>
 
+        <TextBlock Text="Логин" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Left"
+                   VerticalAlignment="Top" Foreground="Black" Width="120" Margin="71,189,0,0"/>
+
+        <TextBox x:Name="login_TextBox"  FontSize="25" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" 
+                 Text="" Width="300" Height="52"  Foreground="Black" 
+                  Background="#FFF8EDFF" Margin="191,183,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Пароль" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Left"
+           VerticalAlignment="Top" Foreground="Black" Width="120" Margin="71,249,0,0"/>
+
+        <TextBox x:Name="password_TextBox"  FontSize="25" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" 
+         Text="" Width="300" Height="52"  Foreground="Black" 
+          Background="#FFF8EDFF" Margin="191,243,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Почта" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Left"
+        VerticalAlignment="Top" Foreground="Black" Width="120" Margin="71,306,0,0"/>
+
+        <TextBox x:Name="email_TextBox"  FontSize="25" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" 
+        Text="" Width="300" Height="52"  Foreground="Black" 
+        Background="#FFF8EDFF" Margin="191,300,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Возраст" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Left"
+        VerticalAlignment="Top" Foreground="Black" Width="120" Margin="71,363,0,0"/>
+
+        <TextBox x:Name="age_TextBox"  FontSize="25" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" 
+        Text="" Width="300" Height="52"  Foreground="Black" 
+         Background="#FFF8EDFF" Margin="191,357,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Пол" FontSize="30" FontWeight="SemiBold" HorizontalAlignment="Left"
+        VerticalAlignment="Top" Foreground="Black" Width="78" Margin="71,420,0,0"/>
+
+        <TextBox x:Name="sex_TextBox"  FontSize="25" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" 
+        Text="" Width="300" Height="52"  Foreground="Black" 
+         Background="#FFF8EDFF" Margin="191,414,0,0" VerticalAlignment="Top"/>
+
+        <Button Click="addUser_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+                Content="Добавить пользователя"  VerticalAlignment="Top" Width="243" Height="50" BorderBrush="White"
+                Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" HorizontalAlignment="Left" Margin="248,492,0,0"/>
+
+        <TextBlock Text="ID" FontSize="30" FontWeight="SemiBold"
+           HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="120" Margin="634,189,0,0"/>
+
+        <TextBox x:Name="ID_TextBox" FontSize="25" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" 
+         Text="" VerticalAlignment="Top" Width="300" Height="52"  Foreground="Black" 
+         Margin="698,189,0,0" Background="#FFF8EDFF"/>
+
+        <Button Click="getUser_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+        Content="Получить пользователя"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="243" Height="50" BorderBrush="White"
+        Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="755,262,0,0"/>
     </Grid>
 </Window>

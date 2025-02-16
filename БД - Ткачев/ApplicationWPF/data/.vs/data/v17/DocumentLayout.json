@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\database\\dbcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:database\\dbcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,14 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-15T07:55:19.859Z",
+              "DocumentIndex": 2,
+              "Title": "DBControll.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\DBControll.cs",
+              "RelativeDocumentMoniker": "DataBase\\DBControll.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\DBControll.cs",
+              "RelativeToolTip": "DataBase\\DBControll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T08:46:16.217Z",
               "EditorCaption": ""
             },
             {
@@ -48,9 +53,21 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T07:55:02.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-15T07:55:19.859Z",
               "EditorCaption": ""
             }
           ]

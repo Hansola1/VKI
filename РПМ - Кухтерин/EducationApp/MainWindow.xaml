@@ -9,6 +9,6 @@
         MaxHeight="600" MaxWidth="1080">
 
     <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

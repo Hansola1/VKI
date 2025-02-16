@@ -1,0 +1,17 @@
+G:\Laboratory\Laboratory\bin\Debug\Laboratory.exe.config
+G:\Laboratory\Laboratory\bin\Debug\Laboratory.exe
+G:\Laboratory\Laboratory\bin\Debug\Laboratory.pdb
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.csproj.AssemblyReference.cache
+G:\Laboratory\Laboratory\obj\Debug\MainWindow.g.cs
+G:\Laboratory\Laboratory\obj\Debug\View\TablesInfo.g.cs
+G:\Laboratory\Laboratory\obj\Debug\App.g.cs
+G:\Laboratory\Laboratory\obj\Debug\Laboratory_MarkupCompile.cache
+G:\Laboratory\Laboratory\obj\Debug\Laboratory_MarkupCompile.lref
+G:\Laboratory\Laboratory\obj\Debug\MainWindow.baml
+G:\Laboratory\Laboratory\obj\Debug\View\TablesInfo.baml
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.g.resources
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.Properties.Resources.resources
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.csproj.GenerateResource.cache
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.csproj.CoreCompileInputs.cache
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.exe
+G:\Laboratory\Laboratory\obj\Debug\Laboratory.pdb

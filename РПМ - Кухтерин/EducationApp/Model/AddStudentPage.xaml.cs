@@ -16,7 +16,6 @@ namespace EducationApp.Model
         public void cancel_button_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new MainMenuPage());
-            //MainFrame.GoBack();
         }
 
         public void add_student_Click(object sender, RoutedEventArgs e)
