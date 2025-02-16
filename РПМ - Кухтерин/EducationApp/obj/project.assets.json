@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyFile\\VKI\\EducationApp\\EducationApp.csproj",
+      "projectUniqueName": "C:\\MyFile\\VKI\\РПМ - Кухтерин\\EducationApp\\EducationApp.csproj",
       "projectName": "EducationApp",
-      "projectPath": "C:\\MyFile\\VKI\\EducationApp\\EducationApp.csproj",
+      "projectPath": "C:\\MyFile\\VKI\\РПМ - Кухтерин\\EducationApp\\EducationApp.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\MyFile\\VKI\\EducationApp\\obj\\",
+      "outputPath": "C:\\MyFile\\VKI\\РПМ - Кухтерин\\EducationApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",

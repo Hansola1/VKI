@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\MyFile\\VKI\\EducationApp\\",
+  "WorkspaceRootPath": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\educationapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\educationapp\\model\\addcoursepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:model\\addcoursepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\educationapp\\model\\addcoursepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:model\\addcoursepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\educationapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\educationapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\educationapp\\model\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:model\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\educationapp\\model\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:model\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +42,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\EducationApp\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\MyFile\\VKI\\EducationApp\\MainWindow.xaml",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-15T05:28:06.736Z",
+              "WhenOpened": "2025-02-16T07:47:02.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\EducationApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\EducationApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Title": "AddCoursePage.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\AddCoursePage.xaml.cs",
+              "RelativeDocumentMoniker": "Model\\AddCoursePage.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\AddCoursePage.xaml.cs",
+              "RelativeToolTip": "Model\\AddCoursePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T05:27:59.099Z",
+              "WhenOpened": "2025-02-16T07:44:19.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddCoursePage.xaml",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\AddCoursePage.xaml",
+              "RelativeDocumentMoniker": "Model\\AddCoursePage.xaml",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\AddCoursePage.xaml",
+              "RelativeToolTip": "Model\\AddCoursePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-16T07:40:45.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenuPage.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\MainMenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "Model\\MainMenuPage.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\MainMenuPage.xaml.cs",
+              "RelativeToolTip": "Model\\MainMenuPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswBkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:22:58.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenuPage.xaml",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\MainMenuPage.xaml",
+              "RelativeDocumentMoniker": "Model\\MainMenuPage.xaml",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\EducationApp\\Model\\MainMenuPage.xaml",
+              "RelativeToolTip": "Model\\MainMenuPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-16T07:22:40.477Z",
               "EditorCaption": ""
             }
           ]

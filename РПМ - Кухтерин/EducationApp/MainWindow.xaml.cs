@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using EducationApp.Model;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,6 +17,7 @@ namespace EducationApp
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new MainMenuPage());
         }
     }
 }

@@ -7,7 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Model\AddStudentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Model\AddCoursePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Model\EditStudentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Model\ListCoursePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Model\MainMenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Model\AddStudentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Model\AddCoursePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Model\EditStudentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Model\ListCoursePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Model\MainMenuPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

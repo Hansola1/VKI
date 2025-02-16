@@ -4,7 +4,7 @@ async function loadMorphData()
 {
     try
     {
-        const response = await fetch("test.json");
+        const response = await fetch("../MorphData.json");
         //console.log(await response.text()); 
         morphData = await response.json();
     }
@@ -18,9 +18,9 @@ async function showMorphs(animal)
 {
     await loadMorphData(); 
     
-    const morphList = document.getElementById("morphList");
-    const error = document.getElementById("errorMessage");
-    const morphInfo = document.getElementById("morphInfo");
+    let morphList = document.getElementById("morphList");
+    let error = document.getElementById("errorMessage");
+    let morphInfo = document.getElementById("morphInfo");
 
     morphList.innerHTML = ""; 
     morphInfo.innerHTML = ""; 
@@ -44,8 +44,8 @@ async function showMorphs(animal)
 
 function showMorphInfo(animal, morph) 
 {
-    const morphInfo = document.getElementById("morphInfo");
-    const data = morphData[animal][morph];
+    let morphInfo = document.getElementById("morphInfo");
+    let data = morphData[animal][morph];
 
     morphInfo.innerHTML = `
     <h3>${morph}</h3>

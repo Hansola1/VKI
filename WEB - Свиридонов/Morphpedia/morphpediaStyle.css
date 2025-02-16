@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Montblanc';
-    src: url('Web/Morphpedia/Montblanc Regular.ttf') format('truetype');
+    src: url('../Montblanc Regular.ttf') format('truetype');
 }
 
 header {
     background: gray; 
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     font-family: 'Montblanc', sans-serif;
     width: 100%;
 }
@@ -79,33 +79,28 @@ footer {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 footer a {
     color: #ffffff; 
-    text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
     margin: 40px;
     font-size: 20px;
+
+    gap: 10px; /*Расстояние между тегами*/
 }
 footer a:hover {
-    color: #0e0e0e; 
-}
-
-footer b {
     color: #ffffff; 
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    margin: 10px ;
-    font-size: 20px;
-}
-footer b:hover {
-    color: #0e0e0e; 
+    filter: drop-shadow(0 0 8px white);
+    cursor: pointer;
 }
 
 .morph-container {
-    background: #f7f7f7; 
-    border-radius: 10px; 
+    background: #f1f1f1; 
+    border-radius: 20px; 
     padding: 20px;
     margin: 10px auto; /* Центрирование элемента */
     min-height: 500px;

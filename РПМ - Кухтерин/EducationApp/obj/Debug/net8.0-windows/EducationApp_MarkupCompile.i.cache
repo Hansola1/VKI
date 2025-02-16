@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\MyFile\VKI\EducationApp\obj\Debug\net8.0-windows\
+C:\MyFile\VKI\РПМ - Кухтерин\EducationApp\obj\Debug\net8.0-windows\
 EducationApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\MyFile\VKI\EducationApp\App.xaml
-11407045341
+C:\MyFile\VKI\РПМ - Кухтерин\EducationApp\App.xaml
+6-1214116364
 
-6801578133
+111354382399
 1981385397204
-MainWindow.xaml;
+MainWindow.xaml;Model\AddCoursePage.xaml;Model\AddStudentPage.xaml;Model\EditStudentPage.xaml;Model\ListCoursePage.xaml;Model\MainMenuPage.xaml;
 
 True
 
