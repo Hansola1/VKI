@@ -6,16 +6,9 @@
       xmlns:local="clr-namespace:EducationApp.Model"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1080"
-      Title="EditStudentPage" Height="600" Width="1080" MaxHeight="600" MaxWidth="1080" 
-      Background="White">
-    
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+      Title="EditStudentPage" Background="White">
 
+    <Grid>
         <TextBlock Text="Редактировать студента"  FontSize="40"
            HorizontalAlignment="Left" Margin="304,45,0,424" FontWeight="Bold" Width="506"/>
 
@@ -41,6 +34,6 @@
         <TextBlock Text="Курс" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,347,0,203" TextAlignment="Center" Foreground="Black" Width="64"/>
         <TextBox Style="{StaticResource searchTextbox}"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="41"  Foreground="Black" Margin="386,347,0,0" Background="#FFF8EDFF"/>
 
-        <Frame x:Name="MainFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

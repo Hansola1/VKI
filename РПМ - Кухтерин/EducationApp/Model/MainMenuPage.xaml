@@ -6,16 +6,9 @@
       xmlns:local="clr-namespace:EducationApp.Model"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1080"
-      Title="MainMenuPage" Height="600" Width="1080" MaxHeight="600" MaxWidth="1080" 
-      Background="White">
+      Title="MainMenuPage" Background="White">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
         <TextBlock Text="Управление студентами"  FontSize="40"
                  HorizontalAlignment="Left" Margin="300,80,0,269" FontWeight="Bold"
                  Grid.Row="2"/>
@@ -44,6 +37,7 @@
                   Width="376" Height="50" BorderBrush="White" Foreground="Black"
                   FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18"/>
         </StackPanel>
-        <Frame x:Name="MainFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>
+        
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

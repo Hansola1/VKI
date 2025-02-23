@@ -6,16 +6,9 @@
       xmlns:local="clr-namespace:EducationApp.Model"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1080"
-      Title="ListCoursetPage" Height="600" Width="1080" MaxHeight="600" MaxWidth="1080" 
-      Background="White">
+      Title="ListCoursetPage" Background="White">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
         <TextBlock Text="Список курсов"  FontSize="40"
            HorizontalAlignment="Left" Margin="354,10,0,424" FontWeight="Bold" Width="346"/>
 
@@ -44,8 +37,6 @@
                 </GridView>
             </ListView.View>
         </ListView>
-
-
-        <Frame x:Name="MainFrame" Grid.Row="2" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

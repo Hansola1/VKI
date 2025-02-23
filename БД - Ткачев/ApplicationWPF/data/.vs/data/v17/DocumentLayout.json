@@ -40,23 +40,10 @@
               "RelativeDocumentMoniker": "DataBase\\DBControll.cs",
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\DBControll.cs",
               "RelativeToolTip": "DataBase\\DBControll.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAuwGcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T09:20:45.228Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogIn.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\LogIn.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\LogIn.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\LogIn.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\LogIn.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T14:33:29.37Z",
               "EditorCaption": ""
             },
             {
@@ -69,6 +56,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogIn.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\LogIn.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\LogIn.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\LogIn.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\LogIn.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:33:29.37Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Registration.xaml.cs",
               "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Registration.xaml.cs",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Views\\Pages\\Registration.xaml.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAgwCkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T14:08:03.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T14:08:03.518Z"
             },
             {
               "$type": "Document",
@@ -90,8 +88,7 @@
               "RelativeToolTip": "Views\\Pages\\Profile.xaml.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAQwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T10:30:39.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T10:30:39.01Z"
             }
           ]
         }
