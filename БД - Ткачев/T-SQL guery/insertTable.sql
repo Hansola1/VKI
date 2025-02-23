@@ -1,14 +1,14 @@
 USE BorodinaAV_2207d2;
 
-INSERT INTO Characters (id, userID, species, name, level, class) VALUES
-(1, 1, '����', 'Hani', 5, '�������'),
-(2, 2, '�������', 'Pipo', 3, '����'),
-(3, 3, '�����', 'Lilo', 4, '�����');
+INSERT INTO Characters (userID, species, name, level, class) VALUES
+(1, 'stealth', 'Hani', 5, 'Warrior'),
+(2, 'speed', 'Pipo', 3, 'Archer'),
+(3, 'health', 'Lilo', 4, 'Tank');
 
-INSERT INTO Class (id, title, description, mainFeatures) VALUES
-(1, '�������', '����� ������', '����'),
-(2, '����', '����� ����� ������', '��������'),
-(3, '�����', '����� ����� ����� ������', '��');
+INSERT INTO Class (title, description, mainFeatures) VALUES
+('Warrior', 'Strong and resilient', 'Powerful attacks'),
+('Archer', 'Fast and agile', 'Ranged attacks'),
+('Tank', 'High defense', 'Damage mitigation');
 
 INSERT INTO List (classID, characterID) VALUES
 (1, 1),
@@ -16,31 +16,31 @@ INSERT INTO List (classID, characterID) VALUES
 (3, 3);
 
 INSERT INTO Inventory (characterID, objectID, force, title) VALUES
-(1, 'bow01', 10, '���'),
-(2, 'sword01', 15, '���'),
-(3, 'axe01', 12, '�����');
+(1, 'bow01', 10, 'Bow'),
+(2, 'sword01', 15, 'Sword'),
+(3, 'axe01', 12, 'Axe');
 
-INSERT INTO Skills (id, description, effect, force, classID) VALUES
-(1, '����������', 5, 10, 1),
-(2, '��������', 7, 15, 2),
-(3, '��������', 10, 20, 3);
+INSERT INTO Skills (description, effect, force, classID) VALUES
+('Sword Strike', 5, 10, 1),
+('Arrow Shot', 7, 15, 2),
+('Block', 10, 20, 3);
 
-INSERT INTO Locations (id, biome, level, description) VALUES
-(1, '���', 1, '������� � �������'),
-(2, '�������', 2, '��� ���� � �������'),
-(3, '����', 3, '���� � �������'); 
+INSERT INTO Locations (biome, level, description) VALUES
+('Forest', 1, 'Quiet and peaceful'),
+('Mountains', 2, 'High cliffs and valleys'),
+('Desert', 3, 'Hot and barren land'); 
 
-INSERT INTO Quests (id, description, locationID, level, type) VALUES
-(1, '�������� 50 ����', 1, 1, '�����'),
-(2, '���������� 10 ��������', 2, 2, '��������'),
-(3, '����� ������', 3, 3, '�����');
+INSERT INTO Quests (description, locationID, level, type) VALUES
+('Kill 50 enemies', 1, 1, 'Main'),
+('Collect 10 artifacts', 2, 2, 'Side'),
+('Save the village', 3, 3, 'Main');
 
-INSERT INTO NPCs (id, name, history, locationID) VALUES
-(1, '������ �������', '������ ������', 1),
-(2, '�������� �� �������', '��������, ������� ������������', 2),
-(3, '��� �� �����', '������� ���������', 3);
+INSERT INTO NPCs (name, locationID) VALUES
+('Old Sage', 1),
+('Merchant on the road', 2),
+('Village Guard', 3);
 
-INSERT INTO Enemies (id, locationID, name, history, level) VALUES
-(1, 1, '������ ������', '������ ��� � ���', 2),
-(2, 2, '�������� �������', '������ ��� � ���', 4),
-(3, 3, '������ ������', '������ �� ��� � ���', 5);
+INSERT INTO Enemies (locationID, name, level) VALUES
+(1, 'Forest Wolf', 2),
+(2, 'Mountain Troll', 4),
+(3, 'Desert Bandit', 5);

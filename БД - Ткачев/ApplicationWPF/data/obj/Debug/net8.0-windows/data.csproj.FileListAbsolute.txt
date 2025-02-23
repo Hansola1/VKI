@@ -11,11 +11,17 @@ C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\bin\Debug\net8.0-windows\r
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\data.csproj.AssemblyReference.cache
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\Views\Pages\LogIn.g.cs
+C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\Views\Pages\Profile.g.cs
+C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\Views\Pages\Registration.g.cs
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\App.g.cs
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\data_MarkupCompile.cache
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\data_MarkupCompile.lref
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\App.baml
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\MainWindow.baml
+C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\Views\Pages\LogIn.baml
+C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\Views\Pages\Profile.baml
+C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\Views\Pages\Registration.baml
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\data.g.resources
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\data.GeneratedMSBuildEditorConfig.editorconfig
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\obj\Debug\net8.0-windows\data.AssemblyInfoInputs.cache

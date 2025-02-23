@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\MyFile\VKI\БД - Ткачев\ApplicationWPF\data\App.xaml
-11407045341
+4-421950708
 
-5611113378
+9-113718412
 199-54974332
-MainWindow.xaml;
+MainWindow.xaml;Views\Pages\LogIn.xaml;Views\Pages\Profile.xaml;Views\Pages\Registration.xaml;
 
 False
 

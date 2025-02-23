@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Data;
+using System.Data.Common;
 using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
+using System.Xml.Linq;
+using data.Views.Pages;
 
 namespace data.DataBase
 {
@@ -24,20 +27,30 @@ namespace data.DataBase
             }
         }
 
-        public void AddUser(string login, string password, string email, string age, string sex)
+        public void AddUser(string name, string login, string password, string email, string age, string sex)
         {
             Connection();
-            string query = "INSERT INTO Users (login, password, email, age, sex) VALUES (@login, @password, @email, @age, @sex)";
+            string query = "INSERT INTO Users (name, login, password, email, age, sex) VALUES (@name, @login, @password, @email, @age, @sex)";
 
-            using (SqlCommand command = new SqlCommand(query, sqlConnection))
+            try
             {
-                command.Parameters.AddWithValue("@login", login);
-                command.Parameters.AddWithValue("@password", password);
-                command.Parameters.AddWithValue("@email", email);
-                command.Parameters.AddWithValue("@age", age);
-                command.Parameters.AddWithValue("@sex", sex);
+                using (SqlCommand command = new(query, sqlConnection))
+                {
+                    command.Parameters.AddWithValue("@name", name);
+                    command.Parameters.AddWithValue("@login", login);
+                    command.Parameters.AddWithValue("@password", password);
+                    command.Parameters.AddWithValue("@email", email);
+                    command.Parameters.AddWithValue("@age", age);
+                    command.Parameters.AddWithValue("@sex", sex);
 
-                command.ExecuteNonQuery();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Пользователь добавлен");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Пользователь не добавлен");
+                Application.Current.Shutdown(); //mainWindow.Close(); не понимаю почему не работает?
             }
         }
 
@@ -46,21 +59,96 @@ namespace data.DataBase
             Connection();
             string query = "SELECT * FROM Users WHERE ID = @ID";
 
-            using (SqlCommand command = new SqlCommand(query, sqlConnection))
+            using (SqlCommand command = new(query, sqlConnection))
             {
                 command.Parameters.AddWithValue("@ID", id);
                 SqlDataReader reader = command.ExecuteReader();
 
                 if (reader.Read())
                 {
-                    string login = reader["login"].ToString();
-                    return login;
+                    string name = reader["name"].ToString();
+                    return name;
                 }
                 else
                 {
                     return " ";
                 }
             }
+        }
+
+        public bool dateVerification(string login, string password)
+        {
+            Connection();
+            string query = "SELECT * FROM Users WHERE login = @login AND password = @password";
+
+            using (SqlCommand command = new(query, sqlConnection))
+            {
+                command.Parameters.AddWithValue("@login", login);
+                command.Parameters.AddWithValue("@password", password);
+
+                int count = Convert.ToInt32(command.ExecuteScalar());
+                 
+                if(count > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
+
+        public void AddCharacter(int? userID, string species, string nameCharacter, string level, string classCharacter)
+        {
+            Connection();    
+            string query = "INSERT INTO Characters (userID, species, name, level, class) VALUES (@userID, @species, @name, @level, @class)";
+
+            using (SqlCommand command = new SqlCommand(query, sqlConnection))
+            {
+                command.Parameters.AddWithValue("@userID", userID);
+                command.Parameters.AddWithValue("@species", species);
+                command.Parameters.AddWithValue("@name", nameCharacter);
+                command.Parameters.AddWithValue("@level", Int32.Parse(level)); 
+                command.Parameters.AddWithValue("@class", classCharacter);
+
+                try
+                {
+                    command.ExecuteNonQuery();
+                    MessageBox.Show($"Персонаж добавлен, обновите таблицу!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка при добавлении персонажа: {ex.Message}");
+                }
+            }
+        }
+
+        public int? GetCurrentUserID(string login)
+        {
+            Connection();
+            string query = "SELECT id FROM Users WHERE login = @login";
+
+            try
+            {
+                using (SqlCommand command = new(query, sqlConnection))
+                {
+                    command.Parameters.AddWithValue("@login", login);
+
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        int id = reader.GetInt32(0);
+                        return id;
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Пользователь не найден");
+            }
+            return null;
         }
     }
 }
