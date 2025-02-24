@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:database\\dbcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,10 +28,23 @@
               "RelativeDocumentMoniker": "DataBase\\DBControll.cs",
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\DBControll.cs",
               "RelativeToolTip": "DataBase\\DBControll.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAuwGcAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T09:20:45.228Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Registration.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\Registration.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Registration.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\Registration.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T16:22:19.905Z",
               "EditorCaption": ""
             },
             {
@@ -53,75 +54,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogIn.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\LogIn.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\LogIn.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\LogIn.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\LogIn.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T14:33:29.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Registration.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Registration.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\Registration.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Registration.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\Registration.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwCkAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T14:08:03.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Profile.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\Profile.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\Profile.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T10:30:39.01Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e22f6312-f716-46e4-88ba-c44a51572e52",
-        "Display": 0,
-        "X": 32,
-        "Y": 73,
-        "Width": 1278,
-        "Height": 558,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Profile.xaml",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\Profile.xaml",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml",
-              "RelativeToolTip": "Views\\Pages\\Profile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T10:29:04.706Z",
-              "EditorCaption": ""
             }
           ]
         }

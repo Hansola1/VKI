@@ -1,12 +1,15 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using data.DataBase;
+using data.Model;
 using data.Views.Pages;
 
 namespace data.Views.Pages
 {
     public partial class LogIn : Page
     {
+        private UserControllDB userDB = new();
+
         public LogIn()
         {
             InitializeComponent();
@@ -29,9 +32,7 @@ namespace data.Views.Pages
             }
             else
             {
-                DBControll db = new DBControll();
-
-                if (db.dateVerification(login, password))
+                if (userDB.dateVerification(login, password))
                 {
                     UserSession.IsLoggedIn = true;
                     UserSession.CurrentUserLogin = login_TextBox.Text.Trim();

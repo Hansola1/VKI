@@ -1,29 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Xml.Linq;
 using data.DataBase;
+using data.Model;
 using data.Views.Pages;
 
 namespace data.Views.Pages
 {
     public partial class Profile : Page
     {
+        private UserControllDB userDB = new();
+        private CharacterControllDB characterDB = new();
+
         public Profile()
         {
             InitializeComponent();
-            //подгрузка лист вью тут всунуть
+            LoadCharacters();
+        }
+
+        private void LoadCharacters()
+        {
+            int? userID = userDB.GetCurrentUserID(UserSession.CurrentUserLogin);
+
+            if (userID != null)
+            {
+                List<Character> characters = characterDB.GetUserCharacters(userID); //для текущего пользователя
+                Characters_ListView.ItemsSource = characters;
+            }
+            else
+            {
+                MessageBox.Show("Ошибка при загрузке персонажей");
+            }
         }
 
         private void addCharacter_Click(object sender, RoutedEventArgs e)
@@ -40,16 +49,14 @@ namespace data.Views.Pages
             }
             else
             {
-                DBControll db = new DBControll();
-                int? userID = db.GetCurrentUserID(UserSession.CurrentUserLogin);
-
-                db.AddCharacter(userID, species, nameCharacter, level, classCharacter);
+                int? userID = userDB.GetCurrentUserID(UserSession.CurrentUserLogin);
+                characterDB.AddCharacter(userID, species, nameCharacter, level, classCharacter);
             }
         }
 
         private void UpdateTable_Click(object sender, RoutedEventArgs e)
         {
-           // на подумать
+            LoadCharacters();
         }
 
         private void getUser_Click(object sender, RoutedEventArgs e)
@@ -63,8 +70,7 @@ namespace data.Views.Pages
             }
             else
             {
-                DBControll db = new DBControll();
-                string name = db.GetLoginUser(ID);
+                string name = userDB.GetLoginUser(ID);
 
                 if (string.IsNullOrEmpty(name))
                 {

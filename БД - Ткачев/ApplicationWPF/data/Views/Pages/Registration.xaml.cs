@@ -1,13 +1,15 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using System.Xml.Linq;
 using data.DataBase;
+using data.Model;
 using data.Views.Pages;
 
 namespace data.Views.Pages
 {
     public partial class Registration : Page
     {
+        private UserControllDB userDB = new();
+
         public Registration()
         {
             InitializeComponent();
@@ -44,8 +46,7 @@ namespace data.Views.Pages
         }
         private void CreatUser()
         {
-            DBControll db = new DBControll();
-            db.AddUser(name_TextBox.Text, login_TextBox.Text, password_TextBox.Text, email_TextBox.Text, age_TextBox.Text, sex_TextBox.Text);
+            userDB.AddUser(name_TextBox.Text, login_TextBox.Text, password_TextBox.Text, email_TextBox.Text, age_TextBox.Text, sex_TextBox.Text);
         }
     }
 }

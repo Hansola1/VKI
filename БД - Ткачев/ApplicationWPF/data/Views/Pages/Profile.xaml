@@ -53,11 +53,11 @@
             Content="Добавить персонажа"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="272" Height="50" BorderBrush="White"
             Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="268,285,0,0"/>
 
-        <ListView x:Name="Characters_ListView" ItemsSource="{Binding Characters}" Margin="58,417,39,20" >
+        <ListView x:Name="Characters_ListView" Margin="58,417,39,20" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Имя" Width="300" DisplayMemberBinding="{Binding Name}" />
-                    <GridViewColumn Header="Способность" Width="350" DisplayMemberBinding="{Binding Ability}" />
+                    <GridViewColumn Header="Способность" Width="350" DisplayMemberBinding="{Binding Species}" />
                     <GridViewColumn Header="Уровень" Width="100" DisplayMemberBinding="{Binding Level}" />
                     <GridViewColumn Header="Класс" Width="230" DisplayMemberBinding="{Binding Class}" />
                 </GridView>
