@@ -1,0 +1,44 @@
+﻿<Page x:Class="EducationApp.View.AddTeacherPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EducationApp.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="AddStudentPage" Background="White">
+
+    <Grid Height="600" Width="1080">
+        <TextBlock Text="Добавить преподавателя"  FontSize="40"
+           HorizontalAlignment="Left" Margin="230,47,0,422" FontWeight="Bold" Width="532"/>
+
+        <Button Click="add_teacher_Click" x:Name="add_student_button" Background="#FFF6DCFF" Style="{StaticResource topButton}"
+        Content="Добавить" HorizontalAlignment="Left"
+        Width="177" Height="NaN" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
+        Margin="559,419,0,123"/>
+
+        <Button Click="cancel_button_Click" x:Name="cancel_button" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+        Content="Назад"  HorizontalAlignment="Left"
+        Width="103" Height="NaN" BorderBrush="White" Foreground="Black"
+        FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="202,419,0,123"/>
+
+        <TextBlock Text="Имя" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,157,0,414" TextAlignment="Center" Foreground="Black" Width="51"/>
+        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,157,0,0" Background="#FFF8EDFF"/>
+
+        <Button Click="edit_teacher_Click" x:Name="edit_student" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+                  Content="Редактировать препода" HorizontalAlignment="Left"
+                  Width="244" Height="NaN" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
+                  Margin="310,419,0,122"/>
+
+        <TextBlock Text="Фамилия" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="187,219,0,342" TextAlignment="Center" Foreground="Black" Width="142"/>
+        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,219,0,0" Background="#FFF8EDFF"/>
+
+        <TextBlock Text="Email" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,282,0,269" TextAlignment="Center" Foreground="Black" Width="78"/>
+        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,282,0,0" Background="#FFF8EDFF"/>
+
+        <TextBlock Text="Курс" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,347,0,203" TextAlignment="Center" Foreground="Black" Width="64"/>
+        <TextBox Style="{StaticResource searchTextbox}"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="41"  Foreground="Black" Margin="386,347,0,0" Background="#FFF8EDFF"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>

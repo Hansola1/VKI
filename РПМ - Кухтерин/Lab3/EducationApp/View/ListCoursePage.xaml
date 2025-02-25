@@ -1,0 +1,42 @@
+﻿<Page x:Class="EducationApp.View.ListCoursePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EducationApp.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="ListCoursetPage" Background="White">
+
+    <Grid Height="600" Width="1080">
+        <TextBlock Text="Список курсов"  FontSize="40"
+           HorizontalAlignment="Left" Margin="354,10,0,424" FontWeight="Bold" Width="346"/>
+
+        <Button Click="add_course_Click" x:Name="add_course_button" Background="#FFF6DCFF" Style="{StaticResource topButton}"
+      Content="Добавить курс" HorizontalAlignment="Left"
+      Width="195" Height="50" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
+      Margin="285,442,0,108"/>
+
+        <Button Click="delete_course_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+      Content="Удалить курс"  HorizontalAlignment="Left"
+      Width="211" Height="NaN" BorderBrush="White" Foreground="Black"
+      FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="485,442,0,108"/>
+
+        <Button Click="cancel_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+    Content="Назад"  HorizontalAlignment="Left"
+    Width="114" Height="NaN" BorderBrush="White" Foreground="Black"
+    FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="701,442,0,108"/>
+
+        <ListView  x:Name="Information_ListView" ItemsSource="{Binding}" Margin="41,79,50,180" Foreground="#FFFBE6FF" Background="#FFFBF2FF" BorderBrush="#FFFCD6FF">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Название курса" DisplayMemberBinding="{Binding NumStar}" Width="270"/>
+                    <GridViewColumn Header="Преподаватель" DisplayMemberBinding="{Binding NumStar}" Width="350"/>
+                    <GridViewColumn Header="Время проведения" DisplayMemberBinding="{Binding NameStar}" Width="160"/>
+                    <GridViewColumn Header="Макс кол-во студентов" DisplayMemberBinding="{Binding Distance}" Width="200"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>

@@ -1,0 +1,20 @@
+﻿EducationApp
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\MyFile\VKI\РПМ - Кухтерин\Lab3\EducationApp\obj\Debug\net8.0-windows\
+EducationApp
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\MyFile\VKI\РПМ - Кухтерин\Lab3\EducationApp\App.xaml
+81004288759
+
+16-844521337
+230-1447599129
+MainWindow.xaml;View\AddCoursePage.xaml;View\AddStudentPage.xaml;View\AddTeacherPage.xaml;View\ListCoursePage.xaml;View\LoginPage.xaml;View\MainMenuPage.xaml;View\old\EditStudentPage.xaml;
+
+False
+
