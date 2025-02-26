@@ -15,7 +15,7 @@
         <TextBlock Text="панель админа"  FontSize="40" Foreground="Gray"
              HorizontalAlignment="Left" Margin="390,120,0,269" FontWeight="Bold"/>
 
-        <StackPanel VerticalAlignment="Top" Margin="-10,261,10,0">
+        <StackPanel VerticalAlignment="Top" Margin="-10,241,10,0">
             <Button Click="add_student_Click" x:Name="add_student" Background="#FFF2CFFF" Style="{StaticResource topButton}"
                   Content="Добавить студента" HorizontalAlignment="Center"
                   Width="376" Height="50" BorderBrush="White" Foreground="Black"
@@ -24,6 +24,12 @@
 
             <Button Click="add_teacher_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
                 Content="Добавить преподаватель" HorizontalAlignment="Center"
+                Width="376" Height="50" BorderBrush="White" Foreground="Black"
+                FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18"
+                Margin="0,0,0,10"/>
+
+            <Button Click="list_request_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+                Content="Список заявок на курс" HorizontalAlignment="Center"
                 Width="376" Height="50" BorderBrush="White" Foreground="Black"
                 FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18"
                 Margin="0,0,0,10"/>

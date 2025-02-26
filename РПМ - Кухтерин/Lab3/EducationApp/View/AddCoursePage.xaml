@@ -9,29 +9,32 @@
 
     <Grid Height="600" Width="1080">
         <TextBlock Text="Добавить курс"  FontSize="40"
-         Height="50" HorizontalAlignment="Left" Margin="354,32,0,500" FontWeight="Bold" Width="340"/>
+         Height="50" HorizontalAlignment="Left" Margin="409,32,0,518" FontWeight="Bold" Width="340"/>
 
         <Button Click="add_course_Click" x:Name="add_course_button" Background="#FFF6DCFF" Style="{StaticResource topButton}"
         Content="Добавить" HorizontalAlignment="Left"
-        Width="233" Height="50" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
-        Margin="503,442,0,100"/>
+        Width="350" Height="50" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
+        Margin="534,480,0,70"/>
 
         <Button Click="cancel_Click" x:Name="cancel_button" Background="#FFF2CFFF" Style="{StaticResource topButton}"
         Content="Назад"  HorizontalAlignment="Left"
         Width="139" Height="50" BorderBrush="White" Foreground="Black"
-        FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="349,442,0,100"/>
+        FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="377,480,0,70"/>
 
-        <TextBlock Height="30" Text="Название курса" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="0,157,0,405" TextAlignment="Center" Foreground="Black" Width="405"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,157,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Height="30" Text="Название курса" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="136,149,0,421" TextAlignment="Center" Foreground="Black" Width="405"/>
+        <TextBox x:Name="Title_Course_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="540,147,0,0" Background="#FFF8EDFF"/>
 
-        <TextBlock Height="30" Text="Преподаватель" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="35,219,0,342" TextAlignment="Center" Foreground="Black" Width="339"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,219,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Height="30" Text="Преподаватель" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="161,213,0,357" TextAlignment="Center" Foreground="Black" Width="339"/>
+        <TextBox x:Name="Name_Teacher_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="540,209,0,0" Background="#FFF8EDFF"/>
 
-        <TextBlock Height="30" Text="Время провдения" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="50,282,0,269" TextAlignment="Center" Foreground="Black" Width="336"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,282,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Height="30" Text="Время провдения" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="180,281,0,289" TextAlignment="Center" Foreground="Black" Width="336"/>
+        <TextBox x:Name="Time_Course_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="540,272,0,0" Background="#FFF8EDFF"/>
 
-        <TextBlock Height="30" Text="Макс кол-во студентов" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="76,347,0,203" TextAlignment="Center" Foreground="Black" Width="328"/>
-        <TextBox Style="{StaticResource searchTextbox}"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="41"  Foreground="Black" Margin="386,347,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Height="30" Text="Макс кол-во студентов" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="212,345,0,225" TextAlignment="Center" Foreground="Black" Width="328"/>
+        <TextBox x:Name="MaxStudents_TextBox" Style="{StaticResource searchTextbox}"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="41"  Foreground="Black" Margin="540,337,0,0" Background="#FFF8EDFF"/>
+
+        <TextBlock Height="30" Text="Аудитория" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="146,402,0,168" TextAlignment="Center" Foreground="Black" Width="328"/>
+        <TextBox x:Name="Class_TextBox" Style="{StaticResource searchTextbox}"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="41"  Foreground="Black" Margin="540,408,0,0" Background="#FFF8EDFF"/>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>

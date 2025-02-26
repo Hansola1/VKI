@@ -27,13 +27,13 @@
     Width="114" Height="NaN" BorderBrush="White" Foreground="Black"
     FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="701,442,0,108"/>
 
-        <ListView  x:Name="Information_ListView" ItemsSource="{Binding}" Margin="41,79,50,180" Foreground="#FFFBE6FF" Background="#FFFBF2FF" BorderBrush="#FFFCD6FF">
+        <ListView  x:Name="Courses_ListView" Margin="41,79,50,180" Foreground="Black" Background="#FFFBF2FF" BorderBrush="White">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Название курса" DisplayMemberBinding="{Binding NumStar}" Width="270"/>
-                    <GridViewColumn Header="Преподаватель" DisplayMemberBinding="{Binding NumStar}" Width="350"/>
-                    <GridViewColumn Header="Время проведения" DisplayMemberBinding="{Binding NameStar}" Width="160"/>
-                    <GridViewColumn Header="Макс кол-во студентов" DisplayMemberBinding="{Binding Distance}" Width="200"/>
+                    <GridViewColumn Header="Название курса" DisplayMemberBinding="{Binding TitleCourse}" Width="270"/>
+                    <GridViewColumn Header="Преподаватель" DisplayMemberBinding="{Binding TeacherID}" Width="350"/>
+                    <GridViewColumn Header="Время проведения" DisplayMemberBinding="{Binding Time}" Width="160"/>
+                    <GridViewColumn Header="Макс кол-во студентов" DisplayMemberBinding="{Binding MaxStudents}" Width="200"/>
                 </GridView>
             </ListView.View>
         </ListView>
