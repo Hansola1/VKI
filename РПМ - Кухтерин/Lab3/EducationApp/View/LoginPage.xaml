@@ -7,22 +7,22 @@
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1080" Title="AddCoursePage" Background="White">
 
-    <Grid Height="600" Width="1080">
-        <TextBlock Text="Вход"  FontSize="60" HorizontalAlignment="Left" Margin="446,54,0,460" FontWeight="Bold" Width="152"/>
+    <Grid Height="600" Width="1080" Margin="17,0,-17,0">
+        <TextBlock Text="Вход в аккаунт"  FontSize="50" HorizontalAlignment="Center" Margin="0,67,0,447" FontWeight="Bold" Width="378"/>
 
         <Button Click="login_Click" Background="#FFF6DCFF" Style="{StaticResource topButton}"
         Content="Войти" HorizontalAlignment="Left" FontSize="24"
-        Width="273" Height="50" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold"
-        Margin="386,362,0,188"/>
+        Width="269" Height="50" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold"
+        Margin="444,356,0,194"/>
 
-        <TextBlock Height="30" Text="Логин" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="259,244,0,326" TextAlignment="Center" Foreground="Black" Width="122"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" Height="42"  Foreground="Black" Margin="388,240,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Height="30" Text="Логин" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="318,229,0,341" TextAlignment="Center" Foreground="Black" Width="122"/>
+        <TextBox x:Name="Login_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272" Height="42"  Foreground="Black" Margin="446,225,0,0" Background="#FFF8EDFF"/>
 
-        <TextBlock Height="30" Text="Пароль" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="272,300,0,270" TextAlignment="Center" Foreground="Black" Width="109"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="273" Height="42"  Foreground="Black" Margin="386,296,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Height="30" Text="Пароль" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="330,286,0,284" TextAlignment="Center" Foreground="Black" Width="110"/>
+        <TextBox x:Name="Password_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="274" Height="42"  Foreground="Black" Margin="444,282,0,0" Background="#FFF8EDFF"/>
 
-        <TextBlock  FontSize="20" HorizontalAlignment="Left" Margin="343,471,0,61" FontWeight="Bold" 
-         Width="358" Foreground="#FFE2E2E2"><Run Language="ru-ru" Text="*" Foreground="#FFC2C2C2"/><Run Foreground="#FFC2C2C2" Text="данные для входа в админскую"/><LineBreak/><Run 
+        <TextBlock  FontSize="20" HorizontalAlignment="Left" Margin="356,449,0,83" FontWeight="Bold" 
+         Width="334" Foreground="#FFE2E2E2"><Run Language="ru-ru" Text="*" Foreground="#FFC2C2C2"/><Run Foreground="#FFC2C2C2" Text="данные для входа в админскую"/><LineBreak/><Run 
          Text="панель" Foreground="#FFC2C2C2"/><Run Text=" " Foreground="#FFC2C2C2"/><Run Foreground="#FFC2C2C2" Text="запросить у разработчика"/></TextBlock>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>

@@ -10,35 +10,31 @@
 
     <Grid Height="600" Width="1080">
         <TextBlock Text="Добавить студента"  FontSize="40"
-           HorizontalAlignment="Left" Margin="258,47,0,422" FontWeight="Bold" Width="399"/>
+           HorizontalAlignment="Left" Margin="371,58,0,473" FontWeight="Bold" Width="399"/>
 
         <Button Click="add_student_Click" x:Name="add_student_button" Background="#FFF6DCFF" Style="{StaticResource topButton}"
         Content="Добавить" HorizontalAlignment="Left"
         Width="177" Height="NaN" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
-        Margin="559,419,0,123"/>
+        Margin="649,416,0,126"/>
 
         <Button Click="cancel_button_Click" x:Name="cancel_button" Background="#FFF2CFFF" Style="{StaticResource topButton}"
         Content="Назад"  HorizontalAlignment="Left"
         Width="103" Height="NaN" BorderBrush="White" Foreground="Black"
-        FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="202,419,0,123"/>
+        FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="292,416,0,126"/>
 
-        <TextBlock Text="Имя" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,157,0,414" TextAlignment="Center" Foreground="Black" Width="51"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,157,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Text="Имя" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="312,199,0,372" TextAlignment="Center" Foreground="Black" Width="52"/>
+        <TextBox x:Name="Name_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="438,199,0,0" Background="#FFF8EDFF"/>
 
         <Button Click="edit_student_Click" x:Name="edit_student" Background="#FFF2CFFF" Style="{StaticResource topButton}"
                   Content="Редактировать студента" HorizontalAlignment="Left"
                   Width="244" Height="NaN" BorderBrush="White" Foreground="Black" FontFamily="Malgun Gothic"  FontWeight="Bold" FontSize="18"
-                  Margin="310,419,0,122"/>
+                  Margin="400,416,0,125"/>
 
-        <TextBlock Text="Фамилия" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="187,219,0,342" TextAlignment="Center" Foreground="Black" Width="142"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,219,0,0" Background="#FFF8EDFF"/>
+        <TextBlock Text="Логин" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="306,261,0,300" TextAlignment="Center" Foreground="Black" Width="78"/>
+        <TextBox x:Name="Login_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="438,261,0,0" Background="#FFF8EDFF"/>
 
-        <TextBlock Text="Email" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,282,0,269" TextAlignment="Center" Foreground="Black" Width="78"/>
-        <TextBox Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="386,282,0,0" Background="#FFF8EDFF"/>
-
-        <TextBlock Text="Курс" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="202,347,0,203" TextAlignment="Center" Foreground="Black" Width="64"/>
-        <TextBox Style="{StaticResource searchTextbox}"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="41"  Foreground="Black" Margin="386,347,0,0" Background="#FFF8EDFF"/>
-
+        <TextBlock Text="Пароль" FontSize="25" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="306,324,0,227" TextAlignment="Center" Foreground="Black" Width="92"/>
+        <TextBox x:Name="Password_TextBox" Style="{StaticResource searchTextbox}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" Height="42"  Foreground="Black" Margin="438,324,0,0" Background="#FFF8EDFF"/>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

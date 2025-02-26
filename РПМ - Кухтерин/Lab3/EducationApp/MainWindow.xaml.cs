@@ -9,7 +9,7 @@ namespace EducationApp
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new MainMenuPage());
+            MainFrame.Navigate(new LoginPage());
         }
     }
 }

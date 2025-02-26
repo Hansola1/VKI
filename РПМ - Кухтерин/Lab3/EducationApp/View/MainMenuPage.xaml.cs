@@ -13,7 +13,6 @@ namespace EducationApp.View
         {
             MainFrame.Navigate(new AddStudentPage());
         }
-
         private void add_teacher_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new AddTeacherPage());
