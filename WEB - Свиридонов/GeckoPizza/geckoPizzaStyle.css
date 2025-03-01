@@ -8,6 +8,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    background-color: white;
+    min-height: 85px;
 }
 
 .auth-buttons {
@@ -44,11 +46,30 @@ main {
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
+    position: absolute;
+    top: 15px; left: 30px;
+}
+
+.logo-info {
+    position: relative;
+    top: 30px; left: 20px;
+    font-size: 20px;
+    font-family: 'Montblanc', sans-serif;
+}
+
+.logo-name {
+    position: absolute;
+    top: 30px; left: 90px;
+    font-size: 20px;
+    font-family: 'Montblanc', sans-serif;
+    font-weight: bold;
 }
 
 .delivery-info {
-    font-size: 14px;
+    position: relative;
+    left: 40px;
+    font-size: 20px;
     text-align: center;
     margin: 0 20px;
     font-family: 'Montblanc', sans-serif;
@@ -64,13 +85,14 @@ main {
 .title {
     font-size: 30px;
     font-weight: bold;
-    margin: 20px;
+    margin: 20px 40px;
+    font-family: 'Montblanc', sans-serif;
 }
 
 .category-buttons {
     display: flex;
     gap: 20px;
-    margin: 0 20px;
+    margin: 10px 40px;
 }
 
 .category-buttons:hover {
