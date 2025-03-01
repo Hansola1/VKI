@@ -4,7 +4,7 @@ async function loadMorphData()
 {
     try
     {
-        const response = await fetch("../MorphData.json");
+        const response = await fetch("morphData/MorphData.json");
         //console.log(await response.text()); 
         morphData = await response.json();
     }
