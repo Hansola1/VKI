@@ -94,6 +94,30 @@ namespace EducationApp.DataBase
             return coursesList;
         }
 
+        public List<Requestes> GetRequestCourse()
+        {
+            Connection();
+            List<Requestes> requestCourseList = new List<Requestes>();
+            string query = "SELECT StudentName, ApplicationDate, Status FROM ListRequest";
+
+            using (SqlCommand command = new(query, sqlConnection))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        requestCourseList.Add(new Requestes
+                        {
+                            StudentName = reader["StudentName"].ToString(),
+                            DateRequest = reader["ApplicationDate"].ToString(),
+                            Status = reader["Status"].ToString(),
+                        });
+                    }
+                }
+            }
+            return requestCourseList;
+        }
+
         public void AddStudentToCourse(int studentID, int courseID)
         {
             Connection();

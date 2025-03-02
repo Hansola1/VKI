@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\MyFile\VKI\РПМ - Кухтерин\Lab3\EducationApp\App.xaml
-81004288759
+91981460243
 
-19367417003
+20-1327545684
 230-1447599129
-MainWindow.xaml;View\AddCoursePage.xaml;View\AddStudentPage.xaml;View\AddTeacherPage.xaml;View\ListCoursePage.xaml;View\LoginPage.xaml;View\MainMenuPage.xaml;View\old\EditStudentPage.xaml;
+MainWindow.xaml;View\AddCoursePage.xaml;View\AddStudentPage.xaml;View\AddTeacherPage.xaml;View\ListCoursePage.xaml;View\ListRequest.xaml;View\LoginPage.xaml;View\MainMenuPage.xaml;View\old\EditStudentPage.xaml;
 
 False
 

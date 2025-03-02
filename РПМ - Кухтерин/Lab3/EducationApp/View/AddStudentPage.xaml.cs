@@ -22,7 +22,7 @@ namespace EducationApp.View
             string name = Name_TextBox.Text;
             string login = Login_TextBox.Text;
             string password = Password_TextBox.Text;
-            int roleID = 2;
+            int roleID = 3;
 
             if (string.IsNullOrEmpty(login) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(name))
             {

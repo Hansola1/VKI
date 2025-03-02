@@ -1,0 +1,31 @@
+﻿<Page x:Class="EducationApp.View.ListRequest"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EducationApp.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="ListRequest" Background="White">
+
+    <Grid Height="600" Width="1080">
+        <TextBlock Text="Список заявок на курс"  FontSize="40"
+           HorizontalAlignment="Left" Margin="256,10,0,526" FontWeight="Bold" Width="444"/>
+
+        <Button Click="cancel_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+    Content="Назад"  HorizontalAlignment="Left"
+    Width="276" Height="NaN" BorderBrush="White" Foreground="Black"
+    FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="354,442,0,108"/>
+
+        <ListView  x:Name="CourseRequest_ListView" Margin="41,79,50,180" Foreground="Black" Background="#FFFBF2FF" BorderBrush="White">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Имя студента"  DisplayMemberBinding="{Binding StudentName}" Width="450"/>
+                    <GridViewColumn Header="Дата заявки" DisplayMemberBinding="{Binding DateRequest}" Width="200"/>
+                    <GridViewColumn Header="Статус заявки" DisplayMemberBinding="{Binding Status}" Width="330"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>

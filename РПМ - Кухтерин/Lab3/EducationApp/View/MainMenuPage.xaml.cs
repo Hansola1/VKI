@@ -15,7 +15,7 @@ namespace EducationApp.View
         }
         private void list_request_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(new ListRequest());
         }
         private void add_teacher_Click(object sender, RoutedEventArgs e)
         {

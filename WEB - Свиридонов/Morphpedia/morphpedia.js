@@ -1,11 +1,12 @@
 let morphData = {}; 
+let URL_json = "../morphData/MorphData.json";
 
 async function loadMorphData() 
 {
     try
     {
-        const response = await fetch("morphData/MorphData.json");
-        //console.log(await response.text()); 
+        const response = require('./morphData/MorphData.json')
+        console.log(response); 
         morphData = await response.json();
     }
     catch (error) 
@@ -42,7 +43,7 @@ async function showMorphs(animal)
     }
 }
 
-function showMorphInfo(animal, morph) 
+async function showMorphInfo(animal, morph) 
 {
     let morphInfo = document.getElementById("morphInfo");
     let data = morphData[animal][morph];
@@ -54,5 +55,5 @@ function showMorphInfo(animal, morph)
     `;
 }
 
-//loadMorphData();
-window.onload = () => { loadMorphData(); };
+loadMorphData();
+//window.onload = () => { loadMorphData(); };

@@ -1,8 +1,5 @@
 ﻿using EducationApp.DataBase;
 using EducationApp.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -20,8 +17,8 @@ namespace EducationApp.View
 
         private void LoadCourses()
         {
-            List<Courses> characters = courseDB.GetCourses();
-            Courses_ListView.ItemsSource = characters;
+            List<Courses> listCourse = courseDB.GetCourses();
+            Courses_ListView.ItemsSource = listCourse;
         }
 
         private void add_course_Click(object sender, RoutedEventArgs e)
