@@ -69,7 +69,7 @@ namespace EducationApp.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EducationApp;V1.0.0.0;component/view/listrequest.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EducationApp;component/view/listrequest.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ListRequest.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

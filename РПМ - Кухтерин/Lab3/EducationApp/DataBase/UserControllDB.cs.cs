@@ -2,6 +2,8 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 using System.Windows;
+using EducationApp.Model;
+using EducationApp.Models;
 
 namespace EducationApp.DataBase
 {
@@ -43,6 +45,50 @@ namespace EducationApp.DataBase
                 MessageBox.Show("Пользователь не добавлен");
                 Application.Current.Shutdown();
             }
+        }
+
+        private int CalculatorRoleStatistics(string role)
+        {
+            Connection();
+            int teacherCount = 0;
+            int studentCount = 0;
+
+            if (role == "student")
+            {
+                string studentQuery = "SELECT COUNT(*) FROM Users WHERE roleID = '3'";
+                using (SqlCommand command = new(studentQuery, sqlConnection))
+                {
+                    studentCount = (int)command.ExecuteScalar();
+                }
+                return studentCount;
+            }
+            else if(role == "teacher")
+            {
+                string teacherQuery = "SELECT COUNT(*) FROM Users WHERE roleID = '2'";
+                using (SqlCommand command = new(teacherQuery, sqlConnection))
+                {
+                    teacherCount = (int)command.ExecuteScalar();
+                }
+                return teacherCount;
+            }
+            return 0;
+        }
+
+        public List<Statistics> GetStatisticsRole()
+        {
+            List<Statistics> statisticsList = new List<Statistics>();
+
+            int studentCount = CalculatorRoleStatistics("student");
+            int teacherCount = CalculatorRoleStatistics("teacher");
+
+            statisticsList.Add(new Statistics
+            {
+                TotalCount = studentCount + teacherCount, 
+                StudentCount = studentCount,
+                TeacherCount = teacherCount
+            });
+
+            return statisticsList;
         }
     }
 }

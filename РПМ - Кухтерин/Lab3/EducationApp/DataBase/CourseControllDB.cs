@@ -138,13 +138,5 @@ namespace EducationApp.DataBase
                 MessageBox.Show($"Не удалось добавить студента на курс: {ex.Message}");
             }
         }
-
-        public List<Statistics> GetStatisticsSex()
-        {
-            Connection();
-            List<Statistics> requestCourseList = new List<Statistics>();
-
-            return requestCourseList;
-        }
     }
 }

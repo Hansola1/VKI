@@ -4,41 +4,28 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EducationApp.View"
-      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1080"
       Title="StatisticsPage" Background="White">
 
     <Grid Height="600" Width="1080">
-        <TextBlock Text="Статистика по заявкам"  FontSize="40"
-                   HorizontalAlignment="Left" Margin="330,10,0,526" FontWeight="Bold" Width="451"/>
+        <TextBlock Text="Статистика по пользователям"  FontSize="40"
+                   HorizontalAlignment="Center" Margin="0,10,0,526" FontWeight="Bold" Width="599"/>
 
         <Button Click="cancel_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
                 Content="Назад"  HorizontalAlignment="Left"
                 Width="259" Height="NaN" BorderBrush="White" Foreground="Black"
                 FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="404,508,0,38"/>
 
-        <ListView  x:Name="Statistics_ListView" Margin="41,101,571,147" Foreground="Black" Background="#FFFBF2FF" BorderBrush="White">
+        <ListView  x:Name="Statistics_ListView" Margin="41,101,51,147" Foreground="Black" Background="#FFFBF2FF" BorderBrush="White">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Общее кол-во заявок" DisplayMemberBinding="{Binding TotalCount}" Width="140"/>
-                    <GridViewColumn Header="Кол-во заявок девушек" DisplayMemberBinding="{Binding FemaleCount}" Width="160"/>
-                    <GridViewColumn Header="Кол-во заявок парней" DisplayMemberBinding="{Binding MaleCount}" Width="150"/>
+                    <GridViewColumn Header="Общее кол-во пользователей" DisplayMemberBinding="{Binding TotalCount}" Width="500"/>
+                    <GridViewColumn Header="Кол-во студентов" DisplayMemberBinding="{Binding StudentCount}" Width="200"/>
+                    <GridViewColumn Header="Кол-во преподавателей" DisplayMemberBinding="{Binding TeacherCount}" Width="200"/>
                 </GridView>
             </ListView.View>
         </ListView>
-
-        <lvc:CartesianChart HorizontalAlignment="Right" VerticalAlignment="Top"
-                             Width="547" Height="386" Margin="0,101,19,0"
-                             Series="{Binding ChartSeries}">
-            <lvc:CartesianChart.AxisX>
-                <lvc:Axis Title="Категории" Labels="{Binding ChartLabels}"/>
-            </lvc:CartesianChart.AxisX>
-            <lvc:CartesianChart.AxisY>
-                <lvc:Axis Title="Общее количество заявок"/>
-            </lvc:CartesianChart.AxisY>
-        </lvc:CartesianChart>
-
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

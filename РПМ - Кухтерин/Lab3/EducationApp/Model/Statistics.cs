@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EducationApp.Model
+namespace EducationApp.Models
 {
     public class Statistics
     {
         public int TotalCount{get;set;}
-        public int MaleCount {get;set;}
-        public int FemaleCount {get;set;}
+        public int StudentCount {get;set;}
+        public int TeacherCount {get;set;}
     }
 }

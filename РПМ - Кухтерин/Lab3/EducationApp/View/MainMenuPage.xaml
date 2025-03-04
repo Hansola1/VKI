@@ -15,7 +15,7 @@
         <TextBlock Text="панель админа"  FontSize="40" Foreground="Gray"
              HorizontalAlignment="Left" Margin="390,120,0,269" FontWeight="Bold"/>
 
-        <StackPanel VerticalAlignment="Top" Margin="-10,241,10,0">
+        <StackPanel VerticalAlignment="Top" Margin="-10,226,10,0" Height="291">
             <Button Click="add_student_Click" x:Name="add_student" Background="#FFF2CFFF" Style="{StaticResource topButton}"
                   Content="Добавить студента" HorizontalAlignment="Center"
                   Width="376" Height="50" BorderBrush="White" Foreground="Black"
@@ -37,6 +37,11 @@
             <Button Click="course_Click" x:Name="course_list" Background="#FFF2CFFF" Style="{StaticResource topButton}"
                   Content="Список курсов"  HorizontalAlignment="Center"
                   Width="376" Height="50" BorderBrush="White" Foreground="Black"
+                  FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18"/>
+
+            <Button Click="stat_Click"  Background="#FFF2CFFF" Style="{StaticResource topButton}"
+                  Content="Статистика"  HorizontalAlignment="Center"
+                  Width="376" Height="50" Margin="10" BorderBrush="White" Foreground="Black"
                   FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18"/>
         </StackPanel>
 

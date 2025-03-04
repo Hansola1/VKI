@@ -25,5 +25,9 @@ namespace EducationApp.View
         {
             MainFrame.Navigate(new ListCoursePage());
         }
+        private void stat_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new StatisticsPage());
+        }
     }
 }

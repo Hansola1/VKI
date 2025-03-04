@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:view\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\lab3\\educationapp\\database\\coursecontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:database\\coursecontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\lab3\\educationapp\\database\\usercontrolldb.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|solutionrelative:database\\usercontrolldb.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A82297C5-8EF5-41AA-99CC-98BB79F79963}|EducationApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\lab3\\educationapp\\view\\statisticspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CourseControllDB.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab3\\EducationApp\\DataBase\\CourseControllDB.cs",
-              "RelativeDocumentMoniker": "DataBase\\CourseControllDB.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab3\\EducationApp\\DataBase\\CourseControllDB.cs",
-              "RelativeToolTip": "DataBase\\CourseControllDB.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAswIkAAAAkAAAA",
+              "Title": "UserControllDB.cs.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab3\\EducationApp\\DataBase\\UserControllDB.cs.cs",
+              "RelativeDocumentMoniker": "DataBase\\UserControllDB.cs.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab3\\EducationApp\\DataBase\\UserControllDB.cs.cs",
+              "RelativeToolTip": "DataBase\\UserControllDB.cs.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAIwEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:41:25.424Z",
+              "WhenOpened": "2025-03-04T14:38:37.887Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "View\\StatisticsPage.xaml.cs",
               "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab3\\EducationApp\\View\\StatisticsPage.xaml.cs",
               "RelativeToolTip": "View\\StatisticsPage.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T07:43:42.687Z",
               "EditorCaption": ""
