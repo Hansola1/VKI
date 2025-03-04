@@ -62,10 +62,10 @@ namespace EducationApp.DataBase
             using (SqlCommand command = new(query, sqlConnection))
             {
                 command.Parameters.AddWithValue("@titleCourse", courseTitle);
-                int count = (int)command.ExecuteScalar(); 
+                int count = (int)command.ExecuteScalar();
 
                 return count > 0;
-            }    
+            }
         }
 
         public List<Courses> GetCourses()
@@ -137,6 +137,14 @@ namespace EducationApp.DataBase
             {
                 MessageBox.Show($"Не удалось добавить студента на курс: {ex.Message}");
             }
+        }
+
+        public List<Statistics> GetStatisticsSex()
+        {
+            Connection();
+            List<Statistics> requestCourseList = new List<Statistics>();
+
+            return requestCourseList;
         }
     }
 }
