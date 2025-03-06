@@ -82,5 +82,10 @@ namespace data.Views.Pages
                 }
             }
         }
+
+        private void location_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Location());
+        }
     }
 }

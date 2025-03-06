@@ -1,15 +1,12 @@
 ﻿using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient; //using System.Data.SqlClient; устарел, никогда не использовать!!!
 using System.Windows;
-using data.Model;
-using data.Views.Pages;
 
 namespace data.DataBase
 {
     public class DBControll
     {
-        //private static string connectionString = "Server=DBSRV\\ag2024;Database=BorodinaAV_2207d2 NEW;Trusted_Connection=True";
-        protected static string connectionString = "Server=DANICHLAPTOP;Database=BorodinaAV_2207d2;Trusted_Connection=True";
+        protected static string connectionString = "Server=DANICHLAPTOP;Database=BorodinaAV_2207d2;Trusted_Connection=True;TrustServerCertificate=True";
         protected SqlConnection sqlConnection = new(connectionString);
 
         protected void Connection()

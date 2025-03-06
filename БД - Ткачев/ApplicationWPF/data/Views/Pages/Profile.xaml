@@ -23,6 +23,13 @@
         <TextBlock Text="Получить имя пользователя" FontSize="30" FontWeight="SemiBold"
          HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="421" Margin="649,10,0,0"/>
 
+        <Button Click="location_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+        Content="Информация о локации"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="289" Height="44" BorderBrush="White"
+        Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="752,275,0,0"/>
+
+        <TextBlock Text="Информация о локации" FontSize="25" FontWeight="SemiBold"
+         HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="289" Margin="752,230,0,0" Height="32"/>
+
         <TextBlock FontSize="35" FontWeight="SemiBold"
          HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="421" 
          Margin="58,5,0,0"><Run Language="ru-ru" Text="Добавить персонажа"/></TextBlock>

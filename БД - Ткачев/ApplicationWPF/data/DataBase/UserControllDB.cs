@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Data.SqlClient;
+﻿using System.Data;
+using Microsoft.Data.SqlClient; 
 using System.Windows;
+using data.Model;
 
 namespace data.DataBase
 {

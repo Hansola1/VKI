@@ -1,7 +1,7 @@
-﻿using data.Model;
-using System.Data.SqlClient;
-using System.Data;
+﻿using System.Data;
+using Microsoft.Data.SqlClient; //using System.Data.SqlClient; устарел, никогда не использовать!!!
 using System.Windows;
+using data.Model;
 
 namespace data.DataBase
 {
