@@ -12,7 +12,7 @@
         <TextBlock Text="Локация" FontSize="30" FontWeight="SemiBold"
          HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="133" Margin="58,10,0,0"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="206,21,0,0" VerticalAlignment="Top" Width="196" Height="29" BorderBrush="#FFEBEBEB" Foreground="#FF656565"/>
+        <ComboBox x:Name="Biome_ComboBox" HorizontalAlignment="Left" Margin="206,21,0,0" VerticalAlignment="Top" Width="196" Height="29" BorderBrush="#FFEBEBEB" Foreground="#FF656565"/>
 
         <Button Click="cancel_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
             Content="Назад"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="126" Height="35" BorderBrush="White"
@@ -21,9 +21,9 @@
         <ListView x:Name="Location_ListView" Margin="58,113,39,360" >
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Биом" Width="300" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Биом" Width="300" DisplayMemberBinding="{Binding Biome}" />
                     <GridViewColumn Header="Уровень" Width="100" DisplayMemberBinding="{Binding Level}" />
-                    <GridViewColumn Header="Описание" Width="450" DisplayMemberBinding="{Binding Class}" />
+                    <GridViewColumn Header="Описание" Width="500" DisplayMemberBinding="{Binding Description}" />
                 </GridView>
             </ListView.View>
         </ListView>

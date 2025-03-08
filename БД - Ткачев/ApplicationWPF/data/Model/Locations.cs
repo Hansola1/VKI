@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace data.Model
 {
-    internal class Locations
+    public class Locations
     {
-
+        public string Biome { get; set; }
+        public int Level { get; set; }
+        public string Description { get; set; }
     }
 }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace data.Model
 {
-    internal class Enemies
+    public class Enemies
     {
-
+        public string Name { get; set; }
+        public int Level { get; set; }
     }
 }

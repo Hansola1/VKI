@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\location.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\location.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\database\\locationcontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:database\\locationcontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\location.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\location.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\location.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\location.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationControllDB.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\LocationControllDB.cs",
+              "RelativeDocumentMoniker": "DataBase\\LocationControllDB.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\LocationControllDB.cs",
+              "RelativeToolTip": "DataBase\\LocationControllDB.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAkwFYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:17:37.553Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,14 +53,14 @@
               "RelativeDocumentMoniker": "Views\\Pages\\Location.xaml.cs",
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Location.xaml.cs",
               "RelativeToolTip": "Views\\Pages\\Location.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAFAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T09:12:47.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Location.xaml",
               "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Location.xaml",
               "RelativeDocumentMoniker": "Views\\Pages\\Location.xaml",
@@ -48,26 +69,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-06T09:08:36.624Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.xaml",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\Profile.xaml",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml",
-              "RelativeToolTip": "Views\\Pages\\Profile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T08:51:50.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
