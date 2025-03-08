@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab5\\SortApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B0A0D43-E063-4B74-B53F-EEA6814CDF25}|SortApp.csproj|c:\\myfile\\vki\\\u0440\u043F\u043C - \u043A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\lab5\\sortapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B0A0D43-E063-4B74-B53F-EEA6814CDF25}|SortApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab5\\SortApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0420\u041F\u041C - \u041A\u0443\u0445\u0442\u0435\u0440\u0438\u043D\\Lab5\\SortApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:22:24.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

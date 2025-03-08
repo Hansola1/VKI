@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricalProfiling", "ElectricalProfiling.csproj", "{754F5AC5-A885-44BF-B4D9-739F91F3659B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricalProfiling", "ElectricalProfiling.csproj", "{47A9ADC8-49B3-4168-A666-F3813B456672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{754F5AC5-A885-44BF-B4D9-739F91F3659B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{754F5AC5-A885-44BF-B4D9-739F91F3659B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{754F5AC5-A885-44BF-B4D9-739F91F3659B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{754F5AC5-A885-44BF-B4D9-739F91F3659B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A9ADC8-49B3-4168-A666-F3813B456672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A9ADC8-49B3-4168-A666-F3813B456672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A9ADC8-49B3-4168-A666-F3813B456672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A9ADC8-49B3-4168-A666-F3813B456672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {727EFBE4-4D04-4AFF-BE68-7581A878A7AC}
+		SolutionGuid = {178B2248-BA0E-43E5-B5BF-4DB724373C3D}
 	EndGlobalSection
 EndGlobal
