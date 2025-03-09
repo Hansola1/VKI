@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\App.xaml
-1-1644662438
+3456160721
 
-61986371812
+8-1998482379
 1981385397204
-Views\MainWindow.xaml;
+Views\MainWindow.xaml;Views\Old\LogInPage.xaml;Views\ProjectPage.xaml;
 
-False
+True
 

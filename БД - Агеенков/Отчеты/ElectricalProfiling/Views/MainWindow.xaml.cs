@@ -1,5 +1,4 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
 
 namespace ElectricalProfiling.Views
 {
@@ -8,6 +7,7 @@ namespace ElectricalProfiling.Views
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new ProjectPage());
         }
     }
 }

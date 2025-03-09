@@ -1,0 +1,52 @@
+﻿<Page x:Class="ElectricalProfiling.Views.ProjectPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ElectricalProfiling.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="ProjectPage" Background="White">
+
+    <Grid Height="600" Width="1080">
+        <TextBlock Text="Список проектов" FontSize="40" Margin="267,38,494,508" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
+
+        <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
+        Content="Выйти" HorizontalAlignment="Left" Width="206" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
+
+        <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
+        <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
+
+        <Button Style="{StaticResource ButtonStyle}"
+            Content="Проекты" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,166,0,384" Panel.ZIndex="1"/>
+        <Border Background="White" Margin="0,166,842,384" Panel.ZIndex="0"></Border>
+
+        <Button Style="{StaticResource ButtonStyle}"
+            Content="Площади" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
+        <Button Style="{StaticResource ButtonStyle}"
+            Content="Профили" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,289,0,261" Panel.ZIndex="1"/>
+        <Button Style="{StaticResource ButtonStyle}"
+            Content="Станции" HorizontalAlignment="Left" Width="120" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="32" Margin="50,358,0,192" Panel.ZIndex="1"/>
+        <Button Style="{StaticResource ButtonStyle}"
+            Content="Измерения" HorizontalAlignment="Left" Width="141" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,424,0,126" Panel.ZIndex="1"/>
+
+        <!--Таблица-->
+        <DataGrid x:Name="Catalog_DataGrid"  AutoGenerateColumns="False" Margin="267,113,24,19" Background="White" BorderBrush="#FFDEE4EC">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" IsReadOnly="True" CanUserResize="False" Width="auto" Binding="{Binding CatalogID}"/>
+                <DataGridTextColumn Header="Название" Binding="{Binding TypeReptile}" IsReadOnly="True" Width="280"/>
+                <DataGridTextColumn Header="Заказчик" Binding="{Binding SexReptile}" IsReadOnly="True" Width="244"/>
+                <DataGridTextColumn Header="Дата начала" Binding="{Binding MorphReptile}" IsReadOnly="True" Width="100"/>
+                <DataGridTextColumn Header="Дата окончания" Binding="{Binding CostReptile}" IsReadOnly="True" Width="130"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!--Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/-->
+    </Grid>
+</Page>
