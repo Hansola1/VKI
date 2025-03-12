@@ -7,14 +7,23 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\AreasPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Old\LogInPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\ProjectPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\UseControll\CellTable.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\AreasPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Old\LogInPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -22,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ProjectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\CellTable.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

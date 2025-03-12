@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\database\\locationcontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:database\\locationcontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\location.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\location.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\character.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\character.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\location.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\location.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\database\\charactercontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:database\\charactercontrolldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\views\\pages\\character.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:views\\pages\\character.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\applicationwpf\\data\\model\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4E5D703-8AE9-4C2D-9531-EA4EB141E157}|data.csproj|solutionrelative:model\\characters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,39 +43,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LocationControllDB.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\LocationControllDB.cs",
-              "RelativeDocumentMoniker": "DataBase\\LocationControllDB.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\LocationControllDB.cs",
-              "RelativeToolTip": "DataBase\\LocationControllDB.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAkwFYAAABCAAAA",
+              "Title": "Profile.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\Profile.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Profile.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\Profile.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:17:37.553Z",
+              "WhenOpened": "2025-03-12T02:48:14.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Location.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Location.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\Location.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Location.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\Location.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwBgAAAAxAAAA",
+              "Title": "Character.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Character.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\Character.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Character.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\Character.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:12:47.86Z",
+              "WhenOpened": "2025-03-12T02:25:09.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Location.xaml",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Location.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\Location.xaml",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Location.xaml",
-              "RelativeToolTip": "Views\\Pages\\Location.xaml",
+              "Title": "CharacterControllDB.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\CharacterControllDB.cs",
+              "RelativeDocumentMoniker": "DataBase\\CharacterControllDB.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\DataBase\\CharacterControllDB.cs",
+              "RelativeToolTip": "DataBase\\CharacterControllDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:28:40.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.xaml",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Character.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\Character.xaml",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Views\\Pages\\Character.xaml",
+              "RelativeToolTip": "Views\\Pages\\Character.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T09:08:36.624Z",
+              "WhenOpened": "2025-03-12T02:12:05.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Characters.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Model\\Characters.cs",
+              "RelativeDocumentMoniker": "Model\\Characters.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\ApplicationWPF\\data\\Model\\Characters.cs",
+              "RelativeToolTip": "Model\\Characters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T02:37:27.941Z",
               "EditorCaption": ""
             }
           ]

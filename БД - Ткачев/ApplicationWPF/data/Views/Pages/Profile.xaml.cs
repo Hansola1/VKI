@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using data.DataBase;
 using data.Model;
 using data.Views.Pages;
@@ -26,7 +23,7 @@ namespace data.Views.Pages
 
             if (userID != null)
             {
-                List<Character> characters = characterDB.GetUserCharacters(userID); //для текущего пользователя
+                List<Characters> characters = characterDB.GetUserCharacters(userID); //для текущего пользователя
                 Characters_ListView.ItemsSource = characters;
             }
             else
@@ -83,6 +80,10 @@ namespace data.Views.Pages
             }
         }
 
+        private void Character_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Character());
+        }
         private void location_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new Location());

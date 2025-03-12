@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 
 namespace ElectricalProfiling.Views
 {
@@ -13,6 +10,15 @@ namespace ElectricalProfiling.Views
             InitializeComponent();
         }
 
+        private void Open_Area_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new AreasPage());
+        }
+
+        private void Add_Project_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
         private void Out_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

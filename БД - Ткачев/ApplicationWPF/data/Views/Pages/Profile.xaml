@@ -24,11 +24,11 @@
          HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="421" Margin="649,10,0,0"/>
 
         <Button Click="location_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
-        Content="Информация о локации"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="289" Height="44" BorderBrush="White"
-        Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="752,275,0,0"/>
+        Content="Информация о локации"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="289" Height="37" BorderBrush="White"
+        Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="761,223,0,0"/>
 
-        <TextBlock Text="Информация о локации" FontSize="25" FontWeight="SemiBold"
-         HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="289" Margin="752,230,0,0" Height="32"/>
+        <TextBlock Text="Информация о локации" FontSize="20" FontWeight="SemiBold"
+         HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="289" Margin="752,199,0,0" Height="28"/>
 
         <TextBlock FontSize="35" FontWeight="SemiBold"
          HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="421" 
@@ -78,6 +78,13 @@
         <Button Click="UpdateTable_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
             Content="Обновить данные"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="270" Height="41" BorderBrush="White"
             Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="771,371,0,0"/>
+
+        <Button Click="Character_Click" Background="#FFF2CFFF" Style="{StaticResource topButton}"
+            Content="Информация о персонажах"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="280" Height="35" BorderBrush="White"
+            Foreground="Black" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="18" Margin="761,310,0,0"/>
+
+        <TextBlock Text="Информация о персонажах" FontSize="20" FontWeight="SemiBold"
+            HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="288" Margin="762,282,0,0" Height="28"/>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>

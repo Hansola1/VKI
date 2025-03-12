@@ -2,6 +2,7 @@
 using Microsoft.Data.SqlClient; //using System.Data.SqlClient; устарел, никогда не использовать!!!
 using System.Windows;
 using data.Model;
+using data.Views.Pages;
 
 namespace data.DataBase
 {
@@ -39,10 +40,10 @@ namespace data.DataBase
             }
         }
 
-        public List<Character> GetUserCharacters(int? userID)
+        public List<Characters> GetUserCharacters(int? userID)
         {
             Connection();
-            List<Character> characters = new List<Character>();
+            List<Characters> characters = new List<Characters>();
             string query = "SELECT species, name, level, class FROM Characters WHERE userID = @userID";
 
             using (SqlCommand command = new(query, sqlConnection))
@@ -53,12 +54,62 @@ namespace data.DataBase
                 {
                     while (reader.Read())
                     {
-                        characters.Add(new Character
+                        characters.Add(new Characters
                         {
                             Species = reader["species"].ToString(),
                             Name = reader["name"].ToString(),
                             Level = Convert.ToInt32(reader["level"]),
                             Class = reader["class"].ToString()
+                        });
+                    }
+                }
+            }
+            return characters;
+        }
+
+
+        public List<Characters> GetClassComboBox()
+        {
+            Connection();
+            List<Characters> characters = new List<Characters>();
+            string query = "SELECT class FROM Characters";
+
+            using (SqlCommand command = new(query, sqlConnection))
+            {
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        characters.Add(new Characters
+                        {
+                            Class = reader["class"].ToString(),
+                        });
+                    }
+                }
+            }
+            return characters;
+        }
+
+        public List<Characters> GetInfoCharacter(string? ClassCharacter)
+        {
+            Connection();
+            List<Characters> characters = new List<Characters>();
+            string query = "SELECT species, name, level description FROM Characters WHERE class = @Class";
+
+            using (SqlCommand command = new(query, sqlConnection))
+            {
+                command.Parameters.AddWithValue("@Class", ClassCharacter);
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        characters.Add(new Characters
+                        {
+                            Species = reader["species"].ToString(),
+                            Name = reader["name"].ToString(),
+                            Level = Convert.ToInt32(reader["level"]),
+                            //Class = reader["class"].ToString(),
                         });
                     }
                 }
