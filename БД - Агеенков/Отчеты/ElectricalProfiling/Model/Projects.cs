@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ElectricalProfiling.Model
+﻿namespace ElectricalProfiling.Model
 {
-    class Project
+    class Projects
     {
-
+       public string Name { get; set; }
+       //public string customer {  get; set; }
+       public string start_date {  get; set; }
+       public string end_date { get; set; }
     }
 }

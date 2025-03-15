@@ -77,7 +77,7 @@ namespace ElectricalProfiling.Views.Old {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ElectricalProfiling;V1.0.0.0;component/views/old/loginpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ElectricalProfiling;component/views/old/loginpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Old\LogInPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

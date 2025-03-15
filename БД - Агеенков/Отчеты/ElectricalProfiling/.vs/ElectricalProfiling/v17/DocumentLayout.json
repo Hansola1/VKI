@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\projectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\views\\projectpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\projectpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\views\\projectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\projectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\views\\usecontroll\\addproject.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\usecontroll\\addproject.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\database\\dbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:database\\dbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\database\\projectcontrollerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:database\\projectcontrollerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,16 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProjectPage.xaml.cs",
-              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ProjectPage.xaml.cs",
-              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml.cs",
-              "RelativeToolTip": "Views\\ProjectPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "ProjectControllerDB.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\DataBase\\ProjectControllerDB.cs",
+              "RelativeDocumentMoniker": "DataBase\\ProjectControllerDB.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\DataBase\\ProjectControllerDB.cs",
+              "RelativeToolTip": "DataBase\\ProjectControllerDB.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwDMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T07:20:12.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T07:03:39.689Z"
             },
             {
               "$type": "Document",
@@ -50,8 +61,45 @@
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml",
               "RelativeToolTip": "Views\\ProjectPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-09T13:10:00.885Z",
+              "WhenOpened": "2025-03-12T07:00:50.954Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectPage.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProjectPage.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml.cs",
+              "RelativeToolTip": "Views\\ProjectPage.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:59:47.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBController.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\DataBase\\DBController.cs",
+              "RelativeDocumentMoniker": "DataBase\\DBController.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\DataBase\\DBController.cs",
+              "RelativeToolTip": "DataBase\\DBController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:55:17.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProject.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\UseControll\\AddProject.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UseControll\\AddProject.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\UseControll\\AddProject.xaml.cs",
+              "RelativeToolTip": "Views\\UseControll\\AddProject.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T06:48:53.823Z"
             }
           ]
         }

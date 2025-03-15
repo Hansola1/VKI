@@ -8,7 +8,7 @@
       d:DesignHeight="600" d:DesignWidth="1080"
       Title="ProjectPage" Background="White">
 
-    <Grid Height="600" Width="1080">
+    <Grid x:Name="MainGrid" Height="600" Width="1080">
         <TextBlock Text="Список проектов" FontSize="40" Margin="267,38,494,508" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
 
         <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
@@ -42,15 +42,19 @@
 
         <!--Таблица-->
         <Border Background="White" Margin="267,113,24,19" CornerRadius="10">
-            <DataGrid x:Name="Catalog_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7">
+            <DataGrid x:Name="Projects_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="№" IsReadOnly="True" CanUserResize="False" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}"/>
-                    <DataGridTextColumn Header="Название" IsReadOnly="True" Width="300" HeaderStyle="{StaticResource ColumnHeaderStyle}" />
-                    <DataGridTextColumn Header="Заказчик" IsReadOnly="True" Width="170" HeaderStyle="{StaticResource ColumnHeaderStyle}"/>
+                    <DataGridTextColumn Header="№" IsReadOnly="True" CanUserResize="False" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}" />
+                    <DataGridTextColumn Header="Название" IsReadOnly="True" Width="475" HeaderStyle="{StaticResource ColumnHeaderStyle}" />
+                    <!--DataGridTextColumn Header="Заказчик" IsReadOnly="True" Width="170" HeaderStyle="{StaticResource ColumnHeaderStyle}"/-->
                     <DataGridTextColumn Header="Дата начала" IsReadOnly="True" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}"/>
                     <DataGridTextColumn Header="Дата окончания" IsReadOnly="True" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}"/>
                 </DataGrid.Columns>
             </DataGrid>
+        </Border>
+
+        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+            <!-- AddProjectControl будет добавляться сюда -->
         </Border>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>

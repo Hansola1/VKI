@@ -1,12 +1,13 @@
 let morphData = {}; 
-let URL_json = "../morphData/MorphData.json";
 
 async function loadMorphData() 
 {
     try
     {
-        const response = require('./morphData/MorphData.json')
-        console.log(response); 
+        const response = await fetch('./morphData/MorphData.json');
+
+        
+        let response = require('./morphData/MorphData.json')
         morphData = await response.json();
     }
     catch (error) 
@@ -31,9 +32,10 @@ async function showMorphs(animal)
     {
         Object.keys(morphData[animal]).forEach((morph) => 
         {
-            const li = document.createElement("li");
+            let li = document.createElement("li");
             li.textContent = morph;
-            li.onclick = () => showMorphInfo(animal, morph); 
+            li.onclick = () => showMorphInfo(animal, morph); //лямбда функциия для обработчика OnClick HTML.
+
             morphList.appendChild(li);
         });
     } 
@@ -54,6 +56,6 @@ async function showMorphInfo(animal, morph)
     <p>${data.description}</p>
     `;
 }
+//loadMorphData();
 
-loadMorphData();
-//window.onload = () => { loadMorphData(); };
+

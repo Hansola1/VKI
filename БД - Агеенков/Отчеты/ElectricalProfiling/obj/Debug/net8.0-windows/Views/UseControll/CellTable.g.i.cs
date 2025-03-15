@@ -53,7 +53,7 @@ namespace ElectricalProfiling.Views.UseControll {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ElectricalProfiling;V1.0.0.0;component/views/usecontroll/celltable.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ElectricalProfiling;component/views/usecontroll/celltable.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\UseControll\CellTable.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

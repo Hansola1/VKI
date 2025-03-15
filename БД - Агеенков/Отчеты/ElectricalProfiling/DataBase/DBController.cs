@@ -6,7 +6,7 @@ namespace data.DataBase
 {
     public class DBControll
     {
-        protected static string connectionString = "Server=DANICHLAPTOP;Database=EduTech Solutions;Trusted_Connection=True;TrustServerCertificate=True;";
+        protected static string connectionString = "Server=DANICHLAPTOP;Database=ElectricalProfiling;Trusted_Connection=True;TrustServerCertificate=True;";
         protected SqlConnection sqlConnection = new(connectionString);
 
         protected void Connection()

@@ -16,7 +16,7 @@
     <Compile Update="Views\ProjectPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\UseControll\CellTable.xaml.cs">
+    <Compile Update="Views\UseControll\AddProject.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -33,7 +33,7 @@
     <Page Update="Views\ProjectPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\UseControll\CellTable.xaml">
+    <Page Update="Views\UseControll\AddProject.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
