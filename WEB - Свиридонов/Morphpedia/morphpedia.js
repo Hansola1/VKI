@@ -1,19 +1,19 @@
+//ЗАПУСТИ LIVE SERVER 
+
 let morphData = {}; 
 
 async function loadMorphData() 
 {
     try
     {
-        const response = await fetch('./morphData/MorphData.json');
-
-        
-        let response = require('./morphData/MorphData.json')
+        let response = await fetch('./morphData/MorphData.json');  
         morphData = await response.json();
+        console.log(morphData)
     }
     catch (error) 
     {
         console.log('Ошибка загрузки данных:', error);
-    }
+    }                                                               
 }
 
 async function showMorphs(animal) 
