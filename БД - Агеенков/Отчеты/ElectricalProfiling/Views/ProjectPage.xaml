@@ -9,15 +9,17 @@
       Title="ProjectPage" Background="White">
 
     <Grid x:Name="MainGrid" Height="600" Width="1080">
-        <TextBlock Text="Список проектов" FontSize="40" Margin="267,38,494,508" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
+        <TextBlock Text="Список проектов" FontSize="40" Margin="267,47,494,513" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
 
         <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
         Content="Выйти" HorizontalAlignment="Left" Width="206" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
 
-        <Button Click="Add_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
-        Content="Добавить" HorizontalAlignment="Left" Width="194" Height="NaN" BorderBrush="White"
-        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="862,50,0,508" Panel.ZIndex="1" FontWeight="Bold"/>
+        <Button Click="Add_Project_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="602,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <TextBox x:Name="Find_TextBox" KeyUp="Find_TextBox_KeyUp" Text="Поиск проекта"  FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFF0F6FA"  FontSize="20" Margin="267,107,269,0" VerticalAlignment="Top" Foreground="#FF15325B" Height="41"/>
 
         <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
         <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
@@ -41,14 +43,23 @@
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,424,0,126" Panel.ZIndex="1"/>
 
         <!--Таблица-->
-        <Border Background="White" Margin="267,113,24,19" CornerRadius="10">
-            <DataGrid x:Name="Projects_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7">
+        <Border Background="White" Margin="267,166,24,19" CornerRadius="10">
+            <DataGrid x:Name="Projects_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
+                      ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}">
+
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="№" IsReadOnly="True" CanUserResize="False" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}" />
-                    <DataGridTextColumn Header="Название" IsReadOnly="True" Width="475" HeaderStyle="{StaticResource ColumnHeaderStyle}" />
-                    <!--DataGridTextColumn Header="Заказчик" IsReadOnly="True" Width="170" HeaderStyle="{StaticResource ColumnHeaderStyle}"/-->
-                    <DataGridTextColumn Header="Дата начала" IsReadOnly="True" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}"/>
-                    <DataGridTextColumn Header="Дата окончания" IsReadOnly="True" Width="auto" HeaderStyle="{StaticResource ColumnHeaderStyle}"/>
+                    <DataGridCheckBoxColumn x:Name="ProductCheckBox" Header="C" CanUserResize="False" Width="auto">
+                        <DataGridCheckBoxColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <CheckBox/>
+                            </DataTemplate>
+                        </DataGridCheckBoxColumn.HeaderTemplate>
+                    </DataGridCheckBoxColumn>
+
+                    <DataGridTextColumn Header="Название" IsReadOnly="True" Width="230" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Заказчик" IsReadOnly="True" Width="200" Binding="{Binding Customer_id}"/>
+                    <DataGridTextColumn Header="Дата начала" IsReadOnly="True" Width="150" Binding="{Binding Start_date}"/>
+                    <DataGridTextColumn Header="Дата окончания" IsReadOnly="True" Width="160" Binding="{Binding End_date}"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Border>
@@ -56,6 +67,13 @@
         <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
             <!-- AddProjectControl будет добавляться сюда -->
         </Border>
+
+        <Button Click="Delete_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+            Content="Изменить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="838,107,0,452" Panel.ZIndex="1" FontWeight="Bold"/>
+        <Button Click="Edit_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+            Content="Удалить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="838,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>

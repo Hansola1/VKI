@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="CЭП" Height="600" Width="1080"
         MaxHeight="600" MaxWidth="1080">
-    
-    <Grid>
+
+    <Grid Height="600" Width="1080">
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

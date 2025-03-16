@@ -13,17 +13,13 @@ namespace ElectricalProfiling.Views
         public ProjectPage()
         {
             InitializeComponent();
-           // LoadProject();
-        }
-        private void Open_Area_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new AreasPage());
+            LoadProject();
         }
 
         private void LoadProject()
         {
-            //List<Projects> listProject = projectDB.GetProject();
-           // Projects_DataGrid.ItemsSource = listProject;
+            List<Projects> listProject = projectDB.GetProject();
+            Projects_DataGrid.ItemsSource = listProject;
         }
 
         private void Add_Project_Click(object sender, RoutedEventArgs e)
@@ -36,9 +32,33 @@ namespace ElectricalProfiling.Views
             addProjectControl.VerticalAlignment = VerticalAlignment.Center;
         }
 
+        private void Find_TextBox_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            string findTextBox = Find_TextBox.Text;
+
+            if (findTextBox == "")
+            {
+                LoadProject();
+            }
+        }
+
+        private void Edit_Project_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void Delete_Project_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Out_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
+        private void Open_Area_Click(object sender, RoutedEventArgs e)
+        {
+            //MainFrame.Navigate(new AreasPage());
+        }
+
     }
 }

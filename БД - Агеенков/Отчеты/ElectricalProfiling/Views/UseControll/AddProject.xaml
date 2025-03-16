@@ -7,24 +7,23 @@
              mc:Ignorable="d" 
                 d:DesignHeight="400" d:DesignWidth="600">
 
-    <Grid Background="White">
-        <Border Background="#FFEDF3F7" CornerRadius="10" Margin="50">
-            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="400">
-                <TextBlock Text="Добавить проект" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+    <Grid Background="White" Height="400" Width="600">
+        <TextBlock FontFamily="Times New Roman" Text="Добавить проект" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="189,30,0,333" Width="255"/>
 
-                <TextBlock Text="Название проекта:" FontSize="16" Margin="10"/>
-                <TextBox x:Name="ProjectName_TextBox" FontSize="16" Margin="10"/>
+        <TextBlock FontFamily="Times New Roman" Text="Название проекта:" FontSize="16" Margin="153,76,302,298" RenderTransformOrigin="0.482,0.228"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="16" Margin="151,102,137,272"/>
 
-                <TextBlock Text="Дата начала:" FontSize="16" Margin="10"/>
-                <DatePicker x:Name="StartDate_Picker" FontSize="16" Margin="10"/>
+        <TextBlock FontFamily="Times New Roman" Text="Дата начала:" FontSize="16" Margin="151,196,344,180"/>
+        <DatePicker FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="StartDate_Picker" FontSize="16" Margin="151,227,137,145"/>
 
-                <TextBlock Text="Дата окончания:" FontSize="16" Margin="10"/>
-                <DatePicker x:Name="EndDate_Picker" FontSize="16" Margin="10"/>
+        <TextBlock FontFamily="Times New Roman" Text="Дата окончания:" FontSize="16" Margin="153,260,293,113"/>
+        <DatePicker FontFamily="Times New Roman" x:Name="EndDate_Picker" FontSize="16" Margin="151,287,137,83"/>
 
-                <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="10" HorizontalAlignment="Center" Width="100" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
-                <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="10" HorizontalAlignment="Center" Width="100" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
-            </StackPanel>
-        </Border>
+        <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="153,335,0,35" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="322,335,0,35" HorizontalAlignment="Left" Width="141" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="CustomerID_TextBox" FontSize="16" Margin="151,165,137,209"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="151,134,215,240" RenderTransformOrigin="0.482,0.228" Text="Идентификатор заказчика:"/>
 
     </Grid>
 </UserControl>

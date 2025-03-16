@@ -70,8 +70,7 @@
         </Style>
 
         <Style TargetType="DataGridCell" x:Key="DataGridCellStyle">
-            <Setter Property="Padding" Value="5"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
         </Style>
+        
     </Application.Resources>
 </Application>

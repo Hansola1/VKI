@@ -3,21 +3,23 @@ using Microsoft.Data.SqlClient;
 using System.Windows;
 using data.DataBase;
 using ElectricalProfiling.Model;
+using Azure.Core;
 
 namespace ElectricalProfiling.DataBase
 {
     class ProjectControllerDB: DBControll
     {
-        public void AddProject(string name, string start_date, string end_date)
+        public void AddProject(string name, string customer_id, string start_date, string end_date)
         {
             Connection();
-            string query = "INSERT INTO Project (name, start_date, end_date) VALUES (@name, @start_date, @end_date)";
+            string query = "INSERT INTO Project (name, customer_id, start_date, end_date) VALUES (@name, @customer_id, @start_date, @end_date)";
 
             try
             {
                 using (SqlCommand command = new(query, sqlConnection))
                 {
                     command.Parameters.AddWithValue("@name", name);
+                    command.Parameters.AddWithValue("@customer_id", Convert.ToInt32(customer_id));
                     command.Parameters.AddWithValue("@start_date", start_date);
                     command.Parameters.AddWithValue("@end_date", end_date);
                     command.ExecuteNonQuery();
@@ -29,26 +31,29 @@ namespace ElectricalProfiling.DataBase
             }
         }
 
-      /*  public List<Projects> GetProject()
+        public List<Projects> GetProject()
         {
             Connection();
-            List<Projects> ListProjects = new List<Courses>();
-            string query = "SELECT id, titleCourse, teacherID, time, maxStudents, class FROM Courses";
+            List<Projects> ListProjects = new List<Projects>();
+            string query = "SELECT name, customer_id, start_date, end_date FROM Project";
 
-            try
+            using (SqlCommand command = new(query, sqlConnection))
             {
-                using (SqlCommand command = new(query, sqlConnection))
+                using (SqlDataReader reader = command.ExecuteReader())
                 {
-                    command.Parameters.AddWithValue("@name", name);
-                    command.Parameters.AddWithValue("@start_date", start_date);
-                    command.Parameters.AddWithValue("@end_date", end_date);
-                    command.ExecuteNonQuery();
+                    while (reader.Read())
+                    {
+                        ListProjects.Add(new Projects
+                        {
+                            Name = reader["name"].ToString(),
+                            Customer_id = reader["customer_id"].ToString(),
+                            Start_date = reader["start_date"].ToString(),
+                            End_date = reader["end_date"].ToString()
+                        });
+                    }
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Проект не добавлен: {ex.Message}");
-            }
-        }*/
+            return ListProjects;
+        }
     }
 }

@@ -56,7 +56,6 @@ C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\bin\Debug
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\ElectricalProfiling.csproj.AssemblyReference.cache
-C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\AreasPage.g.cs
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\Old\LogInPage.g.cs
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\ProjectPage.g.cs
@@ -65,7 +64,6 @@ C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\ElectricalProfiling_MarkupCompile.cache
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\ElectricalProfiling_MarkupCompile.lref
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\App.baml
-C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\AreasPage.baml
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\MainWindow.baml
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\Old\LogInPage.baml
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\ProjectPage.baml
