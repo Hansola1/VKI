@@ -1,0 +1,29 @@
+.buttons {
+    background: gray; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30%;
+    font-family: 'Montblanc', sans-serif;
+    width: 120%;
+}
+
+.header
+{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+
+.textBox
+{
+    text-align: center;
+}
+
+.calculator{
+    text-align: center;
+    size: 30px;
+}
