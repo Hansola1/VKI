@@ -5,25 +5,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ElectricalProfiling.Views.UseControll"
              mc:Ignorable="d" 
-                d:DesignHeight="400" d:DesignWidth="600">
+            d:DesignHeight="400" d:DesignWidth="600">
 
     <Grid Background="White" Height="400" Width="600">
-        <TextBlock FontFamily="Times New Roman" Text="Добавить проект" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="189,30,0,333" Width="255"/>
+        <TextBlock FontFamily="Times New Roman" Text="Добавить проект" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="186,10,0,353" Width="254"/>
 
-        <TextBlock FontFamily="Times New Roman" Text="Название проекта:" FontSize="16" Margin="153,76,302,298" RenderTransformOrigin="0.482,0.228"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="16" Margin="151,102,137,272"/>
+        <TextBlock FontFamily="Times New Roman" Text="Название проекта:" FontSize="20" Margin="119,71,305,303" RenderTransformOrigin="0.482,0.228"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="12" Margin="119,102,92,0" VerticalAlignment="Top" Height="36"/>
 
-        <TextBlock FontFamily="Times New Roman" Text="Дата начала:" FontSize="16" Margin="151,196,344,180"/>
-        <DatePicker FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="StartDate_Picker" FontSize="16" Margin="151,227,137,145"/>
+        <TextBlock FontFamily="Times New Roman" Text="Дата начала:" FontSize="16" Margin="119,218,376,167"/>
+        <DatePicker  FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="StartDate_Picker" FontSize="16" Margin="119,236,92,0" Height="32" VerticalAlignment="Top"/>
 
-        <TextBlock FontFamily="Times New Roman" Text="Дата окончания:" FontSize="16" Margin="153,260,293,113"/>
-        <DatePicker FontFamily="Times New Roman" x:Name="EndDate_Picker" FontSize="16" Margin="151,287,137,83"/>
+        <TextBlock FontFamily="Times New Roman" Text="Дата окончания:" FontSize="16" Margin="119,280,327,100"/>
+        <DatePicker FontFamily="Times New Roman" x:Name="EndDate_Picker" FontSize="16" Margin="119,300,92,70"/>
 
-        <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="153,335,0,35" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
-        <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="322,335,0,35" HorizontalAlignment="Left" Width="141" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="149,345,0,25" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="318,345,0,25" HorizontalAlignment="Left" Width="141" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
 
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="CustomerID_TextBox" FontSize="16" Margin="151,165,137,209"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="151,134,215,240" RenderTransformOrigin="0.482,0.228" Text="Идентификатор заказчика:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="CustomerID_TextBox" FontSize="12" Margin="119,172,92,0" VerticalAlignment="Top"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="119,149,247,225" RenderTransformOrigin="0.482,0.228" Text="Идентификатор заказчика:"/>
 
     </Grid>
 </UserControl>

@@ -55,5 +55,61 @@ namespace ElectricalProfiling.DataBase
             }
             return ListProjects;
         }
+
+        public void EditProject(string name, string start_date, string end_date)
+        {
+            Connection();
+
+            int? ID = GetProjectID(name);
+            if (ID != null)
+            {
+                string query = "UPDATE Project SET \"name\" = @name, \"start_date\" = @start_date, \"end_date\" = @end_date WHERE \"ID\" = @ID";
+
+                using (SqlCommand command = new(query, sqlConnection))
+                {
+                    command.Parameters.AddWithValue("@ID", ID);
+                    command.Parameters.AddWithValue("@name", name);
+                    command.Parameters.AddWithValue("@start_date", start_date);
+                    command.Parameters.AddWithValue("@end_date", end_date);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public int? GetProjectID(string name)
+        {
+            Connection();
+            string query = "SELECT \"ID\" FROM Project WHERE \"name\" = @name";
+
+            using (SqlCommand command = new(query, sqlConnection))
+            {
+                command.Parameters.AddWithValue("@name", name);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        return reader.GetInt32(0);
+                    }
+                }
+            }
+            return null;
+        }
+
+        public void DeleteProject(string name)
+        {
+            Connection();
+            int? ID = GetProjectID(name);
+
+            if (ID != null)
+            {
+                string query = "DELETE FROM Project WHERE \"ID\" = @ID";
+
+                using (SqlCommand command = new(query, sqlConnection))
+                {
+                    command.Parameters.AddWithValue("@ID", ID);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

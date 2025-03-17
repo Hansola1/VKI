@@ -58,6 +58,44 @@
             </Setter>
         </Style>
 
+        <Style x:Key="DatePickerStyle" TargetType="DatePicker">
+            <Setter Property="Background" Value="#ffffff"/>
+            <Setter Property="Foreground" Value="#B0B9C6"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="15 10"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0 10"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DatePicker}">
+                        <Border x:Name="border" CornerRadius="15" Background="{TemplateBinding Background}" SnapsToDevicePixels="True" BorderThickness="1" BorderBrush="#E0E6ED">
+                            <Grid>
+                                <DatePickerTextBox x:Name="PART_TextBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="5" />
+                                <Button x:Name="PART_Button" Focusable="False" IsTabStop="False" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0">
+                                    <Path Data="M0,0 L1,1 L2,0 Z" Fill="Gray" Width="10" Height="10"/>
+                                </Button>
+                            </Grid>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="#d9d9d9"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="gray"/>
+                            </Trigger>
+                            <Trigger Property="IsDropDownOpen" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="gray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
         <!-- Стиль для DataGrid -->
         <Style TargetType="DataGridColumnHeader" x:Key="ColumnHeaderStyle">
             <Setter Property="Background" Value="White"/>

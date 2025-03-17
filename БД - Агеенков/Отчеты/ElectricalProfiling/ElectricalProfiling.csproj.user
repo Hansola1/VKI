@@ -16,6 +16,9 @@
     <Compile Update="Views\UseControll\AddProject.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\UseControll\EditProject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\Old\LogInPage.xaml">
@@ -28,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UseControll\AddProject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\EditProject.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

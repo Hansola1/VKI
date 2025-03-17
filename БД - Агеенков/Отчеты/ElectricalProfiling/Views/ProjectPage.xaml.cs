@@ -16,7 +16,7 @@ namespace ElectricalProfiling.Views
             LoadProject();
         }
 
-        private void LoadProject()
+        public void LoadProject()
         {
             List<Projects> listProject = projectDB.GetProject();
             Projects_DataGrid.ItemsSource = listProject;
@@ -36,19 +36,73 @@ namespace ElectricalProfiling.Views
         {
             string findTextBox = Find_TextBox.Text;
 
-            if (findTextBox == "")
+            if (string.IsNullOrEmpty(findTextBox))
             {
                 LoadProject();
             }
+            else
+            {
+                FilterProjects(findTextBox);
+            }
+        }
+        private void FilterProjects(string searchText)
+        {
+            // Фильтрация проектов по введённому тексту
+            List<Projects> filteredProjects = projectDB.GetProject()
+                .Where(project => project.Name.Contains(searchText, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+
+            Projects_DataGrid.ItemsSource = filteredProjects;
         }
 
         private void Edit_Project_Click(object sender, RoutedEventArgs e)
         {
+            var selectedProject = Projects_DataGrid.SelectedItem as Projects; 
+            if (selectedProject != null)
+            {
+                var editProjectControl = new EditProject();
+
+                DateTime? startDate = null;
+                if (DateTime.TryParse(selectedProject.Start_date, out DateTime parsedStartDate))
+                {
+                    startDate = parsedStartDate;
+                }
+
+                DateTime? endDate = null;
+                if (DateTime.TryParse(selectedProject.End_date, out DateTime parsedEndDate))
+                {
+                    endDate = parsedEndDate;
+                }
+                editProjectControl.ProjectName_TextBox.Text = selectedProject.Name;
+                editProjectControl.StartDate_Picker.SelectedDate = startDate;
+                editProjectControl.EndDate_Picker.SelectedDate = endDate;
+                MainGrid.Children.Add(editProjectControl);
+
+                // Позиционируем UserControl по центру
+                editProjectControl.HorizontalAlignment = HorizontalAlignment.Center;
+                editProjectControl.VerticalAlignment = VerticalAlignment.Center;
+            }
+            else
+            {
+                MessageBox.Show("Выберите проект для редактирования.");
+            }
         }
 
         private void Delete_Project_Click(object sender, RoutedEventArgs e)
         {
+            var selectedProject = Projects_DataGrid.SelectedItem as Projects;
+            if (selectedProject != null)
+            {
+                string name = selectedProject.Name;
+                projectDB.DeleteProject(name);
+                MessageBox.Show("Проект удален!");
 
+                LoadProject();
+            }
+            else
+            {
+                MessageBox.Show("Выберите проект для удаления");
+            }
         }
 
         private void Out_Click(object sender, RoutedEventArgs e)

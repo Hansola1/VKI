@@ -68,10 +68,13 @@
             <!-- AddProjectControl будет добавляться сюда -->
         </Border>
 
-        <Button Click="Delete_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Button Click="Edit_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Изменить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="838,107,0,452" Panel.ZIndex="1" FontWeight="Bold"/>
-        <Button Click="Edit_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+        <Button Click="Delete_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Удалить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="838,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
 
