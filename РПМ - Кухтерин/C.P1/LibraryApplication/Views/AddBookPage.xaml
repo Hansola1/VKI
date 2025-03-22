@@ -1,0 +1,33 @@
+﻿<Page x:Class="LibraryApplication.Views.AddBookPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryApplication.Views"
+        mc:Ignorable="d"
+        d:DesignHeight="400" d:DesignWidth="600"
+         Title="AddBookPage">
+
+    <Grid Background="White" Height="400" Width="600">
+        <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="131,360,0,10" HorizontalAlignment="Left" Width="158" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="300,360,0,10" HorizontalAlignment="Left" Width="141" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="BookArticleNumber_TextBox" FontSize="12" Margin="177,30,75,0" VerticalAlignment="Top" Height="21"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,8,245,370" RenderTransformOrigin="0.482,0.228" Text="Артикул книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="BookTitle_TextBox" FontSize="12" Margin="177,78,75,0" VerticalAlignment="Top" Height="21"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,56,245,322" RenderTransformOrigin="0.482,0.228" Text="Название книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="BookGenre_TextBox" FontSize="12" Margin="177,126,75,0" VerticalAlignment="Top" Height="20"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,103,245,274" RenderTransformOrigin="0.482,0.228" Text="Жанр книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="BookDescription_TextBox" FontSize="12" Margin="177,173,75,0" VerticalAlignment="Top" Height="21"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,151,245,227" RenderTransformOrigin="0.482,0.228" Text="Описание книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="ReturnDate_TextBox" FontSize="12" Margin="177,221,75,0" VerticalAlignment="Top" Height="21"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,198,245,179" RenderTransformOrigin="0.482,0.228" Text="Дата возврата книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="IssueDate_TextBox" FontSize="12" Margin="177,264,75,0" VerticalAlignment="Top" Height="21"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,242,245,136" RenderTransformOrigin="0.482,0.228" Text="Дата выдачи книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="BookStatus_TextBox" FontSize="12" Margin="177,311,75,0" VerticalAlignment="Top" Height="24"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="177,285,245,89" RenderTransformOrigin="0.482,0.228" Text="Статус книги:"/>
+        <TextBox FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="ReaderName_TextBox" FontSize="12" Margin="65,30,434,0" VerticalAlignment="Top" Height="20"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="15" Margin="65,10,469,373" RenderTransformOrigin="0.482,0.228" Text="Читатель:"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>

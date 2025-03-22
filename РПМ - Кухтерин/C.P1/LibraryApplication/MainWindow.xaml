@@ -1,0 +1,47 @@
+﻿<Window x:Class="LibraryApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryApplication"
+        mc:Ignorable="d"
+        Title="MainWindow"  Height="600" Width="1080">
+    <Grid x:Name="MainGrid"  Height="600" Width="1080">
+
+        <TextBox x:Name="Find_TextBox" KeyUp="Find_TextBox_KeyUp" Text="Поиск книги"  FontFamily="Times New Roman"  Background="#FFF0F6FA" 
+                 FontSize="20" Margin="10,18,583,0" VerticalAlignment="Top" Foreground="#FF15325B" Height="32"/>
+
+        <DataGrid x:Name="Books_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7" Margin="10,72,10,10">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn x:Name="BookCheckBox" Header="C" CanUserResize="False" Width="auto">
+                    <DataGridCheckBoxColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <CheckBox/>
+                        </DataTemplate>
+                    </DataGridCheckBoxColumn.HeaderTemplate>
+                </DataGridCheckBoxColumn>
+                <DataGridTextColumn Header="Артикуль" IsReadOnly="True" Width="60" Binding="{Binding ArticleNumber }"/>
+                <DataGridTextColumn Header="Название" IsReadOnly="True" Width="300" Binding="{Binding Title}"/>
+                <DataGridTextColumn Header="Жанр" IsReadOnly="True" Width="100" Binding="{Binding Genre }"/>
+                <DataGridTextColumn Header="Описание" IsReadOnly="True" Width="200" Binding="{Binding Description}"/>
+                <DataGridTextColumn Header="Дата выдачи" IsReadOnly="True" Width="100" Binding="{Binding IssueDate }"/>
+                <DataGridTextColumn Header="Дата возврата" IsReadOnly="True" Width="100" Binding="{Binding ReturnDate}"/>
+                <DataGridTextColumn Header="Статус наличия" IsReadOnly="True" Width="100" Binding="{Binding Status}"/>
+                <DataGridTextColumn Header="Читатель" IsReadOnly="True" Width="100" Binding="{Binding ReaderName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Click="Edit_Click" Background="#FFEDF3F7" 
+            Content="Изменить" HorizontalAlignment="Left" Width="165" Height="40" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="540,14,0,546"  FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+        </Button>
+        <Button Click="Add_Click" Background="#FFEDF3F7" 
+            Content="Добавить" HorizontalAlignment="Left" Width="165" Height="40" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="723,14,0,546"  FontWeight="Bold" RenderTransformOrigin="0.5,0.5"/>
+        <Button Click="Delete_Click" Background="#FFEDF3F7" 
+            Content="Удалить" HorizontalAlignment="Left" Width="165" Height="40" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="905,14,0,546"  FontWeight="Bold" RenderTransformOrigin="0.5,0.5"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
