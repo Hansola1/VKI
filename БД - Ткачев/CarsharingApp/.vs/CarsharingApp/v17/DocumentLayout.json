@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\carsharingapp\\views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|solutionrelative:views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\carsharingapp\\database\\db_tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|solutionrelative:database\\db_tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\carsharingapp\\database\\db_userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|solutionrelative:database\\db_userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0442\u043A\u0430\u0447\u0435\u0432\\carsharingapp\\views\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79470241-D564-4241-8357-A51DCC232899}|CarsharingApp.csproj|solutionrelative:views\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DB_UsersController.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\DataBase\\DB_UsersController.cs",
+              "RelativeDocumentMoniker": "DataBase\\DB_UsersController.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\DataBase\\DB_UsersController.cs",
+              "RelativeToolTip": "DataBase\\DB_UsersController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:44:08.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingPage.xaml",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\Views\\BookingPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BookingPage.xaml",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\Views\\BookingPage.xaml",
+              "RelativeToolTip": "Views\\BookingPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T14:16:59.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingPage.xaml.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\Views\\BookingPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\BookingPage.xaml.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\Views\\BookingPage.xaml.cs",
+              "RelativeToolTip": "Views\\BookingPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:16:38.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DB_TripsController.cs",
+              "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\DataBase\\DB_TripsController.cs",
+              "RelativeDocumentMoniker": "DataBase\\DB_TripsController.cs",
+              "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0422\u043A\u0430\u0447\u0435\u0432\\CarsharingApp\\DataBase\\DB_TripsController.cs",
+              "RelativeToolTip": "DataBase\\DB_TripsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:58:54.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
