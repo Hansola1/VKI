@@ -7,7 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\CharactersPage.xaml.cs">
+    <Compile Update="Views\AddPlayers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditPlayers.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +18,10 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\CharactersPage.xaml">
+    <Page Update="Views\AddPlayers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditPlayers.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

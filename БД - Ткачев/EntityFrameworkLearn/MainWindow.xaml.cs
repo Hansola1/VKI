@@ -9,7 +9,7 @@ namespace EntityFrameworkLearn
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new CharactersPage());
+            MainFrame.Navigate(new AddPlayers());
         }
     }
 }

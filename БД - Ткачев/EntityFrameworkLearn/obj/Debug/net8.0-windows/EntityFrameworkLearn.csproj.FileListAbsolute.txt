@@ -1,6 +1,5 @@
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn.csproj.AssemblyReference.cache
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\Views\CharactersPage.g.cs
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\App.g.cs
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn_MarkupCompile.cache
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn_MarkupCompile.lref
@@ -53,7 +52,6 @@ C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\bin\Debug\net8.0-windows\
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\MainWindow.baml
-C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\Views\CharactersPage.baml
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn.g.resources
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn.GeneratedMSBuildEditorConfig.editorconfig
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn.AssemblyInfoInputs.cache
@@ -66,3 +64,7 @@ C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn.pdb
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\EntityFrameworkLearn.genruntimeconfig.cache
 C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\ref\EntityFrameworkLearn.dll
+C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\Views\AddPlayers.g.cs
+C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\Views\EditPlayers.g.cs
+C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\Views\AddPlayers.baml
+C:\MyFile\VKI\БД - Ткачев\EntityFrameworkLearn\obj\Debug\net8.0-windows\Views\EditPlayers.baml
