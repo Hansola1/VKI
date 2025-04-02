@@ -11,7 +11,7 @@
         <TextBlock FontFamily="Times New Roman" Text="Изменить проект" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="185,32,0,331" Width="254"/>
 
         <TextBlock FontFamily="Times New Roman" Text="Название проекта:" FontSize="20" Margin="118,93,306,281" RenderTransformOrigin="0.482,0.228"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="12" Margin="117,124,93,0" VerticalAlignment="Top" Height="36"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="15" Margin="117,124,93,0" VerticalAlignment="Top" Height="36" Foreground="#FF030508"/>
 
         <TextBlock FontFamily="Times New Roman" Text="Дата начала:" FontSize="16" Margin="118,179,377,206"/>
         <DatePicker  FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="StartDate_Picker" FontSize="16" Margin="118,197,93,0" Height="32" VerticalAlignment="Top"/>

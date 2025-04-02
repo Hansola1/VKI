@@ -11,7 +11,7 @@
         <TextBlock FontFamily="Times New Roman" Text="Добавить проект" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="186,10,0,353" Width="254"/>
 
         <TextBlock FontFamily="Times New Roman" Text="Название проекта:" FontSize="20" Margin="119,71,305,303" RenderTransformOrigin="0.482,0.228"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="12" Margin="119,102,92,0" VerticalAlignment="Top" Height="36"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="15" Margin="119,102,92,0" VerticalAlignment="Top" Height="36" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F"/>
 
         <TextBlock FontFamily="Times New Roman" Text="Дата начала:" FontSize="16" Margin="119,218,376,167"/>
         <DatePicker  FontFamily="Times New Roman" Background="#FFE1E8ED" x:Name="StartDate_Picker" FontSize="16" Margin="119,236,92,0" Height="32" VerticalAlignment="Top"/>
@@ -22,8 +22,8 @@
         <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="149,345,0,25" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
         <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="318,345,0,25" HorizontalAlignment="Left" Width="141" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
 
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="CustomerID_TextBox" FontSize="12" Margin="119,172,92,0" VerticalAlignment="Top"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="119,149,247,225" RenderTransformOrigin="0.482,0.228" Text="Идентификатор заказчика:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="CustomerID_TextBox" FontSize="15" Margin="119,172,92,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="119,149,247,225" RenderTransformOrigin="0.482,0.228" Text="Заказчик:"/>
 
     </Grid>
 </UserControl>

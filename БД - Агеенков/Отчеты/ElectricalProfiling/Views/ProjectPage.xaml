@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ElectricalProfiling.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="600" d:DesignWidth="1080"
       Title="ProjectPage" Background="White">
 
-    <Grid x:Name="MainGrid" Height="600" Width="1080">
-        <TextBlock Text="Список проектов" FontSize="40" Margin="267,47,494,513" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
+    <Grid x:Name="MainGrid">
+        <TextBlock Text="Список проектов" FontSize="40" Margin="267,47,494,513"
+        FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
 
         <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
         Content="Выйти" HorizontalAlignment="Left" Width="206" Height="NaN" BorderBrush="White"
@@ -19,14 +19,19 @@
         Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="602,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
 
-        <TextBox x:Name="Find_TextBox" KeyUp="Find_TextBox_KeyUp" Text="Поиск проекта"  FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFF0F6FA"  FontSize="20" Margin="267,107,269,0" VerticalAlignment="Top" Foreground="#FF15325B" Height="41"/>
+        <TextBox x:Name="Find_TextBox" GotFocus="Find_TextBox_GotFocus" LostFocus="Find_TextBox_LostFocus"
+         Text="Поиск проекта" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
+         Background="#FFF0F6FA" FontSize="20" Margin="267,107,269,0" VerticalAlignment="Top"
+         Foreground="#FF15325B" Height="41" KeyUp="Find_TextBox_KeyUp"/>
 
         <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
-        <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
+        <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
+         FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
 
         <Button Style="{StaticResource ButtonStyle}"
-            Content="Проекты" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
-            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,166,0,384" Panel.ZIndex="1"/>
+        Content="Проекты" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,166,0,384" Panel.ZIndex="1"/>
+        
         <Border Background="White" Margin="0,166,842,384" Panel.ZIndex="0"></Border>
 
         <Button Click="Open_Area_Click" Style="{StaticResource ButtonStyle}"
@@ -74,10 +79,11 @@
         <Button Click="Edit_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Изменить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="838,107,0,452" Panel.ZIndex="1" FontWeight="Bold"/>
+        
         <Button Click="Delete_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Удалить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="838,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
 
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
     </Grid>
 </Page>

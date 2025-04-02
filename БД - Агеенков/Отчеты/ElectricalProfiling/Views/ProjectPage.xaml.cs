@@ -3,6 +3,8 @@ using ElectricalProfiling.Model;
 using ElectricalProfiling.Views.UseControll;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Navigation;
 
 namespace ElectricalProfiling.Views
@@ -45,6 +47,26 @@ namespace ElectricalProfiling.Views
                 FilterProjects(findTextBox);
             }
         }
+
+        private string _placeholderText = "Поиск проекта"; 
+        private void Find_TextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (Find_TextBox.Text == _placeholderText)
+            {
+                Find_TextBox.Text = "";
+                Find_TextBox.Foreground = Brushes.Black; 
+            }
+        }
+        private void Find_TextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(Find_TextBox.Text))
+            {
+                Find_TextBox.Text = _placeholderText;
+                Find_TextBox.Foreground = new SolidColorBrush(Color.FromRgb(0x15, 0x32, 0x5B)); // Восстанавливаем цвет
+            }
+        }
+
+
         private void FilterProjects(string searchText)
         {
             // Фильтрация проектов по введённому тексту
@@ -57,7 +79,7 @@ namespace ElectricalProfiling.Views
 
         private void Edit_Project_Click(object sender, RoutedEventArgs e)
         {
-            var selectedProject = Projects_DataGrid.SelectedItem as Projects; 
+            var selectedProject = Projects_DataGrid.SelectedItem as Projects;
             if (selectedProject != null)
             {
                 var editProjectControl = new EditProject();
