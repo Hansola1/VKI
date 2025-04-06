@@ -109,6 +109,78 @@
 
         <Style TargetType="DataGridCell" x:Key="DataGridCellStyle">
         </Style>
-        
+
+        <!-- Стиль для TabItem -->
+        <Style TargetType="TabItem" x:Key="TabItem">
+            <Setter Property="Padding" Value="20,5"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#FF1A1A1A"/>
+            <Setter Property="Background" Value="#FFF4F6FB"/>
+            <Setter Property="Margin" Value="2,0,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Border x:Name="Bd"
+                        CornerRadius="10,10,0,0"
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="#FFCBD5E1"
+                        BorderThickness="1"
+                        Padding="10,5"
+                        SnapsToDevicePixels="True">
+                            <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="White"/>
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#FFCBD5E1"/>
+                                <Setter TargetName="Bd" Property="Panel.ZIndex" Value="1"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#FFF0F6FA"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="Gray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для TabControl -->
+        <Style TargetType="TabControl" x:Key="TabControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TabControl" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TabPanel Grid.Row="0"
+                                IsItemsHost="True"
+                                Background="Transparent"
+                                Margin="0,0,0,0"
+                                Panel.ZIndex="1"/>
+                        <Border Grid.Row="1"
+                            Background="White"
+                            BorderBrush="#FFCBD5E1"
+                            BorderThickness="1"
+                            CornerRadius="0,10,10,10"
+                            Margin="0,-1,0,0">
+                            <ContentPresenter ContentSource="SelectedContent"/>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
     </Application.Resources>
 </Application>

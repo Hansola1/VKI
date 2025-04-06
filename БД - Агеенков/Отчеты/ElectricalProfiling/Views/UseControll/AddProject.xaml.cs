@@ -17,17 +17,20 @@ namespace ElectricalProfiling.Views.UseControll
         {
             string name = ProjectName_TextBox.Text;
             string startDate = StartDate_Picker.Text;
-            string customer_id = CustomerID_TextBox.Text;
+            string customer = CustomerID_TextBox.Text; //теперь имя
             string endDate = EndDate_Picker.Text;
 
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(startDate) || string.IsNullOrEmpty(endDate) || string.IsNullOrEmpty(customer_id))
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(startDate) || string.IsNullOrEmpty(endDate) || string.IsNullOrEmpty(customer))
             {
                 MessageBox.Show("Поля необходимо заполнить");
             }
             else
             {
-                projectDB.AddProject(name, customer_id, startDate, endDate);
+                projectDB.AddProject(name, customer, startDate, endDate);
                 MessageBox.Show("Проект сохранен!");
+
+                ProjectPage project = new();
+                project.LoadProject();
             }
         }
 

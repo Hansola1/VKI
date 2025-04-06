@@ -55,7 +55,7 @@ CREATE TABLE Station (
     elevation FLOAT -- высота станции над уровнем моря
 );
 
--- Таблица Оператор (Operator)
+-- Таблица Оператор (Operator) -- УДАЛЕН
 CREATE TABLE Operator (
     ID INT PRIMARY KEY IDENTITY(1,1),
     full_name NVARCHAR(255) NOT NULL,
@@ -67,7 +67,6 @@ CREATE TABLE Operator (
 CREATE TABLE Measurement (
     ID INT PRIMARY KEY IDENTITY(1,1),
     station_id INT FOREIGN KEY REFERENCES Station(ID),
-    operator_id INT FOREIGN KEY REFERENCES Operator(ID),
     date DATETIME,
     measurement_type NVARCHAR(100),
     value FLOAT, --значение

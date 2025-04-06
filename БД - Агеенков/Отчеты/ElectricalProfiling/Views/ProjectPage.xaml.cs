@@ -3,9 +3,7 @@ using ElectricalProfiling.Model;
 using ElectricalProfiling.Views.UseControll;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Navigation;
 
 namespace ElectricalProfiling.Views
 {
@@ -133,7 +131,7 @@ namespace ElectricalProfiling.Views
         }
         private void Open_Area_Click(object sender, RoutedEventArgs e)
         {
-            //MainFrame.Navigate(new AreasPage());
+            MainFrame.Navigate(new AreasPage());
         }
 
     }

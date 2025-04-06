@@ -1,17 +1,16 @@
-﻿using System.Data;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using System.Windows;
 using data.DataBase;
 using ElectricalProfiling.Model;
-using Azure.Core;
 
 namespace ElectricalProfiling.DataBase
 {
     class ProjectControllerDB: DBControll
     {
-        public void AddProject(string name, string customer_id, string start_date, string end_date)
+        public void AddProject(string name, string customer, string start_date, string end_date)
         {
             Connection();
+            int? customer_id = GetCustomerID(customer);
             string query = "INSERT INTO Project (name, customer_id, start_date, end_date) VALUES (@name, @customer_id, @start_date, @end_date)";
 
             try
@@ -31,6 +30,26 @@ namespace ElectricalProfiling.DataBase
             }
         }
 
+        public int? GetCustomerID(string companyName)
+        {
+            Connection();
+            string query = "SELECT \"ID\" FROM Customer WHERE \"company_name \" = @company_name";
+
+            using (SqlCommand command = new(query, sqlConnection))
+            {
+                command.Parameters.AddWithValue("@company_name", companyName);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        return reader.GetInt32(0);
+                    }
+                }
+            }
+            return null;
+        }
+
+
         public List<Projects> GetProject()
         {
             Connection();
@@ -46,7 +65,7 @@ namespace ElectricalProfiling.DataBase
                         ListProjects.Add(new Projects
                         {
                             Name = reader["name"].ToString(),
-                            Customer_id = reader["customer_id"].ToString(),
+                            Customer_id = Convert.ToInt32(reader["customer_id"]),
                             Start_date = reader["start_date"].ToString(),
                             End_date = reader["end_date"].ToString()
                         });
@@ -55,6 +74,8 @@ namespace ElectricalProfiling.DataBase
             }
             return ListProjects;
         }
+
+
 
         public void EditProject(string name, string start_date, string end_date)
         {
