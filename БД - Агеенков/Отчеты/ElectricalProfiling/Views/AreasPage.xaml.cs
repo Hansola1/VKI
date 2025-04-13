@@ -1,7 +1,5 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using ElectricalProfiling.DataBase;
-using ElectricalProfiling.Model;
 using ElectricalProfiling.Views.UseControll;
 using System.Windows.Media;
 
@@ -16,15 +14,14 @@ namespace ElectricalProfiling.Views
 
         private void Add_Area_Click(object sender, RoutedEventArgs e)
         {
+            var addAreaControl = new AddArea();
+            MainGrid.Children.Add(addAreaControl);
 
+            addAreaControl.HorizontalAlignment = HorizontalAlignment.Center;
+            addAreaControl.VerticalAlignment = VerticalAlignment.Center;
         }
 
         private void Delete_Area_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Edit_Area_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -49,7 +46,7 @@ namespace ElectricalProfiling.Views
 
         private void FilterAreas(string searchText)
         {
-            
+
         }
 
         private void Out_Click(object sender, RoutedEventArgs e)
@@ -57,9 +54,25 @@ namespace ElectricalProfiling.Views
             Application.Current.Shutdown();
         }
 
-        private void Open_Project_Click(object sender, RoutedEventArgs e)
+        private void OpenArea_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new AreasPage());
+        }
+        private void OpenProject_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new ProjectPage());
+        }
+        private void OpenProfile_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ProfilePage());
+        }
+        private void OpenStations_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new StationsPage());
+        }
+        private void OpenMeasurements_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new MeasurementsPage());
         }
     }
 }

@@ -8,6 +8,6 @@
         Title="CЭП" Height="630" Width="1080">
 
     <Grid Height="600" Width="1080">
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="10"/>
     </Grid>
 </Window>

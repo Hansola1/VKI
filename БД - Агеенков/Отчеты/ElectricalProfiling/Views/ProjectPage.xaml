@@ -17,7 +17,7 @@
 
         <Button Click="Add_Project_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
         Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
-        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="602,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="602,54,0,504" Panel.ZIndex="0" FontWeight="Bold"/>
 
         <TextBox x:Name="Find_TextBox" GotFocus="Find_TextBox_GotFocus" LostFocus="Find_TextBox_LostFocus"
          Text="Поиск проекта" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
@@ -34,16 +34,16 @@
         
         <Border Background="White" Margin="0,166,842,384" Panel.ZIndex="0"></Border>
 
-        <Button Click="Open_Area_Click" Style="{StaticResource ButtonStyle}"
+        <Button Click="OpenArea_Click" Style="{StaticResource ButtonStyle}"
             Content="Площади" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
-        <Button Style="{StaticResource ButtonStyle}"
+        <Button Click="OpenProfile_Click" Style="{StaticResource ButtonStyle}"
             Content="Профили" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,289,0,261" Panel.ZIndex="1"/>
-        <Button Style="{StaticResource ButtonStyle}"
+        <Button Click="OpenStations_Click" Style="{StaticResource ButtonStyle}"
             Content="Станции" HorizontalAlignment="Left" Width="120" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="32" Margin="50,358,0,192" Panel.ZIndex="1"/>
-        <Button Style="{StaticResource ButtonStyle}"
+        <Button Click="OpenMeasurements_Click" Style="{StaticResource ButtonStyle}"
             Content="Измерения" HorizontalAlignment="Left" Width="141" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,424,0,126" Panel.ZIndex="1"/>
 
@@ -78,12 +78,12 @@
 
         <Button Click="Edit_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Изменить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
-            Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="838,107,0,452" Panel.ZIndex="1" FontWeight="Bold"/>
+            Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="838,107,0,452" Panel.ZIndex="0" FontWeight="Bold"/>
         
         <Button Click="Delete_Project_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Удалить" HorizontalAlignment="Left" Width="218" Height="NaN" BorderBrush="White"
-            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="838,54,0,504" Panel.ZIndex="1" FontWeight="Bold"/>
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="838,54,0,504" Panel.ZIndex="0" FontWeight="Bold"/>
 
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Panel.ZIndex="10"/>
     </Grid>
 </Page>

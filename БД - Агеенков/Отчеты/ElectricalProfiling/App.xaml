@@ -24,7 +24,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#dcdcdc" />
+                    <Setter Property="Background" Value="Transparent" /> <!-- не меняем цвет при нажатии-->
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -181,6 +181,80 @@
         </Setter>
     </Style>
 
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="ScrollViewer.CanContentScroll" Value="True"/>
+            <Setter Property="MinHeight" Value="32"/>
+            <Setter Property="MinWidth" Value="120"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="#6E7783"/>
+            <Setter Property="Background" Value="#F0F6FA"/>
+            <Setter Property="BorderBrush" Value="#E4ECF3"/>
+            <Setter Property="Padding" Value="12,4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBox">
+                        <Border CornerRadius="16" 
+                        Background="{TemplateBinding Background}" 
+                        BorderBrush="{TemplateBinding BorderBrush}" 
+                        BorderThickness="1">
+                            <Grid>
+                                <ContentPresenter Margin="10,0,30,0" 
+                                          VerticalAlignment="Center" 
+                                          HorizontalAlignment="Left"/>
+
+                                <Polygon x:Name="Arrow" 
+                                 Fill="#6E7783" 
+                                 HorizontalAlignment="Right" 
+                                 VerticalAlignment="Center" 
+                                 Margin="0,0,12,0" 
+                                 Points="0,0 8,0 4,4"/>
+                                <Popup x:Name="PART_Popup"
+                               Placement="Bottom"
+                               IsOpen="{TemplateBinding IsDropDownOpen}"
+                               AllowsTransparency="True"
+                               Focusable="False"
+                               PopupAnimation="Fade">
+                                    <Grid MaxHeight="200" MinWidth="{TemplateBinding ActualWidth}">
+                                        <Border x:Name="DropDownBorder"
+                                        Background="White"
+                                        BorderBrush="#E4ECF3"
+                                        BorderThickness="1"
+                                        CornerRadius="8"
+                                        SnapsToDevicePixels="True">
+                                            <ScrollViewer Margin="4" SnapsToDevicePixels="True">
+                                                <ItemsPresenter/>
+                                            </ScrollViewer>
+                                        </Border>
+                                    </Grid>
+                                </Popup>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="#AAA"/>
+                                <Setter TargetName="Arrow" Property="Fill" Value="#AAA"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Setter Property="Background" Value="#EAF3F9"/>
+                            </Trigger>
+                            <Trigger Property="IsDropDownOpen" Value="True">
+                                <Setter TargetName="Arrow" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="180" CenterX="4" CenterY="2"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
     </Application.Resources>
 </Application>

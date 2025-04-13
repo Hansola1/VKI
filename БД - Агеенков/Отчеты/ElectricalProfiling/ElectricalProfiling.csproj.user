@@ -10,10 +10,25 @@
     <Compile Update="Views\AreasPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\MeasurementsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Old\LogInPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ProfilePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ProjectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StationsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UseControll\AddArea.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UseControll\AddProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\UseControll\AddProject.xaml.cs">
@@ -27,13 +42,28 @@
     <Page Update="Views\AreasPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\MeasurementsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Old\LogInPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\ProfilePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ProjectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StationsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\AddArea.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\AddProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UseControll\AddProject.xaml">

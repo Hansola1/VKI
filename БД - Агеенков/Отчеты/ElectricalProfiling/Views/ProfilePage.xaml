@@ -1,0 +1,110 @@
+﻿<Page x:Class="ElectricalProfiling.Views.ProfilePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ElectricalProfiling.Views"
+      mc:Ignorable="d" 
+      Title="ProfilePage" Background="White">
+
+    <Grid x:Name="MainGrid">
+        <TextBlock Text="Профили" FontSize="40" Margin="267,47,494,513"
+        FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
+
+        <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
+        Content="Выйти" HorizontalAlignment="Left" Width="213" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
+
+        <Button Click="AddProfile_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="831,53,0,507" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <TextBox x:Name="Find_TextBox" GotFocus="Find_TextBox_GotFocus" LostFocus="Find_TextBox_LostFocus"
+         Text="Поиск профиля" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
+         Background="#FFF0F6FA" FontSize="20" Margin="267,107,269,0" VerticalAlignment="Top"
+         Foreground="#FF15325B" Height="41"/>
+
+        <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
+        <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
+         FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
+
+        <Button Click="OpenProject_Click" Style="{StaticResource ButtonStyle}"
+        Content="Проекты" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,166,0,384" Panel.ZIndex="1"/>
+
+        <Border Background="White" Margin="1,289,842,260" Panel.ZIndex="0"></Border>
+
+        <Button Click="OpenArea_Click" Style="{StaticResource ButtonStyle}"
+            Content="Площади" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
+
+        <Button Click="OpenProfile_Click" Style="{StaticResource ButtonStyle}"
+            Content="Профили" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,289,0,261" Panel.ZIndex="1"/>
+        <Button Click="OpenStations_Click" Style="{StaticResource ButtonStyle}"
+            Content="Станции" HorizontalAlignment="Left" Width="120" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="32" Margin="50,358,0,192" Panel.ZIndex="1"/>
+        <Button Click="OpenMeasurements_Click" Style="{StaticResource ButtonStyle}"
+            Content="Измерения" HorizontalAlignment="Left" Width="141" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,424,0,126" Panel.ZIndex="1"/>
+
+        <TabControl Style="{StaticResource TabControl}" Margin="267,166,24,19" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold"
+            Background="White" BorderBrush="Transparent" x:Name="AreasTabControl">
+
+            <!-- Таблица -->
+            <TabItem Header="таблица" Style="{StaticResource TabItem}">
+                <Grid Background="White">
+                    <DataGrid x:Name="Profile_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
+                      ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}" Margin="0" 
+                      IsReadOnly="True">
+                        <DataGrid.Columns>
+                            <DataGridCheckBoxColumn x:Name="ProductCheckBox" Header="C" CanUserResize="False" Width="auto">
+                                <DataGridCheckBoxColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <CheckBox/>
+                                    </DataTemplate>
+                                </DataGridCheckBoxColumn.HeaderTemplate>
+                            </DataGridCheckBoxColumn>
+
+                            <DataGridTextColumn Header="Название" Width="230"/>
+                            <DataGridTextColumn Header="X" Width="100"/>
+                            <DataGridTextColumn Header="Y" Width="100"/>
+                            <DataGridTextColumn Header="Проект" Width="160"/>
+                            <DataGridTextColumn Header="Площадь" Width="160"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <!-- Схема -->
+            <TabItem Header="схема" Style="{StaticResource TabItem}" Margin="2,0,-8,0">
+                <Grid Background="White">
+                    <ComboBox Style="{StaticResource ComboBoxStyle}" x:Name="ProfileSelector" Width="204" Height="38" HorizontalAlignment="Right" VerticalAlignment="Top"
+                              Margin="0,12,10,0" FontFamily="Times New Roman" FontSize="16" Foreground="#FF15325B" Background="White"
+                              BorderBrush="#FFE4ECF3"  Padding="4,2"  Panel.ZIndex="2">
+                    </ComboBox>
+
+                    <!-- Здесь будет график -->
+                    <Canvas x:Name="ProfileCanvas" Background="#FFF0F6FA">
+                        <Ellipse Fill="Blue" Width="20" Height="20" Canvas.Left="100" Canvas.Top="100"/>
+                        <TextBlock Text="Профиль 1" Canvas.Left="125" Canvas.Top="95"/>
+                    </Canvas>
+
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Button Click="DeleteProfile_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+            Content="Удалить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="831,104,0,455" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Panel.ZIndex="10"/>
+    </Grid>
+</Page>

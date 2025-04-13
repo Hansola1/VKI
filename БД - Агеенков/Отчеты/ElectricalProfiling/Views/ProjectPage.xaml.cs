@@ -129,10 +129,21 @@ namespace ElectricalProfiling.Views
         {
             Application.Current.Shutdown();
         }
-        private void Open_Area_Click(object sender, RoutedEventArgs e)
+        private void OpenArea_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new AreasPage());
         }
-
+        private void OpenProfile_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ProfilePage());
+        }
+        private void OpenStations_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new StationsPage());
+        }
+        private void OpenMeasurements_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new MeasurementsPage());
+        }
     }
 }

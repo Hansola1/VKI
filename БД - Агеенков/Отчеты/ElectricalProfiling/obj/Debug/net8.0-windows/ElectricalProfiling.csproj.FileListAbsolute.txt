@@ -97,3 +97,13 @@ C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\bin\Debug
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\AreasPage.g.cs
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\AreasPage.baml
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\AddArea.g.cs
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\AddArea.baml
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\MeasurementsPage.g.cs
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\ProfilePage.g.cs
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\StationsPage.g.cs
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\AddProfile.g.cs
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\MeasurementsPage.baml
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\ProfilePage.baml
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\StationsPage.baml
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\AddProfile.baml

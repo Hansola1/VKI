@@ -1,0 +1,6 @@
+requestID;startDate;climateTechType;climateTechModel;problemDescryption;requestStatus;completionDate;repairParts;masterID;clientID
+1;2023-06-06;Кондиционер;TCL TAC-12CHSA/TPG-W белый;Не охлаждает воздух;В процессе ремонта;null;;2;7
+2;2023-05-05;Кондиционер;Electrolux EACS/I-09HAT/N3_21Y белый;Выключается сам по себе;В процессе ремонта;null;;3;8
+3;2022-07-07;Увлажнитель воздуха;Xiaomi Smart Humidifier 2;Пар имеет неприятный запах;Готова к выдаче;2023-01-01;;3;9
+4;2023-08-02;Увлажнитель воздуха;Polaris PUH 2300 WIFI IQ Home;Увлажнитель воздуха продолжает работать при предельном снижении уровня воды;Новая заявка;null;;null;8
+5;2023-08-02;Сушилка для рук;Ballu BAHD-1250;Не работает;Новая заявка;null;;null;9
