@@ -28,10 +28,19 @@
     <Compile Update="Views\UseControll\AddArea.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\UseControll\AddMeasurements.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\UseControll\AddProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\UseControll\AddProject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UseControll\AddStation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UseControll\EditArea.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\UseControll\EditProject.xaml.cs">
@@ -63,10 +72,19 @@
     <Page Update="Views\UseControll\AddArea.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\UseControll\AddMeasurements.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\UseControll\AddProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UseControll\AddProject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\AddStation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\EditArea.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UseControll\EditProject.xaml">

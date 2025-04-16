@@ -1,28 +1,54 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ElectricalProfiling.Views.UseControll;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ElectricalProfiling.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для MeasurementsPage.xaml
-    /// </summary>
     public partial class MeasurementsPage : Page
     {
         public MeasurementsPage()
         {
             InitializeComponent();
+        }
+
+        private void AddMeasurement_Click(object sender, RoutedEventArgs e)
+        {
+            var addMeasurementsControl = new AddMeasurements();
+            MainGrid.Children.Add(addMeasurementsControl);
+
+            addMeasurementsControl.HorizontalAlignment = HorizontalAlignment.Center;
+            addMeasurementsControl.VerticalAlignment = VerticalAlignment.Center;
+        }
+
+        private void DeleteMeasurement_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Out_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+        private void OpenProject_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ProjectPage());
+        }
+        private void OpenProfile_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ProfilePage());
+        }
+        private void OpenArea_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new AreasPage());
+        }
+        private void OpenStations_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new StationsPage());
+        }
+        private void OpenMeasurements_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new MeasurementsPage());
         }
     }
 }

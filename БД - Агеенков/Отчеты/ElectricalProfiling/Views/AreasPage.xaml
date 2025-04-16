@@ -15,14 +15,10 @@
         Content="Выйти" HorizontalAlignment="Left" Width="213" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
 
-        <Button Click="Add_Area_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
-        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
-        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="831,53,0,507" Panel.ZIndex="1" FontWeight="Bold"/>
-
         <TextBox x:Name="Find_TextBox" GotFocus="Find_TextBox_GotFocus" LostFocus="Find_TextBox_LostFocus"
          Text="Поиск площади" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
          Background="#FFF0F6FA" FontSize="20" Margin="267,107,269,0" VerticalAlignment="Top"
-         Foreground="#FF15325B" Height="41"/>
+         Foreground="#FF15325B" Height="41" KeyUp="Find_TextBox_KeyUp"/>
 
         <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
         <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
@@ -66,10 +62,10 @@
                                 </DataGridCheckBoxColumn.HeaderTemplate>
                             </DataGridCheckBoxColumn>
 
-                            <DataGridTextColumn Header="Название" Width="230"/>
-                            <DataGridTextColumn Header="X" Width="200"/>
-                            <DataGridTextColumn Header="Y" Width="150"/>
-                            <DataGridTextColumn Header="Проект" Width="160"/>
+                            <DataGridTextColumn Header="Название" Width="230" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="X" Width="200" Binding="{Binding X}"/>
+                            <DataGridTextColumn Header="Y" Width="150" Binding="{Binding Y}"/>
+                            <DataGridTextColumn Header="Проект" Width="160" Binding="{Binding Project}"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
@@ -91,7 +87,6 @@
 
                 </Grid>
             </TabItem>
-
         </TabControl>
 
         <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
@@ -100,7 +95,15 @@
         <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
         </Border>
 
-        <Button Click="Delete_Area_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+        <Button Click="AddArea_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="831,53,0,507" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Button Click="EditArea_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Изменить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="602,54,0,504" Panel.ZIndex="0" FontWeight="Bold"/>
+
+        <Button Click="DeleteArea_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Удалить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="831,104,0,455" Panel.ZIndex="1" FontWeight="Bold"/>
 

@@ -5,6 +5,7 @@ using ElectricalProfiling.Model;
 
 namespace ElectricalProfiling.DataBase
 {
+    //СТАРЫЙ ВАРИАНТ ВЗАИМОДЕЙСТВИЯ С БД. ИСПОЛЬЗУЮ ТОЛЬКО ДЛЯ ПРОЕКТОВ----------------------------------------------------
     class ProjectControllerDB: DBControll
     {
         public void AddProject(string name, string customer, string start_date, string end_date)
@@ -66,16 +67,14 @@ namespace ElectricalProfiling.DataBase
                         {
                             Name = reader["name"].ToString(),
                             Customer_id = Convert.ToInt32(reader["customer_id"]),
-                            Start_date = reader["start_date"].ToString(),
-                            End_date = reader["end_date"].ToString()
+                            Start_date = (DateTime)reader["start_date"],
+                            End_date = (DateTime)reader["end_date"]
                         });
                     }
                 }
             }
             return ListProjects;
         }
-
-
 
         public void EditProject(string name, string start_date, string end_date)
         {

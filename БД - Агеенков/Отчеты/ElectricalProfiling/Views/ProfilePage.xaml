@@ -8,21 +8,12 @@
       Title="ProfilePage" Background="White">
 
     <Grid x:Name="MainGrid">
-        <TextBlock Text="Профили" FontSize="40" Margin="267,47,494,513"
+        <TextBlock Text="Профили" FontSize="40" Margin="272,30,584,530"
         FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
 
         <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
         Content="Выйти" HorizontalAlignment="Left" Width="213" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
-
-        <Button Click="AddProfile_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
-        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
-        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="831,53,0,507" Panel.ZIndex="1" FontWeight="Bold"/>
-
-        <TextBox x:Name="Find_TextBox" GotFocus="Find_TextBox_GotFocus" LostFocus="Find_TextBox_LostFocus"
-         Text="Поиск профиля" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
-         Background="#FFF0F6FA" FontSize="20" Margin="267,107,269,0" VerticalAlignment="Top"
-         Foreground="#FF15325B" Height="41"/>
 
         <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
         <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
@@ -101,9 +92,17 @@
         <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
         </Border>
 
+        <Button Click="AddProfile_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="267,100,0,461" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Button Click="EditProfile_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Изменить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="491,99,0,460" Panel.ZIndex="0" FontWeight="Bold"/>
+
         <Button Click="DeleteProfile_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Удалить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
-            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="831,104,0,455" Panel.ZIndex="1" FontWeight="Bold"/>
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="717,99,0,460" Panel.ZIndex="1" FontWeight="Bold"/>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Panel.ZIndex="10"/>
     </Grid>

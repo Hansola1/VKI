@@ -25,29 +25,10 @@ namespace ElectricalProfiling.Views
 
         }
 
-        private string _placeholderText = "Поиск площади";
-        private void Find_TextBox_GotFocus(object sender, RoutedEventArgs e)
-        {
-            if (Find_TextBox.Text == _placeholderText)
-            {
-                Find_TextBox.Text = "";
-                Find_TextBox.Foreground = Brushes.Black;
-            }
-        }
-        private void Find_TextBox_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (string.IsNullOrEmpty(Find_TextBox.Text))
-            {
-                Find_TextBox.Text = _placeholderText;
-                Find_TextBox.Foreground = new SolidColorBrush(Color.FromRgb(0x15, 0x32, 0x5B)); // Восстанавливаем цвет
-            }
-        }
-
-        private void FilterAreas(string searchText)
+        private void EditProfile_Click(Object sender, RoutedEventArgs e)
         {
 
         }
-
 
         private void Out_Click(object sender, RoutedEventArgs e)
         {

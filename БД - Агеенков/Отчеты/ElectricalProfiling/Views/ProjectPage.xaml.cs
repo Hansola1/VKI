@@ -64,7 +64,6 @@ namespace ElectricalProfiling.Views
             }
         }
 
-
         private void FilterProjects(string searchText)
         {
             // Фильтрация проектов по введённому тексту
@@ -82,20 +81,9 @@ namespace ElectricalProfiling.Views
             {
                 var editProjectControl = new EditProject();
 
-                DateTime? startDate = null;
-                if (DateTime.TryParse(selectedProject.Start_date, out DateTime parsedStartDate))
-                {
-                    startDate = parsedStartDate;
-                }
-
-                DateTime? endDate = null;
-                if (DateTime.TryParse(selectedProject.End_date, out DateTime parsedEndDate))
-                {
-                    endDate = parsedEndDate;
-                }
                 editProjectControl.ProjectName_TextBox.Text = selectedProject.Name;
-                editProjectControl.StartDate_Picker.SelectedDate = startDate;
-                editProjectControl.EndDate_Picker.SelectedDate = endDate;
+                editProjectControl.StartDate_Picker.SelectedDate = selectedProject.Start_date;
+                editProjectControl.EndDate_Picker.SelectedDate = selectedProject.End_date;
                 MainGrid.Children.Add(editProjectControl);
 
                 // Позиционируем UserControl по центру

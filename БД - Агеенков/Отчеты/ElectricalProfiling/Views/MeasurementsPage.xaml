@@ -5,10 +5,99 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ElectricalProfiling.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="MeasurementsPage">
+      Title="MeasurementsPage" Background="White">
 
-    <Grid>
-        
+    <Grid x:Name="MainGrid">
+        <TextBlock Text="Измерения" FontSize="40" Margin="267,30,494,530"
+        FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
+
+        <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
+        Content="Выйти" HorizontalAlignment="Left" Width="213" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
+
+        <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
+        <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
+         FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
+
+        <Button Click="OpenProject_Click" Style="{StaticResource ButtonStyle}"
+        Content="Проекты" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,166,0,384" Panel.ZIndex="1"/>
+
+        <Border Background="White" Margin="1,424,842,118" Panel.ZIndex="0"></Border>
+
+        <Button Click="OpenArea_Click" Style="{StaticResource ButtonStyle}"
+            Content="Площади" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
+        <Button Click="OpenProfile_Click" Style="{StaticResource ButtonStyle}"
+            Content="Профили" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,289,0,261" Panel.ZIndex="1"/>
+        <Button Click="OpenStations_Click" Style="{StaticResource ButtonStyle}"
+            Content="Станции" HorizontalAlignment="Left" Width="120" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="32" Margin="50,358,0,192" Panel.ZIndex="1"/>
+        <Button Click="OpenMeasurements_Click" Style="{StaticResource ButtonStyle}"
+            Content="Измерения" HorizontalAlignment="Left" Width="141" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,424,0,126" Panel.ZIndex="1"/>
+
+        <TabControl Style="{StaticResource TabControl}" Margin="267,166,24,19" FontFamily="Times New Roman" FontSize="20" FontWeight="Bold"
+       Background="White" BorderBrush="Transparent" x:Name="AreasTabControl">
+
+            <!-- Таблица -->
+            <TabItem Header="таблица" Style="{StaticResource TabItem}">
+                <Grid Background="White">
+                    <DataGrid x:Name="Measurements_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
+                 ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}" Margin="0" 
+                 IsReadOnly="True">
+                        <DataGrid.Columns>
+                            <DataGridCheckBoxColumn x:Name="ProductCheckBox" Header="C" CanUserResize="False" Width="auto">
+                                <DataGridCheckBoxColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <CheckBox/>
+                                    </DataTemplate>
+                                </DataGridCheckBoxColumn.HeaderTemplate>
+                            </DataGridCheckBoxColumn>
+
+                            <DataGridTextColumn Header="Станция" Width="150"/>
+                            <DataGridTextColumn Header="Дата" Width="10"/>
+                            <DataGridTextColumn Header="Тип измерения" Width="150"/>
+                            <DataGridTextColumn Header="Значение" Width="160"/>
+                            <DataGridTextColumn Header="Ед.измер" Width="160"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <!-- Схема -->
+            <TabItem Header="схема" Style="{StaticResource TabItem}" Margin="2,0,-8,0">
+                <Grid Background="White">
+                    <ComboBox Style="{StaticResource ComboBoxStyle}" x:Name="MeasurementsSelector" Width="204" Height="38" HorizontalAlignment="Right" VerticalAlignment="Top"
+                         Margin="0,12,10,0" FontFamily="Times New Roman" FontSize="16" Foreground="#FF15325B" Background="White"
+                         BorderBrush="#FFE4ECF3"  Padding="4,2"  Panel.ZIndex="2">
+                    </ComboBox>
+
+                    <!-- Здесь будет график -->
+                    <Canvas x:Name="AreaCanvas" Background="#FFF0F6FA">
+                        <Ellipse Fill="Blue" Width="20" Height="20" Canvas.Left="100" Canvas.Top="100"/>
+                        <TextBlock Text="Площадь 1" Canvas.Left="125" Canvas.Top="95"/>
+                    </Canvas>
+
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Button Click="AddMeasurement_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="267,95,0,465" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Button Click="DeleteMeasurement_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+            Content="Удалить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="491,94,0,465" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Panel.ZIndex="10"/>
     </Grid>
 </Page>

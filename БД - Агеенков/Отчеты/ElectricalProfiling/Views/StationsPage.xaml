@@ -5,10 +5,75 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ElectricalProfiling.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="StationsPage">
+      Title="StationsPage" Background="White">
 
-    <Grid>
-        
+    <Grid x:Name="MainGrid">
+        <TextBlock Text="Станции" FontSize="40" Margin="267,47,494,513"
+        FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"/>
+
+        <Button Click="Out_Click" Background="White" Style="{StaticResource ButtonStyle}"
+        Content="Выйти" HorizontalAlignment="Left" Width="213" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
+
+        <Button Click="AddStation_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
+        Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="837,63,0,497" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Border Background="#FFE4ECF3" Margin="0,0,842,0" Panel.ZIndex="0"></Border>
+        <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
+         FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
+
+        <Button Click="OpenProject_Click" Style="{StaticResource ButtonStyle}"
+        Content="Проекты" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,166,0,384" Panel.ZIndex="1"/>
+
+        <Border Background="White" Margin="1,358,842,187" Panel.ZIndex="0"></Border>
+
+        <Button Click="OpenArea_Click" Style="{StaticResource ButtonStyle}"
+            Content="Площади" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
+
+        <Button Click="OpenProfile_Click" Style="{StaticResource ButtonStyle}"
+            Content="Профили" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,289,0,261" Panel.ZIndex="1"/>
+        <Button Click="OpenStations_Click" Style="{StaticResource ButtonStyle}"
+            Content="Станции" HorizontalAlignment="Left" Width="120" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="32" Margin="50,358,0,192" Panel.ZIndex="1"/>
+        <Button Click="OpenMeasurements_Click" Style="{StaticResource ButtonStyle}"
+            Content="Измерения" HorizontalAlignment="Left" Width="141" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,424,0,126" Panel.ZIndex="1"/>
+
+        <!--Таблица-->
+        <Border Background="White" Margin="267,124,24,19" CornerRadius="10">
+            <DataGrid x:Name="Stations_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
+                  ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}">
+
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn x:Name="ProductCheckBox" Header="C" CanUserResize="False" Width="auto">
+                        <DataGridCheckBoxColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <CheckBox/>
+                            </DataTemplate>
+                        </DataGridCheckBoxColumn.HeaderTemplate>
+                    </DataGridCheckBoxColumn>
+
+                    <DataGridTextColumn Header="Профиль" IsReadOnly="True" Width="200" Binding="{Binding Customer_id}"/>
+                    <DataGridTextColumn Header="Координаты" IsReadOnly="True" Width="150" Binding="{Binding Start_date}"/>
+                    <DataGridTextColumn Header="Высота" IsReadOnly="True" Width="160" Binding="{Binding End_date}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+
+        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
+        </Border>
+
+        <Button Click="DeleteStation_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+            Content="Удалить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="612,63,0,496" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Panel.ZIndex="10"/>
     </Grid>
 </Page>
