@@ -5,19 +5,46 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ElectricalProfiling.Views.UseControll"
              mc:Ignorable="d" 
-            d:DesignHeight="400" d:DesignWidth="600">
+             d:DesignHeight="400" d:DesignWidth="600">
 
-    <Grid Background="White" Height="400" Width="600">
-        <TextBlock FontFamily="Times New Roman" Text="Добавить профиль" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,37,0,326" Width="259"/>
+    <Grid Background="White" Width="600" Margin="0,0,0,-67">
+        <TextBlock FontFamily="Times New Roman" Text="Добавить профиль" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,353" Width="260"/>
 
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="106,113,318,261" RenderTransformOrigin="0.482,0.228"><Run Text="Название "/><Run Language="ru-ru" Text="профиля"/><Run Text=":"/></TextBlock>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="AreaName_TextBox" FontSize="15" Margin="106,144,106,0" VerticalAlignment="Top" Height="36" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F"/>
+        <TextBlock FontFamily="Times New Roman" Text="Название профиля:" FontSize="16" Margin="112,56,312,318" RenderTransformOrigin="0.482,0.228"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProfileName_TextBox" FontSize="10" Margin="106,86,106,0" Height="33" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F" VerticalAlignment="Top"/>
 
-        <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="130,308,0,62" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
-        <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="300,308,0,62" HorizontalAlignment="Left" Width="140" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,119,254,255" RenderTransformOrigin="0.482,0.228" Text="Проект:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="10" Margin="106,145,106,0" Foreground="#FF070B0F" VerticalAlignment="Top" Height="32"/>
 
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="15" Margin="105,226,106,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="106,200,260,174" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Название п"/><Run Text="лощади"/><Run Text=":"/></TextBlock>
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,182,254,192" RenderTransformOrigin="0.482,0.228" Text="X:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="X_TextBox" FontSize="10" Margin="112,208,100,0" VerticalAlignment="Top" Foreground="#FF070B0F" Height="33"/>
 
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,246,254,128" RenderTransformOrigin="0.482,0.228" Text="Y:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Y_TextBox" FontSize="10" Margin="112,266,100,0" VerticalAlignment="Top" Foreground="#FF070B0F" Height="31"/>
+
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,297,254,77" RenderTransformOrigin="0.482,0.228" Text="Площадь"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="AreaName_TextBox" FontSize="10" Margin="112,317,100,0" VerticalAlignment="Top" Foreground="#FF070B0F" Height="31"/>
+
+        <!-- Новый выпадающий список для выбора типа точки -->
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,352,254,35" VerticalAlignment="Top" Text="Тип точки:"/>
+        <ComboBox x:Name="PointType_ComboBox"
+                  FontFamily="Times New Roman"
+                  FontSize="18"
+                  Margin="112,372,100,0"
+                  VerticalAlignment="Top"
+                  Height="30"
+                  Background="#FFE1E8ED"
+                  Foreground="#FF070B0F">
+            <ComboBoxItem Content="start" IsSelected="True"/>
+            <ComboBoxItem Content="end"/>
+            <ComboBoxItem Content="breakpoint"/>
+        </ComboBox>
+
+        <!-- Кнопки -->
+        <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="136,419,0,0" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+        <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="306,419,0,0" HorizontalAlignment="Left" Width="140" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
+
+        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2"/>
+        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2"/>
     </Grid>
 </UserControl>

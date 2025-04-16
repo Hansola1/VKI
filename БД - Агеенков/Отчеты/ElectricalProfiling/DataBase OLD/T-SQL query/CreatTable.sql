@@ -48,11 +48,12 @@ CREATE TABLE ProfileCoordinate (
 );
 
 -- Таблица Станция (Station)
-CREATE TABLE Station (
+CREATE TABLE Stations (
     ID INT PRIMARY KEY IDENTITY(1,1),
     profile_id INT FOREIGN KEY REFERENCES Profile(ID),
-    coordinates NVARCHAR(100), -- координаты местоположения станции
-    elevation FLOAT -- высота станции над уровнем моря
+    coordinates NVARCHAR(100),  -- координаты местоположения станции
+    elevation FLOAT,            -- высота станции над уровнем моря
+    station_name NVARCHAR(100)  -- имя станции
 );
 
 -- Таблица Оператор (Operator) -- УДАЛЕН

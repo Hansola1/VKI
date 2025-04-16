@@ -113,3 +113,5 @@ C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\AddMeasurements.baml
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\EditArea.g.cs
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\EditArea.baml
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\EditProfile.g.cs
+C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\obj\Debug\net8.0-windows\Views\UseControll\EditProfile.baml

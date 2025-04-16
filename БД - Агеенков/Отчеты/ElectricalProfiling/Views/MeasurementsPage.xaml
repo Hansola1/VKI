@@ -56,11 +56,11 @@
                                 </DataGridCheckBoxColumn.HeaderTemplate>
                             </DataGridCheckBoxColumn>
 
-                            <DataGridTextColumn Header="Станция" Width="150"/>
-                            <DataGridTextColumn Header="Дата" Width="10"/>
-                            <DataGridTextColumn Header="Тип измерения" Width="150"/>
-                            <DataGridTextColumn Header="Значение" Width="160"/>
-                            <DataGridTextColumn Header="Ед.измер" Width="160"/>
+                            <DataGridTextColumn Header="Станция" Width="150" Binding="{Binding StationName}"/>
+                            <DataGridTextColumn Header="Дата" Width="70" Binding="{Binding MeasurementDate}"/>
+                            <DataGridTextColumn Header="Тип измерения" Width="150" Binding="{Binding MeasurementType}"/>
+                            <DataGridTextColumn Header="Значение" Width="200" Binding="{Binding Value}"/>
+                            <DataGridTextColumn Header="Ед.измер" Width="100" Binding="{Binding Unit}"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
@@ -69,16 +69,14 @@
             <!-- Схема -->
             <TabItem Header="схема" Style="{StaticResource TabItem}" Margin="2,0,-8,0">
                 <Grid Background="White">
-                    <ComboBox Style="{StaticResource ComboBoxStyle}" x:Name="MeasurementsSelector" Width="204" Height="38" HorizontalAlignment="Right" VerticalAlignment="Top"
-                         Margin="0,12,10,0" FontFamily="Times New Roman" FontSize="16" Foreground="#FF15325B" Background="White"
-                         BorderBrush="#FFE4ECF3"  Padding="4,2"  Panel.ZIndex="2">
+                    <ComboBox  x:Name="MeasurementsSelector" Width="204" Height="38" HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Margin="0,12,10,0" FontFamily="Times New Roman" FontSize="16" Foreground="#FF15325B" Background="White"
+                    BorderBrush="#FFE4ECF3"  Padding="4,2"  Panel.ZIndex="2" SelectionChanged="TypeMeasurementsSelector_SelectionChanged">
+                        <!--Style="{StaticResource ComboBoxStyle}"-->
                     </ComboBox>
 
                     <!-- Здесь будет график -->
-                    <Canvas x:Name="AreaCanvas" Background="#FFF0F6FA">
-                        <Ellipse Fill="Blue" Width="20" Height="20" Canvas.Left="100" Canvas.Top="100"/>
-                        <TextBlock Text="Площадь 1" Canvas.Left="125" Canvas.Top="95"/>
-                    </Canvas>
+                    <Canvas x:Name="MeasurementsCanvas" Background="#FFF0F6FA" Width="770" Height="380"/>
 
                 </Grid>
             </TabItem>
@@ -92,11 +90,11 @@
 
         <Button Click="AddMeasurement_Click" Background="#FFE7EFF4"  Style="{StaticResource ButtonStyle}"
         Content="Добавить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
-        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="267,95,0,465" Panel.ZIndex="1" FontWeight="Bold"/>
+        Foreground="Black" FontFamily="Times New Roman" FontSize="20" Margin="267,95,0,465" Panel.ZIndex="0" FontWeight="Bold"/>
 
         <Button Click="DeleteMeasurement_Click" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
             Content="Удалить" HorizontalAlignment="Left" Width="209" Height="NaN" BorderBrush="White"
-            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="491,94,0,465" Panel.ZIndex="1" FontWeight="Bold"/>
+            Foreground="Black" FontFamily="Times New Roman" FontSize= "20" Margin="491,94,0,465" Panel.ZIndex="0" FontWeight="Bold"/>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Panel.ZIndex="10"/>
     </Grid>

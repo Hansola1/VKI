@@ -8,17 +8,19 @@
             d:DesignHeight="400" d:DesignWidth="600">
 
     <Grid Background="White" Height="400" Width="600">
-        <TextBlock FontFamily="Times New Roman" Text="Добавить станцию" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="169,25,0,338" Width="259"/>
+        <TextBlock FontFamily="Times New Roman" Text="Добавить станцию" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="169,0,0,363" Width="259"/>
 
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="106,78,318,296" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Профиль"/><Run Text=":"/></TextBlock>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Profile_TextBox" FontSize="15" Margin="106,109,106,0" VerticalAlignment="Top" Height="36" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="106,101,318,273" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Профиль"/><Run Text=":"/></TextBlock>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Profile_TextBox" FontSize="15" Margin="106,127,106,0" VerticalAlignment="Top" Height="36" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F"/>
 
         <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="130,346,0,24" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
         <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="300,346,0,24" HorizontalAlignment="Left" Width="140" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
 
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Coordinates_TextBox" FontSize="15" Margin="105,195,106,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="106,164,260,210" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Координаты"/></TextBlock>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Coordinates_TextBox" FontSize="15" Margin="105,203,106,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="104,174,262,200" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Координаты"/></TextBlock>
         <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Elevation_TextBox" FontSize="15" Margin="104,278,107,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
         <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="105,247,261,127" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Высота"/></TextBlock>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="NameStation_TextBox" FontSize="15" Margin="106,65,106,0" VerticalAlignment="Top" Height="36" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="106,42,318,332" RenderTransformOrigin="0.482,0.228"><Run Language="ru-ru" Text="Название станции"/><Run Text=":"/></TextBlock>
     </Grid>
 </UserControl>

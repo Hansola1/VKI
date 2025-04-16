@@ -43,6 +43,9 @@
     <Compile Update="Views\UseControll\EditArea.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\UseControll\EditProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\UseControll\EditProject.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -85,6 +88,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UseControll\EditArea.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UseControll\EditProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UseControll\EditProject.xaml">

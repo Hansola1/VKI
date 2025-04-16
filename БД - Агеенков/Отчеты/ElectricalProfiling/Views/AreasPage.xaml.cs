@@ -4,10 +4,9 @@ using ElectricalProfiling.Views.UseControll;
 using System.Windows.Media;
 using ElectricalProfiling.Model.ViewModel;
 using ElectricalProfiling.Model.DB;
-using ElectricalProfiling.Model;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.PortableExecutable;
-using System.Windows.Data;
+using ElectricalProfiling.Model;
+using System.Windows.Shapes;
 
 namespace ElectricalProfiling.Views
 {
@@ -17,20 +16,29 @@ namespace ElectricalProfiling.Views
         {
             InitializeComponent();
             LoadArea();
+            LoadComboBox();
         }
+
         public void LoadArea()
         {
             using (var db = new ApplicationContext())
             {
-                var listArea = db.Area.Select(area => new AreaView
+                areas = db.Area.ToList()
+                .Select(area =>
                 {
-                    Name = area.Name,
-                    Project = db.Project.FirstOrDefault(p => p.Id == area.Project_ID).Name,
-                    X = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID).X.ToString(),
-                    Y = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID).Y.ToString()
+                    var project = db.Project.FirstOrDefault(p => p.Id == area.Project_ID);
+                    var coordinate = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID);
+
+                    return new AreaView
+                    {
+                        Name = area.Name,
+                        Project = project != null ? project.Name : "Без проекта", //РЕШИТЬ ПРОБЛЕМУ. БЕЗ ПРОЕКТА
+                        X = coordinate?.X ?? 0,
+                        Y = coordinate?.Y ?? 0
+                    };
                 }).ToList();
 
-                Area_DataGrid.ItemsSource = listArea;
+                Area_DataGrid.ItemsSource = areas;
             }
         } //очень важно создать класс для визуализации DataGrid(AreaView)
 
@@ -78,8 +86,8 @@ namespace ElectricalProfiling.Views
                 var editAreaControl = new EditArea();
 
                 editAreaControl.AreaName_TextBox.Text = selectedArea.Name;
-                editAreaControl.X_TextBox.Text = selectedArea.X;
-                editAreaControl.Y_TextBox.Text = selectedArea.Y;
+                editAreaControl.X_TextBox.Text = selectedArea.X.ToString();
+                editAreaControl.Y_TextBox.Text = selectedArea.Y.ToString();
                 editAreaControl.ProjectName_TextBox.Text = selectedArea.Project;
                 MainGrid.Children.Add(editAreaControl);
 
@@ -89,8 +97,59 @@ namespace ElectricalProfiling.Views
             }
             else
             {
-                MessageBox.Show("Выберите проект для редактирования.");
+                MessageBox.Show("Выберите площадь для редактирования.");
             }
+        }
+
+        private List<AreaView> areas;
+        public void LoadComboBox()
+        {
+            AreaSelector.ItemsSource = areas;
+            AreaSelector.DisplayMemberPath = "Name";  // Для отображения только имени
+            AreaSelector.SelectedValuePath = "Id";   // Для выбора по Id
+
+            Area_DataGrid.ItemsSource = areas;
+        }
+
+        private void AreaSelector_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (AreaSelector.SelectedItem is AreaView selectedArea)
+            {
+                DrawArea(selectedArea);  
+            }
+        }
+
+        private void DrawArea(AreaView area)
+        {
+            // Очищаем старые элементы на Canvas
+            AreaCanvas.Children.Clear();
+
+            // Создаем новый элемент для отображения площади (например, круг)
+            var ellipse = new Ellipse
+            {
+                Width = 20,
+                Height = 20,
+                Fill = Brushes.Blue
+            };
+
+            // Размещение по координатам X и Y
+            Canvas.SetLeft(ellipse, area.X);
+            Canvas.SetTop(ellipse, area.Y);
+
+            // Добавляем элемент на Canvas
+            AreaCanvas.Children.Add(ellipse);
+
+            // Добавляем текстовое описание площади
+            var textBlock = new TextBlock
+            {
+                Text = area.Name,
+                Foreground = Brushes.Black
+            };
+            Canvas.SetLeft(textBlock, area.X + 25);
+            Canvas.SetTop(textBlock, area.Y);
+
+            // Добавляем текст на Canvas
+            AreaCanvas.Children.Add(textBlock);
         }
 
 
@@ -100,7 +159,6 @@ namespace ElectricalProfiling.Views
             Find_TextBox.Text = "";
             Find_TextBox.Foreground = Brushes.Black;
         }
-
         private void Find_TextBox_LostFocus(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrEmpty(Find_TextBox.Text))
@@ -109,7 +167,6 @@ namespace ElectricalProfiling.Views
                 Find_TextBox.Foreground = new SolidColorBrush(Color.FromRgb(0x15, 0x32, 0x5B));
             }
         }
-
         private void Find_TextBox_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
         {
             string searchText = Find_TextBox.Text.Trim();
@@ -123,7 +180,6 @@ namespace ElectricalProfiling.Views
                 FilterAreas(searchText);
             }
         }
-
         private async void FilterAreas(string searchText)
         {
             using (var db = new ApplicationContext())
@@ -135,14 +191,15 @@ namespace ElectricalProfiling.Views
                     {
                         Name = area.Name,
                         Project = db.Project.FirstOrDefault(p => p.Id == area.Project_ID).Name,
-                        X = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID).X.ToString(),
-                        Y = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID).Y.ToString()
+                        X = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID).X,
+                        Y = db.AreaCoordinate.FirstOrDefault(c => c.area_ID == area.ID).Y
                     })
                     .ToListAsync();
 
                 Area_DataGrid.ItemsSource = filteredAreas;
             }
         }
+
 
         private void Out_Click(object sender, RoutedEventArgs e)
         {

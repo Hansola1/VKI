@@ -46,22 +46,23 @@
         <!--Таблица-->
         <Border Background="White" Margin="267,124,24,19" CornerRadius="10">
             <DataGrid x:Name="Stations_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
-                  ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}">
+          ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}">
 
-                <DataGrid.Columns>
-                    <DataGridCheckBoxColumn x:Name="ProductCheckBox" Header="C" CanUserResize="False" Width="auto">
-                        <DataGridCheckBoxColumn.HeaderTemplate>
-                            <DataTemplate>
-                                <CheckBox/>
-                            </DataTemplate>
-                        </DataGridCheckBoxColumn.HeaderTemplate>
-                    </DataGridCheckBoxColumn>
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn x:Name="ProductCheckBox" Header="C" CanUserResize="False" Width="auto">
+                            <DataGridCheckBoxColumn.HeaderTemplate>
+                                <DataTemplate>
+                                    <CheckBox/>
+                                </DataTemplate>
+                            </DataGridCheckBoxColumn.HeaderTemplate>
+                        </DataGridCheckBoxColumn>
 
-                    <DataGridTextColumn Header="Профиль" IsReadOnly="True" Width="200" Binding="{Binding Customer_id}"/>
-                    <DataGridTextColumn Header="Координаты" IsReadOnly="True" Width="150" Binding="{Binding Start_date}"/>
-                    <DataGridTextColumn Header="Высота" IsReadOnly="True" Width="160" Binding="{Binding End_date}"/>
-                </DataGrid.Columns>
-            </DataGrid>
+                    <DataGridTextColumn Header="Название станции" IsReadOnly="True" Width="200" Binding="{Binding StationNames}"/>
+                        <DataGridTextColumn Header="Профиль" IsReadOnly="True" Width="200" Binding="{Binding ProfileName}"/>
+                        <DataGridTextColumn Header="Координаты" IsReadOnly="True" Width="200" Binding="{Binding Coordinates}"/>
+                        <DataGridTextColumn Header="Высота" IsReadOnly="True" Width="100" Binding="{Binding Elevation}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
         </Border>
 
         <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
