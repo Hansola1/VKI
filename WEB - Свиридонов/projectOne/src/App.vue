@@ -1,52 +1,71 @@
-<!-- <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script> -->
-
 <template>
-<!--<div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" /> -->
-
+  <!--ЛАБА 1-->
   <p>Добро пожаловать</p>
+
   <p>Ваш счет: {{ count }}</p>
-  <button @click="clickCount">Нажми на меня</button> <!--присваем фунцию-->
+  <button @click="clickCount">Нажми на меня</button>
   
   <h1>Книги Стивена</h1>
     
   <div v-if="loading" class="loading">Загрузка данных...</div>
-
-    <div v-else>
-      <div v-if="books.length > 0" class="book-list">
-        <div v-for="book in books" :key="book.id" class="book-card">
-
-          <h2>{{ book.Title }} ({{ book.Year }})</h2>
-          <div class="book-meta">
-            <p><strong>Издатель:</strong> {{ book.Publisher }}</p>
-            <p><strong>Страниц:</strong> {{ book.Pages }}</p>
-          </div>
-          
+  <div v-else>
+    <div v-if="books.length > 0" class="book-list">
+      <div v-for="book in books" :key="book.id" class="book-card">
+        <h2>{{ book.Title }} ({{ book.Year }})</h2>
+        <div class="book-meta">
+          <p><strong>Издатель:</strong> {{ book.Publisher }}</p>
+          <p><strong>Страниц:</strong> {{ book.Pages }}</p>
         </div>
       </div>
-
-      <div v-else class="no-books">Книги не найдены</div>
     </div>
+    <div v-else class="no-books">Книги не найдены</div>
+  </div>
+
+  <!--ЛАБА 2-->
+  <div>
+    <label for="textInput">Введите текст:</label>
+    <input type="text" id="textInput" v-model="newTask.Title">
+
+    <label class="datalabel" for="dateInput">Выберите дату:</label>
+    <input type="date" id="dateInput" v-model="newTask.date"><br><br>
+
+    <label for="prioritySelect">Выберите приоритет:</label>
+    <select id="prioritySelect" v-model="newTask.priority">
+      <option value="важно">Важно</option>
+      <option value="очень важно">Очень важно</option>
+      <option value="нормик">Нормик</option>
+    </select><br><br>
+
+    <button @click="clickAddTask">Добавить</button>
+
+    <div v-for="task in tasks" :key="task.id">
+      <h2>{{ task.Title }} ({{ task.date }}) ({{ task.priority }})</h2>
+      <p><strong>Задача:</strong> {{ task.Title }}</p>
+      <p><strong>Дата:</strong> {{ task.date }}</p>
+      <p><strong>Важность:</strong> {{ task.priority }}</p>
+    </div>
+  </div>
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
       abc: "Привет",
       books: [],
       count: 0,
-      isNatural: true
-    };  
+      isNatural: true,
+      loading: false,
+      newTask: {
+        Title: '',
+        date: '',
+        priority: 'важно', // по умолчанию
+      },
+      tasks: [],
+      nextId: 1,
+    };
   },
 
   async created() {
@@ -54,15 +73,34 @@ export default {
   },
 
   methods: {
-    async loadBooks() 
-    {
+    async loadBooks() {
       this.loading = true;
-      let response = await this.$axios.get('https://stephen-king-api.onrender.com/api/books');
-      this.books = response.data.data; 
+      try {
+        let response = await axios.get('https://stephen-king-api.onrender.com/api/books');
+        this.books = response.data.data;
+      } catch (error) {
+        console.error("Ошибка при загрузке книг:", error);
+      } finally {
+        this.loading = false;
+      }
     },
 
-    clickCount() 
+    clickAddTask()
     {
+      let task =
+      {
+        id: this.nextId++,
+        Title: this.newTask.Title,
+        date: this.newTask.date,
+        priority: this.newTask.priority,
+      };
+      this.tasks.push(task);
+
+      this.newTask.Title = '';
+      this.newTask.date = '';
+    },
+
+    clickCount() {
       console.log("Меня зажали");
       this.count++;
     }
@@ -75,6 +113,10 @@ export default {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.datalabel{
+  margin-left: 2rem;
 }
 
 .loading, .no-books {
