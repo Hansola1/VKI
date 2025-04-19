@@ -66,7 +66,7 @@ CREATE TABLE Journal (
     FOREIGN KEY (scheduleID) REFERENCES Schedule(id)
 );
 
-CREATE TABLE Homework (
+CREATE TABLE JournalHomework (
     id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
     title VARCHAR(255) NOT NULL, 
     description VARCHAR(255) NOT NULL, 
