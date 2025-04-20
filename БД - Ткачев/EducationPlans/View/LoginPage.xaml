@@ -15,27 +15,27 @@
         Content="Войти" HorizontalAlignment="Center" Width="398" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="26" Margin="0,489,0,57" FontWeight="Bold"/>
 
-        <TextBox x:Name="nameTextBox" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"
+        <TextBox x:Name="nameTextBox" GotFocus="TextBoxGotFocus" 
          Text="Имя" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
          Background="#FFF0F6FA" FontSize="20" Margin="341,166,341,0" VerticalAlignment="Top"
          Foreground="#FF15325B" Height="41"/>
 
-        <TextBox x:Name="loginTextBox" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"
+        <TextBox x:Name="loginTextBox" GotFocus="TextBoxGotFocus" 
             Text="Логин" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
             Background="#FFF0F6FA" FontSize="20" Margin="341,230,341,0" VerticalAlignment="Top"
             Foreground="#FF15325B" Height="41"/>
 
-        <TextBox x:Name="passwordTextBox" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"
+        <TextBox x:Name="passwordTextBox" GotFocus="TextBoxGotFocus" 
             Text="Пароль" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
             Background="#FFF0F6FA" FontSize="20" Margin="341,289,341,0" VerticalAlignment="Top"
             Foreground="#FF15325B" Height="41"/>
 
-        <TextBox x:Name="specializationTextBox" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"
+        <TextBox x:Name="specializationTextBox" GotFocus="TextBoxGotFocus" 
             Text="Специализация" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
             Background="#FFF0F6FA" FontSize="20" Margin="341,347,341,0" VerticalAlignment="Top"
             Foreground="#FF15325B" Height="41"/>
 
-        <TextBox x:Name="groupTextBox" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"
+        <TextBox x:Name="groupTextBox" GotFocus="TextBoxGotFocus" 
          Text="Группа" FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}"
          Background="#FFF0F6FA" FontSize="20" Margin="341,403,341,0" VerticalAlignment="Top"
          Foreground="#FF15325B" Height="45"/>

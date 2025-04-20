@@ -31,16 +31,15 @@
 
         <!--Таблица-->
         <Border Background="White" Margin="267,109,24,19" CornerRadius="10">
-            <DataGrid x:Name="Schedule_DataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
+            <DataGrid x:Name="ScheduleDataGrid" AutoGenerateColumns="False" BorderBrush="Transparent" BorderThickness="0" Background="#FFEDF3F7"
                       ColumnHeaderStyle="{DynamicResource ColumnHeaderStyle}" CellStyle="{DynamicResource DataGridCellStyle}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Дата начала" IsReadOnly="True" Width="120" Binding="{Binding }"/>
-                    <DataGridTextColumn Header="Дата конца" IsReadOnly="True" Width="120" Binding="{Binding }"/>
-                    <DataGridTextColumn Header="Аудитория" IsReadOnly="True" Width="110" Binding="{Binding }"/>
-                    <DataGridTextColumn Header="Группа" IsReadOnly="True" Width="80" Binding="{Binding }"/>
-                    <DataGridTextColumn Header="Аудитория" IsReadOnly="True" Width="110" Binding="{Binding }"/>
-                    <DataGridTextColumn Header="Предмет" IsReadOnly="True" Width="130" Binding="{Binding }"/>
-                    <DataGridTextColumn Header="Препод" IsReadOnly="True" Width="130" Binding="{Binding }"/>
+                    <DataGridTextColumn Header="Дата начала" Binding="{Binding TimeStart}" Width="130" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Дата конца" Binding="{Binding TimeEnd}" Width="130" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Аудитория" Binding="{Binding ClassTitle}" Width="110" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Группа" Binding="{Binding GroupTitle}" Width="110" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Предмет" Binding="{Binding SubjectTitle}" Width="150" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Преподаватель" Binding="{Binding TeacherName}" Width="160" IsReadOnly="True"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Border>

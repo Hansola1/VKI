@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EducationPlans.Model
+﻿namespace EducationPlans.Model
 {
-    internal class Class
+    public class Class
     {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Type { get; set; }
     }
 }

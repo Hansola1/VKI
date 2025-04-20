@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EducationPlans"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1080">
+        Title="Дневник.ру" Height="600" Width="1080">
     <Grid Height="600" Width="1080">
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"/>
     </Grid>
