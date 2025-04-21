@@ -2,6 +2,7 @@ C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\Educat
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\JournalPage.g.cs
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\LoginPage.g.cs
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\Pages\AddLessonPage.g.cs
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\SchedulePage.g.cs
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\App.g.cs
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\EducationPlans_MarkupCompile.cache
@@ -58,6 +59,7 @@ C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\App.ba
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\JournalPage.baml
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\LoginPage.baml
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\MainWindow.baml
+C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\Pages\AddLessonPage.baml
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\SchedulePage.baml
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\EducationPlans.g.resources
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\EducationPlans.GeneratedMSBuildEditorConfig.editorconfig

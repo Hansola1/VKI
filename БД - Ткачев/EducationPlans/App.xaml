@@ -68,5 +68,8 @@
         </Style>
         <Style TargetType="DataGridCell" x:Key="DataGridCellStyle">
         </Style>
+
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+        </Style>
     </Application.Resources>
 </Application>

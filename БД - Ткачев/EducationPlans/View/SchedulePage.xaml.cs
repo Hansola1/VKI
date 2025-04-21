@@ -1,6 +1,7 @@
 ﻿using EducationPlans.Model;
 using EducationPlans.Model.DataBase;
 using EducationPlans.Model.ViewModel;
+using EducationPlans.View.Pages;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -34,15 +35,26 @@ namespace EducationPlans.View
             ScheduleDataGrid.ItemsSource = schedules;
         }
 
-        private void OutClick(object sender, RoutedEventArgs e)
+        private void addClick(object sender, EventArgs e)
+        {
+            if (UserSession.typeUser == "teacher")
+            {
+                MainFrame.Navigate(new AddLessonPage());
+            }
+            else
+            {
+                MessageBox.Show("Упс, а вы не преподаватель");
+            }
+        }
+        private void outClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new LoginPage());
         }
-        private void ScheduleClick(object sender, RoutedEventArgs e)
+        private void scheduleClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new SchedulePage());
         }
-        private void JournalClick(object sender, RoutedEventArgs e)
+        private void journalClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new JournalPage());
         }
