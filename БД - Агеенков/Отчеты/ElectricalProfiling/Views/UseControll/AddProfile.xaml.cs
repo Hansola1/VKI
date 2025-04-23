@@ -1,5 +1,6 @@
 ﻿using ElectricalProfiling.Model.DB;
 using ElectricalProfiling.Model;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -10,21 +11,46 @@ namespace ElectricalProfiling.Views.UseControll
         public AddProfile()
         {
             InitializeComponent();
+            LoadProjects();
         }
+
+        private void LoadProjects()
+        {
+            using (var db = new ApplicationContext())
+            {
+                ProjectComboBox.ItemsSource = db.Project.ToList();
+                ProjectComboBox.DisplayMemberPath = "Name";
+                ProjectComboBox.SelectedValuePath = "Id";
+            }
+        }
+
+        private void ProjectComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ProjectComboBox.SelectedValue is int projectId)
+            {
+                using (var db = new ApplicationContext())
+                {
+                    var areas = db.Area.Where(a => a.Project_ID == projectId).ToList();
+                    AreaComboBox.ItemsSource = areas;
+                    AreaComboBox.DisplayMemberPath = "Name";
+                    AreaComboBox.SelectedValuePath = "ID";
+                }
+            }
+        }
+
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             string nameProfile = ProfileName_TextBox.Text;
-            string nameProject = ProjectName_TextBox.Text;
-            string nameArea = AreaName_TextBox.Text;
             string xCoordinate = X_TextBox.Text;
             string yCoordinate = Y_TextBox.Text;
 
-            if (string.IsNullOrWhiteSpace(nameProject) || string.IsNullOrWhiteSpace(nameProfile) ||
-                string.IsNullOrWhiteSpace(nameArea) || string.IsNullOrWhiteSpace(xCoordinate) || string.IsNullOrWhiteSpace(yCoordinate))
+            if (ProjectComboBox.SelectedValue == null || AreaComboBox.SelectedValue == null ||
+                string.IsNullOrWhiteSpace(nameProfile) || string.IsNullOrWhiteSpace(xCoordinate) || string.IsNullOrWhiteSpace(yCoordinate))
             {
-                MessageBox.Show("Все поля должны быть заполнены");
+                MessageBox.Show("Все поля должны быть заполнены, включая проект и площадь");
                 return;
             }
+
             if (!double.TryParse(xCoordinate, out double x) || !double.TryParse(yCoordinate, out double y))
             {
                 MessageBox.Show("Координаты X и Y должны быть числами");
@@ -38,25 +64,13 @@ namespace ElectricalProfiling.Views.UseControll
                 return;
             }
 
+            int areaId = (int)AreaComboBox.SelectedValue;
+
             using (var db = new ApplicationContext())
             {
-                var project = db.Project.FirstOrDefault(p => p.Name == nameProject);
-                if (project == null)
-                {
-                    MessageBox.Show($"Проект '{nameProject}' не найден");
-                    return;
-                }
-
-                var area = db.Area.FirstOrDefault(a => a.Name == nameArea);
-                if (area == null)
-                {
-                    MessageBox.Show($"Площадь '{nameArea}' не найдена");
-                    return;
-                }
-
                 var profile = new Profiles
                 {
-                    Area_ID = area.ID,
+                    Area_ID = areaId,
                     Name = nameProfile
                 };
                 db.Profile.Add(profile);
@@ -67,7 +81,7 @@ namespace ElectricalProfiling.Views.UseControll
                     Profile_ID = profile.ID,
                     X = x,
                     Y = y,
-                    Point_Type = pointType  
+                    Point_Type = pointType
                 };
                 db.ProfileCoordinate.Add(profileCoordinate);
                 db.SaveChanges();

@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ElectricalProfiling.Views.UseControll"
              mc:Ignorable="d" 
-            d:DesignHeight="400" d:DesignWidth="600">
+             d:DesignHeight="400" d:DesignWidth="600">
 
     <Grid x:Name="MainGrid" Background="White" Height="400" Width="600">
         <TextBlock FontFamily="Times New Roman" Text="Добавить площадь" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,21,0,342" Width="260"/>
@@ -13,21 +13,28 @@
         <TextBlock FontFamily="Times New Roman" Text="Название площади:" FontSize="20" Margin="112,72,312,302" RenderTransformOrigin="0.482,0.228"/>
         <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="AreaName_TextBox" FontSize="15" Margin="106,102,106,0" Height="36" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F" VerticalAlignment="Top"/>
 
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="112,146,254,228" RenderTransformOrigin="0.482,0.228" Text="Проект:"/>
+        <ComboBox x:Name="ProjectComboBox"
+                  Margin="106,172,106,0"
+                  Height="36"
+                  Background="#FFE1E8ED"
+                  FontFamily="Times New Roman"
+                  FontSize="15"
+                  Foreground="#FF070B0F"
+                  DisplayMemberPath="Name"
+                  SelectedValuePath="Id"
+                  VerticalAlignment="Top"/>
+
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="112,213,254,161" RenderTransformOrigin="0.482,0.228" Text="X:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="X_TextBox" FontSize="15" Margin="112,239,100,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
+
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="112,278,254,96" RenderTransformOrigin="0.482,0.228" Text="Y:"/>
+        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Y_TextBox" FontSize="15" Margin="112,304,100,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
+
         <Button Content="Сохранить" Click="SaveButton_Click" FontSize="16" Margin="136,360,0,10" HorizontalAlignment="Left" Width="158" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
         <Button Content="Закрыть" Click="CloseButton_Click" FontSize="16" Margin="306,360,0,10" HorizontalAlignment="Left" Width="140" Style="{StaticResource ButtonStyle}" Background="#FFC7D2DA" Foreground="#FF020202" FontFamily="Times New Roman"/>
 
-        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
-        </Border>
-
-        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2">
-        </Border>
-
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="15" Margin="106,172,106,0" Foreground="#FF070B0F" VerticalAlignment="Top"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="112,146,254,228" RenderTransformOrigin="0.482,0.228" Text="Проект:"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="X_TextBox" FontSize="15" Margin="112,239,100,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="112,213,254,161" RenderTransformOrigin="0.482,0.228" Text="X:"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Y_TextBox" FontSize="15" Margin="112,304,100,0" VerticalAlignment="Top" Foreground="#FF070B0F"/>
-        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="112,278,254,96" RenderTransformOrigin="0.482,0.228" Text="Y:"/>
-
+        <Border x:Name="UserControlContainer" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2"/>
+        <Border x:Name="UserControlContainer_edit" Visibility="Collapsed" Background="#80000000" Panel.ZIndex="2"/>
     </Grid>
 </UserControl>

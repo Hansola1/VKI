@@ -1,8 +1,13 @@
 ﻿using ElectricalProfiling.Model.DB;
 using ElectricalProfiling.Model.ViewModel;
 using ElectricalProfiling.Views.UseControll;
+using LiveCharts.Defaults;
+using LiveCharts.Wpf;
+using LiveCharts;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Shapes;
 
 namespace ElectricalProfiling.Views
 {
@@ -14,6 +19,7 @@ namespace ElectricalProfiling.Views
             LoadProfile();
             LoadComboBox();
         }
+
 
         public void LoadProfile()
         {
@@ -119,31 +125,57 @@ namespace ElectricalProfiling.Views
             }
         }
 
-        private void DrawProfile(ProfileView profile)
+        private void DrawProfile(ProfileView profileView)
         {
-            // Очистить холст
-            ProfileCanvas.Children.Clear();
-
-            // Используем координаты из profile (для примера, по оси X будет фиксированное значение)
-            double startX = profile.X; // Начальная точка X
-            double startY = profile.Y; // Начальная точка Y
-            double endX = startX + 200; // Конечная точка X (добавляем фиксированное смещение по оси X)
-            double endY = startY + (startY / 2); // Конечная точка Y (половина от начальной Y)
-
-            // Нарисовать линию между точками
-            var line = new System.Windows.Shapes.Line
+            if (ProfileChart == null)
             {
-                X1 = startX,
-                Y1 = startY,
-                X2 = endX,
-                Y2 = endY,
-                Stroke = System.Windows.Media.Brushes.Blue,
-                StrokeThickness = 3
-            };
+                MessageBox.Show("ProfileChart ещё не инициализирован.");
+                return;
+            }
 
-            ProfileCanvas.Children.Add(line);
+            using (var db = new ApplicationContext())
+            {
+                // Ищем профиль по имени
+                var profile = db.Profile.FirstOrDefault(p => p.Name == profileView.Name);
+                if (profile == null)
+                {
+                    MessageBox.Show("Профиль не найден.");
+                    return;
+                }
+
+                // Получаем координаты профиля
+                var coordinates = db.ProfileCoordinate
+                    .Where(c => c.Profile_ID == profile.ID)
+                    .OrderBy(c => c.ID) // Сортируем по ID, чтобы построить кривую по порядку
+                    .Select(c => new ObservablePoint(c.X, c.Y)) // Преобразуем в ObservablePoint для LiveCharts
+                    .ToList();
+
+                if (coordinates.Count == 0)
+                {
+                    MessageBox.Show("Нет координат для выбранного профиля.");
+                    return;
+                }
+
+                // Создаем LineSeries для отображения кривой
+                var lineSeries = new LineSeries
+                {
+                    Values = new ChartValues<ObservablePoint>(coordinates), // Передаем координаты
+                    PointGeometry = null, // Отключаем отображение точек на графике
+                    StrokeThickness = 2, // Толщина линии
+                    Fill = System.Windows.Media.Brushes.Transparent, // Прозрачный фон
+                    LineSmoothness = 0.2 // Устанавливаем сглаживание линии (по желанию)
+                };
+
+                // Очищаем текущие серии перед добавлением новой
+                ProfileChart.Series.Clear();
+
+                // Добавляем созданную серию на график
+                ProfileChart.Series.Add(lineSeries);
+            }
         }
-        
+
+
+
         private void Out_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

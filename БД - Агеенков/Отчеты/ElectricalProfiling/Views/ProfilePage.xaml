@@ -5,7 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ElectricalProfiling.Views"
       mc:Ignorable="d" 
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
       Title="ProfilePage" Background="White">
+
 
     <Grid x:Name="MainGrid">
         <TextBlock Text="Профили" FontSize="40" Margin="272,30,584,530"
@@ -76,8 +78,11 @@
                         <!--Style="{StaticResource ComboBoxStyle}"-->
                     </ComboBox>
 
-                    <!-- Здесь будет график -->
-                    <Canvas x:Name="ProfileCanvas" Background="#FFF0F6FA" Width="770" Height="380"/>
+                    <lvc:CartesianChart x:Name="ProfileChart" 
+                       Width="770" 
+                       LegendLocation="Right"
+                       Background="#FFF0F6FA"/>
+
                 </Grid>
             </TabItem>
 

@@ -2,6 +2,8 @@
 using ElectricalProfiling.Model.DB;
 using ElectricalProfiling.Model.ViewModel;
 using ElectricalProfiling.Views.UseControll;
+using LiveCharts.Wpf;
+using LiveCharts;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -58,68 +60,48 @@ namespace ElectricalProfiling.Views
         {
             if (MeasurementsSelector.SelectedItem is MeasurementView selectedMeasurement)
             {
-                DrawChart(selectedMeasurement);
+                DrawChart(selectedMeasurement.MeasurementType);
             }
         }
 
-        private void DrawChart(MeasurementView selectedMeasurement)
+
+        private void DrawChart(string measurementType)
         {
-            MeasurementsCanvas.Children.Clear(); // Очистить Canvas перед рисованием
-
-            // Пример данных для каждого типа измерения
-            List<double> dataPoints = new List<double>();
-            string measurementType = selectedMeasurement.MeasurementType;
-
-            // Заполняем данные в зависимости от типа измерения
-            if (measurementType == "Температура")
+            using (var db = new ApplicationContext())
             {
-                // Примерные данные для температуры
-                dataPoints = new List<double> { 20, 22, 23, 21, 19, 18, 20 };
+                var measurements = db.Measurement
+                    .Where(m => m.measurement_type == measurementType)
+                    .OrderBy(m => m.Date)
+                    .ToList();
+
+                var values = new ChartValues<double>(measurements.Select(m => m.Value ?? 0));
+                var labels = measurements.Select(m => m.Date?.ToShortDateString() ?? "").ToArray();
+
+                MeasurementsChart.Series = new SeriesCollection
+                {
+                    new ColumnSeries
+                    {
+                        Title = measurementType,
+                        Values = values
+                    }
+                };
+
+                MeasurementsChart.AxisX.Clear();
+                MeasurementsChart.AxisX.Add(new Axis
+                {
+                    Title = "Дата",
+                    Labels = labels.ToList()
+                });
+
+                MeasurementsChart.AxisY.Clear();
+                MeasurementsChart.AxisY.Add(new Axis
+                {
+                    Title = "Значение",
+                    LabelFormatter = value => value.ToString("N2")
+                });
             }
-            else if (measurementType == "Давление")
-            {
-                // Примерные данные для давления
-                dataPoints = new List<double> { 1013, 1015, 1012, 1010, 1013, 1014 };
-            }
-            else if (measurementType == "Влажность")
-            {
-                // Примерные данные для влажности
-                dataPoints = new List<double> { 60, 62, 65, 70, 75, 80 };
-            }
-            else
-            {
-                MessageBox.Show("Неизвестный тип измерения.");
-                return;
-            }
-
-            // Параметры графика
-            double canvasWidth = MeasurementsCanvas.ActualWidth;
-            double canvasHeight = MeasurementsCanvas.ActualHeight;
-            double maxDataValue = dataPoints.Max();
-            double minDataValue = dataPoints.Min();
-
-            // Масштабирование данных
-            double scaleX = canvasWidth / (dataPoints.Count - 1);  // Расстояние по оси X
-            double scaleY = canvasHeight / (maxDataValue - minDataValue);  // Масштаб по оси Y
-
-            // Создание линии для графика
-            Polyline graphLine = new Polyline
-            {
-                Stroke = Brushes.Blue,
-                StrokeThickness = 2
-            };
-
-            // Добавление точек на график
-            for (int i = 0; i < dataPoints.Count; i++)
-            {
-                double x = i * scaleX;  // Координата по X
-                double y = canvasHeight - (dataPoints[i] - minDataValue) * scaleY;  // Координата по Y
-                graphLine.Points.Add(new Point(x, y));
-            }
-
-            // Добавление линии на Canvas
-            MeasurementsCanvas.Children.Add(graphLine);
         }
+
 
         private void DeleteMeasurement_Click(object sender, RoutedEventArgs e)
         {

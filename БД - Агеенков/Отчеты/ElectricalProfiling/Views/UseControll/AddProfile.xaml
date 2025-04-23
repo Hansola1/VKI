@@ -10,23 +10,40 @@
     <Grid Background="White" Width="600" Margin="0,0,0,-67">
         <TextBlock FontFamily="Times New Roman" Text="Добавить профиль" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,353" Width="260"/>
 
-        <TextBlock FontFamily="Times New Roman" Text="Название профиля:" FontSize="16" Margin="112,56,312,318" RenderTransformOrigin="0.482,0.228"/>
+        <TextBlock FontFamily="Times New Roman" Text="Название профиля:" FontSize="16" Margin="112,56,312,318"/>
         <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProfileName_TextBox" FontSize="10" Margin="106,86,106,0" Height="33" BorderBrush="#FFC2CFFA" Foreground="#FF070B0F" VerticalAlignment="Top"/>
 
-        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,119,254,255" RenderTransformOrigin="0.482,0.228" Text="Проект:"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="ProjectName_TextBox" FontSize="10" Margin="106,145,106,0" Foreground="#FF070B0F" VerticalAlignment="Top" Height="32"/>
+        <!-- ComboBox для выбора проекта -->
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,119,254,255" Text="Проект:"/>
+        <ComboBox x:Name="ProjectComboBox"
+                  FontFamily="Times New Roman"
+                  FontSize="10"
+                  Margin="106,145,106,0"
+                  Height="32"
+                  VerticalAlignment="Top"
+                  Background="#FFE1E8ED"
+                  Foreground="#FF070B0F"
+                  SelectionChanged="ProjectComboBox_SelectionChanged"/>
 
-        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,182,254,192" RenderTransformOrigin="0.482,0.228" Text="X:"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,182,254,192" Text="X:"/>
         <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="X_TextBox" FontSize="10" Margin="112,208,100,0" VerticalAlignment="Top" Foreground="#FF070B0F" Height="33"/>
 
-        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,246,254,128" RenderTransformOrigin="0.482,0.228" Text="Y:"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,246,254,128" Text="Y:"/>
         <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="Y_TextBox" FontSize="10" Margin="112,266,100,0" VerticalAlignment="Top" Foreground="#FF070B0F" Height="31"/>
 
-        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,297,254,77" RenderTransformOrigin="0.482,0.228" Text="Площадь"/>
-        <TextBox FontFamily="Times New Roman" Style="{StaticResource TextBoxStyle}" Background="#FFE1E8ED" x:Name="AreaName_TextBox" FontSize="10" Margin="112,317,100,0" VerticalAlignment="Top" Foreground="#FF070B0F" Height="31"/>
+        <!-- ComboBox для выбора площади -->
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,297,254,77" Text="Площадь:"/>
+        <ComboBox x:Name="AreaComboBox"
+                  FontFamily="Times New Roman"
+                  FontSize="10"
+                  Margin="112,317,100,0"
+                  VerticalAlignment="Top"
+                  Height="31"
+                  Background="#FFE1E8ED"
+                  Foreground="#FF070B0F"/>
 
-        <!-- Новый выпадающий список для выбора типа точки -->
-        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,352,254,35" VerticalAlignment="Top" Text="Тип точки:"/>
+        <!-- Тип точки -->
+        <TextBlock FontFamily="Times New Roman" FontSize="16" Margin="112,352,254,35" Text="Тип точки:"/>
         <ComboBox x:Name="PointType_ComboBox"
                   FontFamily="Times New Roman"
                   FontSize="18"

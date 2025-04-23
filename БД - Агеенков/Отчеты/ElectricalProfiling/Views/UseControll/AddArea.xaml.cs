@@ -1,5 +1,6 @@
 ﻿using ElectricalProfiling.Model;
 using ElectricalProfiling.Model.DB;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -10,40 +11,48 @@ namespace ElectricalProfiling.Views.UseControll
         public AddArea()
         {
             InitializeComponent();
+            LoadComboBox();
+        }
+
+        private void LoadComboBox()
+        {
+            using (var db = new ApplicationContext())
+            {
+                ProjectComboBox.ItemsSource = db.Project.ToList();
+            }
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                string nameProject = ProjectName_TextBox.Text;
                 string nameArea = AreaName_TextBox.Text;
                 string xCoordinate = X_TextBox.Text;
                 string yCoordinate = Y_TextBox.Text;
 
-                if (string.IsNullOrWhiteSpace(nameProject) || string.IsNullOrWhiteSpace(nameArea) || string.IsNullOrWhiteSpace(xCoordinate) || string.IsNullOrWhiteSpace(yCoordinate))
+                if (ProjectComboBox.SelectedValue == null ||
+                    string.IsNullOrWhiteSpace(nameArea) ||
+                    string.IsNullOrWhiteSpace(xCoordinate) ||
+                    string.IsNullOrWhiteSpace(yCoordinate))
                 {
-                    MessageBox.Show("Все поля должны быть заполнены");
+                    MessageBox.Show("Все поля должны быть заполнены, включая выбор проекта");
                     return;
                 }
+
                 if (!int.TryParse(xCoordinate, out int x) || !int.TryParse(yCoordinate, out int y))
                 {
                     MessageBox.Show("Координаты должны быть целыми числами");
                     return;
                 }
 
+                int projectId = (int)ProjectComboBox.SelectedValue;
+
                 using (var db = new ApplicationContext())
                 {
-                    var project = db.Project.FirstOrDefault(p => p.Name == nameProject);
-                    if (project == null)
-                    {
-                        MessageBox.Show($"Проект '{nameProject}' не найден");
-                        return;
-                    }
                     var area = new Areas
                     {
                         Name = nameArea,
-                        Project_ID = project.Id
+                        Project_ID = projectId
                     };
 
                     db.Area.Add(area);
@@ -55,13 +64,14 @@ namespace ElectricalProfiling.Views.UseControll
                         X = x,
                         Y = y
                     };
+
                     db.AreaCoordinate.Add(areaCoordinate);
                     db.SaveChanges();
 
                     MessageBox.Show("Площадь успешно создана");
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 MessageBox.Show($"Ошибка при сохранении: {ex.Message}");
             }

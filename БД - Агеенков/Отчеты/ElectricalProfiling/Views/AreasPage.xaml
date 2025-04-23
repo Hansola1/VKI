@@ -79,10 +79,9 @@
                           BorderBrush="#FFE4ECF3"  Padding="4,2"  Panel.ZIndex="2" SelectionChanged="AreaSelector_SelectionChanged">
                         <!--Style="{StaticResource ComboBoxStyle}"-->
                     </ComboBox>
-
-                    <!-- Здесь будет график -->
-                    <Canvas x:Name="AreaCanvas" Background="#FFF0F6FA">
-                    </Canvas>
+                    <lvc:CartesianChart x:Name="AreaChart" Margin="10,60,10,10"
+                    LegendLocation="Right"
+                    xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"/>
 
                 </Grid>
             </TabItem>

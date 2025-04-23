@@ -48,7 +48,7 @@ CREATE TABLE ProfileCoordinate (
 );
 
 -- Таблица Станция (Station)
-CREATE TABLE Stations (
+CREATE TABLE Stations ( 
     ID INT PRIMARY KEY IDENTITY(1,1),
     profile_id INT FOREIGN KEY REFERENCES Profile(ID),
     coordinates NVARCHAR(100),  -- координаты местоположения станции
@@ -56,18 +56,10 @@ CREATE TABLE Stations (
     station_name NVARCHAR(100)  -- имя станции
 );
 
--- Таблица Оператор (Operator) -- УДАЛЕН
-CREATE TABLE Operator (
-    ID INT PRIMARY KEY IDENTITY(1,1),
-    full_name NVARCHAR(255) NOT NULL,
-    organization NVARCHAR(255),
-    qualification NVARCHAR(255) 
-);
-
 -- Таблица Измерения (Measurement)
 CREATE TABLE Measurement (
     ID INT PRIMARY KEY IDENTITY(1,1),
-    station_id INT FOREIGN KEY REFERENCES Station(ID),
+    station_id INT FOREIGN KEY REFERENCES Stations(ID),
     date DATETIME,
     measurement_type NVARCHAR(100),
     value FLOAT, --значение
