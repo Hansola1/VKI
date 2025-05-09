@@ -73,3 +73,7 @@ C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\refint
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\EducationPlans.pdb
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\EducationPlans.genruntimeconfig.cache
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\ref\EducationPlans.dll
+C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\HomeworkPage.g.cs
+C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\Pages\AddHomework.g.cs
+C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\HomeworkPage.baml
+C:\MyFile\VKI\БД - Ткачев\EducationPlans\obj\Debug\net8.0-windows\View\Pages\AddHomework.baml

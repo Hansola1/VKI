@@ -1,0 +1,55 @@
+﻿<Page x:Class="EducationPlans.View.Pages.AddHomework"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EducationPlans.View.Pages"
+      mc:Ignorable="d"  Background="White">
+
+    <Grid x:Name="MainGrid" Height="600" Width="1080">
+        <TextBlock Text="Добавить ДЗ" FontSize="50" Margin="346,51,425,491"
+                   FontFamily="Times New Roman" Foreground="#FF140000" Panel.ZIndex="1" FontWeight="Bold"/>
+
+        <TextBlock Text="Название:" FontSize="30" Margin="251,244,701,298" 
+                   FontFamily="Times New Roman" Foreground="#FF140000" Panel.ZIndex="1"/>
+
+        <TextBox x:Name="startDateTextBox" Text="Сдать до:" FontFamily="Times New Roman"
+                 Style="{StaticResource TextBoxStyle}" Background="#FFF0F6FA" FontSize="28" Margin="253,164,253,0"
+                 VerticalAlignment="Top" Foreground="#FF15325B" Height="51" Panel.ZIndex="1"/>
+
+        <TextBox x:Name="titleHomeworkTextBox" Text="" FontFamily="Times New Roman"
+               Style="{StaticResource TextBoxStyle}" Background="#FFF0F6FA" FontSize="28" Margin="394,234,253,0"
+               VerticalAlignment="Top" Foreground="#FF15325B" Height="58" Panel.ZIndex="1"/>
+
+        <TextBox x:Name="descriptionHomeworkTextBox" Text="" FontFamily="Times New Roman"
+        Style="{StaticResource TextBoxStyle}" Background="#FFF0F6FA" FontSize="28" Margin="394,302,253,0" Foreground="#FF15325B" Height="58" Panel.ZIndex="1" VerticalAlignment="Top"/>
+
+        <!-- Выбор предмета -->
+        <ComboBox x:Name="SubjectSelector" Width="431" Height="36" HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Margin="394,377,0,0" FontFamily="Times New Roman" FontSize="16" Foreground="#FF15325B" BorderBrush="#FFFF0808"
+                  Padding="4,2" Panel.ZIndex="5">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FFE5E5E5" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+
+
+        <Button Click="outClick" Background="#FFF0F6FA" Style="{StaticResource ButtonStyle}"
+                Content="Назад" HorizontalAlignment="Left" Width="255" Height="NaN" BorderBrush="White"
+                Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="253,450,0,95" Panel.ZIndex="1"/>
+
+        <Button Click="addClick" Background="#FFF0F6FA" Style="{StaticResource ButtonStyle}"
+                Content="Добавить" HorizontalAlignment="Left" Width="312" Height="NaN" BorderBrush="White"
+                Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="513,450,0,95" Panel.ZIndex="1"/>
+        <TextBlock FontSize="30" Margin="251,307,691,252"
+            FontFamily="Times New Roman" Foreground="#FF140000" Panel.ZIndex="1"><Run Language="ru-ru" Text="Описание"/><Run Text=":"/></TextBlock>
+        <TextBlock FontSize="30" Margin="251,377,704,182"
+            FontFamily="Times New Roman" Foreground="#FF140000" Panel.ZIndex="1"><Run Language="ru-ru" Text="Предмет"/><Run Text=":"/></TextBlock>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Panel.ZIndex="10"/>
+    </Grid>
+</Page>
+

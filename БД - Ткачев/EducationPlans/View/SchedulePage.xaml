@@ -15,19 +15,24 @@
         <TextBlock Text="Меню" FontSize="40" Margin="49,62,905,477" 
          FontFamily="Times New Roman" Foreground="Black" FontWeight="Bold"/>
 
-        <Button Style="{StaticResource ButtonStyle}" Click="scheduleClick" 
+        <Button Style="{StaticResource ButtonStyle}" Click="ScheduleClick" 
             Content="Расписание" HorizontalAlignment="Left" Width="158" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="40,166,0,384" Panel.ZIndex="1"/>
 
-        <Button Click="journalClick" Style="{StaticResource ButtonStyle}"
+        <Button Click="JournalClick" Style="{StaticResource ButtonStyle}"
             Content="Журнал" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
 
-        <Button Click="outClick" Background="White" Style="{StaticResource ButtonStyle}"
+        <Button Click="HomeworkClick" Style="{StaticResource ButtonStyle}"
+        Content="Дом.раб" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+        Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,285,0,274" Panel.ZIndex="1"/>
+
+
+        <Button Click="OutClick" Background="White" Style="{StaticResource ButtonStyle}"
         Content="Выйти" HorizontalAlignment="Left" Width="206" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="16,531,0,19" Panel.ZIndex="1"/>
 
-        <Button Click="addClick" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
+        <Button Click="AddClick" Background="#FFEDF3F7" Style="{StaticResource ButtonStyle}"
         Content="Добавить занятие" HorizontalAlignment="Left" Width="224" Height="NaN" BorderBrush="White"
         Foreground="Black" FontFamily="Times New Roman" FontSize="23" Margin="750,38,0,523" Panel.ZIndex="1"/>
 

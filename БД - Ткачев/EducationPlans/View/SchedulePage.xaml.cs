@@ -35,7 +35,7 @@ namespace EducationPlans.View
             ScheduleDataGrid.ItemsSource = schedules;
         }
 
-        private void addClick(object sender, EventArgs e)
+        private void AddClick(object sender, EventArgs e)
         {
             if (UserSession.typeUser == "teacher")
             {
@@ -46,17 +46,21 @@ namespace EducationPlans.View
                 MessageBox.Show("Упс, а вы не преподаватель");
             }
         }
-        private void outClick(object sender, RoutedEventArgs e)
+        private void OutClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new LoginPage());
         }
-        private void scheduleClick(object sender, RoutedEventArgs e)
+        private void ScheduleClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new SchedulePage());
         }
-        private void journalClick(object sender, RoutedEventArgs e)
+        private void JournalClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new JournalPage());
+        }
+        private void HomeworkClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new JournalHomework());
         }
     }   
 }

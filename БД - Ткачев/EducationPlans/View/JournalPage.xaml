@@ -22,6 +22,10 @@
         <Button Click="JournalClick" Style="{StaticResource ButtonStyle}"
             Content="Журнал" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
             Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,225,0,325" Panel.ZIndex="1"/>
+        
+        <Button Click="HomeworkClick" Style="{StaticResource ButtonStyle}"
+        Content="Дом.раб" HorizontalAlignment="Left" Width="122" Height="NaN" BorderBrush="White"
+         Foreground="Black" FontFamily="Times New Roman" FontSize="30" Margin="49,285,0,274" Panel.ZIndex="1"/>
 
         <Button Click="OutClick" Background="White" Style="{StaticResource ButtonStyle}"
         Content="Выйти" HorizontalAlignment="Left" Width="206" Height="NaN" BorderBrush="White"

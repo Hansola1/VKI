@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\MyFile\VKI\БД - Ткачев\EducationPlans\App.xaml
-5-465610671
+7690718127
 
-201130854593
+23-1924452264
 2281109994328
-View\JournalPage.xaml;View\LoginPage.xaml;View\MainWindow.xaml;View\Pages\AddLessonPage.xaml;View\SchedulePage.xaml;
+View\HomeworkPage.xaml;View\JournalPage.xaml;View\LoginPage.xaml;View\MainWindow.xaml;View\Pages\AddHomework.xaml;View\Pages\AddLessonPage.xaml;View\SchedulePage.xaml;
 
 False
 

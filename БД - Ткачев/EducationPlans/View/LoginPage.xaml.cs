@@ -23,7 +23,7 @@ namespace EducationPlans.View
                     UserSession.IsLoggedIn = true;
                     UserSession.typeUser = typeUser;
                     UserSession.CurrentUserLogin = loginTextBox.Text;
-                    MainFrame.Navigate(new SchedulePage());
+                    MainFrame.Navigate(new HomeworkPage());
                 }
             }
         }
