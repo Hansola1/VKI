@@ -24,8 +24,9 @@ export default
         },
 
         test(){
-            axios.post('http://localhost:3000/login').then(res => {
-                console.log(res)
+            axios.post('http://localhost:3000/login', {
+                login: this.login,
+                password: this.password
             })
             .catch(err => {
                 console.log(err)
