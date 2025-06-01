@@ -6,6 +6,7 @@
     <h1>{{ morph.title }}</h1>
     <p>{{ morph.description }}</p>
     <p class="date">Открыта: {{ morph.yearOpening }}</p>
+    <p class="type">Тип: {{ morph.type }}</p>
   </div>
 </template>
 
