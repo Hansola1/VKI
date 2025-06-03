@@ -51,8 +51,7 @@
               "RelativeToolTip": "MorphpediaAPI\\Controllers\\MorphsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:25:37.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T08:25:37.144Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "MorphpediaAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:50:39.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T08:50:39.473Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "MorphpediaAPI\\DataAccess\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:34:15.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T08:34:15.743Z"
             }
           ]
         }

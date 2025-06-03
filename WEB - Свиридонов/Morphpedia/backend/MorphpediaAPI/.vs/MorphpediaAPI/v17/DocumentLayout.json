@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "MorphpediaAPI\\Models\\Morph.cs",
               "ToolTip": "D:\\CodeData\\homeworkFile\\WEB - \u0421\u0432\u0438\u0440\u0438\u0434\u043E\u043D\u043E\u0432\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\Models\\Morph.cs",
               "RelativeToolTip": "MorphpediaAPI\\Models\\Morph.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T14:11:53.702Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "MorphpediaAPI\\Controllers\\MorphsController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:25:37.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T08:25:37.144Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "MorphpediaAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:50:39.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T08:50:39.473Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "MorphpediaAPI\\DataAccess\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:34:15.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T08:34:15.743Z"
             }
           ]
         }

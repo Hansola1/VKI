@@ -1,5 +1,5 @@
 <template>
-  <router-link class="cancel" to="/">← Назад в каталог</router-link>
+  <router-link class="cancel" to="/">←</router-link>
 
   <div class="morph-detail" v-if="morph">
     <img :src="getImageUrl(morph.imagePath)" alt="Фото морфы" class="morph-image" />
@@ -56,6 +56,13 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+  font-family: 'Codenext';
+  src: url('./assets/fonts/CodeNext-Trial-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
 .morph-detail {
   max-width: 800px;
   margin: 2rem auto;
@@ -63,6 +70,7 @@ export default {
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 1rem;
+  margin-bottom: 300px;
 }
 
 .morph-image {
@@ -84,10 +92,15 @@ p {
 
 a.cancel {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-decoration: none;
-  color: #42b983;
+  font-family: 'Codenext', sans-serif; 
+  letter-spacing: 2px;
   font-weight: bold;
+  font-size: 2.5rem;
+  color: #4C4C4C;
+  text-align: center;
+  padding-left: 2rem;
 }
 
 .date{
