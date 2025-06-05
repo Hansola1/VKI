@@ -21,6 +21,32 @@
   },
   {
     "ContainingType": "MorphpediaAPI.Controllers.MorphsController",
+    "Method": "AddMorph",
+    "RelativePath": "api/Morphs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "morph",
+        "Type": "MorphpediaAPI.Models.Morph",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MorphpediaAPI.Models.Morph",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MorphpediaAPI.Controllers.MorphsController",
     "Method": "GetById",
     "RelativePath": "api/Morphs/{id}",
     "HttpMethod": "GET",
@@ -44,5 +70,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "MorphpediaAPI.Controllers.MorphsController",
+    "Method": "EditMorph",
+    "RelativePath": "api/Morphs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "morph",
+        "Type": "MorphpediaAPI.Models.Morph",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MorphpediaAPI.Controllers.MorphsController",
+    "Method": "DeleteMorph",
+    "RelativePath": "api/Morphs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

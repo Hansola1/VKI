@@ -1,6 +1,9 @@
 <template>
   <div class="catalog">
     <h1>Список морф африканского геккона:</h1>
+    <button class="add-btn" @click="addMorph">
+      <img src=".src/assets/images/add.png" alt="Добавить" />
+    </button>
     
     <template v-if="morphs.length > 0">
       <h2>* Доминантные и неполнодоминантные гены:</h2>
@@ -42,7 +45,7 @@ export default {
     }
   },
 
-  computed: {
+  computed: { //авто-обнов, кешируется
     dominantMorphs() {
       return this.morphs.filter(morph => morph.type === 'доминантный');
     },
@@ -55,19 +58,31 @@ export default {
     async loadMorphs() {
       this.isLoading = true;
       this.error = null;
-      try {
+
+      try 
+      {
         const response = await fetch('https://localhost:7049/api/morphs');
-        if (!response.ok) {
+        if (!response.ok) 
+        {
           throw new Error('Ошибка загрузки данных');
         }
+
         const data = await response.json();
         this.morphs = data;
-      } catch (error) {
+      }
+      catch (error) 
+      {
         console.error('Ошибка загрузки:', error);
         this.error = error.message;
-      } finally {
+      } 
+      finally 
+      {
         this.isLoading = false;
       }
+    },
+
+    addMorph(){
+
     },
 
     goToMorph(id) {
@@ -133,5 +148,14 @@ export default {
   justify-content: center;
   gap: 1.5rem;
   margin-bottom: 8rem;
+}
+
+.loading{
+  font-size: 1rem;
+  margin-top: 5rem;
+  font-family: 'TovariSans', sans-serif; 
+  letter-spacing: 1px;
+  color: #7b7b7b;
+  text-align: center;
 }
 </style>

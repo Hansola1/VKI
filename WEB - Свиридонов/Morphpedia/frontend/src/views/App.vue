@@ -5,6 +5,10 @@
 
   <header class="site-header">
     <h1 class="logo">Morphpedia</h1>
+    <div class="auth-buttons">
+      <button class="login-btn">Войти</button>
+      <button class="registration-btn">Регистрация</button>
+    </div>
   </header>
 
   <div id="app">
@@ -47,7 +51,9 @@ export default {
   color: rgb(0, 0, 0);
   padding: 1.4rem;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.034);
+  justify-content: space-between;
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
@@ -129,5 +135,39 @@ body {
 
 .social-links label {
   font-size: 0.9rem;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
+.login-btn{
+  background-color: #000;
+  color: white;
+  border: none;
+}
+.registration-btn{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.login-btn,
+.registration-btn {
+  border-radius: 20px; 
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 80px; 
+  text-align: center;
+}
+
+.login-btn:hover,
+.registration-btn:hover {
+  border-radius: 10px; 
 }
 </style>

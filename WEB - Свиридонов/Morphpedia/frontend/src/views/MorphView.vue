@@ -1,5 +1,14 @@
 <template>
-  <router-link class="cancel" to="/">←</router-link>
+  <div class="header-container">
+    <router-link class="cancel" to="/">←</router-link>
+    <button class="delete-btn" @click="deleteMorph">
+      <img src="./src/assets/images/basket.png" alt="Удалить" />
+    </button>
+
+    <button class="edit-btn" @click="editMorph">
+      <img src=".src/assets/images/editPen.png" alt="Редактировать" />
+    </button>
+  </div>
 
   <div class="morph-detail" v-if="morph">
     <img :src="getImageUrl(morph.imagePath)" alt="Фото морфы" class="morph-image" />
@@ -27,29 +36,45 @@ export default {
   },
 
   methods: {
-
-    async fetchMorph() 
-    {
-      try 
-      {
+    async fetchMorph() {
+      try {
         const response = await fetch(`https://localhost:7049/api/morphs/${this.id}`);
         if (!response.ok) throw new Error('Не удалось получить данные');
         this.morph = await response.json();
       } 
-      catch (err) 
-      {
+      catch (err) {
         console.error(err);
       }
     },
 
-    getImageUrl(imagePath) 
+    async deleteMorph() 
     {
+      try 
+      {
+        const response = await fetch(`https://localhost:7049/api/morphs/${this.id}`, {
+          method: 'DELETE' //тип HTTP-запроса.
+        });
+        
+        if (!response.ok) throw new Error('Не удалось удалить морфу');
+        this.$router.push('/');
+      }
+      catch (err) 
+      {
+        console.error(err);
+        alert('Ошибка при удалении морфы');
+      }
+    },
+
+    async editMorph() {
+       //this.$router.push(`/edit-morph/${this.id}`);
+    },
+
+    getImageUrl(imagePath) {
       return `https://localhost:7049/${imagePath}`;
     },
   },
 
-  mounted() 
-  {
+  mounted() {
     this.fetchMorph();
   }
 };
@@ -61,6 +86,14 @@ export default {
   src: url('./assets/fonts/CodeNext-Trial-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin-top: 4rem;
 }
 
 .morph-detail {
@@ -91,19 +124,30 @@ p {
 }
 
 a.cancel {
-  display: inline-block;
-  margin-top: 4rem;
   text-decoration: none;
   font-family: 'Codenext', sans-serif; 
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 2.5rem;
   color: #4C4C4C;
-  text-align: center;
-  padding-left: 2rem;
 }
 
-.date{
+.date {
   color: black;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.delete-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 </style>
