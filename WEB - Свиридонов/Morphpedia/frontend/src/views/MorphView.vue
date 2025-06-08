@@ -1,15 +1,19 @@
 <template>
   <div class="header-container">
     <router-link class="cancel" to="/">←</router-link>
+
+    <div class="btn-crud">
     <button class="delete-btn" @click="deleteMorph">
-      <img src="./src/assets/images/basket.png" alt="Удалить" />
+      <img src="../assets/images/basket.png" alt="Удалить" />
     </button>
 
     <button class="edit-btn" @click="editMorph">
-      <img src=".src/assets/images/editPen.png" alt="Редактировать" />
+      <img src="../assets/images/editPen.png" alt="Редактировать" />
     </button>
-  </div>
+    </div>
 
+  </div>
+  
   <div class="morph-detail" v-if="morph">
     <img :src="getImageUrl(morph.imagePath)" alt="Фото морфы" class="morph-image" />
     <h1>{{ morph.title }}</h1>
@@ -66,7 +70,7 @@ export default {
     },
 
     async editMorph() {
-       //this.$router.push(`/edit-morph/${this.id}`);
+        this.$router.push({ name: 'EditMorph', params: { id: this.id } });
     },
 
     getImageUrl(imagePath) {
@@ -146,8 +150,25 @@ a.cancel {
 }
 
 .delete-btn img {
-  width: 100%;
-  height: 100%;
+  width: 2rem;
+  height: 2rem;
   object-fit: contain;
+}
+
+.edit-btn{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.edit-btn img{
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+}
+
+.btn-crud{
+  display: flex;
+  gap: 1.5rem;
 }
 </style>

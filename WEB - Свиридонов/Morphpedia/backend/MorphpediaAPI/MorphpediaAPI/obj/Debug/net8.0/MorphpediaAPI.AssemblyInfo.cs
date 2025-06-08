@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MorphpediaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f40cd057e47cf83b8605835c0e4f23aa033f31d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18607605a4cd8e48edd953ddc312b4f6a656c95d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MorphpediaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MorphpediaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

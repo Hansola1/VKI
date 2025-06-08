@@ -2,7 +2,7 @@
   <div class="catalog">
     <h1>Список морф африканского геккона:</h1>
     <button class="add-btn" @click="addMorph">
-      <img src=".src/assets/images/add.png" alt="Добавить" />
+      <img class="add-btn-image" src="../assets/images/add.png" alt="Добавить" />
     </button>
     
     <template v-if="morphs.length > 0">
@@ -82,7 +82,7 @@ export default {
     },
 
     addMorph(){
-
+      this.$router.push({ name: 'AddMorph'}); 
     },
 
     goToMorph(id) {
@@ -157,5 +157,15 @@ export default {
   letter-spacing: 1px;
   color: #7b7b7b;
   text-align: center;
+}
+
+.add-btn-image{
+  width: 2rem;
+  height: 2rem;
+}
+.add-btn{
+  cursor: pointer;
+  border: none;
+  background: transparent;
 }
 </style>
