@@ -1,0 +1,17 @@
+.Menu {
+  display: flex;
+  background-color: var(--background2);
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+  font-size: 18px;
+  color: var(--color);
+  a {
+    color: var(--color);
+    text-decoration: none;
+  }
+}
+
+.linkActive {
+  text-decoration: underline;
+}

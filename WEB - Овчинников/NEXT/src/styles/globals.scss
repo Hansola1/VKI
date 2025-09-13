@@ -1,0 +1,117 @@
+@use './main';
+
+:root {  
+  --color: #272727;
+  --color2: #FFF;
+  --background: #FFF;
+  --background2: #E1E1E1;
+  --background3: #434343;  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    // --color: #d8d8d8;
+    // --color2: #000;
+    // --background: #000;
+    // --background2: #1E1E1E;
+    // --background3: #BABABA;
+  }
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: local('PTSans'), local('PTSans'),
+  url('/fonts/PTSansRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: local('PTSans'), local('PTSans'),
+  url('/fonts/PTSansBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AcromW00';
+  src: local('AcromW00'), local('AcromW00'),
+  url('/fonts/258f25658f1456fd0206d4fb09b637fe.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromW00';
+  src: local('AcromW00'), local('AcromW00'),
+  url('/fonts/007e3053464a1b5fcb56734c7c18eabe.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: PTSans;
+  color: var(--color);
+  background-color: var(--background);
+  font-size: 18px;
+
+  // @media #{main.$mob} {
+  //   font-size: main.vwMax(14px);
+  // }
+}
+
+@mixin commons {
+  font-family: PTSans;  
+  color: var(--item-color);
+  font-weight: 500;
+}
+
+h1 {
+  @include commons;
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--current-color);
+
+  // @media #{main.$mob} {
+  //   font-size: main.vwMax(24px);
+  // }
+}
+
+h2 {
+  @include commons;
+  font-size: 32px;
+  font-weight: bold;
+
+  // @media #{main.$mob} {
+  //   font-size: main.vwMax(20px);
+  // }
+}
+
+h3 {
+  @include commons;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--link-color);
+
+  // @media #{main.$mob} {
+  //   font-size: main.vwMax(18px);
+  // }
+}
+
+
+h4 {
+  @include commons;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--link-color);
+
+  // @media #{main.$mob} {
+  //   font-size: main.vwMax(18px);
+  // }
+}
+
+

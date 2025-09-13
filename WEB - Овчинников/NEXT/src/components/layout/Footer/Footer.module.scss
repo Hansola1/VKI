@@ -1,0 +1,11 @@
+@use '../../../styles/main';
+
+.Footer {
+  height: 70px;
+  background-color: var(--background3);
+  color: var(--color2);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 main.$webSidePadding;
+}
