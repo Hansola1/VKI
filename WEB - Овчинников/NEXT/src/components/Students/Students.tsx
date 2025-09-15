@@ -1,43 +1,37 @@
-import { dehydrate } from '@tanstack/react-query';
-import TanStackQuery from '@/containers/TanStackQuery';
-import queryClient from '@/api/reactQueryClient';
-import Header from '@/components/layout/Header/Header';
-import Footer from '@/components/layout/Footer/Footer';
-import Main from '@/components/layout/Main/Main';
-import Students from '@/components/Students/Students';
+'use client';
 
+import { useQuery } from '@tanstack/react-query';
 import { getStudentsApi } from '@/api/studentsApi';
-import StudentsInterface from '@/types/StudentsInterface';
+import StudentInterface from '@/types/StudentsInterface';
 
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Студенты - Вэб разработка ВКИ',
-  description: 'Список студентов',
-};
-
-const StudentsPage = async () => {
-
-  await queryClient.prefetchQuery({
+const Students = () => {
+  const { data: students, isLoading, error } = useQuery({
     queryKey: ['students'],
     queryFn: getStudentsApi,
   });
 
-  const state = dehydrate(queryClient, { shouldDehydrateQuery: () => true });
+  if (isLoading) {
+    return <div>Загрузка студентов...</div>;
+  }
+
+  if (error) {
+    return <div>Ошибка при загрузке студентов: {error.message}</div>;
+  }
 
   return (
-    <TanStackQuery state={state}>
-      <html lang="ru">
-        <body>
-          <Header />
-          <Main>
-            <Students />
-          </Main>
-          <Footer />
-        </body>
-      </html>
-    </TanStackQuery>
+    <div>
+      <h1>Список студентов</h1>
+      {students && students.length > 0 ? (
+        <ul>
+          {students.map((student: StudentInterface, index: number) => (
+            <li key={index}>{student.name}</li>
+          ))}
+        </ul>
+      ) : (
+        <p>Студенты не найдены</p>
+      )}
+    </div>
   );
 };
 
-export default StudentsPage;
+export default Students;

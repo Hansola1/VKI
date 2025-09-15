@@ -1,42 +1,37 @@
-import { dehydrate } from '@tanstack/react-query';
-import TanStackQuery from '@/containers/TanStackQuery';
-import queryClient from '@/api/reactQueryClient';
-import Header from '@/components/layout/Header/Header';
-import Footer from '@/components/layout/Footer/Footer';
-import Main from '@/components/layout/Main/Main';
-import Groups from '@/components/Groups/Groups';
+'use client';
 
+import { useQuery } from '@tanstack/react-query';
 import { getGroupsApi } from '@/api/groupsApi';
 import GroupInterface from '@/types/GroupInterface';
 
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Группы - Вэб разработка ВКИ',
-  description: 'Список учебных групп',
-};
-
-const GroupsPage = async () => {
-  await queryClient.prefetchQuery({
+const Groups = () => {
+  const { data: groups, isLoading, error } = useQuery({
     queryKey: ['groups'],
     queryFn: getGroupsApi,
   });
 
-  const state = dehydrate(queryClient, { shouldDehydrateQuery: () => true });
+  if (isLoading) {
+    return <div>Загрузка групп...</div>;
+  }
+
+  if (error) {
+    return <div>Ошибка при загрузке групп: {error.message}</div>;
+  }
 
   return (
-    <TanStackQuery state={state}>
-      <html lang="ru">
-        <body>
-          <Header />
-          <Main>
-            <Groups />
-          </Main>
-          <Footer />
-        </body>
-      </html>
-    </TanStackQuery>
+    <div>
+      <h1>Список групп</h1>
+      {groups && groups.length > 0 ? (
+        <ul>
+          {groups.map((group: GroupInterface, index: number) => (
+            <li key={index}>{group.name}</li>
+          ))}
+        </ul>
+      ) : (
+        <p>Группы не найдены</p>
+      )}
+    </div>
   );
 };
 
-export default GroupsPage;
+export default Groups;
