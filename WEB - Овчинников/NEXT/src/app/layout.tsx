@@ -1,3 +1,5 @@
+// ТОЧКА ВХОДА
+
 import { dehydrate } from '@tanstack/react-query';
 
 import TanStackQuery from '@/containers/TanStackQuery';

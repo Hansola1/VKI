@@ -13,7 +13,8 @@
     "next": "15.5.2",
     "node-fetch": "^2.6.7",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
