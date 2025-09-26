@@ -24,7 +24,7 @@ const Students = () => {
       {students && students.length > 0 ? (
         <ul>
           {students.map((student: StudentInterface, index: number) => (
-            <li key={index}>{student.name}</li>
+            <li key={index}>{student.id}</li>
           ))}
         </ul>
       ) : (

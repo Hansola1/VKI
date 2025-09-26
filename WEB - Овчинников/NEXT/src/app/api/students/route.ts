@@ -1,8 +1,8 @@
-import { getStudentsNoDb } from '@/db/groupDb';
+import { getStudentsDb } from '@/db/studentDb';
 
 export async function GET() {
 
-  const students = getStudentsNoDb();
+  const students = getStudentsDb();
 
   return new Response(JSON.stringify(students), {
     headers: {

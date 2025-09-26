@@ -60,13 +60,12 @@ export const getGroupsDb = (): Promise<GroupInterface[]> => {
   });
 };
 
-export const getStudentsNoDb = (): StudentInterface[] => {
+// export const getStudentsNoDb = (): StudentInterface[] => {
 
-  const students: StudentInterface[] = [
-    { name: 'Анастасия Бородина'},
-    { name: 'Настя Бородина'}
-  ];
+//   const students: StudentInterface[] = [
+//     { name: 'Анастасия Бородина'},
+//     { name: 'Настя Бородина'}
+//   ];
 
-  return students;
-};
-
+//   return students;
+// };
