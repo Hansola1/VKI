@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\OurDecorApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E306C2-7896-408D-9622-0693B97C8652}|OurDecorApplication\\OurDecorApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\ourdecorapplication\\ourdecorapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17E306C2-7896-408D-9622-0693B97C8652}|OurDecorApplication\\OurDecorApplication.csproj|solutionrelative:ourdecorapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{17E306C2-7896-408D-9622-0693B97C8652}|OurDecorApplication\\OurDecorApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\ourdecorapplication\\ourdecorapplication\\views\\editproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17E306C2-7896-408D-9622-0693B97C8652}|OurDecorApplication\\OurDecorApplication.csproj|solutionrelative:ourdecorapplication\\views\\editproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsPage.xaml",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\OurDecorApplication\\OurDecorApplication\\Views\\ProductsPage.xaml",
-              "RelativeDocumentMoniker": "OurDecorApplication\\Views\\ProductsPage.xaml",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\OurDecorApplication\\OurDecorApplication\\Views\\ProductsPage.xaml",
-              "RelativeToolTip": "OurDecorApplication\\Views\\ProductsPage.xaml",
+              "Title": "EditProductPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\OurDecorApplication\\OurDecorApplication\\Views\\EditProductPage.xaml",
+              "RelativeDocumentMoniker": "OurDecorApplication\\Views\\EditProductPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C\\17.09.25-lab1\\OurDecorApplication\\OurDecorApplication\\Views\\EditProductPage.xaml",
+              "RelativeToolTip": "OurDecorApplication\\Views\\EditProductPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-18T08:39:49.558Z",
+              "WhenOpened": "2025-09-29T12:51:59.017Z",
               "EditorCaption": ""
             }
           ]

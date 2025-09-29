@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OurDecorApplication.DataControl;
+using OurDecorApplication.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace OurDecorApplication.Views
 {
@@ -20,6 +10,28 @@ namespace OurDecorApplication.Views
         public MaterialsPage()
         {
             InitializeComponent();
+            LoadListView();
+        }
+
+        List<MaterialView> materials = new();
+        public void LoadListView()
+        {
+            using (var db = new ApplicationContext())
+            {
+                materials = db.Materials.Select(s => new MaterialView
+                {
+                    NameMaterial = s.NameMaterial,
+                    TypeMaterialId = s.TypeMaterialId,
+                    TypeMaterial = s.TypeMaterial,
+                    CostMaterialOne = s.CostMaterialOne,
+                    CountMaterial = s.CountMaterial,
+                    MinCount = s.MinCount,
+                    CountInPackage = s.CountInPackage,
+                    UnitMeasurement = s.UnitMeasurement
+                }).ToList();
+
+                MaterialsListView.ItemsSource = materials;
+            }
         }
 
         private void ToProducts_click(object sender, RoutedEventArgs e)

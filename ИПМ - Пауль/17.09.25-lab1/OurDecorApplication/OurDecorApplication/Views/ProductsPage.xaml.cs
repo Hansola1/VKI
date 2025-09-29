@@ -11,24 +11,24 @@ namespace OurDecorApplication.Views
         public ProductsPage()
         {
             InitializeComponent();
-            LoadDataGrid();
+            LoadListView();
         }
 
-        List<Product> product = new();
-        public void LoadDataGrid()
+        List<ProductView> products = new();
+        public void LoadListView()
         {
             using (var db = new ApplicationContext())
             {
-                var products = db.Product.Select(s => new ProductView
-                {
-                    TypeProduct = s.TypeProduct.ToString(),
+                products = db.Products.Select(s => new ProductView
+                {                 
+                    TypeProduct = s.TypeProduct,
                     NameProduct = s.NameProduct,
                     Article = s.Article,
                     MinCostPartner = s.MinCostPartner,
                     RollWidth = s.RollWidth
                 }).ToList();
 
-                ProductsDataGrid.ItemsSource = products;
+                ProductsListView.ItemsSource = products;
             }
         }
 

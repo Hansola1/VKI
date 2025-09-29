@@ -6,8 +6,8 @@ namespace OurDecorApplication.ViewModels
     {
         public string TypeProduct { get; set; }
         public string NameProduct { get; set; }
-        public string Article { get; set; } //И есть ID
-        public float MinCostPartner { get; set; }
-        public float RollWidth { get; set; }
+        public double Article { get; set; } //И есть ID
+        public double MinCostPartner { get; set; }
+        public double RollWidth { get; set; }
     }
 }

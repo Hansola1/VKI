@@ -8,7 +8,14 @@ namespace OurDecorApplication.Views
         public EditProductPage()
         {
             InitializeComponent();
+            LoadStateComboBox();
         }
+
+        private void LoadStateComboBox()
+        {
+            //StateSelector.Items.Add("В наличии");
+        }
+
         private void Save_click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new ProductsPage());

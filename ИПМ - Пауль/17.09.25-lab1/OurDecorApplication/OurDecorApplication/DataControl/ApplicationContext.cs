@@ -10,8 +10,8 @@ namespace OurDecorApplication.DataControl
         //public DbSet<User> Users { get; set; }
         //public DbSet<Roles> Roles { get; set; }
 
-        public DbSet<Product> Product { get; set; }
-        public DbSet<Material> Material { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Material> Materials { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

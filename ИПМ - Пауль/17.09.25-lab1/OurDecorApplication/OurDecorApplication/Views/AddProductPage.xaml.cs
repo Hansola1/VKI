@@ -8,6 +8,12 @@ namespace OurDecorApplication.Views
         public AddProductPage()
         {
             InitializeComponent();
+            LoadStateComboBox();
+        }
+
+        private void LoadStateComboBox()
+        {
+            //StateSelector.Items.Add("В наличии");
         }
 
         private void Save_click(object sender, RoutedEventArgs e)

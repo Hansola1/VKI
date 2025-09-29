@@ -20,11 +20,25 @@
              Background="#FF2D6033" BorderBrush="#FF2D6033" FontFamily="Gabriola" FontSize="20" Height="32" Foreground="White"/>
         <Button Content="Список продуктов" HorizontalAlignment="Left" Margin="163,408,0,0" VerticalAlignment="Top" Width="181" Click="ToProducts_click" 
              Background="#FF2D6033" BorderBrush="#FF2D6033" FontFamily="Gabriola" FontSize="20" Height="32" Foreground="White"/>
-
-        <!--Таблица продуктов-->
-        <StackPanel x:Name="DataGridContainer" Background="White" Margin="20,69,22,52">
-            <DataGrid x:Name="MaterialsDataGrid" Background="#FFBBD9B2" Height="330" FontFamily="Gabriola" BorderBrush="#FFC1C1C1"></DataGrid>
-        </StackPanel>
+        
+        <!-- Таблица материалов -->
+        <ListView x:Name="MaterialsListView" Margin="20,70,20,60">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" BorderBrush="Black" Padding="10" Margin="0,0,0,5">
+                        <StackPanel>
+                            <TextBlock Text="{Binding NameMaterial}" FontSize="16" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding TypeMaterial}" FontSize="12" Foreground="Gray"/>
+                            <TextBlock Text="{Binding UnitMeasurement}" FontSize="12"/>
+                            <TextBlock Text="{Binding CostMaterialOne, StringFormat='Стоимость: {0:C}'}" FontSize="12"/>
+                            <TextBlock Text="{Binding CountMaterial, StringFormat='На складе: {0:F2}'}" FontSize="12"/>
+                            <TextBlock Text="{Binding MinCount, StringFormat='Мин. остаток: {0:F2}'}" FontSize="12"/>
+                            <TextBlock Text="{Binding CountInPackage, StringFormat='В упаковке: {0:F2}'}" FontSize="12"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
     </Grid>
 </Page>

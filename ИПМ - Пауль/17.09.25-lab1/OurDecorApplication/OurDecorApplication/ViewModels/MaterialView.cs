@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace OurDecorApplication.ViewModels
 {
-    internal class MaterialView
+    public class MaterialView
     {
+        public string NameMaterial { get; set; }
+        public double? TypeMaterialId { get; set; }
+        public string TypeMaterial { get; set; }
+        public double? CostMaterialOne { get; set; }
+        public double? CountMaterial { get; set; }
+        public double? MinCount { get; set; }
+        public double? CountInPackage { get; set; }
+        public string UnitMeasurement { get; set; }
     }
 }
