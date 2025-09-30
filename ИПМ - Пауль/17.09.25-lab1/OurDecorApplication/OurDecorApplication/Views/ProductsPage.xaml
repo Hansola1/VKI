@@ -32,11 +32,11 @@
                 <DataTemplate>
                     <Border BorderThickness="1" BorderBrush="Black" Padding="10" Margin="0,0,0,5">
                         <StackPanel>
-                            <TextBlock Text="{Binding NameProduct}" FontSize="16" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding TypeProduct}" FontSize="12" Foreground="Gray"/>
-                            <TextBlock Text="{Binding Article}" FontSize="12"/>
-                            <TextBlock Text="{Binding MinCostPartner, StringFormat='Мин. цена партнёра: {0:C}'}" FontSize="12"/>
-                            <TextBlock Text="{Binding RollWidth, StringFormat='Ширина рулона: {0} мм'}" FontSize="12"/>
+                            <TextBlock x:Name="ArticleTextBox" Text="{Binding TypeProduct}" FontSize="14" FontWeight="Bold" Foreground="Black"/>
+                            <TextBlock x:Name="TypeSelector" Text="{Binding NameProduct}" FontSize="14" FontWeight="Normal" Foreground="Black" Margin="0,0,0,5"/>
+                            <TextBlock x:Name="NameTextBox" Text="{Binding Article}" FontSize="12"/>
+                            <TextBlock x:Name="MinCostPartnerTextBox" Text="{Binding MinCostPartner, StringFormat='Мин. цена партнёра ({0:C})'}" FontSize="12"/>
+                            <TextBlock x:Name="WidthTextBox" Text="{Binding RollWidth, StringFormat='Ширина рулона: ({0}) мм'}" FontSize="12"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>

@@ -3,6 +3,7 @@ using OurDecorApplication.Models;
 using OurDecorApplication.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 
 namespace OurDecorApplication.Views
 {
@@ -39,7 +40,14 @@ namespace OurDecorApplication.Views
 
         private void Edit_click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new EditProductPage());
+            var selected = ProductsListView.SelectedItem as ProductView;
+            if (selected == null)
+            {
+                MessageBox.Show("Выберите продукт для редактирования");
+                return;
+            }
+
+            MainFrame.Navigate(new EditProductPage(selected.Article, selected.TypeProduct, selected.NameProduct, selected.MinCostPartner, selected.RollWidth));
         }
 
         private void ToMaterials_click(object sender, RoutedEventArgs e)

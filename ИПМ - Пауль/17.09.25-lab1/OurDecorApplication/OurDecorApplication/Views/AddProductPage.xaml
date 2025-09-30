@@ -26,7 +26,7 @@
         <TextBox x:Name="ArticleTextBox" HorizontalAlignment="Left" Margin="258,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="309" Height="27" Background="#FFBBD9B2" FontFamily="Gabriola"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="123,132,0,0" TextWrapping="Wrap" Text="Тип продукта:" VerticalAlignment="Top" Width="97" FontFamily="Gabriola" FontSize="20" Height="24"/>
-        <ComboBox x:Name="TypeProductTextBox" HorizontalAlignment="Left" Margin="258,132,0,0" VerticalAlignment="Top" Width="309" BorderBrush="#FFBBD9B2" Foreground="Black" FontFamily="Gabriola">
+        <ComboBox x:Name="TypeSelector" HorizontalAlignment="Left" Margin="258,132,0,0" VerticalAlignment="Top" Width="309" BorderBrush="#FFBBD9B2" Foreground="Black" FontFamily="Gabriola">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
