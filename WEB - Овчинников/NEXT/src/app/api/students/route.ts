@@ -2,7 +2,7 @@ import { getStudentsDb } from '@/db/studentDb';
 
 export async function GET() {
 
-  const students = getStudentsDb();
+  const students = await getStudentsDb(); 
 
   return new Response(JSON.stringify(students), {
     headers: {
