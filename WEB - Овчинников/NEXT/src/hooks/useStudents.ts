@@ -3,13 +3,14 @@ import {
   useMutation,
   useQueryClient,
 } from '@tanstack/react-query';
-import { deleteStudentApi, getStudentsApi } from '@/api/studentsApi';
+import { deleteStudentApi, getStudentsApi, addStudentApi } from '@/api/studentsApi';
 import type StudentInterface from '@/types/StudentInterface';
 import isServer from '@/utils/isServer';
 
 interface StudentsHookInterface {
   students: StudentInterface[];
   deleteStudentMutate: (studentId: number) => void;
+  addStudentMutate: (data: Partial<StudentInterface>) => void; 
 }
 
 const useStudents = (): StudentsHookInterface => {
@@ -69,9 +70,32 @@ const useStudents = (): StudentsHookInterface => {
     // },
   });
 
+      // --- Мутация добавления (новая) ---
+  const addStudentMutate = useMutation({
+    mutationFn: (newStudent: Partial<StudentInterface>) => addStudentApi(newStudent),
+    onMutate: async (newStudent) => {
+      await queryClient.cancelQueries({ queryKey: ['students'] });
+      const previousStudents = queryClient.getQueryData<StudentInterface[]>(['students']);
+
+      // Оптимистичное добавление: временно добавляем студента с временным id 
+      const optimisticStudent = {
+        ...newStudent,
+        id: Date.now(), // временный ID мб будет пока хз как 
+        isDeleted: false,
+      } as StudentInterface;
+
+      queryClient.setQueryData(['students'], [
+        ...(previousStudents ?? []),
+        optimisticStudent,
+      ]);
+      return { previousStudents };
+    },
+  });
+
   return {
     students: data ?? [],
     deleteStudentMutate: deleteStudentMutate.mutate,
+    addStudentMutate: addStudentMutate.mutate,
   };
 };
 

@@ -1,22 +1,31 @@
 'use client';
 
+import { useState } from 'react';
 import useStudents from '@/hooks/useStudents';
 import { useQuery } from '@tanstack/react-query';
 import { getStudentsApi } from '@/api/studentsApi';
 import StudentInterface from '@/types/StudentsInterface';
 import Student from './Student/Student';
+import AddStudent from './AddStudent';
 
 const Students = () => {
+  const [showAddForm, setShowAddForm] = useState(false); //Добавили
+
   const { data: students, isLoading, error } = useQuery({
     queryKey: ['students'],
     queryFn: getStudentsApi,
   });
-  const { deleteStudentMutate } = useStudents();
+  const { deleteStudentMutate, addStudentMutate } = useStudents();
 
   const onDeleteHandler = (studentId: number): void => {
     if (confirm('Удалить студента?')) {
       deleteStudentMutate(studentId);
     }
+  };
+
+    const onAddHandler = (data: any) => {
+    addStudentMutate(data); 
+    setShowAddForm(false);
   };
 
   if (isLoading) {
@@ -30,6 +39,18 @@ const Students = () => {
   return (
     <div>
       <h1>Список студентов</h1>
+
+      <button onClick={() => setShowAddForm(!showAddForm)}>
+        {showAddForm ? 'Неть' : 'Добавить студента'}
+      </button>
+
+      {showAddForm && (
+        <AddStudent
+          onAdd={onAddHandler}
+          onCancel={() => setShowAddForm(false)}
+        />
+      )}
+
       {students && students.length > 0 ? (
         <ul>
           {students.map((student: StudentInterface) => (
