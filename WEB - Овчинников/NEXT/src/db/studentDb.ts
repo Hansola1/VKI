@@ -1,60 +1,85 @@
 import sqlite3 from 'sqlite3';
-import GroupInterface from '@/types/GroupInterface';
-import StudentInterface from '@/types/StudentsInterface';
+
+import type StudentInterface from '@/types/StudentInterface';
+import getRandomFio from '@/utils/getRandomFio';
+import FioInterface from '@/types/FioInterface';
 
 sqlite3.verbose();
-const db = new sqlite3.Database('./db/vki-web.db');
 
-export const deleteStudentDb = (id: number): Promise<number> => {
-  return new Promise((resolve, reject) => {
-    db.serialize(() => {
-      db.run(
-        'DELETE FROM student WHERE id = ?',
-        [id],
-        function (err) {
-          if (err) {
-            console.error('Ошибка при удалении студента:', err);
-            reject(err);
-            return;
-          }
+/**
+ * Получение студентов
+ * @returns Promise<StudentInterface[]>
+ */
+export const getStudentsDb = async (): Promise<StudentInterface[]> => {
+  const db = new sqlite3.Database(process.env.DB ?? './db/vki-web.db');
 
-          if (this.changes === 0) {
-            reject(new Error(`Студент с ID ${id} не найден`));
-            return;
-          }
-
-          console.log(`Студент с ID ${id} удалён`);
-          resolve(id);
-        }
-      );
+  const students = await new Promise((resolve, reject) => {
+    const sql = 'SELECT * FROM student';
+    db.all(sql, [], (err, rows) => {
+      if (err) {
+        reject(err);
+        db.close();
+        return;
+      }
+      resolve(rows);
+      db.close();
     });
   });
+
+  return students as StudentInterface[];
 };
 
-export const getStudentsDb = (): Promise<StudentInterface[]> => {
-  return new Promise((resolve, reject) => {
-    const students: StudentInterface[] = [];
+/**
+ * Удаления студента
+ * @param studentId 
+ * @returns 
+ */
+export const deleteStudentDb = async (studentId: number): Promise<number> => {
+  const db = new sqlite3.Database(process.env.DB ?? './db/vki-web.db');
 
-    db.serialize(() => {
-      db.each(
-        'SELECT * FROM student',
-        (err, row) => {
-          if (err) {
-            console.error('Ошибка при чтении студентов:', err);
-            reject(err);
-            return;
-          }
-          students.push(row as StudentInterface);
-        },
-        (err, count) => {
-          if (err) {
-            reject(err);
-          } else {
-            console.log(`Загружено студентов: ${count}`);
-            resolve(students);
-          }
-        }
-      );
+  await new Promise((resolve, reject) => {
+    db.run('DELETE FROM student WHERE id=?', [studentId], (err) => {
+      if (err) {
+        reject(err);
+        db.close();
+        return;
+      }
+      resolve(studentId);
+      db.close();
     });
   });
+
+  return studentId;
+};
+
+/**
+ * Добавление  рандомных студента
+ * @param mount количество добавляемых записей - 10 по умолчанию
+ * @returns 
+ */
+export const addRandomStudentsDb = async (amount: number = 10): Promise<FioInterface[]> => {
+  const db = new sqlite3.Database(process.env.DB ?? './db/vki-web.db');
+
+  const fios: FioInterface[] = [];
+  let fiosInsert: string = ''
+  for (let i = 0; i < amount; i++) {
+    const fio = getRandomFio();
+    fios.push(fio);
+    fiosInsert+= `('${fio.first_name}', '${fio.last_name}', '${fio.middle_name}', 1)`;
+    fiosInsert+= `${i === amount - 1 ? ';' : ','}`;
+  }
+
+  await new Promise((resolve, reject) => {
+    db.run(`INSERT INTO student (first_name, last_name, middle_name, groupId) VALUES ${fiosInsert}`, [], (err) => {
+      if (err) {
+        reject(err);
+        db.close();
+        return;
+      }
+      resolve(fios);
+      db.close();
+    });
+  });
+
+  return fios;
 };

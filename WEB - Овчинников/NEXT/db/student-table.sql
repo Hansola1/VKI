@@ -1,8 +1,10 @@
--- Active: 1758042976819@@127.0.0.1@3306
+
+DROP TABLE student;
 CREATE TABLE student(  
     id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     first_name TEXT,
     last_name TEXT,
     middle_name TEXT,
-    groupId INTEGER
+    groupId INTEGER,
+    FOREIGN KEY (groupId) REFERENCES class(id)
 );

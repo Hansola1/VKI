@@ -1,2 +1,2 @@
-DELETE http://localhost:3000/api/students/1
-Content-Type: application/json
+DELETE http://localhost:3000/api/students/2
+   Content-Type: application/json

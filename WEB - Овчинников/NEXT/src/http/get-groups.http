@@ -1,2 +1,2 @@
-GET http://localhost:3000/api/groups
-Content-Type: application/json
+GET http://localhost:3000/api/students
+   Content-Type: application/json

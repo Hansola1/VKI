@@ -1,4 +1,4 @@
-import StudentInterface from '@/types/StudentsInterface';
+import type StudentInterface from '@/types/StudentInterface';
 import styles from './Student.module.scss';
 
 interface Props {
@@ -21,7 +21,7 @@ const Student = ({ student, onDelete }: Props): React.ReactElement => {
       {' '}
       {student.middle_name}
       {' '}
-      <button onClick={onDeleteHandler}>Удалить</button>
+      <button onClick={onDeleteHandler}>Удаляшка</button>
     </div>
   );
 };
