@@ -1,0 +1,52 @@
+﻿<Window x:Class="TableDesign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TableDesign"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid Height="450" Width="800">
+        
+        <ListView x:Name="UserList" Margin="10" BorderThickness="1" BorderBrush="Black"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" BorderBrush="Black" Padding="10">
+                        <DockPanel LastChildFill="True">
+
+                            <!-- Картинка слева -->
+                            <Image DockPanel.Dock="Left" Source="{Binding ImagePath}"
+                            Width="80" Height="80" Stretch="UniformToFill" VerticalAlignment="Top" Margin="0,0,10,0"/>
+
+                            <!-- Текст справа -->
+                            <StackPanel Margin="0,0,0,0" Width="600">
+
+                                <!-- Имя и группа крови -->
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+                                    <TextBlock Text="{Binding Name}" FontSize="14" FontWeight="Bold" TextWrapping="Wrap" Width="300"/>
+                                    <TextBlock Text="{Binding BloodGroup}" FontSize="12" Foreground="Gray"
+                                         HorizontalAlignment="Right" Width="100" Margin="250,0,0,0"/>
+                                </StackPanel>
+
+                                <!-- Описание -->
+                                <TextBlock Text="{Binding Description}" 
+                                TextWrapping="Wrap" Margin="0,5,0,0" Width="600" TextAlignment="Justify"/>
+
+                                <!-- Дата и знак -->
+                                <StackPanel Margin="0,10,0,0" Orientation="Horizontal">
+                                    <TextBlock Text="{Binding CreationDate}" FontSize="10" Foreground="Gray"/>
+                                    <TextBlock Text="{Binding Zodiac}" FontSize="10" Foreground="Gray" Margin="500,0,0,0"/>
+                                </StackPanel>
+                            </StackPanel>
+                            
+                        </DockPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </Grid>
+</Window>
