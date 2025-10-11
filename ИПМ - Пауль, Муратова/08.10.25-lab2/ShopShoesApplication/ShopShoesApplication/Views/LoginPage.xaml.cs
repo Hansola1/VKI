@@ -1,28 +1,66 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using ShopShoesApplication.DataControl;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ShopShoesApplication.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для LoginPage.xaml
-    /// </summary>
     public partial class LoginPage : Page
     {
         public LoginPage()
         {
             InitializeComponent();
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            string login = LoginTextBox.Text;
+            string password = PasswordTextBox.Text;
+
+            try
+            {
+                using (var db = new ApplicationContext())
+                {
+                    var user = db.User.Include(r => r.Role).FirstOrDefault(u => u.Login == login && u.Password == password);
+
+                    if (user != null)
+                    {
+                        if (user.Role.Name == "Администратор")
+                        {
+                            ///...
+                        }
+                        else if (user.Role.Name == "Менеджер")
+                        {
+                            ///...
+                        }
+                        else
+                        {
+                            Session.CurrentUser = user;
+                            Session.Visit = false;
+
+                            MessageBox.Show($"Вы вошли как клиент!");
+                            MainFrame.Navigate(new ProductsPage());
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Данные не прошли валидацию");
+            }
+        }
+
+        private void Registration_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new RegistrationPage());
+        }
+
+        private void Visit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Вы вошли как гость!");
+            Session.Visit = true;
+
+            MainFrame.Navigate(new ProductsPage());
         }
     }
 }

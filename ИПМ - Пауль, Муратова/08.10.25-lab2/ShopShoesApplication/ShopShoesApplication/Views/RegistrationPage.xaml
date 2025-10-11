@@ -6,9 +6,27 @@
       xmlns:local="clr-namespace:ShopShoesApplication.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="RegistrationPage">
+        Title="Окно регистрации">
 
-    <Grid>
-        
+    <Grid Height="450" Width="800" Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Регистрация"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="189,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Пароль"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="189,106,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"/>
+
+        <TextBox x:Name="LoginTextBox" HorizontalAlignment="Left" Margin="281,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Margin="281,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+
+        <Button Click="Login_Click" Content="Авторизоваться" HorizontalAlignment="Left" Margin="273,395,0,0" VerticalAlignment="Top" Height="35" Width="322" FontSize="18" Background="MediumSpringGreen" FontFamily="Times New Roman"/>
+        <Button Click="Registration_Click" Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="273,347,0,0" VerticalAlignment="Top" Height="35" Width="322" FontSize="18" Background="MediumSpringGreen" FontFamily="Times New Roman"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="189,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Фамилия"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="189,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Имя"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="187,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Отчество"/></TextBlock>
+
+        <TextBox x:Name="SurnameTextBox" HorizontalAlignment="Left" Margin="283,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="283,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+        <TextBox x:Name="LastnameTextBox" HorizontalAlignment="Left" Margin="283,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
     </Grid>
 </Page>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\App.xaml
-11407045341
+9-220899463
 
-12738737551
+20352517168
 228-722224640
-MainWindow.xaml;
+MainWindow.xaml;Views\AdminPage\AddOrder.xaml;Views\AdminPage\AddProduct.xaml;Views\AdminPage\EditOrder.xaml;Views\AdminPage\EditProduct.xaml;Views\LoginPage.xaml;Views\OrdersPage.xaml;Views\ProductsPage.xaml;Views\RegistrationPage.xaml;
 
 False
 

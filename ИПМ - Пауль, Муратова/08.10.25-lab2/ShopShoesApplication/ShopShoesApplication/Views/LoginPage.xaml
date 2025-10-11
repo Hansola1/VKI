@@ -6,9 +6,20 @@
       xmlns:local="clr-namespace:ShopShoesApplication.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="LoginPage">
+      Title="Окно входа">
 
-    <Grid>
-        
+    <Grid Height="450" Width="800" Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,54,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" FontSize="36" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="147,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Пароль"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="147,163,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"/>
+
+        <TextBox x:Name="LoginTextBox" HorizontalAlignment="Center" Margin="0,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Center" Margin="0,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+
+        <Button Click="Login_Click" Content="Войти" HorizontalAlignment="Center" Margin="0,276,0,0" VerticalAlignment="Top" Height="43" Width="322" FontSize="18" Background="MediumSpringGreen" FontFamily="Times New Roman"/>
+        <Button Click="Registration_Click" Content="Регистрация" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" Height="43" Width="322" FontSize="18" Background="MediumSpringGreen" FontFamily="Times New Roman"/>
+        <Button Click="Visit_Click" Content="Войти как гость" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Height="30" Width="322" FontSize="18" Background="White" FontFamily="Times New Roman" Foreground="#FF0A0A0A"/>
     </Grid>
 </Page>

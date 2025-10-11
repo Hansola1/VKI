@@ -5,10 +5,40 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ShopShoesApplication.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="ProductsPage">
+       d:DesignHeight="450" d:DesignWidth="800"
+      Title="Окно Списка продуктов">
 
-    <Grid>
-        
+    <Grid Height="450" Width="800" Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+
+        <!--Заголовок-->
+        <TextBlock HorizontalAlignment="Left" Margin="20,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="30"
+                Height="43" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Список продуктов"/></TextBlock>
+
+        <!--Кнопки-->
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="20,408,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+        <Button Content="Список заказов" HorizontalAlignment="Left" Margin="163,408,0,0" VerticalAlignment="Top" Width="181" Click="ToProducts_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+
+        <!-- Таблица материалов -->
+        <ListView x:Name="MaterialsListView" Margin="20,70,20,60" FontFamily="Times New Roman">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" BorderBrush="Black" Padding="10" Margin="0,0,0,5">
+                        <StackPanel>
+                            <TextBlock Text="{Binding NameMaterial}" FontSize="16" FontWeight="Bold" FontFamily="Times New Roman"/>
+                            <TextBlock Text="{Binding TypeMaterial}" FontSize="12" Foreground="Gray" FontFamily="Times New Roman"/>
+                            <TextBlock Text="{Binding UnitMeasurement}" FontSize="12" FontFamily="Times New Roman"/>
+                            <TextBlock Text="{Binding CostMaterialOne, StringFormat='Стоимость: {0:C}'}" FontSize="12" FontFamily="Times New Roman"/>
+                            <TextBlock Text="{Binding CountMaterial, StringFormat='На складе: {0:F2}'}" FontSize="12" FontFamily="Times New Roman"/>
+                            <TextBlock Text="{Binding MinCount, StringFormat='Мин. остаток: {0:F2}'}" FontSize="12" FontFamily="Times New Roman"/>
+                            <TextBlock Text="{Binding CountInPackage, StringFormat='В упаковке: {0:F2}'}" FontSize="12" FontFamily="Times New Roman"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </Grid>
 </Page>

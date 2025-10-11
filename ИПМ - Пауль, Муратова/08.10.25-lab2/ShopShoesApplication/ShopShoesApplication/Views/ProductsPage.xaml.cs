@@ -15,14 +15,21 @@ using System.Windows.Shapes;
 
 namespace ShopShoesApplication.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для ProductsPage.xaml
-    /// </summary>
     public partial class ProductsPage : Page
     {
         public ProductsPage()
         {
             InitializeComponent();
+        }
+
+        private void Cancel_click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new LoginPage());
+        }
+
+        private void ToProducts_click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
