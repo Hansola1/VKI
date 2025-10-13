@@ -65,12 +65,12 @@ export const addRandomStudentsDb = async (amount: number = 10): Promise<FioInter
   for (let i = 0; i < amount; i++) {
     const fio = getRandomFio();
     fios.push(fio);
-    fiosInsert+= `('${fio.first_name}', '${fio.last_name}', '${fio.middle_name}', 1)`;
+    fiosInsert+= `('${fio.firstName}', '${fio.lastName}', '${fio.middleName}', 1)`;
     fiosInsert+= `${i === amount - 1 ? ';' : ','}`;
   }
 
   await new Promise((resolve, reject) => {
-    db.run(`INSERT INTO student (first_name, last_name, middle_name, groupId) VALUES ${fiosInsert}`, [], (err) => {
+    db.run(`INSERT INTO student (firstname, lastName, middleName, groupId) VALUES ${fiosInsert}`, [], (err) => {
       if (err) {
         reject(err);
         db.close();

@@ -1,15 +1,16 @@
 import type StudentInterface from '@/types/StudentInterface';
+const URL = process.env.NEXT_PUBLIC_API;
 
 export const getStudentsApi = async (): Promise<StudentInterface[]> => {
 
-  const response = await fetch('http://localhost:3001/api/students');
+  const response = await fetch(`${URL}/students`);
   const students = await response.json();
 
   return students;
 };
 
 export const deleteStudentApi = async (studentId: number): Promise<number> => {
-  await fetch(`http://localhost:3001/api/students/${studentId}`, {
+  await fetch(`${URL}/students/${studentId}`, {
     method: 'DELETE',
   });
   
@@ -17,7 +18,7 @@ export const deleteStudentApi = async (studentId: number): Promise<number> => {
 };
 
 export const addStudentApi = async (studentData: Partial<StudentInterface>): Promise<StudentInterface> => {
-  const response = await fetch('http://localhost:3001/api/students', {
+  const response = await fetch(`${URL}/students`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
