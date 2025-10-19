@@ -53,6 +53,37 @@ export const deleteStudentDb = async (studentId: number): Promise<number> => {
 };
 
 /**
+ * Добавление студента
+ */
+export const addStudentDb = async (studentData: Partial<StudentInterface>): Promise<StudentInterface> => {
+  const db = new sqlite3.Database(process.env.DB ?? './db/vki-web.db');
+
+  const { firstName, lastName, middleName } = studentData;
+
+  const newStudent = await new Promise<StudentInterface>((resolve, reject) => {
+    const sql = `
+      INSERT INTO student (firstName, lastName, middleName, groupId)
+      VALUES (?, ?, ?, ?)
+    `;
+
+    db.run(sql, [firstName, lastName, middleName ], function (err) {
+
+      const newStudent: StudentInterface = {
+        id: this.lastID,
+        firstName: firstName!,
+        lastName: lastName!,
+        middleName: middleName!,
+      };
+
+      resolve(newStudent);
+      db.close();
+    });
+  });
+
+  return newStudent;
+};
+
+/**
  * Добавление  рандомных студента
  * @param mount количество добавляемых записей - 10 по умолчанию
  * @returns 

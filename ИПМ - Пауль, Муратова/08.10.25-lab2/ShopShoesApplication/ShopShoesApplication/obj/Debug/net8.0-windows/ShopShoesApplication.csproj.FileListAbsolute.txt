@@ -80,3 +80,6 @@ D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\Sho
 D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\obj\Debug\net8.0-windows\Views\OrdersPage.baml
 D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\obj\Debug\net8.0-windows\Views\ProductsPage.baml
 D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\obj\Debug\net8.0-windows\Views\RegistrationPage.baml
+D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\obj\Debug\net8.0-windows\Views\UserControls\ProductCardControl.g.cs
+D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\obj\Debug\net8.0-windows\Views\UserControls\ProductCardControl.baml

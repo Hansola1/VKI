@@ -18,7 +18,7 @@ export const deleteStudentApi = async (studentId: number): Promise<number> => {
 };
 
 export const addStudentApi = async (studentData: Partial<StudentInterface>): Promise<StudentInterface> => {
-  const response = await fetch(`${URL}/students`, {
+  const response = await fetch(`${URL}/api/students`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -26,6 +26,5 @@ export const addStudentApi = async (studentData: Partial<StudentInterface>): Pro
     body: JSON.stringify(studentData),
   });
 
-  const newStudent: StudentInterface = await response.json();
-  return newStudent;
+  return response.json();
 };

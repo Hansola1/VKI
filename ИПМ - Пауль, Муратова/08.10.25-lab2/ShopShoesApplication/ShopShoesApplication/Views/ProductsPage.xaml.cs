@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using ShopShoesApplication.DataControl;
+using ShopShoesApplication.Models;
+using ShopShoesApplication.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ShopShoesApplication.Views
 {
@@ -20,6 +12,36 @@ namespace ShopShoesApplication.Views
         public ProductsPage()
         {
             InitializeComponent();
+            LoadDataGrid();
+        }
+
+        List<ProductView> products = new();
+        private void LoadDataGrid()
+        {
+            using (var db = new ApplicationContext())
+            {
+                products = db.Product
+                .Include(p => p.Provider).Include(p => p.Manufacturer).Include(p => p.Category)
+                .Select(p => new ProductView
+                {
+                    Id = p.Id,
+                    Arcticle = p.Arcticle,
+                    Name = p.Name,
+                    MeasurementUnit = p.MeasurementUnit,
+                    Price = p.Price,
+
+                    Provider = p.Provider.Name ?? "-",
+                    Manufacturer = p.Manufacturer.Name ?? "-",
+                    Category = p.Category.Name ?? "-",
+
+                    Discount = p.Discount, 
+                    Count = p.Count,
+                    Description = p.Description,
+                    Photo = p.Photo,
+                }).ToList();
+            }
+
+            ProductListView.ItemsSource = products;
         }
 
         private void Cancel_click(object sender, RoutedEventArgs e)
@@ -27,9 +49,9 @@ namespace ShopShoesApplication.Views
             MainFrame.Navigate(new LoginPage());
         }
 
-        private void ToProducts_click(object sender, RoutedEventArgs e)
+        private void ToOrders_click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(new OrdersPage());
         }
     }
 }

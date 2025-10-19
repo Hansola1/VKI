@@ -3,9 +3,22 @@ import {
   useMutation,
   useQueryClient,
 } from '@tanstack/react-query';
+import { v4 as uuidv4 } from 'uuid';
 import { deleteStudentApi, getStudentsApi, addStudentApi } from '@/api/studentsApi';
 import type StudentInterface from '@/types/StudentInterface';
 import isServer from '@/utils/isServer';
+
+// для обновления студента на клиенте, после post запроса на сервере можно добавить поле uuid, 
+// выставлять это поле на клиенте, записывать его в бд
+ 
+// import { v4 as uuidv4 } from 'uuid';
+// //....
+// addStudentMutate({
+// id: -1,
+// ...studentFormField,
+// groupId: 1,
+// uuid: uuidv4(),
+// });
 
 interface StudentsHookInterface {
   students: StudentInterface[];
@@ -79,9 +92,15 @@ const useStudents = (): StudentsHookInterface => {
 
       // Оптимистичное добавление: временно добавляем студента с временным id 
       const optimisticStudent = {
+        id: -1,
         ...newStudent,
-        id: Date.now(), // временный ID мб будет пока хз как 
+        groupId: 1,
+        uuid: uuidv4(),
         isDeleted: false,
+
+        // ...newStudent,
+        // id: Date.now(), // временный ID мб будет пока хз как 
+        // isDeleted: false,
       } as StudentInterface;
 
       queryClient.setQueryData(['students'], [
