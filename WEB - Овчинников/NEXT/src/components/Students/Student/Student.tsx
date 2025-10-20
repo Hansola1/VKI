@@ -1,4 +1,4 @@
-import type StudentInterface from '@/types/StudentInterface';
+import type StudentInterface from '@/types/StudentsInterface';
 import styles from './Student.module.scss';
 
 interface Props {

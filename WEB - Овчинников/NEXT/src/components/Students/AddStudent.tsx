@@ -6,7 +6,7 @@ interface AddStudentForm {
   firstName: string;
   lastName: string;
   middleName?: string;
-  groupId?: number;
+  groupId?: number; //вообще в идеале убрать(
 }
 
 export default function AddStudent({ onAdd, onCancel }: {

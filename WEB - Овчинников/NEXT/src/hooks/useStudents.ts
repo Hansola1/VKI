@@ -5,8 +5,8 @@ import {
 } from '@tanstack/react-query';
 import { v4 as uuidv4 } from 'uuid';
 import { deleteStudentApi, getStudentsApi, addStudentApi } from '@/api/studentsApi';
-import type StudentInterface from '@/types/StudentInterface';
 import isServer from '@/utils/isServer';
+import type StudentInterface from '@/types/StudentsInterface';
 
 // для обновления студента на клиенте, после post запроса на сервере можно добавить поле uuid, 
 // выставлять это поле на клиенте, записывать его в бд
@@ -83,33 +83,43 @@ const useStudents = (): StudentsHookInterface => {
     // },
   });
 
-      // --- Мутация добавления (новая) ---
-  const addStudentMutate = useMutation({
+// --- Мутация добавления (новая) ---
+const addStudentMutate = useMutation({
     mutationFn: (newStudent: Partial<StudentInterface>) => addStudentApi(newStudent),
     onMutate: async (newStudent) => {
       await queryClient.cancelQueries({ queryKey: ['students'] });
       const previousStudents = queryClient.getQueryData<StudentInterface[]>(['students']);
 
       // Оптимистичное добавление: временно добавляем студента с временным id 
-      const optimisticStudent = {
-        id: -1,
-        ...newStudent,
-        groupId: 1,
-        uuid: uuidv4(),
-        isDeleted: false,
-
-        // ...newStudent,
-        // id: Date.now(), // временный ID мб будет пока хз как 
-        // isDeleted: false,
-      } as StudentInterface;
+    const optimisticStudent: StudentInterface = {
+      id: -1,
+      uuid: uuidv4(), 
+      firstName: newStudent.firstName ?? '',
+      lastName: newStudent.lastName ?? '',
+      middleName: newStudent.middleName ?? '',
+      groupId: newStudent.groupId ?? 1,
+      isDeleted: false,
+    };
 
       queryClient.setQueryData(['students'], [
         ...(previousStudents ?? []),
         optimisticStudent,
       ]);
-      return { previousStudents };
+      return { previousStudents, optimisticStudent };
     },
-  });
+  onSuccess: (savedStudent, variables, context) => {
+    queryClient.setQueryData<StudentInterface[]>(['students'], (old = []) => {
+      return old.map(student =>
+        student.uuid === context?.optimisticStudent.uuid 
+          ? { ...savedStudent, uuid: student.uuid } 
+          : student
+      );
+    });
+  },
+  onError: (err, variables, context) => {
+    queryClient.setQueryData(['students'], context?.previousStudents); // Откатываем оптимистичное изменение
+  },
+});
 
   return {
     students: data ?? [],

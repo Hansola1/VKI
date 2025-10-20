@@ -1,6 +1,6 @@
 import sqlite3 from 'sqlite3';
 
-import type StudentInterface from '@/types/StudentInterface';
+import type StudentInterface from '@/types/StudentsInterface';
 import getRandomFio from '@/utils/getRandomFio';
 import FioInterface from '@/types/FioInterface';
 
@@ -58,7 +58,13 @@ export const deleteStudentDb = async (studentId: number): Promise<number> => {
 export const addStudentDb = async (studentData: Partial<StudentInterface>): Promise<StudentInterface> => {
   const db = new sqlite3.Database(process.env.DB ?? './db/vki-web.db');
 
-  const { firstName, lastName, middleName } = studentData;
+  // дефолтные знач
+  const {
+    firstName = '',
+    lastName = '',
+    middleName = '',
+    groupId = 1
+  } = studentData;
 
   const newStudent = await new Promise<StudentInterface>((resolve, reject) => {
     const sql = `
@@ -66,16 +72,23 @@ export const addStudentDb = async (studentData: Partial<StudentInterface>): Prom
       VALUES (?, ?, ?, ?)
     `;
 
-    db.run(sql, [firstName, lastName, middleName ], function (err) {
+    db.run(sql, [firstName, lastName, middleName, groupId], function (err) {
+      if (err) {
+        console.error('Ошибка бд:', err.message);
+        reject(err);
+        db.close();
+        return;
+      }
 
-      const newStudent: StudentInterface = {
+      const result: StudentInterface = {
         id: this.lastID,
-        firstName: firstName!,
-        lastName: lastName!,
-        middleName: middleName!,
+        firstName,
+        lastName,
+        middleName,
+        groupId,
       };
 
-      resolve(newStudent);
+      resolve(result);
       db.close();
     });
   });

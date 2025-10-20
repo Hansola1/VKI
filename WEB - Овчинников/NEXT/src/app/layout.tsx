@@ -12,7 +12,7 @@ import type { Metadata } from 'next';
 
 import '@/styles/globals.scss';
 import { META_DESCRIPTION, META_TITLE } from '@/constants/meta';
-import type StudentInterface from '@/types/StudentInterface';
+import type StudentInterface from '@/types/StudentsInterface';
 import { getStudentsApi } from '@/api/studentsApi';
 
 export const metadata: Metadata = {
