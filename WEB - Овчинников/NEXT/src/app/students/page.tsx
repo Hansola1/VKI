@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import Students from '@/components/Students/Students'
+import Students from '../../components/Students/Students'
 
 export const metadata: Metadata = {
-  title: 'Студенты - Вэб разработка ВКИ',
+  title: 'Студенты - Вeб разработка ВКИ',
   description: 'Список студентов',
 };
 

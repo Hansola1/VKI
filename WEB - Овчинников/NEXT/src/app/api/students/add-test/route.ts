@@ -1,5 +1,4 @@
-import { addRandomStudentsDb } from '@/db/studentDb';
-import { addStudentDb } from '@/db/studentDb';
+import { getStudentsDb, addStudentDb } from '../../../../db/studentDb';
 import { NextRequest, NextResponse } from 'next/server'; // import { type NextApiRequest } from 'next/types'; 
 
 // export async function POST(): Promise<Response> {

@@ -1,7 +1,7 @@
 'use client';
 
-import useGroups from '@/hooks/useGroups';
-import type GroupInterface from '@/types/GroupInterface';
+import useGroups from '../../hooks/useGroups';
+import type GroupInterface from '../../types/GroupInterface';
 import styles from './Groups.module.scss';
 
 const Groups = (): React.ReactElement => {

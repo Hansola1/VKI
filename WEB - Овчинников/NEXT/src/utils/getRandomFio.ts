@@ -1,4 +1,4 @@
-import FioInterface from "@/types/FioInterface";
+import FioInterface from "../types/FioInterface";
 import capitalize from "./capitalize";
 import getRandomNumber from "./getRandomNumber";
 

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getGroupsDb } from '@/db/groupDb'; 
+import { getGroupsDb } from '../../../db/groupDb'; 
 
 export async function GET() {
   try 
