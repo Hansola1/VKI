@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import useStudents from '@/hooks/useStudents';
+import useStudents from '../../hooks/useStudents';
 import { useQuery } from '@tanstack/react-query';
-import { getStudentsApi } from '@/api/studentsApi';
-import StudentInterface from '@/types/StudentsInterface';
+import { getStudentsApi } from '../../api/studentsApi';
+import StudentInterface from '../../types/StudentsInterface';
 import Student from './Student/Student';
 import AddStudent from './AddStudent';
 
@@ -18,12 +18,18 @@ const Students = () => {
   const { deleteStudentMutate, addStudentMutate } = useStudents();
 
   const onDeleteHandler = (studentId: number): void => {
+    debugger; //н9
+    console.log('OnDeleteHandler', studentId); //н9
+
     if (confirm('Удалить студента?')) {
       deleteStudentMutate(studentId);
     }
   };
 
     const onAddHandler = (data: any) => {
+    debugger; //н9
+    console.log('Добавление студента', data); //н9
+      
     addStudentMutate(data); 
     setShowAddForm(false);
   };

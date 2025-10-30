@@ -1,25 +1,25 @@
-// import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
-// @Entity()
-// export class Student {
-//   @PrimaryGeneratedColumn()
-//   id!: number;
+@Entity()
+export class Student {
+  @PrimaryGeneratedColumn()
+  id!: number;
 
-//   @Column({ default: '' })
-//   uuid!: string;
+  @Column({ default: '' })
+  uuid?: string;
 
-//   @Column()
-//   firstName!: string;
+  @Column()
+  firstName!: string;
 
-//   @Column()
-//   lastName!: string;
+  @Column()
+  lastName!: string;
 
-//   @Column()
-//   middleName!: string;
+  @Column()
+  middleName!: string;
 
-//   @Column({ default: '' })
-//   contacts!: string;
+  @Column({ default: '' })
+  contacts?: string;
 
-//   @Column()
-//   groupId!: number;
-// }
+  @Column()
+  groupId!: number;
+}

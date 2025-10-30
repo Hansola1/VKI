@@ -1,19 +1,19 @@
 import { dehydrate } from '@tanstack/react-query';
 
-import TanStackQuery from '@/containers/TanStackQuery';
-import queryClient from '@/api/reactQueryClient';
-import { getGroupsApi } from '@/api/groupsApi';
-import type GroupInterface from '@/types/GroupInterface';
-import Header from '@/components/layout/Header/Header';
-import Footer from '@/components/layout/Footer/Footer';
-import Main from '@/components/layout/Main/Main';
+import TanStackQuery from '../containers/TanStackQuery';
+import queryClient from '../api/reactQueryClient';
+import { getGroupsApi } from '../api/groupsApi';
+import type GroupInterface from '../types/GroupInterface';
+import Header from '../components/layout/Header/Header';
+import Footer from '../components/layout/Footer/Footer';
+import Main from '../components/layout/Main/Main';
 
 import type { Metadata } from 'next';
 
 import '@/styles/globals.scss';
-import { META_DESCRIPTION, META_TITLE } from '@/constants/meta';
-import type StudentInterface from '@/types/StudentsInterface';
-import { getStudentsApi } from '@/api/studentsApi';
+import { META_DESCRIPTION, META_TITLE } from '../constants/meta';
+import type StudentInterface from '../types/StudentsInterface';
+import { getStudentsApi } from '../api/studentsApi';
 
 export const metadata: Metadata = {
   title: META_TITLE,

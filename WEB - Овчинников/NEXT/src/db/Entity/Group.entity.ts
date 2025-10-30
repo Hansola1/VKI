@@ -1,13 +1,13 @@
-// import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
-// @Entity()
-// export class Group {
-//   @PrimaryGeneratedColumn()
-//   id!: number;
+@Entity()
+export class Group {
+  @PrimaryGeneratedColumn()
+  id!: number;
 
-//   @Column()
-//   name!: string;
+  @Column()
+  name!: string;
 
 //   @Column()
 //   contacts!: string;
-// }
+}

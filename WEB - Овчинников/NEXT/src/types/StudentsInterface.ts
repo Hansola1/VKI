@@ -1,11 +1,13 @@
 interface StudentInterface {
   id: number;
+  uuid?: string; 
   firstName: string;
   lastName: string;
   middleName: string;
+  contacts?: string;
   groupId: number;
   isDeleted?: boolean;
-  uuid?: string; //ну необязательно на самом деле 
+  isNew?: boolean;
 }
 
 export default StudentInterface;
