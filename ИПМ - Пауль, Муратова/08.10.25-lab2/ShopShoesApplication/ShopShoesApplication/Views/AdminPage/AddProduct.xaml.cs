@@ -15,14 +15,21 @@ using System.Windows.Shapes;
 
 namespace ShopShoesApplication.Views.AdminPage
 {
-    /// <summary>
-    /// Логика взаимодействия для AddProduct.xaml
-    /// </summary>
     public partial class AddProduct : Page
     {
         public AddProduct()
         {
             InitializeComponent();
+        }
+
+        private void Cancel_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Save_click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

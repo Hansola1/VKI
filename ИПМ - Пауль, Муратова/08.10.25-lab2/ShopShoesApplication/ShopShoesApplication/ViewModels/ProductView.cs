@@ -9,13 +9,17 @@
         public int Price { get; set; }
 
         // Отображаем НАЗВАНИЯ, а не ID
-        public string Provider { get; set; }       
-        public string Manufacturer { get; set; }  
-        public string Category { get; set; }       
+        public string Provider { get; set; }
+        public string Manufacturer { get; set; }
+        public string Category { get; set; }
 
-        public int Discount { get; set; } 
+        public int Discount { get; set; }
         public int Count { get; set; }
         public string Description { get; set; }
         public string Photo { get; set; }
+
+
+        //// Вычисляемая итоговая цена
+        //public decimal FinalPrice => Price * (100 - Discount) / 100;
     }
 }

@@ -27,11 +27,15 @@ namespace ShopShoesApplication.Views
                     {
                         if (user.Role.Name == "Администратор")
                         {
-                            ///...
+                            Session.Visit = false;
+                            MessageBox.Show($"Вы вошли как менеджер!");
+                            MainFrame.Navigate(new ProductsPage());
                         }
                         else if (user.Role.Name == "Менеджер")
                         {
-                            ///...
+                            Session.Visit = false;
+                            MessageBox.Show($"Вы вошли как менеджер!");
+                            MainFrame.Navigate(new ProductsPage());
                         }
                         else
                         {

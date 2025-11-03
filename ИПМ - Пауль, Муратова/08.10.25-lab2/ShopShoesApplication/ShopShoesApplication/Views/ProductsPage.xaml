@@ -19,11 +19,15 @@
         <!--Кнопки-->
         <Button Content="Назад" HorizontalAlignment="Left" Margin="20,408,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" 
              Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
-        <Button Content="Список заказов" HorizontalAlignment="Left" Margin="163,408,0,0" VerticalAlignment="Top" Width="181" Click="ToOrders_click" 
+        <Button x:Name="OrderButton" Content="Список заказов" HorizontalAlignment="Left" Margin="163,408,0,0" VerticalAlignment="Top" Width="181" Click="ToOrders_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+        <Button x:Name="AddButton" Content="Добавить продукт" HorizontalAlignment="Left" Margin="349,408,0,0" VerticalAlignment="Top" Width="192" Click="AddProduct_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+        <Button x:Name="DeleteButton" Content="Удалить продукт" HorizontalAlignment="Left" Margin="546,408,0,0" VerticalAlignment="Top" Width="165" Click="DeleteProduct_click" 
              Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
 
         <!-- Таблица продуктов -->
-        <ListView x:Name="ProductListView" Margin="20,70,20,60" 
+        <ListView x:Name="ProductListView" Margin="20,98,20,61" 
           FontFamily="Times New Roman" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
             <ListView.ItemsPanel>
@@ -39,5 +43,19 @@
             </ListView.ItemTemplate>
         </ListView>
 
+        <Label x:Name="NameAccount" HorizontalAlignment="Left" Margin="483,13,0,0" VerticalAlignment="Top" Width="297" FontSize="16" Height="16"/>
+
+        <!-- Поиск -->
+        <TextBox x:Name="SearchTextBox" Margin="70,61,439,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" TextChanged="SearchTextBox_TextChanged"/>
+        <Label x:Name="SearchLabel" Content="Поиск" HorizontalAlignment="Left" Margin="20,56,0,0" VerticalAlignment="Top" Height="28" Width="88"/>
+
+        <!-- Фильтр по поставщику -->
+        <TextBlock x:Name="FilterLabel" Text="Фильтр" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top" Height="21" Width="54"/>
+        <ComboBox x:Name="ProviderFilterComboBox" Margin="433,61,213,0" VerticalAlignment="Top" Height="23" SelectionChanged="ProviderFilterComboBox_SelectionChanged"/>
+
+        <!-- Сортировка по количеству -->
+        <TextBlock x:Name="SortLabel" Text="Сортировка по кол-во" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="598,52,0,0" VerticalAlignment="Top" Height="40" Width="72"/>
+        <Button x:Name="MaxButton" Content="Убывание" Tag="Asc" Click="SortByCount_Click" Margin="675,68,20,364"/>
+        <Button x:Name="MinButton" Content="Возрастание" Tag="Desc" Click="SortByCount_Click" Margin="675,45,20,387"/>
     </Grid>
 </Page>

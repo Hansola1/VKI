@@ -11,6 +11,7 @@
     <!-- Объявление конвертера!!!!!!!!!! -->
     <UserControl.Resources>
         <conv:DiscountConvert x:Key="DiscountConvert"/>
+        <conv:NotStockConvert x:Key="NotStockConvert"/>
     </UserControl.Resources>
 
     <Border BorderThickness="1" BorderBrush="Black" Padding="10" Margin="5">
@@ -42,12 +43,19 @@
                                FontSize="12" Margin="0,2,0,0"/>
                     <TextBlock Text="{Binding Provider, StringFormat='Поставщик: {0}'}" 
                                FontSize="12" Margin="0,2,0,0"/>
+                    
                     <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" 
                                FontSize="13" FontWeight="SemiBold" Foreground="DarkGreen" Margin="0,5,0,0"/>
+
+                    <!--<TextBlock x:Name="OriginalPriceBlock" Text="{Binding Price, StringFormat='Цена: {0:C}'}" FontSize="13" FontWeight="SemiBold"
+                        Foreground="DarkGreen" TextDecorations="{Binding Discount, Converter={StaticResource DiscountToTextDecorationConverter}}"/>
+                    <TextBlock x:Name="FinalPriceBlock" Text="{Binding FinalPrice, StringFormat=' → {0:C}'}" FontSize="13" FontWeight="SemiBold"
+                        Foreground="Black" Visibility="{Binding Discount, Converter={StaticResource DiscountToVisibilityConverter}}"/>-->
+
                     <TextBlock Text="{Binding MeasurementUnit, StringFormat='Единица измерения: {0}'}" 
                                FontSize="11" Margin="0,2,0,0"/>
                     <TextBlock Text="{Binding Count, StringFormat='Количество на складе: {0}'}" 
-                               FontSize="11" Margin="0,2,0,0"/>
+                               FontSize="11" Margin="0,2,0,0"  Background="{Binding Count, Converter={StaticResource NotStockConvert}}"/>
                 </StackPanel>
             </Border>
 

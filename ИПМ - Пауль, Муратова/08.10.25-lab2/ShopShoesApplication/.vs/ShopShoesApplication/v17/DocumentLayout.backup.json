@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C, \u043C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\shopshoesapplication\\shopshoesapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|solutionrelative:shopshoesapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C, \u043C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\shopshoesapplication\\shopshoesapplication\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|solutionrelative:shopshoesapplication\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C, \u043C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\shopshoesapplication\\shopshoesapplication\\views\\usercontrols\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|solutionrelative:shopshoesapplication\\views\\usercontrols\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C, \u043C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\shopshoesapplication\\shopshoesapplication\\views\\adminpage\\editproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|solutionrelative:shopshoesapplication\\views\\adminpage\\editproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C, \u043C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\shopshoesapplication\\shopshoesapplication\\views\\adminpage\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|solutionrelative:shopshoesapplication\\views\\adminpage\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|d:\\codedata\\homeworkfile\\\u0438\u043F\u043C - \u043F\u0430\u0443\u043B\u044C, \u043C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\shopshoesapplication\\shopshoesapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E721D535-DD3D-458B-B9B9-5243C10A0D44}|ShopShoesApplication\\ShopShoesApplication.csproj|solutionrelative:shopshoesapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,23 +26,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductCardControl.xaml",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\UserControls\\ProductCardControl.xaml",
-              "RelativeDocumentMoniker": "ShopShoesApplication\\Views\\UserControls\\ProductCardControl.xaml",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\UserControls\\ProductCardControl.xaml",
-              "RelativeToolTip": "ShopShoesApplication\\Views\\UserControls\\ProductCardControl.xaml",
+              "DocumentIndex": 2,
+              "Title": "AddProduct.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\AdminPage\\AddProduct.xaml",
+              "RelativeDocumentMoniker": "ShopShoesApplication\\Views\\AdminPage\\AddProduct.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\AdminPage\\AddProduct.xaml",
+              "RelativeToolTip": "ShopShoesApplication\\Views\\AdminPage\\AddProduct.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-19T14:53:36.814Z",
+              "WhenOpened": "2025-11-03T14:32:13.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "EditProduct.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\AdminPage\\EditProduct.xaml",
+              "RelativeDocumentMoniker": "ShopShoesApplication\\Views\\AdminPage\\EditProduct.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\AdminPage\\EditProduct.xaml",
+              "RelativeToolTip": "ShopShoesApplication\\Views\\AdminPage\\EditProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T14:30:16.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductsPage.xaml",
               "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\ProductsPage.xaml",
               "RelativeDocumentMoniker": "ShopShoesApplication\\Views\\ProductsPage.xaml",
@@ -42,6 +62,19 @@
               "RelativeToolTip": "ShopShoesApplication\\Views\\ProductsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-19T12:20:51.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ShopShoesApplication\\Views\\ProductsPage.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0418\u041F\u041C - \u041F\u0430\u0443\u043B\u044C, \u041C\u0443\u0440\u0430\u0442\u043E\u0432\u0430\\08.10.25-lab2\\ShopShoesApplication\\ShopShoesApplication\\Views\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "ShopShoesApplication\\Views\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:53:59.351Z",
               "EditorCaption": ""
             }
           ]
