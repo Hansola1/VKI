@@ -5,7 +5,7 @@ import useStudents from '../../hooks/useStudents';
 import { useQuery } from '@tanstack/react-query';
 import { getStudentsApi } from '../../api/studentsApi';
 import StudentInterface from '../../types/StudentsInterface';
-import Student from './Student/Student';
+import Student from './Student/StudentItemList';
 import AddStudent from './AddStudent';
 
 const Students = () => {

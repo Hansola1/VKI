@@ -1,39 +1,23 @@
+// src/components/Students/Student.tsx
 import type StudentInterface from '../../../types/StudentsInterface';
-import styles from './Student.module.scss';
 
-interface Props {
+interface StudentProps {
   student: StudentInterface;
-  onDelete: (id: number) => void;
 }
 
-const Student = ({ student, onDelete }: Props): React.ReactElement => {
-  const onDeleteHandler = (): void => {
-    onDelete(student.id);
-  };
-
-    const modifier = student.isDeleted ? '--isDeleted' : student.isNew ? '--isNew' : '';
-
+const StudentDetails = ({ student }: StudentProps) => {
   return (
-    <div className={`${styles.Student} ${styles[modifier]}`}>
-      {`${student.id || 'xxxx'} - ${student.lastName} ${student.firstName} ${student.middleName}`}
-      <button onClick={onDeleteHandler}>Удаляяяяй</button>
+    <div style={{ padding: '1rem', border: '1px solid #ccc', borderRadius: '8px', maxWidth: '400px' }}>
+      <h2>
+        {student.lastName} {student.firstName} {student.middleName}
+      </h2>
+      <p><strong>ID:</strong> {student.id}</p>
+      <p><strong>Группа:</strong> {student.groupId}</p>
+      {/* {student.contacts && <p><strong>Контакты:</strong> {student.contacts}</p>} */}
+      {student.isDeleted && <p><em>Удалён</em></p>}
+      {/* {student.isNew && <p><em>Новый (ещё не сохранён)</em></p>} */}
     </div>
   );
 };
 
-//   return (
-//     <div className={`${styles.Student} ${student.isDeleted ? styles['--isDeleted'] : '' }`}>
-//       {student.id}
-//       {' - '}
-//       {student.lastName}
-//       {' '}
-//       {student.firstName}
-//       {' '}
-//       {student.middleName}
-//       {' '}
-//       <button onClick={onDeleteHandler}>Удаляшка</button>
-//     </div>
-//   );
-// };
-
-export default Student;
+export default StudentDetails;
