@@ -13,8 +13,10 @@ const Groups = (): React.ReactElement => {
         {groups && groups.length > 0 ? (
           <ul>
             {groups.map((group: GroupInterface, index: number) => (
-              <li key={group.id}>{group.name}</li>
+              <li key={group.id}>{group.name}</li>  
             ))}
+
+            //Дописать фронт
           </ul>
         ) : (
           <p>Группы не найдены</p>

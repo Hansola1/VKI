@@ -9,6 +9,12 @@ interface StudentInterface {
   isDeleted?: boolean;
   isNew?: boolean;
  groupName?: string; // лаб10
+
+   //н9-11
+  group?: {
+    id: number;
+    name: string;
+  };
 }
 
 export default StudentInterface;

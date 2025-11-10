@@ -65,6 +65,12 @@ const Students = () => {
                 student={student}
                 onDelete={onDeleteHandler}
               />
+
+               {student.group && (
+                  <span style={{ color: '#ff0000ff', marginLeft: '8px' }}>
+                    Группа: {student.group.name}
+                  </span>
+                )}
             </li>
           ))}
         </ul>

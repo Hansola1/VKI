@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany, JoinColumn } from 'typeorm';
-import { Student } from './Student.entity';
+// import { Student } from './Student.entity'; ЦИКЛИЧ ЗАВИСИМ
 
 @Entity()
 export class Group {
@@ -10,8 +10,17 @@ export class Group {
   name!: string;
 
   //1 группа - много студентов (связь один ко многим)
-  @OneToMany(() => Student, (student: Student) => student.group) // ← Явно указали тип Student
-  students!: Student[];
+//   @OneToMany(() => Student, student => student.group)
+// students!: Student[];
+
+//Возникла ошибка с инициализацией(referenceError: Cannot access 'Group' before initialization),
+  // ничего лучше этого костыля я не придумала. Может вернусь к этому позже.
+
+    @OneToMany(() => {
+    const { Student } = require('./Student.entity');
+    return Student;
+  }, (student: any) => student.group)
+  students!: any[];
 
   //  @Column({ nullable: true })
   // description?: string;

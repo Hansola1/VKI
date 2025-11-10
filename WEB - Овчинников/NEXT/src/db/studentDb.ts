@@ -12,7 +12,15 @@ const studentRepository = AppDataSource.getRepository(Student);
  * Получение студентов
  * @returns Promise<StudentInterface[]>
  */
-export const getStudentsDb = async (): Promise<StudentInterface[]> => {
+// export const getStudentsDb = async (): Promise<StudentInterface[]> => {
+//   return await studentRepository.find();
+// };
+export const getStudentsDb = async (withGroup: boolean = false) => {
+  if (withGroup) {
+    return await studentRepository.find({
+      relations: ['group'], //  связь с группой
+    });
+  }
   return await studentRepository.find();
 };
 

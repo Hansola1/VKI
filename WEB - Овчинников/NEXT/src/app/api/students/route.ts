@@ -1,9 +1,11 @@
 import { addStudentDb, getStudentsDb } from '../../../db/studentDb'; 
 import { NextRequest, NextResponse } from 'next/server'; // import { type NextApiRequest } from 'next/types'; 
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const withGroup = searchParams.get('withGroup') === 'true';
 
-  const students = await getStudentsDb(); 
+  const students = await getStudentsDb(withGroup); //передали 
 
   return new Response(JSON.stringify(students), {
     headers: {
