@@ -27,7 +27,7 @@
              Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
 
         <!-- Таблица продуктов -->
-        <ListView x:Name="ProductListView" Margin="20,98,20,61" 
+        <ListView x:Name="ProductListView" Margin="20,98,20,61" MouseDoubleClick="ProductListView_MouseDoubleClick"
           FontFamily="Times New Roman" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
             <ListView.ItemsPanel>

@@ -9,46 +9,49 @@
       Title="Окно изменить продукт">
 
     <Grid Height="450" Width="800" Background="White">
-        <!--<Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>-->
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
 
         <!--Заголовок-->
-        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" FontSize="30"
-                Height="42" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Изменить продукт"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" FontSize="30"
+                Height="43" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Изменить продукт"/></TextBlock>
 
         <!--Кнопки-->
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="237,408,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" 
-             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
-        <Button x:Name="OrderButton" Content="Сохранить" HorizontalAlignment="Left" Margin="400,408,0,0" VerticalAlignment="Top" Width="150" Click="Save_click" 
-             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="237,417,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="23" Foreground="Black"/>
+        <Button x:Name="OrderButton" Content="Сохранить" HorizontalAlignment="Left" Margin="400,417,0,0" VerticalAlignment="Top" Width="150" Click="Save_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="23" Foreground="Black"/>
 
         <Label x:Name="NameAccount" HorizontalAlignment="Left" Margin="483,13,0,0" VerticalAlignment="Top" Width="297" FontSize="16" Height="16"/>
 
         <!--Поля -->
-        <TextBlock HorizontalAlignment="Left" Margin="127,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Width="131"><Run Language="ru-ru" Text="Фото продукта"/></TextBlock>
-        <TextBox x:Name="PhotoTextBox" HorizontalAlignment="Left" Margin="274,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="127,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Width="131"><Run Language="ru-ru" Text="Фото продукта"/></TextBlock>
+        <TextBox x:Name="PhotoTextBox" HorizontalAlignment="Left" Margin="274,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="73,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Наименование товара"/></TextBlock>
-        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="274,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Наименование товара"/></TextBlock>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="274,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Категория товара"/></TextBlock>
-        <ComboBox x:Name="CategoryProduct" HorizontalAlignment="Left" Margin="274,150,0,0" VerticalAlignment="Top" Width="322"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Категория товара"/></TextBlock>
+        <ComboBox x:Name="CategoryProduct" HorizontalAlignment="Left" Margin="274,132,0,0" VerticalAlignment="Top" Width="322"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Описание товара"/></TextBlock>
-        <TextBox x:Name="DescriptiontTextBox" HorizontalAlignment="Left" Margin="274,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="22" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Описание товара"/></TextBlock>
+        <TextBox x:Name="DescriptiontTextBox" HorizontalAlignment="Left" Margin="274,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="22" FontFamily="Times New Roman"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Height="25"><Run Language="ru-ru" Text="Производитель"/></TextBlock>
-        <ComboBox x:Name="Manufacture" HorizontalAlignment="Left" Margin="274,218,0,0" VerticalAlignment="Top" Width="322" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Height="25"><Run Language="ru-ru" Text="Производитель"/></TextBlock>
+        <ComboBox x:Name="Manufacture" HorizontalAlignment="Left" Margin="274,200,0,0" VerticalAlignment="Top" Width="322" Height="25"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Цена товара"/></TextBlock>
-        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Margin="274,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="22" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Цена товара"/></TextBlock>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Margin="274,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="22" FontFamily="Times New Roman"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Ед.измер"/></TextBlock>
-        <TextBox x:Name="MeasurementUnitTextBox" HorizontalAlignment="Left" Margin="274,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="25" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Ед.измер"/></TextBlock>
+        <TextBox x:Name="MeasurementUnitTextBox" HorizontalAlignment="Left" Margin="274,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="25" FontFamily="Times New Roman"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Кол-во на складе"/></TextBlock>
-        <TextBox x:Name="CountTextBox" HorizontalAlignment="Left" Margin="274,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="25" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Кол-во на складе"/></TextBlock>
+        <TextBox x:Name="CountTextBox" HorizontalAlignment="Left" Margin="274,341,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="25" FontFamily="Times New Roman"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="111,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Скидка"/></TextBlock>
-        <TextBox x:Name="DiscountTextBox" HorizontalAlignment="Left" Margin="274,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="23" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Margin="111,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Скидка"/></TextBlock>
+        <TextBox x:Name="DiscountTextBox" HorizontalAlignment="Left" Margin="274,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="23" FontFamily="Times New Roman"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="111,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Text="Поставщик"/>
+        <TextBox x:Name="ProviderTextBox" HorizontalAlignment="Left" Margin="274,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="25" FontFamily="Times New Roman"/>
     </Grid>
 </Page>

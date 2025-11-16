@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Input;
 
 namespace ShopShoesApplication.Views
 {
@@ -24,6 +25,7 @@ namespace ShopShoesApplication.Views
             /*LoadComponent();*/ //Для гостей, клиентов скрываю интерфейс. На время тестов закомментировала.
         }
 
+        #region ПОДГРУЗКА
         private void LoadDataGrid()
         {
             using (var db = new ApplicationContext())
@@ -75,8 +77,7 @@ namespace ShopShoesApplication.Views
 
         private void LoadComponent()
         {
-
-            if (Session.Visit == true || Session.CurrentUser?.RoleId == 3)
+            if (Session.Visit == true || Session.CurrentUser?.RoleId == 3) //Гость и пользователь
             {
                 SearchTextBox.Visibility = Visibility.Collapsed;
                 SearchLabel.Visibility = Visibility.Collapsed;
@@ -87,8 +88,20 @@ namespace ShopShoesApplication.Views
                 FilterLabel.Visibility = Visibility.Collapsed;
                 ProviderFilterComboBox.Visibility = Visibility.Collapsed;
 
+                AddButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+            }
+
+            if (Session.CurrentUser?.RoleId == 2) //Менеджер
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+                //EditButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
             }
         }
+        #endregion
+
+        #region ФИЛЬТРАЦИЯ, СОРТИРОВКА
 
         // Общий метод обновления фильтра (поиск + поставщик)
         private void ApplyFilter()
@@ -143,9 +156,51 @@ namespace ShopShoesApplication.Views
             ApplyFilter();
         }
 
+        #endregion
+
+        #region CRUD - ADD, EDIT, DELETE
+        private void AddProduct_click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new AddProduct());
+        }
+
+        private void ProductListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (Session.CurrentUser?.RoleId == 1) //Только админ
+            {
+                var selected = ProductListView.SelectedItem as ProductView;
+                if (selected != null)
+                {
+                    MainFrame.Navigate(new EditProduct(selected.Id));
+                }
+            }
+        }
+
         private void DeleteProduct_click(object sender, RoutedEventArgs e)
         {
+            var selectedProduct = ProductListView.SelectedItem as ProductView;
+            if (selectedProduct != null)
+            {
+                using (var db = new ApplicationContext())
+                {
+                    var productToDelete = db.Product.FirstOrDefault(p => p.Id == selectedProduct.Id);
+
+                    if (productToDelete != null)
+                    {
+                        db.Product.Remove(productToDelete);
+                        db.SaveChanges();
+
+                        LoadDataGrid();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Выберите, что удалять");
+            }
         }
+        #endregion
+
 
         private void Cancel_click(object sender, RoutedEventArgs e)
         {
@@ -155,11 +210,6 @@ namespace ShopShoesApplication.Views
         private void ToOrders_click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new OrdersPage());
-        }
-
-        private void AddProduct_click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new AddProduct());
         }
     }
 }
