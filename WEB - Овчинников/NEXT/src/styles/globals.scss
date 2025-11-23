@@ -3,7 +3,7 @@
 :root {  
   --color: #272727;
   --color2: #FFF;
-  --color3: #F00;
+  --color3: #4c7e40;
   --background: #FFF;
   --background2: #E1E1E1;
   --background3: #434343;  
@@ -11,12 +11,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color: #d8d8d8;
-    --color2: #000;
-    --color3: #F00;
-    --background: #000;
-    --background2: #1E1E1E;
-    --background3: #BABABA;
+    --color: #ffffff;
+    --color2: #ffffff;
+    --color3: #4c7e40;
+    --background: #2e7d32; //body
+    --background2: #1b5e20; //header
+    --background3: #388e3c; //footer
   }
 }
 
@@ -116,3 +116,19 @@ h4 {
   // }
 }
 
+button {
+  background-color: white;
+  color: #1b5e20; 
+  border: 1px solid #4caf50; 
+  border-radius: 8px; 
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+    font-weight: bold;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+  background-color: #f1f8e9; 
+  border-color: #388e3c;
+}
