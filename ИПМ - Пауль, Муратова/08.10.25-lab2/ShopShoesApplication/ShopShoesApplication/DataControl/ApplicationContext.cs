@@ -12,7 +12,10 @@ namespace ShopShoesApplication.DataControl
         public DbSet<Provider> Provider { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<Manufacturer> Manufacturer { get; set; }
-        //public DbSet<Order> Order { get; set; }
+        public DbSet<Order> Order { get; set; }
+        public DbSet<OrderPosition> OrderPosition { get; set; }
+        public DbSet<OrderStatus> OrderStatus { get; set; }
+        public DbSet<Point> Point { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -3,12 +3,43 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:ShopShoesApplication.Views"
+      xmlns:local="clr-namespace:ShopShoesApplication.Views.UserControls" 
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="OrdersPage">
+       d:DesignHeight="450" d:DesignWidth="800"
+      Title="Окно Списка заказов">
 
-    <Grid>
-        
+    <Grid Height="450" Width="800" Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+
+        <!--Заголовок-->
+        <TextBlock HorizontalAlignment="Left" Margin="20,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="30"
+                Height="43" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Список заказов"/></TextBlock>
+
+        <!--Кнопки-->
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="20,408,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+        <Button x:Name="AddButton" Content="Добавить заказ" HorizontalAlignment="Left" Margin="178,408,0,0" VerticalAlignment="Top" Width="192" Click="AddOrder_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+        <Button x:Name="DeleteButton" Content="Удалить заказ" HorizontalAlignment="Left" Margin="400,408,0,0" VerticalAlignment="Top" Width="165" Click="DeleteOrder_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="32" Foreground="Black"/>
+
+        <!-- Таблица заказов -->
+        <ListView x:Name="OrderListView" Margin="20,56,20,61" MouseDoubleClick="OrderListView_MouseDoubleClick"
+          FontFamily="Times New Roman" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <local:OrderCardControl/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Label x:Name="NameAccount" HorizontalAlignment="Left" Margin="483,13,0,0" VerticalAlignment="Top" Width="297" FontSize="16" Height="16"/>
     </Grid>
 </Page>

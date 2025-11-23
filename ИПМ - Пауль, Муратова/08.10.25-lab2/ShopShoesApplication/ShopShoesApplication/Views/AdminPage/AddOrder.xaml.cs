@@ -24,12 +24,12 @@ namespace ShopShoesApplication.Views.AdminPage
 
         private void Save_click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(new OrdersPage());
         }
 
         private void Cancel_click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Navigate(new OrdersPage());
         }
     }
 }

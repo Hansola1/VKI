@@ -15,12 +15,9 @@ using System.Windows.Shapes;
 
 namespace ShopShoesApplication.Views.AdminPage
 {
-    /// <summary>
-    /// Логика взаимодействия для EditOrder.xaml
-    /// </summary>
     public partial class EditOrder : Page
     {
-        public EditOrder()
+        public EditOrder(int id)
         {
             InitializeComponent();
         }

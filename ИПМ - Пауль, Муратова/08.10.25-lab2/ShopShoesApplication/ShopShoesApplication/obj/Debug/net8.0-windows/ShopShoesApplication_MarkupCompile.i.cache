@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\App.xaml
-101400571416
+11946462885
 
-27-1340904672
+32662127670
 2281684612408
-MainWindow.xaml;Views\AdminPage\AddOrder.xaml;Views\AdminPage\AddProduct.xaml;Views\AdminPage\EditOrder.xaml;Views\AdminPage\EditProduct.xaml;Views\LoginPage.xaml;Views\OrdersPage.xaml;Views\ProductsPage.xaml;Views\RegistrationPage.xaml;Views\UserControls\ProductCardControl.xaml;
+MainWindow.xaml;Views\AdminPage\AddOrder.xaml;Views\AdminPage\AddProduct.xaml;Views\AdminPage\EditOrder.xaml;Views\AdminPage\EditProduct.xaml;Views\LoginPage.xaml;Views\OrdersPage.xaml;Views\ProductsPage.xaml;Views\RegistrationPage.xaml;Views\UserControls\OrderCardControl.xaml;Views\UserControls\ProductCardControl.xaml;
 
-False
+True
 
