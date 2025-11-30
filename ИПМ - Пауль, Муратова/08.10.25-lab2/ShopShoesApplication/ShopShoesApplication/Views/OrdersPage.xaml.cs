@@ -83,14 +83,14 @@ namespace ShopShoesApplication.Views
 
         private void OrderListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            if (Session.CurrentUser?.RoleId == 1) //Только админ
-            {
+            //if (Session.CurrentUser?.RoleId == 1) //Только админ
+            //{
                 var selected = OrderListView.SelectedItem as OrderView;
                 if (selected != null)
                 {
                     MainFrame.Navigate(new EditOrder(selected.Id));
                 }
-            }
+            //}
         }
         #endregion
 

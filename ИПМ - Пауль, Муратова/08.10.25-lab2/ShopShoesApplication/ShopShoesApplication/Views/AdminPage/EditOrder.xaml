@@ -6,9 +6,38 @@
       xmlns:local="clr-namespace:ShopShoesApplication.Views.AdminPage"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="EditOrder">
+      Title="Окно изменить заказ">
 
-    <Grid>
-        
+    <Grid Height="450" Width="800" Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+
+        <!--Заголовок-->
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" FontSize="30"
+                Height="43" FontFamily="Times New Roman" Margin="281,65,0,0"><Run Language="ru-ru" Text="Изменить заказ"/></TextBlock>
+
+        <!--Кнопки-->
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="237,400,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="28" Foreground="Black"/>
+        <Button x:Name="OrderButton" Content="Сохранить" HorizontalAlignment="Left" Margin="400,400,0,0" VerticalAlignment="Top" Width="150" Click="Save_click" 
+             Background="#00FA9A" BorderBrush="#00FA9A" FontFamily="Times New Roman" FontSize="20" Height="28" Foreground="Black"/>
+
+        <Label x:Name="NameAccount" HorizontalAlignment="Left" Margin="490,65,0,0" VerticalAlignment="Top" Width="297" FontSize="16" Height="16"/>
+
+        <!--Поля -->
+        <TextBlock HorizontalAlignment="Left" Margin="118,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Артикул заказа"/></TextBlock>
+        <TextBox x:Name="ArticleTextBox" HorizontalAlignment="Left" Margin="281,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="27" FontFamily="Times New Roman"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="118,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Статус заказа"/></TextBlock>
+        <ComboBox x:Name="StatusSelector" HorizontalAlignment="Left" Margin="281,184,0,0" VerticalAlignment="Top" Width="322"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="118,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Width="149"><Run Language="ru-ru" Text="Адрес пункта выдачи"/></TextBlock>
+        <TextBox x:Name="AddresTextBox" HorizontalAlignment="Left" Margin="281,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="23" FontFamily="Times New Roman"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="118,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman" Height="25"><Run Language="ru-ru" Text="Дата заказа"/></TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Margin="118,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"><Run Language="ru-ru" Text="Дата выдачи"/></TextBlock>
+        <TextBox x:Name="CreatedDateTextBox" HorizontalAlignment="Left" Margin="281,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="22" FontFamily="Times New Roman"/>
+        <TextBox x:Name="DeliveredDateTextBox" HorizontalAlignment="Left" Margin="281,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" Height="22" FontFamily="Times New Roman"/>
+
     </Grid>
 </Page>

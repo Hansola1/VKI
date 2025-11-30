@@ -27,7 +27,7 @@
 
             <Border BorderThickness="1" BorderBrush="Black" Padding="10">
                 <Image Grid.Column="0" 
-                   Source="{Binding Photo}" Stretch="UniformToFill" MaxWidth="90" 
+                   Source="{Binding FullPhotoPath}" Stretch="UniformToFill" MaxWidth="90" 
                    MaxHeight="90" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             </Border>
 

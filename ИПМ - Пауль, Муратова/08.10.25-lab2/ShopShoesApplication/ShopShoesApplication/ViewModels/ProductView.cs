@@ -1,4 +1,6 @@
-﻿namespace ShopShoesApplication.ViewModels
+﻿using System.IO;
+
+namespace ShopShoesApplication.ViewModels
 {
     public class ProductView
     {
@@ -18,8 +20,20 @@
         public string Description { get; set; }
         public string Photo { get; set; }
 
+        public string FullPhotoPath
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(Photo))
+                    return null;
 
-        //// Вычисляемая итоговая цена
-        //public decimal FinalPrice => Price * (100 - Discount) / 100;
+                string basePath = @"D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\Resources\Image";
+                return Path.Combine(basePath, Photo);
+            }
+        }
     }
+
+
+    //// Вычисляемая итоговая цена
+    //public decimal FinalPrice => Price * (100 - Discount) / 100;
 }
