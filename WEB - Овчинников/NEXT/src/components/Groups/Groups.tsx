@@ -17,7 +17,7 @@ const Groups = (): React.ReactElement => {
               <strong>{group.name}</strong>
 
               {group.students && group.students.length > 0 ? (
-                <ul style={{ marginTop: '8px', marginLeft: '20px' }}>
+                <ul className='groupDetails'>
                   {group.students.map((student) => (
                     <li key={student.id}>
                       {student.lastName} {student.firstName}

@@ -1,5 +1,6 @@
 // src/components/Students/Student.tsx
 import type StudentInterface from '../../../types/StudentsInterface';
+import styles from '../styles/global.module.scss';
 
 interface StudentProps {
   student: StudentInterface;
@@ -7,7 +8,7 @@ interface StudentProps {
 
 const StudentDetails = ({ student }: StudentProps) => {
   return (
-    <div style={{ padding: '1rem', border: '1px solid #ccc', borderRadius: '8px', maxWidth: '400px' }}>
+    <div className="studentDetails">
       <h2>
         {student.lastName} {student.firstName} {student.middleName}
       </h2>

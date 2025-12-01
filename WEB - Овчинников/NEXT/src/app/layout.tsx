@@ -7,6 +7,7 @@ import type GroupInterface from '../types/GroupInterface';
 import Header from '../components/layout/Header/Header';
 import Footer from '../components/layout/Footer/Footer';
 import Main from '../components/layout/Main/Main';
+import { cookies } from 'next/headers';
 
 import type { Metadata } from 'next';
 
@@ -14,6 +15,8 @@ import '@/styles/globals.scss';
 import { META_DESCRIPTION, META_TITLE } from '../constants/meta';
 import type StudentInterface from '../types/StudentsInterface';
 import { getStudentsApi } from '../api/studentsApi';
+// import { verifyAccessToken } from '../utils/jwt';
+// import UserInterface from '@/types/UserInterface';
 
 export const metadata: Metadata = {
   title: META_TITLE,
@@ -60,5 +63,44 @@ const RootLayout = async ({ children }: Readonly<{ children: React.ReactNode }>)
     </TanStackQuery>
   );
 };
+
+// const RootLayout = async ({ children }: Readonly<{ children: React.ReactNode }>): Promise<React.ReactElement> => {
+//   const cookieStore = await cookies();
+
+//   const accessToken = cookieStore.get('accessToken')?.value;
+
+//   const userFromServer = verifyAccessToken(accessToken);
+
+//   // выполняется на сервере - загрузка студентов
+//   await queryClient.prefetchQuery({
+//     queryKey: ['students'],
+//     queryFn: getStudentsApi,
+//   });
+
+//   // выполняется на сервере - загрузка групп
+//   await queryClient.prefetchQuery({
+//     queryKey: ['groups'],
+//     queryFn: getGroupsApi,
+//   });
+
+//   // дегидрация состояния
+//   const state = dehydrate(queryClient, { shouldDehydrateQuery: () => true });
+
+//   return (
+//     <TanStackQuery state={state}>
+//       <html lang="ru">
+//         <body>
+//           {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+//           <Header userFromServer={userFromServer} />
+//           <Main>
+//             <>{children}</>
+//           </Main>
+//           <Footer />
+//         </body>
+//       </html>
+//     </TanStackQuery>
+//   );
+// };
+
 
 export default RootLayout;

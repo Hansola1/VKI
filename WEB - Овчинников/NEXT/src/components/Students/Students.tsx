@@ -7,6 +7,7 @@ import { getStudentsApi } from '../../api/studentsApi';
 import StudentInterface from '../../types/StudentsInterface';
 import Student from './Student/StudentItemList';
 import AddStudent from './AddStudent';
+import styles from '../styles/global.module.scss';
 
 const Students = () => {
   const [showAddForm, setShowAddForm] = useState(false); //Добавили
@@ -67,7 +68,7 @@ const Students = () => {
               />
 
                {student.group && (
-                  <span style={{ color: '#ffffffff', marginLeft: '8px' }}>
+                    <span className="groupLabel">
                     Группа: {student.group.name}
                   </span>
                 )}
