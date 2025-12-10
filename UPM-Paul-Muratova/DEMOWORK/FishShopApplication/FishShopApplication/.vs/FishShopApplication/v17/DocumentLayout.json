@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "FishShopApplication\\View\\ProductsPage.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "FishShopApplication\\View\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:40:04.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEditPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml",
+              "RelativeDocumentMoniker": "FishShopApplication\\View\\AddEditPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml",
+              "RelativeToolTip": "FishShopApplication\\View\\AddEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T16:38:25.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditPage.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "FishShopApplication\\View\\AddEditPage.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml.cs",
+              "RelativeToolTip": "FishShopApplication\\View\\AddEditPage.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswDMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:19:43.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "FishShopApplication\\View\\ProductsPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml",
+              "RelativeToolTip": "FishShopApplication\\View\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T15:02:01.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
