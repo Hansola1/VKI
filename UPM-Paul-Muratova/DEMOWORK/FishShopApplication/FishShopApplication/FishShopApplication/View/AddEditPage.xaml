@@ -11,7 +11,7 @@
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
 
         <!--Заголовок-->
-        <TextBlock HorizontalAlignment="Center" Margin="0,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" FontSize="30"
+        <TextBlock HorizontalAlignment="Center" Margin="0,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" FontSize="26"
                    x:Name="LabelPage"><Run Language="ru-ru" Text=""/></TextBlock>
 
         <!--Кнопки-->

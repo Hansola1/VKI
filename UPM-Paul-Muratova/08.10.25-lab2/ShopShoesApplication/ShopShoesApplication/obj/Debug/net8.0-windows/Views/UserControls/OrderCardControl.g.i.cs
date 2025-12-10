@@ -52,8 +52,7 @@ namespace ShopShoesApplication.Views.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ShopShoesApplication;V1.0.0.0;component/views/usercontrols/ordercardcontrol.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShopShoesApplication;component/views/usercontrols/ordercardcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\UserControls\OrderCardControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

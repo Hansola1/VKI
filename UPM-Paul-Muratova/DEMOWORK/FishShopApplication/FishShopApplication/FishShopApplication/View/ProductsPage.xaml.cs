@@ -98,7 +98,7 @@ namespace FishShopApplication.View
             MainFrame.Navigate(new AddEditPage("Добавить", null));
         }
 
-        private void ProductListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void ProductListView_MouseDoubleClick(object sender, MouseButtonEventArgs e) //EDIT
         {
             if (Session.CurrentUser?.RoleId == 2) //Только админ
             {

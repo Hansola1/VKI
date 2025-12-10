@@ -17,6 +17,7 @@ namespace FishShopApplication.View
 
             if(id != null)
             {
+                productId = id;
                 LoadProduct(id);
             }
         }
@@ -55,7 +56,7 @@ namespace FishShopApplication.View
             {
                 var categories = db.ProductCategories.ToList();
                 CategoryProduct.ItemsSource = categories;
-                CategoryProduct.DisplayMemberPath = "Name";
+                CategoryProduct.DisplayMemberPath = "Category";
                 CategoryProduct.SelectedValuePath = "Id";
 
                 var manufacturers = db.Manufacturers.ToList();
@@ -85,11 +86,11 @@ namespace FishShopApplication.View
 
             if (productId != null)
             {
-                AddProduct(photoPath, name, description, cost, measurementUnit, providerName, countText, discount);
+                EditProduct(photoPath, name, description, cost, measurementUnit, providerName, countText, discount);
             }
             else
             {
-                EditProduct(photoPath, name, description, cost, measurementUnit, providerName, countText, discount);
+                AddProduct(photoPath, name, description, cost, measurementUnit, providerName, countText, discount);
             }
         }
 

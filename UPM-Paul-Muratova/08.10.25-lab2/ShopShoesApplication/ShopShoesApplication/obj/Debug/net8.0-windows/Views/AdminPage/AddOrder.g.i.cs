@@ -117,7 +117,7 @@ namespace ShopShoesApplication.Views.AdminPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ShopShoesApplication;V1.0.0.0;component/views/adminpage/addorder.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShopShoesApplication;component/views/adminpage/addorder.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\AdminPage\AddOrder.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
