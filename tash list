@@ -1,0 +1,48 @@
+[33m94c93a4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: checkout: moving from prod to main
+[33m2ff336a[m[33m ([m[1;32mprod[m[33m)[m HEAD@{1}: commit: С# Подготовка к ДЭ
+[33m85ff563[m[33m ([m[1;31morigin/prod[m[33m)[m HEAD@{2}: commit: С# - FishApplication
+[33md708ea8[m HEAD@{3}: commit: Update next.config.ts
+[33m94c93a4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{4}: checkout: moving from main to prod
+[33m94c93a4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{5}: commit: С# старые изменения
+[33m268c712[m HEAD@{6}: commit: 1С
+[33m3c4791d[m HEAD@{7}: commit: Н14 Овчинников - создание облачной БД
+[33m5fe5a58[m HEAD@{8}: commit: Н13 Овчинников - Авторизация
+[33m0d2f89d[m HEAD@{9}: commit: С#, ДЭ 2026/ShopShoes, Муратова-Ткачев ФИНАЛ(4 модуль)
+[33m5de13c4[m HEAD@{10}: commit: Н12 Овчинников - дизайн начало
+[33m282e5d5[m HEAD@{11}: commit: С#, ДЭ 2026/ShopShoes, Муратова-Ткачев
+[33mc2df572[m HEAD@{12}: commit: С#, ДЭ 2026/ShopShoes, Муратова-Ткачев
+[33me8ee8d7[m HEAD@{13}: commit: Блок-схемы, ДЭ2026
+[33mfb1fa90[m HEAD@{14}: commit: Н11 Овчинников
+[33mb415187[m HEAD@{15}: commit: С#, ДЭ 2026, Муратова-Ткачев
+[33m2cf2087[m HEAD@{16}: commit: 03.10.25 WEB. 10 лаб, пункт 1.
+[33m7a11722[m HEAD@{17}: commit: 30.10.25 - Овчинников, 8-9 лаб(часть)
+[33mb548336[m HEAD@{18}: commit: Шагун 1С + правки по Овчинникову
+[33m0621fa2[m HEAD@{19}: commit: Овчинников, лаба поправки, кн 7
+[33mb315197[m HEAD@{20}: commit: Муратова, лаба
+[33m37a794b[m HEAD@{21}: commit: 14.10.25 Овчинников - fix
+[33m6b482d7[m HEAD@{22}: commit: 11.10.25 Лаб2, Муратова
+[33mbd2170b[m HEAD@{23}: commit: 09.10.25 ИПМ - муратова
+[33mae5ece2[m HEAD@{24}: commit (amend): ЛАБ 5. Овчинников
+[33mec76df9[m HEAD@{25}: reset: moving to ec76df9d474810095614dca0e2cffb1a2b413903
+[33m8beaf04[m HEAD@{26}: revert: Revert "Delete NEXT.rar"
+[33mec76df9[m HEAD@{27}: commit: Delete NEXT.rar
+[33m17e5f51[m HEAD@{28}: commit: UPD: Овчинников - лаб4
+[33m6155f87[m HEAD@{29}: commit: 01.10.25 Пауль-Ткачев, OurDecor
+[33m4f14c60[m HEAD@{30}: commit: 30.09.25 Овчинников
+[33m30b963c[m HEAD@{31}: commit: 29/09/25 пауль
+[33m870fad3[m HEAD@{32}: commit: 26/09/25 Лаба 4, Овчинников
+[33m16f2e24[m HEAD@{33}: commit: 23.09.25 Пауль
+[33m599f28f[m HEAD@{34}: commit: 18.09.25 Пауль
+[33mab71527[m HEAD@{35}: commit: 17.09.25 Овчинников
+[33mc7b3459[m HEAD@{36}: commit: Овчинников докинула 3.0
+[33m9bfb21a[m HEAD@{37}: pull --ff --recurse-submodules --progress origin: Fast-forward
+[33m8485e80[m HEAD@{38}: commit: Свиридонов, доп изменения
+[33m7c94bd2[m HEAD@{39}: commit: Свиридонов
+[33m1860760[m HEAD@{40}: commit: 06/06/25 Свиридонов
+[33m3f40cd0[m HEAD@{41}: commit: Дизайн Morphopedia
+[33ma4a5773[m HEAD@{42}: commit: Morphpedia 0.2v
+[33m0207e58[m HEAD@{43}: commit: 01/06/2025 Свиридонов
+[33m9696eba[m HEAD@{44}: pull --ff --recurse-submodules --progress origin: Fast-forward
+[33meba599f[m HEAD@{45}: commit: Агеенков
+[33me7ab195[m HEAD@{46}: commit: Ткачев к.р
+[33mecccce3[m HEAD@{47}: clone: from https://github.com/Hansola1/VKI.git
