@@ -149,7 +149,7 @@ namespace FishShopApplication.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FishShopApplication;component/view/productspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FishShopApplication;V1.0.0.0;component/view/productspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ProductsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
