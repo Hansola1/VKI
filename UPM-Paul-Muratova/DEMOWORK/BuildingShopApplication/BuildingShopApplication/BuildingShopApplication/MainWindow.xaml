@@ -4,9 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BuildingShopApplication"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        mc:Ignorable="d" FontFamily="Comic Sans MS"
+         Title="" Icon="D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\BuildingShopApplication\BuildingShopApplication\BuildingShopApplication\Resources\picture.png">
+    <Grid Height="450" Width="800"  Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
