@@ -27,7 +27,7 @@ namespace ShopShoesApplication.ViewModels
                 if (string.IsNullOrEmpty(Photo))
                     return null;
 
-                string basePath = @"D:\CodeData\homeworkFile\ИПМ - Пауль, Муратова\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\Resources\Image";
+                string basePath = @"D:\CodeData\homeworkFile\UPM-Paul-Muratova\08.10.25-lab2\ShopShoesApplication\ShopShoesApplication\Resources\Image\";
                 return Path.Combine(basePath, Photo);
             }
         }

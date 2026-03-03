@@ -1,0 +1,12 @@
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\bin\Release\net8.0\ElectronicShopLib.deps.json
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\bin\Release\net8.0\ElectronicShopLib.dll
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\bin\Release\net8.0\ElectronicShopLib.pdb
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.AssemblyInfoInputs.cache
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.AssemblyInfo.cs
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.csproj.CoreCompileInputs.cache
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.sourcelink.json
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.dll
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\refint\ElectronicShopLib.dll
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ElectronicShopLib.pdb
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\obj\Release\net8.0\ref\ElectronicShopLib.dll

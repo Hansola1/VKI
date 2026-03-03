@@ -24,7 +24,7 @@ namespace FishShopApplication.ViewModels
                 if (string.IsNullOrEmpty(Image))
                     return null;
 
-                string basePath = @"D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\FishShopApplication\FishShopApplication\FishShopApplication\Resource\";
+                string basePath = @"D:\CodeData\homeworkFile\UPM - Paul - Muratova\DEMOWORK\FishShopApplication\FishShopApplication\FishShopApplication\Resource\Image\";
                 return Path.Combine(basePath, Image);
             }
         }

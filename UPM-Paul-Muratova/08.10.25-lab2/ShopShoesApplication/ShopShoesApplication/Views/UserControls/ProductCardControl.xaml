@@ -5,10 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:conv="clr-namespace:ShopShoesApplication.Views.Converters"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="720" Width="720" Height="200"
+             d:DesignHeight="200" d:DesignWidth="700" Width="700" Height="200"
              FontFamily="Times New Roman" Background="White">
 
-    <!-- Объявление конвертера!!!!!!!!!! -->
     <UserControl.Resources>
         <conv:DiscountConvert x:Key="DiscountConvert"/>
         <conv:NotStockConvert x:Key="NotStockConvert"/>
@@ -18,54 +17,37 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="160"/>
-                <!-- Фото -->
                 <ColumnDefinition Width="370"/>
-                <!-- Основная информация -->
-                <ColumnDefinition Width="150"/>
-                <!-- Скидка -->
+                <ColumnDefinition Width="130"/>
             </Grid.ColumnDefinitions>
 
+            <!-- Фото -->
             <Border BorderThickness="1" BorderBrush="Black" Padding="10">
-                <Image Grid.Column="0" 
-                   Source="{Binding FullPhotoPath}" Stretch="UniformToFill" MaxWidth="90" 
-                   MaxHeight="90" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <Image Source="{Binding FullPhotoPath}" Stretch="UniformToFill" MaxWidth="90" MaxHeight="90"
+                       HorizontalAlignment="Center" VerticalAlignment="Top"/>
             </Border>
 
+            <!-- Основная информация -->
             <Border BorderThickness="1" BorderBrush="Black" Padding="10" Grid.Column="1" Margin="5,0,0,0">
-                <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                <StackPanel Margin="10,0,0,0">
                     <TextBlock FontWeight="Bold" FontSize="14" TextWrapping="Wrap">
-                    <Run Text="{Binding Category}"/> <Run Text=" | "/> <Run Text="{Binding Name}"/>
+                        <Run Text="{Binding Category}"/> <Run Text=" | "/> <Run Text="{Binding Name}"/>
                     </TextBlock>
-
-                    <TextBlock Text="{Binding Description, StringFormat='Описание товара: {0}'}" 
-                               FontSize="12" TextWrapping="Wrap" Margin="0,3,0,0"/>
-                    <TextBlock Text="{Binding Manufacturer, StringFormat='Производитель: {0}'}" 
-                               FontSize="12" Margin="0,2,0,0"/>
-                    <TextBlock Text="{Binding Provider, StringFormat='Поставщик: {0}'}" 
-                               FontSize="12" Margin="0,2,0,0"/>
-                    
-                    <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" 
-                               FontSize="13" FontWeight="SemiBold" Foreground="DarkGreen" Margin="0,5,0,0"/>
-
-                    <!--<TextBlock x:Name="OriginalPriceBlock" Text="{Binding Price, StringFormat='Цена: {0:C}'}" FontSize="13" FontWeight="SemiBold"
-                        Foreground="DarkGreen" TextDecorations="{Binding Discount, Converter={StaticResource DiscountToTextDecorationConverter}}"/>
-                    <TextBlock x:Name="FinalPriceBlock" Text="{Binding FinalPrice, StringFormat=' → {0:C}'}" FontSize="13" FontWeight="SemiBold"
-                        Foreground="Black" Visibility="{Binding Discount, Converter={StaticResource DiscountToVisibilityConverter}}"/>-->
-
-                    <TextBlock Text="{Binding MeasurementUnit, StringFormat='Единица измерения: {0}'}" 
-                               FontSize="11" Margin="0,2,0,0"/>
-                    <TextBlock Text="{Binding Count, StringFormat='Количество на складе: {0}'}" 
-                               FontSize="11" Margin="0,2,0,0"  Background="{Binding Count, Converter={StaticResource NotStockConvert}}"/>
+                    <TextBlock Text="{Binding Description, StringFormat='Описание товара: {0}'}" FontSize="12" TextWrapping="Wrap" Margin="0,3,0,0"/>
+                    <TextBlock Text="{Binding Manufacturer, StringFormat='Производитель: {0}'}" FontSize="12" Margin="0,2,0,0"/>
+                    <TextBlock Text="{Binding Provider, StringFormat='Поставщик: {0}'}" FontSize="12" Margin="0,2,0,0"/>
+                    <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" FontSize="13" FontWeight="SemiBold" Foreground="DarkGreen" Margin="0,5,0,0"/>
+                    <TextBlock Text="{Binding MeasurementUnit, StringFormat='Единица измерения: {0}'}" FontSize="11" Margin="0,2,0,0"/>
+                    <TextBlock Text="{Binding Count, StringFormat='Количество на складе: {0}'}" FontSize="11" Margin="0,2,0,0"
+                               Background="{Binding Count, Converter={StaticResource NotStockConvert}}"/>
                 </StackPanel>
             </Border>
 
+            <!-- Скидка -->
             <Border BorderThickness="1" BorderBrush="Black" Padding="10" Grid.Column="2" Margin="5,0,0,0">
-                <StackPanel Grid.Column="2" VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="5">
-
-                    <TextBlock Text="{Binding Discount, StringFormat='Действующая скидка: {0}%'}" TextWrapping="Wrap" HorizontalAlignment="Center"
-                            Background="{Binding Discount, Converter={StaticResource DiscountConvert}}"/>
-                    
-                </StackPanel>
+                <TextBlock Text="{Binding Discount, StringFormat='Действующая скидка: {0}%'}"
+                           TextWrapping="Wrap" HorizontalAlignment="Center"
+                           Background="{Binding Discount, Converter={StaticResource DiscountConvert}}"/>
             </Border>
         </Grid>
     </Border>

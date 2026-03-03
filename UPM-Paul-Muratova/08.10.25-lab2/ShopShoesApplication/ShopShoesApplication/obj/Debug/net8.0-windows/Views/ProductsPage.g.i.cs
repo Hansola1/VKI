@@ -158,7 +158,7 @@ namespace ShopShoesApplication.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ShopShoesApplication;V1.0.0.0;component/views/productspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShopShoesApplication;component/views/productspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ProductsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
