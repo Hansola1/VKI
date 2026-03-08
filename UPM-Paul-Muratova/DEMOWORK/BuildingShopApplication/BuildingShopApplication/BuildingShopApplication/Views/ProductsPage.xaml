@@ -8,7 +8,7 @@
        d:DesignHeight="450" d:DesignWidth="800" Height="450" Width="800"
       Title="ProductsPage" FontFamily="Comic Sans MS">
 
-    <Grid Background="White">
+    <Grid Background="#FF76E383">
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
 
         <!-- Заголовок -->
@@ -25,9 +25,9 @@
         </ListView>
 
         <!-- Кнопки -->
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="20,408,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" FontSize="20" Height="32" Foreground="Black"/>
-        <Button x:Name="AddButton" Content="Добавить продукт" HorizontalAlignment="Left" Margin="172,408,0,0" VerticalAlignment="Top" Width="228" Click="AddProduct_click" FontSize="20" Height="32" Foreground="Black"/>
-        <Button x:Name="DeleteButton" Content="Удалить продукт" HorizontalAlignment="Left" Margin="422,408,0,0" VerticalAlignment="Top" Width="191" Click="DeleteProduct_click" FontSize="20" Height="32" Foreground="Black"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="20,408,0,0" VerticalAlignment="Top" Width="131" Click="Cancel_click" FontSize="20" Height="32" Foreground="Black" Background="#FF498C51"/>
+        <Button x:Name="AddButton" Content="Добавить продукт" HorizontalAlignment="Left" Margin="172,408,0,0" VerticalAlignment="Top" Width="228" Click="AddProduct_click" FontSize="20" Height="32" Foreground="Black" Background="#FF498C51"/>
+        <Button x:Name="DeleteButton" Content="Удалить продукт" HorizontalAlignment="Left" Margin="422,408,0,0" VerticalAlignment="Top" Width="191" Click="DeleteProduct_click" FontSize="20" Height="32" Foreground="Black" Background="#FF498C51"/>
 
         <!-- Поиск -->
         <TextBox x:Name="SearchTextBox" Margin="70,61,20,0" VerticalAlignment="Top" Height="23" TextChanged="SearchTextBox_TextChanged"/>

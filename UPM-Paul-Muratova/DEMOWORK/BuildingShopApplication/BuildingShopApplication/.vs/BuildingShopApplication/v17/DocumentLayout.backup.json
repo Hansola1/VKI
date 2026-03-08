@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\loginpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\loginpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\usercontrols\\productcard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\usercontrols\\productcard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\usercontrols\\productcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\usercontrols\\productcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\loginpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\loginpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\usercontrols\\productcard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\usercontrols\\productcard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\buildingshopapplication\\buildingshopapplication\\buildingshopapplication\\views\\addeditproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BDC262F-2679-46FB-82D2-A5F44EB54A32}|BuildingShopApplication\\BuildingShopApplication.csproj|solutionrelative:buildingshopapplication\\views\\addeditproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "BuildingShopApplication\\Views\\LoginPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "BuildingShopApplication\\Views\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T16:24:07.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEditProductPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\AddEditProductPage.xaml",
+              "RelativeDocumentMoniker": "BuildingShopApplication\\Views\\AddEditProductPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\AddEditProductPage.xaml",
+              "RelativeToolTip": "BuildingShopApplication\\Views\\AddEditProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T16:22:51.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProductCard.xaml.cs",
               "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\UserControls\\ProductCard.xaml.cs",
               "RelativeDocumentMoniker": "BuildingShopApplication\\Views\\UserControls\\ProductCard.xaml.cs",
@@ -47,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductsPage.xaml.cs",
               "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\ProductsPage.xaml.cs",
               "RelativeDocumentMoniker": "BuildingShopApplication\\Views\\ProductsPage.xaml.cs",
@@ -72,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductsPage.xaml",
               "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\ProductsPage.xaml",
               "RelativeDocumentMoniker": "BuildingShopApplication\\Views\\ProductsPage.xaml",
@@ -84,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\BuildingShopApplication\\BuildingShopApplication\\BuildingShopApplication\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "BuildingShopApplication\\Views\\LoginPage.xaml.cs",
