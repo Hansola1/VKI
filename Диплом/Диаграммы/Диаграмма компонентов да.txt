@@ -1,0 +1,45 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam component {
+  BackgroundColor #E3F2FD
+  BorderColor #1976D2
+  FontSize 11
+}
+skinparam arrow {
+  Color #424242
+}
+
+title "Диаграмма компонентов SQLCloneTools"
+
+left to right direction
+
+component "Frontend\n(Blazor)" as Frontend
+component "Backend\n(API)" as Backend
+component "Agent" as Agent
+component "Library" as Library
+
+database "SQL Server" as DB
+component "File System" as FS
+
+Frontend --> Backend : REST API
+Backend --> Agent : HTTP
+Backend --> Library : использует
+Agent --> DB : T-SQL
+Agent --> FS : I/O
+Library --> DB : ADO.NET
+
+note right of Frontend
+  UI для управления
+  клонами БД
+end note
+
+note right of Backend
+  Бизнес-логика
+  и API
+end note
+
+note right of Agent
+  Низкоуровневые
+  операции
+end note
+@enduml
