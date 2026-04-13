@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectricalProfiling")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c101f1bd51fce281be3184704a65d5af750a1c7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecccce3b15811847e680949760f3105774a4b6b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectricalProfiling")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectricalProfiling")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
