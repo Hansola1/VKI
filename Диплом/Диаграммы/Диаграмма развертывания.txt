@@ -1,0 +1,26 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+
+node "Клиент" as Browser{
+artifact "SQLCloneTools.Frontend" as kluent
+}
+
+node "Сервер" as AppServer {
+  artifact "SQLCloneTools.Backend"
+}
+
+node "SQL сервер" as Target1 {
+  artifact "SQLCloneLibrary" as l
+  artifact "SQLCloneTools.Agent" as d
+  database "SQL Server"
+  artifact "VHD Storage"
+}
+
+
+Browser -down-> AppServer : HTTPS
+AppServer -down-> Target1  : HTTP/REST
+Target1  -left-> AppServer : HTTP/REST
+d -down-> "SQL Server" : T-SQL
+d -down-> l : T-SQL
+d -down-> "VHD Storage" : File I/O
+@enduml
