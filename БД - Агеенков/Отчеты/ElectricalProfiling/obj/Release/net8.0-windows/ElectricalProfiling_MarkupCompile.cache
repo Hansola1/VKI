@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 C:\MyFile\VKI\БД - Агеенков\Отчеты\ElectricalProfiling\App.xaml
-62018644014
+15494539100
 
-17-1836494711
-230-1741726017
-Views\AreasPage.xaml;Views\MainWindow.xaml;Views\Old\LogInPage.xaml;Views\ProjectPage.xaml;Views\UseControll\AddProject.xaml;Views\UseControll\EditProject.xaml;
+321954044056
+232590329392
+Views\AreasPage.xaml;Views\MainWindow.xaml;Views\MeasurementsPage.xaml;Views\Old\LogInPage.xaml;Views\ProfilePage.xaml;Views\ProjectPage.xaml;Views\StationsPage.xaml;Views\UseControll\AddArea.xaml;Views\UseControll\AddMeasurements.xaml;Views\UseControll\AddProfile.xaml;Views\UseControll\AddProject.xaml;Views\UseControll\AddStation.xaml;Views\UseControll\EditArea.xaml;Views\UseControll\EditProfile.xaml;Views\UseControll\EditProject.xaml;
 
 True
 

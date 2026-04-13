@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\views\\stationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\stationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\ProjectPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\views\\projectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\projectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\StationsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\StationsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|c:\\myfile\\vki\\\u0431\u0434 - \u0430\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u043E\u0442\u0447\u0435\u0442\u044B\\electricalprofiling\\views\\areaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{47A9ADC8-49B3-4168-A666-F3813B456672}|ElectricalProfiling.csproj|solutionrelative:views\\areaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\AreasPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\AreasPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,24 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StationsPage.xaml",
               "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\StationsPage.xaml",
               "RelativeDocumentMoniker": "Views\\StationsPage.xaml",
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\StationsPage.xaml",
               "RelativeToolTip": "Views\\StationsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-23T05:58:14.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProjectPage.xaml",
               "DocumentMoniker": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml",
               "RelativeDocumentMoniker": "Views\\ProjectPage.xaml",
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\ProjectPage.xaml",
               "RelativeToolTip": "Views\\ProjectPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-23T05:44:07.672Z",
               "EditorCaption": ""
@@ -65,8 +67,7 @@
               "ToolTip": "C:\\MyFile\\VKI\\\u0411\u0414 - \u0410\u0433\u0435\u0435\u043D\u043A\u043E\u0432\\\u041E\u0442\u0447\u0435\u0442\u044B\\ElectricalProfiling\\Views\\AreasPage.xaml",
               "RelativeToolTip": "Views\\AreasPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-23T05:26:23.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T05:26:23.965Z"
             }
           ]
         }
