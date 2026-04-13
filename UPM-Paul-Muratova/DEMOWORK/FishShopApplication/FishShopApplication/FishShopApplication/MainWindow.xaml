@@ -1,0 +1,12 @@
+﻿<Window x:Class="FishShopApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishShopApplication"
+        mc:Ignorable="d" Title="" Icon="D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\FishShopApplication\FishShopApplication\FishShopApplication\Resource\Logo.jpg">
+
+    <Grid Height="450" Width="800" Background="White">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Panel.ZIndex="1"></Frame>
+    </Grid>
+</Window>

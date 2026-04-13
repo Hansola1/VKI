@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ElectronicShopLib</id>
+    <version>1.0.0</version>
+    <authors>YourName</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/yourname/MyWpfLibrary</projectUrl>
+    <description>A reusable WPF library for .NET 8</description>
+    <repository type="git" url="https://github.com/yourname/MyWpfLibrary" commit="257b6777c3befbf893e2d41205515038481b52bb" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\bin\Release\net8.0\ElectronicShopLib.dll" target="lib\net8.0\ElectronicShopLib.dll" />
+    <file src="D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLib\README.md" target="\README.md" />
+  </files>
+</package>

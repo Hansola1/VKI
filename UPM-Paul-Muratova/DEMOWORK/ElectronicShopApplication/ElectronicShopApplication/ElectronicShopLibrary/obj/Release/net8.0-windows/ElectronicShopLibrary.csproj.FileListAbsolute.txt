@@ -1,0 +1,12 @@
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\bin\Release\net8.0-windows\ElectronicShopLibrary.deps.json
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\bin\Release\net8.0-windows\ElectronicShopLibrary.dll
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\bin\Release\net8.0-windows\ElectronicShopLibrary.pdb
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.AssemblyInfoInputs.cache
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.AssemblyInfo.cs
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.csproj.CoreCompileInputs.cache
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.sourcelink.json
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.dll
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\refint\ElectronicShopLibrary.dll
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ElectronicShopLibrary.pdb
+D:\CodeData\homeworkFile\UPM-Paul-Muratova\DEMOWORK\ElectronicShopApplication\ElectronicShopApplication\ElectronicShopLibrary\obj\Release\net8.0-windows\ref\ElectronicShopLibrary.dll

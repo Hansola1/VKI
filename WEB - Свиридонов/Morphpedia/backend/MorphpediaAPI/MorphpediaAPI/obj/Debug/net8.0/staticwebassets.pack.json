@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CodeData\\homeworkFile\\WEB - Свиридонов\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\wwwroot\\Images\\OIP.jpg",
+      "PackagePath": "staticwebassets\\Images\\OIP.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MorphpediaAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MorphpediaAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MorphpediaAPI.props",
+      "PackagePath": "build\\MorphpediaAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MorphpediaAPI.props",
+      "PackagePath": "buildMultiTargeting\\MorphpediaAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MorphpediaAPI.props",
+      "PackagePath": "buildTransitive\\MorphpediaAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

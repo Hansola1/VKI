@@ -1,0 +1,44 @@
+{
+   "name": "vki-next",
+   "version": "0.1.0",
+   "private": true,
+   "scripts": {
+      "dev": "next dev --turbopack",
+      "build": "next build --turbopack",
+      "start": "ts-node src/index.ts",
+      "lint": "eslint",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "dependencies": {
+      "@tanstack/react-query": "^5.87.1",
+      "class-transformer": "^0.5.1",
+      "class-validator": "^0.14.2",
+      "next": "15.5.2",
+      "pg-hstore": "^2.3.4",
+      "react": "19.1.0",
+      "react-dom": "19.1.0",
+      "react-hook-form": "^7.64.0",
+      "reflect-metadata": "^0.2.2",
+      "sqlite": "^5.1.1",
+      "sqlite3": "^5.1.7",
+      "typeorm": "0.3.27",
+      "uuid": "^13.0.0",
+      "pg": "^8.14.1"
+   },
+   "devDependencies": {
+      "@types/node": "^20.19.22",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.9.2",
+      "@eslint/eslintrc": "^3",
+      "@next/eslint-plugin-next": "^15.5.3",
+      "@stylistic/eslint-plugin": "^5.3.1",
+      "@tanstack/react-query-devtools": "^5.87.1",
+      "@types/react": "^19",
+      "@types/react-dom": "^19",
+      "@typescript-eslint/eslint-plugin": "^8.43.0",
+      "@typescript-eslint/parser": "^8.43.0",
+      "eslint": "^9",
+      "eslint-config-next": "15.5.2",
+      "sass": "^1.92.1"
+   }
+}

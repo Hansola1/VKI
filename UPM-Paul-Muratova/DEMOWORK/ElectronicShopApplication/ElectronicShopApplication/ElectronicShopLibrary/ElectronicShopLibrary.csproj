@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- NuGet metadata -->
+		<PackageId>MyWpfLibrary</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>YourName</Authors>
+		<Company>YourCompany</Company>
+		<Product>MyWpfLibrary</Product>
+		<Description>A reusable WPF library for .NET 8</Description>
+		<PackageProjectUrl>https://github.com/yourname/MyWpfLibrary</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/yourname/MyWpfLibrary</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+</Project>

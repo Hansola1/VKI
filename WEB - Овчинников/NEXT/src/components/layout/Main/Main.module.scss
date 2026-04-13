@@ -1,0 +1,7 @@
+@use '../../../styles/main';
+
+.Main {
+  display: flex;
+  min-height: calc(100vh - 180px);
+  padding: 20px main.$webSidePadding;
+}

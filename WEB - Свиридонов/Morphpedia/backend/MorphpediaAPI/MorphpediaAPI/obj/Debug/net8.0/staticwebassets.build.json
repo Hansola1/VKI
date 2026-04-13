@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "OagfxrFNJj9NRnFZbclOsCT9ISCaIGJKnvEV9ynBfWI=",
+  "Source": "MorphpediaAPI",
+  "BasePath": "_content/MorphpediaAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MorphpediaAPI\\wwwroot",
+      "Source": "MorphpediaAPI",
+      "ContentRoot": "D:\\CodeData\\homeworkFile\\WEB - Свиридонов\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\wwwroot\\",
+      "BasePath": "_content/MorphpediaAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\CodeData\\homeworkFile\\WEB - Свиридонов\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\wwwroot\\Images\\OIP.jpg",
+      "SourceId": "MorphpediaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CodeData\\homeworkFile\\WEB - Свиридонов\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\wwwroot\\",
+      "BasePath": "_content/MorphpediaAPI",
+      "RelativePath": "Images/OIP#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mswqpaidhf",
+      "Integrity": "hqljSg1axbwkgkL/UnImbOB5Y/5dDCqmiVwWwi9e3/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\OIP.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/OIP.jpg",
+      "AssetFile": "D:\\CodeData\\homeworkFile\\WEB - Свиридонов\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\wwwroot\\Images\\OIP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqljSg1axbwkgkL/UnImbOB5Y/5dDCqmiVwWwi9e3/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:05:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqljSg1axbwkgkL/UnImbOB5Y/5dDCqmiVwWwi9e3/o="
+        }
+      ]
+    },
+    {
+      "Route": "Images/OIP.mswqpaidhf.jpg",
+      "AssetFile": "D:\\CodeData\\homeworkFile\\WEB - Свиридонов\\Morphpedia\\backend\\MorphpediaAPI\\MorphpediaAPI\\wwwroot\\Images\\OIP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqljSg1axbwkgkL/UnImbOB5Y/5dDCqmiVwWwi9e3/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 11:05:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mswqpaidhf"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/OIP.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqljSg1axbwkgkL/UnImbOB5Y/5dDCqmiVwWwi9e3/o="
+        }
+      ]
+    }
+  ]
+}

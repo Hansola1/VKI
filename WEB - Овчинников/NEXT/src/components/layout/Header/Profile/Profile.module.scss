@@ -1,0 +1,12 @@
+@use '../../../../styles/main';
+
+.Profile {
+  a {
+    text-decoration: none;
+    border-bottom: var(--color) solid 1px;
+  }
+
+  @media #{main.$mob} {
+    font-size: main.vwMax(15px);
+  }
+}
