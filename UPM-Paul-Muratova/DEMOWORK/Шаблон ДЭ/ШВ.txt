@@ -1,0 +1,14 @@
+1. В bin/Debug/net.8.0 положить папку Images
+2. Создать БД BorodinaAV_2207d2, папку files открыть таблицы. 11 шт таблиц, нормализовать фамилии, добавить в пустые ячейки изображение по умолчанию.
+3. В DemoContext строка подключения своя, в моделях по ситуации изменить столбцы. Запусть проект, таблицы подтянутся в базу.
+4. В таблицы вставить данные из экселя. (Изменить). 
+5. Покрасить приложение по ТЗ
+6. 1C выполнить (models my cs)
+7. Документацию написать: диаграмма из БД, скрипт создания БД, скриншоты окон, алгоритм входа
+
+библиотеки
+Microsoft.EntityFrameworkCore.Design, Microsoft.EntityFrameworkCore.SqlServer, Microsoft.EntityFrameworkCore.Tools, dotnet-ef (dotnet tool install --global dotnet-ef --version 8.0.0)
+
+Импорт моделей:
+Средства => Диспетчер пакетов NuGet => Консоль: 
+Scaffold-DbContext "Server=HANSOLA;Database=ShopFish;TrustServerCertificate=True;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataControl
