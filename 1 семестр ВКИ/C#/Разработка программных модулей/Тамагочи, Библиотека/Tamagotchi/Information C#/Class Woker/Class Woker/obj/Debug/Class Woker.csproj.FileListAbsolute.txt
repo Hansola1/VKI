@@ -1,0 +1,2 @@
+D:\Information C#\Class Woker\Class Woker\obj\Debug\Class Woker.csproj.AssemblyReference.cache
+D:\Information C#\Class Woker\Class Woker\obj\Debug\Class Woker.csproj.CoreCompileInputs.cache

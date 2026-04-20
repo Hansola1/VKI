@@ -1,0 +1,42 @@
+saveFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
+            if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            string filename = saveFileDialog1.FileName;
+            WriteToFile(filename, listBox1);
+        }
+        private void WriteToFile(string path, ListBox listBox)
+        {   using (var sw = new StreamWriter(new FileStream(path, FileMode.Create)))
+            {   if (listBox != null)
+                {   foreach (var item in listBox.Items) // в таком же порядке
+                    {   sw.WriteLine(item.ToString());
+                    }
+                }
+            }
+        }
+
+
+Чтобы чтение - запись с файлами работвли, надо добавить ко всем using . . .
+ещё и :
+
+using System.IO;
+
+FileMode - Указывает, каким образом операционная система должна открыть файл.
+
+FileMode.Create - Указывает, что операционная система должна создавать новый файл. 
+Если файл уже существует, он будет перезаписан.
+
+saveFileDialog1.Filter - Отображает диалоговое окно для сохранения файла.
+Filter - возвращает или устанавливаеттекущую строку фильтра имён файлов, 
+которая отображается в поле "Тип файлов" диалогового окна. Выбранное расширение
+к FileName не приписывается. Свойство DefaultExit игноритруется.
+Переменной filename присвоится имя файла, которое мы выберем (или наберем)
+в диалоговом окне.
+
+StreamWriter - класс предназначен для вывода символьных данных в определенной 
+кодировке, тогда как классы, производные от Stream , предназначены 
+для ввода и вывода байтов.
+
+FileStream - класс представляет возможности по считыванию из файла и записи в файл. 
+Он позволяет работать как с текстовыми файлами, так и с бинарными.
+
+StreamWriter.Метод WriteLine() записывает строку в следующую строку в stream.	 

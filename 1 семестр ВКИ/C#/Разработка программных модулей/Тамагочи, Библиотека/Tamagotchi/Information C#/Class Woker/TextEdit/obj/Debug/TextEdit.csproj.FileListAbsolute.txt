@@ -1,0 +1,7 @@
+D:\Information C#\Class Woker\TextEdit\bin\Debug\TextEdit.exe.config
+D:\Information C#\Class Woker\TextEdit\bin\Debug\TextEdit.exe
+D:\Information C#\Class Woker\TextEdit\bin\Debug\TextEdit.pdb
+D:\Information C#\Class Woker\TextEdit\obj\Debug\TextEdit.csproj.AssemblyReference.cache
+D:\Information C#\Class Woker\TextEdit\obj\Debug\TextEdit.csproj.CoreCompileInputs.cache
+D:\Information C#\Class Woker\TextEdit\obj\Debug\TextEdit.exe
+D:\Information C#\Class Woker\TextEdit\obj\Debug\TextEdit.pdb

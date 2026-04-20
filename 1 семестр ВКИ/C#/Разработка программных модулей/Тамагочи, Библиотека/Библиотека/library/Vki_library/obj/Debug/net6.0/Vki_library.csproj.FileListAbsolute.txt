@@ -1,0 +1,72 @@
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.AssemblyReference.cache
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.GeneratedMSBuildEditorConfig.editorconfig
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfoInputs.cache
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfo.cs
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CoreCompileInputs.cache
+G:\modul\library\Vki_library\bin\Debug\net6.0\Vki_library.exe
+G:\modul\library\Vki_library\bin\Debug\net6.0\Vki_library.deps.json
+G:\modul\library\Vki_library\bin\Debug\net6.0\Vki_library.runtimeconfig.json
+G:\modul\library\Vki_library\bin\Debug\net6.0\Vki_library.dll
+G:\modul\library\Vki_library\bin\Debug\net6.0\Vki_library.pdb
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.dll
+G:\modul\library\Vki_library\obj\Debug\net6.0\refint\Vki_library.dll
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.pdb
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.genruntimeconfig.cache
+G:\modul\library\Vki_library\obj\Debug\net6.0\ref\Vki_library.dll
+G:\modul\library\Vki_library\bin\Debug\net6.0\My_lib.dll
+G:\modul\library\Vki_library\bin\Debug\net6.0\My_lib.pdb
+G:\modul\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CopyComplete
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\Vki_library.exe
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\Vki_library.deps.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\Vki_library.runtimeconfig.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\Vki_library.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\Vki_library.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\My_lib.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\bin\Debug\net6.0\My_lib.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.AssemblyReference.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfoInputs.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfo.cs
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CoreCompileInputs.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CopyComplete
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\refint\Vki_library.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\Vki_library.genruntimeconfig.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\Vki_library\obj\Debug\net6.0\ref\Vki_library.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\Vki_library.exe
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\Vki_library.deps.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\Vki_library.runtimeconfig.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\Vki_library.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\Vki_library.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\My_lib.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\bin\Debug\net6.0\My_lib.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.AssemblyReference.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.GeneratedMSBuildEditorConfig.editorconfig
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfoInputs.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfo.cs
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CoreCompileInputs.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CopyComplete
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\refint\Vki_library.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\Vki_library.genruntimeconfig.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\Vki_library\obj\Debug\net6.0\ref\Vki_library.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\Vki_library.exe
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\Vki_library.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\Vki_library.runtimeconfig.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\Vki_library.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\Vki_library.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\My_lib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\bin\Debug\net6.0\My_lib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfoInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.AssemblyInfo.cs
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.csproj.CopyComplete
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\refint\Vki_library.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\Vki_library.genruntimeconfig.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\Vki_library\obj\Debug\net6.0\ref\Vki_library.dll

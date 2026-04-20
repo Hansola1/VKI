@@ -1,0 +1,219 @@
+using LogicLib;
+using System.ComponentModel;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+
+namespace LibApp
+{
+    public partial class Menu : Form
+    {
+        private void InitializeBooks()
+        {
+            books.Add(new Books(1468, "Л.Н. Толстой", "Война и мир", 1867, 1));
+            books.Add(new Books(1469, "Л.Н. Толстой", "Анна Каренина", 1877, 1));
+            books.Add(new Books(1470, "Л.Н. Толстой", "Анна Каренина", 2023, 10));
+        }
+        private void InitializeReader()
+        {
+            readers.Add(new Reader("Иванов", "2207E2", "Иван"));
+            readers.Add(new Reader("Петров", "2207A2", "Петр"));
+            readers.Add(new Reader("Умер", "03.11.23", "Данн"));
+        }
+
+
+        List<Books> books = new List<Books>();
+        List<Reader> readers = new List<LogicLib.Reader>();
+
+        public Menu()
+        {
+            InitializeComponent();
+            InitializeBooks();
+            InitializeReader();
+            // dataGridViewBooks.DataSource = books;
+
+            foreach (Books book in books)
+            {
+                ListViewItem item = new ListViewItem(book.Id.ToString());
+                item.SubItems.Add(book.Author);
+                item.SubItems.Add(book.NameBook);
+                item.SubItems.Add(book.AgeBook.ToString());
+                item.SubItems.Add(book.CountBook.ToString());
+                listViewBook.Items.Add(item);
+            }
+            foreach (Reader reader in readers)
+            {
+                ListViewItem item = new ListViewItem(reader.Name);
+                item.SubItems.Add(reader.Suname);
+                item.SubItems.Add(reader.Group);
+                listViewReader.Items.Add(item);
+            }
+
+        }
+
+        private void buttonGet(object sender, EventArgs e)
+        {
+            bool c = false;
+            if (textBoxId.Text != "" && textBoxGetReaderSurname.Text != "")
+            {
+                foreach (Reader reader in readers)
+                {
+                    if (textBoxGetReaderSurname.Text == reader.Suname)
+                    {
+                        foreach (Books book in books)
+                        {
+
+                            if (textBoxId.Text == (book.Id).ToString())
+                            {
+                                if (book.CountBook > 0)
+                                {
+                                    book.CountBook--;
+                                    reader.Books.Add(book);
+                                    labelGet.Text = "Книга выдана";
+                                    c = true;
+                                    break;
+                                }
+                                else
+                                {
+                                    labelGet.Text = "Книг нет";
+                                }
+                            }
+                            else
+                            {
+                                labelGet.Text = "Такой книги нет";
+                            }
+                        }
+                        break;
+                    }
+                    else
+                    {
+                        labelGet.Text = "Такого читателя нет";
+                    }
+                }
+                if (c)
+                {
+                    listViewReader.Items.Clear();
+                    foreach (Reader reader in readers)
+                    {
+
+                        ListViewItem item = new ListViewItem(reader.Name);
+                        item.SubItems.Add(reader.Suname);
+                        item.SubItems.Add(reader.Group);
+                        string s = "";
+                        foreach (Books book in reader.Books)
+                        {
+
+                            s += book.Title + " ";
+
+                        }
+                        item.SubItems.Add(s);
+                        listViewReader.Items.Add(item);
+                    }
+                    listViewBook.Items.Clear();
+                    foreach (Books book in books)
+                    {
+                        ListViewItem item = new ListViewItem(book.Id.ToString());
+                        item.SubItems.Add(book.Author);
+                        item.SubItems.Add(book.Title);
+                        item.SubItems.Add(book.PubYear.ToString());
+                        item.SubItems.Add(book.CountCopies.ToString());
+                        listViewBook.Items.Add(item);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Все поля должны быть заполнены");
+            }
+
+            textBoxId.Text = "";
+            textBoxGetReaderSurname.Text = "";
+        }
+
+
+        private void bookAddButton(object sender, EventArgs e)
+        {
+            if (textBoxId.Text != "" && textBoxAuthor.Text != "" && textBoxTitle.Text != "" && textBoxYear.Text != "" && textBoxCopies.Text != "")
+            {
+                books.Add(new Books(int.Parse(textBoxId.Text), textBoxAuthor.Text, textBoxTitle.Text, int.Parse(textBoxYear.Text), int.Parse(textBoxCopies.Text)));
+                ListViewItem item = new ListViewItem(textBoxId.Text);
+                item.SubItems.Add(textBoxAuthor.Text);
+                item.SubItems.Add(textBoxTitle.Text);
+                item.SubItems.Add(textBoxYear.Text);
+                item.SubItems.Add(textBoxCopies.Text);
+                listViewBook.Items.Add(item);
+            }
+            else
+            {
+                MessageBox.Show("Все поля должны быть заполнены");
+            }
+
+        }
+
+        private void AddReaderClick(object sender, EventArgs e)
+        {
+            if (textBoxName.Text != "" && textBoxSurname.Text != "" && textBoxGroup.Text != "")
+            {
+                readers.Add(new Reader(textBoxName.Text, textBoxGroup.Text, textBoxSurname.Text));
+                ListViewItem item = new ListViewItem(textBoxName.Text);
+                item.SubItems.Add(textBoxSurname.Text);
+                item.SubItems.Add(textBoxGroup.Text);
+                listViewReader.Items.Add(item);
+            }
+            else
+            {
+                MessageBox.Show("Все поля должны быть заполнены");
+            }
+
+        }
+
+
+        private void SearchBookClick(object sender, EventArgs e)
+        {
+            if (textBoxSearch.Text != "")
+            {
+                labelSearch.Text = " ";
+                foreach (Book book in books)
+                {
+                    if (radioButtonId.Checked)
+                    {
+
+                        if (textBoxSearch.Text == Convert.ToString(book.Id))
+                        {
+
+                            labelSearch.Text = Convert.ToString(book);
+                        }
+                    }
+                    else if (radioButtonAuthor.Checked)
+                    {
+
+                        if (textBoxSearch.Text == book.Author)
+                        {
+
+                            labelSearch.Text += Convert.ToString(book);
+                        }
+                    }
+                    else if (radioButtonTitle.Checked)
+                    {
+
+                        if (textBoxSearch.Text == book.Title)
+                        {
+                            labelSearch.Text += Convert.ToString(book);
+                        }
+                    }
+                }
+                textBoxSearch.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Все поля должны быть заполнены");
+            }
+        }
+
+
+
+        private void InBookClick(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

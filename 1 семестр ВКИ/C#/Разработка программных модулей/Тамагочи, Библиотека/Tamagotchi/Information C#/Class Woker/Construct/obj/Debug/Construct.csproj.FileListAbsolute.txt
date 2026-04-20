@@ -1,0 +1,7 @@
+D:\Information C#\Class Woker\Construct\bin\Debug\Construct.exe.config
+D:\Information C#\Class Woker\Construct\bin\Debug\Construct.exe
+D:\Information C#\Class Woker\Construct\bin\Debug\Construct.pdb
+D:\Information C#\Class Woker\Construct\obj\Debug\Construct.csproj.AssemblyReference.cache
+D:\Information C#\Class Woker\Construct\obj\Debug\Construct.csproj.CoreCompileInputs.cache
+D:\Information C#\Class Woker\Construct\obj\Debug\Construct.exe
+D:\Information C#\Class Woker\Construct\obj\Debug\Construct.pdb

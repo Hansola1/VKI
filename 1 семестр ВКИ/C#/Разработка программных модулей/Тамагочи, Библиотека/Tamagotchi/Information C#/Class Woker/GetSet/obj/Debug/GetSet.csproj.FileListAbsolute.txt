@@ -1,0 +1,7 @@
+D:\Information C#\Class Woker\GetSet\bin\Debug\GetSet.exe.config
+D:\Information C#\Class Woker\GetSet\bin\Debug\GetSet.exe
+D:\Information C#\Class Woker\GetSet\bin\Debug\GetSet.pdb
+D:\Information C#\Class Woker\GetSet\obj\Debug\GetSet.csproj.AssemblyReference.cache
+D:\Information C#\Class Woker\GetSet\obj\Debug\GetSet.csproj.CoreCompileInputs.cache
+D:\Information C#\Class Woker\GetSet\obj\Debug\GetSet.exe
+D:\Information C#\Class Woker\GetSet\obj\Debug\GetSet.pdb

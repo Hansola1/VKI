@@ -1,0 +1,28 @@
+﻿<Window x:Class="SunMorningDesign_.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SunMorningDesign_"
+        mc:Ignorable="d"
+        Title="Window2" Height="1280" Width="1024">
+    <Grid>
+        <Button Content="-" HorizontalAlignment="Left" Margin="38,42,0,0" VerticalAlignment="Top" Height="107" Width="200" Click="Button_Click"/>
+        <Label Content="Настроить будильник" FontSize="45" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="788,43,0,0" VerticalAlignment="Top" Height="107" Width="200" Click="Button_Click"/>
+        <Label Content="12  : 00 : 00" FontSize="100" HorizontalAlignment="Center" Margin="0,233,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="686,381,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,387,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="284,387,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Background="Gray" Margin="0,482,0,0" TextWrapping="Wrap" Text="Название сигнала" FontSize=" 60 "  VerticalAlignment="Top" Width="950" Height="115"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="38,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="176,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="38,655,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="311,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="439,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="572,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="731,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="887,657,0,0" VerticalAlignment="Top" Height="85" Width="100"/>
+
+    </Grid>
+</Window>

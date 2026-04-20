@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Код игры замок", "Код игры замок\Код игры замок.csproj", "{269F3867-A5C3-48AF-988C-4D0EEACF6CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{269F3867-A5C3-48AF-988C-4D0EEACF6CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269F3867-A5C3-48AF-988C-4D0EEACF6CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269F3867-A5C3-48AF-988C-4D0EEACF6CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269F3867-A5C3-48AF-988C-4D0EEACF6CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C0352D7-7E83-4034-B932-6902877A39D6}
+	EndGlobalSection
+EndGlobal

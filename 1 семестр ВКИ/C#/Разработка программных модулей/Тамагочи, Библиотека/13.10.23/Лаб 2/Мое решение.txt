@@ -1,0 +1,29 @@
+package kata
+
+import(
+  "strings"
+  "strconv"
+)
+
+func Is_valid_ip(ip string) bool {
+  var a [4]int
+  var err error
+  buffer := strings.Split(ip, ".")
+  
+  if (len(buffer) != 4) {
+    return false
+  }
+  for i := 0; i < 4; i++{
+    if strings.HasPrefix(buffer[i], "0") && len(buffer[i]) > 1{
+      return false
+    }
+    a[i], err = strconv.Atoi(buffer[i])
+    if err != nil {
+        return false
+    }
+    if a[i] > 255 || a[i] < 0{
+      return false
+    }
+  }
+	return true
+}

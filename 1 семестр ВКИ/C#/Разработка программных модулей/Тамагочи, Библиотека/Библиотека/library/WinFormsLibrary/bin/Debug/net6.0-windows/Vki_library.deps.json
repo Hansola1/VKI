@@ -1,0 +1,40 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Vki_library/1.0.0": {
+        "dependencies": {
+          "My_lib": "1.0.0",
+          "My_lib.Reference": "1.0.0.0"
+        },
+        "runtime": {
+          "Vki_library.dll": {}
+        }
+      },
+      "My_lib.Reference/1.0.0.0": {
+        "runtime": {
+          "My_lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vki_library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "My_lib.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,209 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsAppChange
+{
+    public partial class Form1 : Form
+    {
+        Graphics gr;
+        int dx, dy, x, y, dlw, dlh;
+        int x1, x2, y1, y2;
+        int x0, y0;
+        static int click_mouse = 0;
+        static int i1, i2, j1, j2;
+        
+
+        private void InitializeBrush() //Инициализация двуменрного массива pole.
+        {
+            myBrush1 = new SolidBrush[n_color];
+            myBrushWhite = new SolidBrush(Color.White);
+
+            myBrush1[0] = new SolidBrush(Color.Blue);
+            myBrush1[1] = new SolidBrush(Color.Yellow);
+            myBrush1[2] = new SolidBrush(Color.Red);
+            myBrush1[3] = new SolidBrush(Color.Green);
+            myBrush1[4] = new SolidBrush(Color.Cyan);
+        }
+
+
+        private void InitializeArray() //Инициализация двуменрного массива pole.
+        {
+            pole = new int[nx, ny]; //Инициализация двуменрного массива pole.
+
+            //Заполнение массива нулями.
+            for (int i = 0; i < nx; i++)
+            {
+                for (int j = 0; j < ny; j++)
+                {
+                    pole[i, j] = 0;
+                }
+            }
+        }
+        private void FillArray_2()
+        {
+            /*Задача 2. Заполните массив так:
+             * в случайные места задайте следующие числа:
+             * пять единиц, пять двоек, …, пять пятерок.
+             * В цикле пять чисел 1, 2, 3, 4, 5 задаются на случайные места,
+             * все повторяется 5 раз. */
+
+            Random rand = new Random();
+            int r = rand.Next(0, nx);
+            int k = rand.Next(0, ny);
+            for (int i = 0; i < nx; i++)
+            {
+                for (int j = 0; j < ny; j++)
+                {
+                    while (pole[r, k] != 0)
+                    {
+                        r = rand.Next(0, nx);
+                        k = rand.Next(0, ny);
+                    }
+                    pole[r, k] = i + 1;
+                }
+            }
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            x0 = 10;
+            y0 = 10;
+
+
+            dx = (fw - x0 - 20) / nx;
+            dy = (fh - y0 - 40) / ny;
+
+            dlh = dy * ny;
+            dlw = dx * nx;
+
+            gr.DrawLine(pen1, x0, y0, dlw + x0, y0);
+            gr.DrawLine(pen1, x0, y0, x0, dlh + y0);
+            gr.DrawLine(pen1, x0, dlh + y0, dlw + x0, dlh + y0);
+            gr.DrawLine(pen1, dlw + x0, y0, dlw + x0, dlh + y0);
+
+            InitializeArray();
+            FillArray_2();
+
+            InitializeBrush();
+
+            System.Drawing.Font drawFont = new System.Drawing.Font("Arial", 32);
+            System.Drawing.SolidBrush drawBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Black);
+
+            for (int i = 0; i < nx; i++)
+            {
+                x = x0 + i * dx;
+                for (int j = 0; j < ny; j++)
+                {
+                    y = y0 + j * dy;
+                    int nom = pole[i, j] - 1;
+                    gr.FillRectangle(myBrush1[nom], x, y, dx, dy);
+
+
+                }
+
+            }
+
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            Point cp = this.PointToClient(Cursor.Position);
+            int x_mouse = cp.X;
+            int y_mouse = cp.Y;
+
+            for (int i = 0; i < nx; i++)
+            {
+                x1 = x0 + i * dx;
+                x2 = x1 + dx;
+                for (int j = 0; j < ny; j++)
+                {
+                    y1 = y0 + j * dy;
+                    y2 = y1 + dy;
+
+                    if ((x_mouse >= x1) && (x_mouse < x2))
+                    {
+
+                        if ((y_mouse >= y1) && (y_mouse < y2))
+                        {
+                            click_mouse++;
+
+
+                                if (click_mouse % 2 == 1)
+                                {
+                                    i1 = i;
+                                    j1 = j;
+                                }
+                                else
+                                {
+                                    i2 = i;
+                                    j2 = j;
+                                }
+
+                                if ((i1!=-1)&&(i2!=-1)&&(j1!=-1)&&(j2!=-1))
+                            {
+                                int res = pole[i1, j1];
+
+                                pole[i1, j1] = pole[i2, j2];
+                                pole[i2, j2] = res;
+
+                                int x_k1 = x0 + i1 * dx;
+                                int y_k1= y0 + j1 * dy;
+
+                                int nom1 = pole[i1, j1] - 1;
+                                gr.FillRectangle(myBrush1[nom1], x_k1, y_k1, dx, dy);
+
+
+                                int x_k2 = x0 + i2 * dx;
+                                int y_k2 = y0 + j2 * dy;
+
+                                int nom2 = pole[i2, j2] - 1;
+                                gr.FillRectangle(myBrush1[nom2], x_k2, y_k2, dx, dy);
+                                i1 = -1;
+                                i2 = -1;
+                                j1 = -1;
+                                j2 = -1;
+                            }
+                                
+                        }
+                        
+                    }
+                }
+
+            }
+
+        }
+
+        int fw, fh;  // Ширина и высота формы
+        const int nx = 5;
+        const int ny = 5;
+
+        Pen pen1 = new Pen(Color.Black);
+        public int[,] pole; //Двуменрный массив pole.
+        const int n_color = 5; //Кол-во цветов
+
+        public SolidBrush[] myBrush1;
+        public SolidBrush myBrushWhite;
+       
+
+        public Form1()
+        {
+            InitializeComponent();
+            
+            gr = this.CreateGraphics();
+            this.BackColor = Color.White;
+            fw = this.Width;//Текущая ширина формы
+            fh = this.Height;//Текущая высота формы
+            i1 = -1;
+            i2 = -1;
+            j1 = -1;
+            j2 = -1;
+        }
+    }
+}

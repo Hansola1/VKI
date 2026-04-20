@@ -1,0 +1,68 @@
+E:\C#\Игра\Game\Game\bin\Release\Game.exe.config
+E:\C#\Игра\Game\Game\bin\Release\Game.exe
+E:\C#\Игра\Game\Game\bin\Release\Game.pdb
+E:\C#\Игра\Game\Game\obj\Release\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game\Game\obj\Release\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game\Game\obj\Release\Game.Form1.resources
+E:\C#\Игра\Game\Game\obj\Release\Game.Form2.resources
+E:\C#\Игра\Game\Game\obj\Release\Game.Form3.resources
+E:\C#\Игра\Game\Game\obj\Release\Game.Form4.resources
+E:\C#\Игра\Game\Game\obj\Release\Game.Properties.Resources.resources
+E:\C#\Игра\Game\Game\obj\Release\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game\Game\obj\Release\Game.exe
+E:\C#\Игра\Game\Game\obj\Release\Game.pdb
+E:\C#\Игра\para\Game\bin\Release\Game.exe.config
+E:\C#\Игра\para\Game\bin\Release\Game.exe
+E:\C#\Игра\para\Game\bin\Release\Game.pdb
+E:\C#\Игра\para\Game\obj\Release\Game.Form1.resources
+E:\C#\Игра\para\Game\obj\Release\Game.Form2.resources
+E:\C#\Игра\para\Game\obj\Release\Game.Form3.resources
+E:\C#\Игра\para\Game\obj\Release\Game.Form4.resources
+E:\C#\Игра\para\Game\obj\Release\Game.Properties.Resources.resources
+E:\C#\Игра\para\Game\obj\Release\Game.csproj.GenerateResource.cache
+E:\C#\Игра\para\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\para\Game\obj\Release\Game.exe
+E:\C#\Игра\para\Game\obj\Release\Game.pdb
+G:\2_05_2023\para\Game\bin\Release\Game.exe.config
+G:\2_05_2023\para\Game\bin\Release\Game.exe
+G:\2_05_2023\para\Game\bin\Release\Game.pdb
+G:\2_05_2023\para\Game\obj\Release\Game.csproj.AssemblyReference.cache
+G:\2_05_2023\para\Game\obj\Release\Game.Form1.resources
+G:\2_05_2023\para\Game\obj\Release\Game.Form2.resources
+G:\2_05_2023\para\Game\obj\Release\Game.Form3.resources
+G:\2_05_2023\para\Game\obj\Release\Game.Form4.resources
+G:\2_05_2023\para\Game\obj\Release\Game.Properties.Resources.resources
+G:\2_05_2023\para\Game\obj\Release\Game.csproj.GenerateResource.cache
+G:\2_05_2023\para\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+G:\2_05_2023\para\Game\obj\Release\Game.exe
+G:\2_05_2023\para\Game\obj\Release\Game.pdb
+E:\C#\Игра\Game — копия\Game\bin\Release\Game.exe.config
+E:\C#\Игра\Game — копия\Game\bin\Release\Game.exe
+E:\C#\Игра\Game — копия\Game\bin\Release\Game.pdb
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.Form1.resources
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.Form2.resources
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.Form3.resources
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.Form4.resources
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.Properties.Resources.resources
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.exe
+E:\C#\Игра\Game — копия\Game\obj\Release\Game.pdb
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\bin\Release\Game.exe.config
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\bin\Release\Game.exe
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\bin\Release\Game.pdb
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.Form1.resources
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.Form2.resources
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.Form3.resources
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.Form4.resources
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.Form5.resources
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.Properties.Resources.resources
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.csproj.GenerateResource.cache
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.exe
+E:\C#\Игра\ВЫБОР КАРТИНКИ\Game\obj\Release\Game.pdb

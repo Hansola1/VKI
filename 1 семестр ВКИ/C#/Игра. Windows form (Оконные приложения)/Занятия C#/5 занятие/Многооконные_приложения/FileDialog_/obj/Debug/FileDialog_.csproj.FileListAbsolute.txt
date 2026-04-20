@@ -1,0 +1,20 @@
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\bin\Debug\FileDialog_.exe.config
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\bin\Debug\FileDialog_.exe
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\bin\Debug\FileDialog_.pdb
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.csprojAssemblyReference.cache
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.Form1.resources
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.Properties.Resources.resources
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.csproj.GenerateResource.cache
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.csproj.CoreCompileInputs.cache
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.exe
+D:\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_5\FileDialog_\obj\Debug\FileDialog_.pdb
+G:\FileDialog_\bin\Debug\FileDialog_.exe.config
+G:\FileDialog_\bin\Debug\FileDialog_.exe
+G:\FileDialog_\bin\Debug\FileDialog_.pdb
+G:\FileDialog_\obj\Debug\FileDialog_.csproj.AssemblyReference.cache
+G:\FileDialog_\obj\Debug\FileDialog_.Form1.resources
+G:\FileDialog_\obj\Debug\FileDialog_.Properties.Resources.resources
+G:\FileDialog_\obj\Debug\FileDialog_.csproj.GenerateResource.cache
+G:\FileDialog_\obj\Debug\FileDialog_.csproj.CoreCompileInputs.cache
+G:\FileDialog_\obj\Debug\FileDialog_.exe
+G:\FileDialog_\obj\Debug\FileDialog_.pdb

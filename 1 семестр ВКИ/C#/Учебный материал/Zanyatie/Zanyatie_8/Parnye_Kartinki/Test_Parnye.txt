@@ -1,0 +1,271 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ParyPict
+{
+    public partial class Form1 : Form
+    {
+        Graphics g;   
+        public int[,] pole; //Двуменрный массив pole.
+        const int n = 4; //Кол-во строк и столбцов.
+
+        string[] fn = new string[8] { "a1.JPG", "a2.JPG", "a3.JPG", "a4.JPG", "a5.JPG", "a6.JPG", "a7.JPG", "a8.JPG" };      
+        Image[] zv = new Image[8];//Массив рисунков
+
+        PictureBox[,] Pb = new PictureBox[4, 4];//Массив игры
+        int x0 = 40;
+        int y0 = 20;
+        int tim;//Времена таймеров
+        int tim2;
+        int tim3;
+        public static int clik = 0;
+        Random rnd = new Random();
+        int ochki = 0;
+        Image[,] zvr = new Image[n, n];//Резервный массив для восстановления игрового поля
+        int h, w;
+        int ii1, jj1, ii2, jj2;
+        int test = 0;
+
+
+
+        //-------------------------------------------------------------------------
+        private void InitializeArray() //Инициализация двуменрного массива pole.
+        {
+            pole = new int[n, n]; //Инициализация двуменрного массива pole.
+
+            //Заполнение массива нулями.
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    pole[i, j] = 0;
+                }
+            }
+        }
+        //-----------------------------------------------------------------------
+
+        private void FillArray_2()
+        {
+            /*Задача 2. Заполните массив так:
+             * в случайные места задайте следующие числа:
+             * две единицы, две двойки, …, две восьмерки.
+            */
+
+            Random rand = new Random();
+            int r = rand.Next(0, n);
+            int k = rand.Next(0, n);
+           
+            int sum = 0;
+            pole[r, k] = sum % 8;
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    sum++;
+                    while (pole[r, k] != 0)
+                    {
+                        r = rand.Next(0, n);
+                        k = rand.Next(0, n);
+                    }
+                    pole[r, k] = sum % 8;
+                }
+            }
+        }
+        //-------------------------------------------------------------------
+
+        //------------------------------------------------
+
+
+        public void Pict_show()
+        {//Показываем игровое поле
+            int i, j;
+            for (i = 0; i < 4; i++)
+                for (j = 0; j < 4; j++)
+                {
+                    Pb[i, j].Image = zvr[i,j];
+                  //  Pb[i, j].Enabled = true;
+                }
+        }
+
+        private void button_start_Click(object sender, EventArgs e)
+        {
+            //Запуск игры
+            Create_pole();
+            Setka();
+            tim = 10;
+            tim2 = 1200;
+            timer1.Enabled = true;
+            timer2.Enabled = true;
+        }
+        public void Pict_hide()
+        {//Прячем изображения
+            int i, j;
+            for (i = 0; i < 4; i++)
+                for (j = 0; j < 4; j++)
+                    Pb[i, j].Image = null;
+
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            tim = tim - 1;//Какое-то время видны все рисунки
+            if (tim == 0)
+            {
+                Pict_hide();              
+            }
+
+            tim2--;
+            textBox2.Text = tim2.ToString();
+            if (tim2 < 0)
+            {                
+                textBox2.Text = "Game Over!";              
+            }
+        }
+
+        private void button_exit_Click(object sender, EventArgs e)
+        {
+            //Выход
+            timer1.Enabled = false;
+            timer2.Enabled = false;
+            this.Close();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            tim3++;
+            if ((tim3==5)&&(test==1))
+            {
+              
+                Pb[ii2, jj2].Image = null;//изображение спряталось
+                Pb[ii1, jj1].Image = null;//изображение спряталось
+                
+
+            }
+        }
+
+        //------------------------------------------------------------
+
+        public void Pb_Click(object sender, EventArgs e)
+        {//Обработчик щелчка по Pb[i,j]
+
+            PictureBox Pib;
+            Pib = (PictureBox)sender;
+            if (tim2 > 0)
+            {
+                clik++;
+                if (clik == 1)
+                {
+                    jj1 = (Pib.Left - x0) / w;//Номер столбца и строки элемента,
+                    ii1 = (Pib.Top - y0) / h;//по которому кликнули - запомнили.
+                    Pb[ii1, jj1].Image = zvr[ii1, jj1];
+                    Pb[ii1, jj1].Enabled = true;
+                }
+                if (clik == 2)
+                {
+                    jj2 = (Pib.Left - x0) / w;//Номер столбца и строки элемента,
+                    ii2 = (Pib.Top - y0) / h;//по которому кликнули - запомнили.
+
+                    Pb[ii2, jj2].Image = zvr[ii2, jj2];
+                    Pb[ii2, jj2].Enabled = true;
+
+                    if ((pole[ii1, jj1] == pole[ii2, jj2]) && (pole[ii1, jj1] != -1))
+                    //Если угадали
+                    {
+                        MessageBox.Show("Ok");
+
+                        ochki++;
+                        textBox1.Text = ochki.ToString();
+                        if (ochki == 8)
+                            MessageBox.Show("Победа");
+
+                        pole[ii1, jj1] = -1;
+                        pole[ii2, jj2] = -1;
+                        test = 0;
+                        tim3 = 15;
+                        
+                    }
+                    else
+                    {
+                        tim3 = 0;
+                        test = 1;
+
+                    }
+                    clik = 0;
+                }
+            }
+        }  //-----------------------------------------------------------------
+           
+        //---------------------------------------------
+
+        public void Create_pole()
+        {//Игровое поле - массив PictureBox
+            int i, j, k, m;
+            w = 75;
+            h = 90;
+            
+            Image[,] zv2 = new Image[4, 4];//Массивы для заполнения
+           
+            for (i = 0; i < 8; i++)//Массив рисунков
+                zv[i] = new Bitmap("C:\\Users\\Administrator\\source\\repos\\ParyPict\\" + fn[i]);
+
+            for (i = 0; i < 4; i++)//Удаление прошлой игры
+                for (j = 0; j < 4; j++)
+                    if (this.Controls.Contains(Pb[i, j]))
+                        this.Controls.Remove(Pb[i, j]);
+           
+            for (i = 0; i < 4; i++)
+                for (j = 0; j < 4; j++)
+                {//Создаем массив игрового поля
+                    Pb[i, j] = new PictureBox();
+                    Pb[i, j].Left = x0 + j * (w + 10);
+                    Pb[i, j].Top = y0 + i * (h + 10);
+                    Pb[i, j].Width = w;
+                    Pb[i, j].Height = h;
+                    
+                    Pb[i, j].BorderStyle = BorderStyle.Fixed3D;
+                    Pb[i, j].Click += Pb_Click;
+                    Controls.Add(Pb[i, j]);
+                }
+
+            InitializeArray(); //Инициализация двуменрного массива pole.
+            FillArray_2();//заполнение двуменрного массива pole - числа для соответствия парным картинкам.
+
+            for (i = 0; i < n; i++)
+                for (j = 0; j < n; j++)
+                {
+                    zvr[i, j] = zv[pole[i, j]];// заполнение резервного массива  zvr[i, j]
+                    Pb[i, j].Image = zvr[i, j];//заполнение свойства Image у игрового поля
+                }                
+        }
+        //---------------------------------------
+        public void Setka()
+        {//Рисуем сетку
+            int i;
+            int w = 75;
+            int h = 90;
+            Pen myPenRed = new Pen(Color.Red, 3);
+            for (i = 0; i < 5; i++)
+            {
+                g.DrawLine(myPenRed, ((x0 - 3) + i * (w + 10)), (y0 - 3), ((x0 - 3) + i * (w + 10)), ((y0 - 3) + 4 * (h + 10)));
+                g.DrawLine(myPenRed, (x0 - 3), (y0 - 3 + i * (h + 10)), ((x0 - 3) + 4 * (w + 10)), ((y0 - 3) + i * (h + 10)));
+
+            }
+        }
+
+
+
+        //--------------------------------------------------------------
+        public Form1()
+        {
+            InitializeComponent();
+            g = this.CreateGraphics();
+        }
+    }
+}

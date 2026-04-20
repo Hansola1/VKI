@@ -1,0 +1,166 @@
+E:\C#\Игра\Game\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game\Game\bin\Debug\Game.pdb
+E:\C#\Игра\Game\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game — копия (3)\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game — копия (3)\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game — копия (3)\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game — копия (3) — копия\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game — копия (3) — копия\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game — копия (3) — копия\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game — копия (3) — копия\Game\bin\Debug\Game.pdb
+E:\C#\Игра\22\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\22\Game\bin\Debug\Game.exe
+E:\C#\Игра\22\Game\bin\Debug\Game.pdb
+E:\C#\Игра\22\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\22\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\22\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\22\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\22\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\22\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\22\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\22\Game\obj\Debug\Game.exe
+E:\C#\Игра\22\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game1\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game1\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game1\Game\bin\Debug\Game.pdb
+E:\C#\Игра\Game1\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game1\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game1\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game1\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game1\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game1\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game1\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game1\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game1\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game1\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game1 — копия\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game1 — копия\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game1 — копия\Game\bin\Debug\Game.pdb
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game1 — копия\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game1 — копия — копия\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game1 — копия — копия\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game1 — копия — копия\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game1 — копия — копия\Game\bin\Debug\Game.pdb
+E:\C#\Игра\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\para g\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\para g\Game\bin\Debug\Game.exe
+E:\C#\Игра\para g\Game\bin\Debug\Game.pdb
+E:\C#\Игра\para g\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\para g\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\para g\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\para g\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\para g\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\para g\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\para g\Game\obj\Debug\Game.exe
+E:\C#\Игра\para g\Game\obj\Debug\Game.pdb
+E:\C#\Игра\para g — копия\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\para g — копия\Game\bin\Debug\Game.exe
+E:\C#\Игра\para g — копия\Game\bin\Debug\Game.pdb
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.Form4.resources
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.exe
+E:\C#\Игра\para g — копия\Game\obj\Debug\Game.pdb
+E:\C#\Игра\para g — копия — копия\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\para g — копия — копия\Game\bin\Debug\Game.exe
+E:\C#\Игра\para g — копия — копия\Game\bin\Debug\Game.pdb
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.Form4.resources
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.exe
+E:\C#\Игра\para g — копия — копия\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game\Game\obj\Debug\Game.Form4.resources
+G:\2_05_2023\para\Game\bin\Debug\Game.exe.config
+G:\2_05_2023\para\Game\bin\Debug\Game.exe
+G:\2_05_2023\para\Game\bin\Debug\Game.pdb
+G:\2_05_2023\para\Game\obj\Debug\Game.Form1.resources
+G:\2_05_2023\para\Game\obj\Debug\Game.Form2.resources
+G:\2_05_2023\para\Game\obj\Debug\Game.Form3.resources
+G:\2_05_2023\para\Game\obj\Debug\Game.Form4.resources
+G:\2_05_2023\para\Game\obj\Debug\Game.Properties.Resources.resources
+G:\2_05_2023\para\Game\obj\Debug\Game.csproj.GenerateResource.cache
+G:\2_05_2023\para\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+G:\2_05_2023\para\Game\obj\Debug\Game.exe
+G:\2_05_2023\para\Game\obj\Debug\Game.pdb
+E:\C#\Игра\2_05_2023\para\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\2_05_2023\para\Game\bin\Debug\Game.exe
+E:\C#\Игра\2_05_2023\para\Game\bin\Debug\Game.pdb
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.Form4.resources
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.exe
+E:\C#\Игра\2_05_2023\para\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game — копия\Game\bin\Debug\Game.exe.config
+E:\C#\Игра\Game — копия\Game\bin\Debug\Game.exe
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.Form1.resources
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.Form2.resources
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.Form3.resources
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.Form4.resources
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.Properties.Resources.resources
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.csproj.GenerateResource.cache
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.exe
+E:\C#\Игра\Game — копия\Game\obj\Debug\Game.pdb
+E:\C#\Игра\Game — копия\Game\bin\Debug\Game.pdb

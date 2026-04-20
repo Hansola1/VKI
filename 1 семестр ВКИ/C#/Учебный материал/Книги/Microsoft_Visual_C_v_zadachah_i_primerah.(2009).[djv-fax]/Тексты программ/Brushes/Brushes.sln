@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brushes", "Brushes\Brushes.csproj", "{208B8D1A-5B0F-4D1D-B52B-C662C74FF50A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{208B8D1A-5B0F-4D1D-B52B-C662C74FF50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208B8D1A-5B0F-4D1D-B52B-C662C74FF50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208B8D1A-5B0F-4D1D-B52B-C662C74FF50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208B8D1A-5B0F-4D1D-B52B-C662C74FF50A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

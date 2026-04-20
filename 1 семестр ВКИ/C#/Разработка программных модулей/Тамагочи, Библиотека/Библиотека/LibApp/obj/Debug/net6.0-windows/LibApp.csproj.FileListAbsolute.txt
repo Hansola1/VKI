@@ -1,0 +1,115 @@
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.exe
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.deps.json
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.runtimeconfig.json
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.dll
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.pdb
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LogicLib.dll
+E:\C#\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LogicLib.pdb
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.AssemblyReference.cache
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.Menu.resources
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.GenerateResource.cache
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfoInputs.cache
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfo.cs
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CopyComplete
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.dll
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\refint\LibApp.dll
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.pdb
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.genruntimeconfig.cache
+E:\C#\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\ref\LibApp.dll
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.exe
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.deps.json
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.runtimeconfig.json
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.dll
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LibApp.pdb
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LogicLib.dll
+G:\20.10.23 B WF\LibApp\bin\Debug\net6.0-windows\LogicLib.pdb
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.AssemblyReference.cache
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.Menu.resources
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.GenerateResource.cache
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfoInputs.cache
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfo.cs
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CoreCompileInputs.cache
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CopyComplete
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.dll
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\refint\LibApp.dll
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.pdb
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\LibApp.genruntimeconfig.cache
+G:\20.10.23 B WF\LibApp\obj\Debug\net6.0-windows\ref\LibApp.dll
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.AssemblyReference.cache
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.Menu.resources
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.GenerateResource.cache
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfoInputs.cache
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfo.cs
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.dll
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\refint\LibApp.dll
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.pdb
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\TestLibConsole.deps.json
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\TestLibConsole.runtimeconfig.json
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\TestLibConsole.exe
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LibApp.exe
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LibApp.deps.json
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LibApp.runtimeconfig.json
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LibApp.dll
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LibApp.pdb
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LogicLib.dll
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\TestLibConsole.dll
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\LogicLib.pdb
+E:\C#\20.10.23 VKI version\LibApp\bin\Debug\net6.0-windows\TestLibConsole.pdb
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CopyComplete
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\LibApp.genruntimeconfig.cache
+E:\C#\20.10.23 VKI version\LibApp\obj\Debug\net6.0-windows\ref\LibApp.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\TestLibConsole.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\TestLibConsole.runtimeconfig.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\TestLibConsole.exe
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LibApp.exe
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LibApp.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LibApp.runtimeconfig.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LibApp.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LibApp.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LogicLib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\TestLibConsole.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\LogicLib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\bin\Debug\net6.0-windows\TestLibConsole.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.Menu.resources
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.GenerateResource.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfoInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfo.cs
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CopyComplete
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\refint\LibApp.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\LibApp.genruntimeconfig.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\LibApp\obj\Debug\net6.0-windows\ref\LibApp.dll
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\TestLibConsole.deps.json
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\TestLibConsole.runtimeconfig.json
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\TestLibConsole.exe
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LibApp.exe
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LibApp.deps.json
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LibApp.runtimeconfig.json
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LibApp.dll
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LibApp.pdb
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LogicLib.dll
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\TestLibConsole.dll
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\LogicLib.pdb
+E:\C#\20.10.23 Библиотека\LibApp\bin\Debug\net6.0-windows\TestLibConsole.pdb
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.AssemblyReference.cache
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.Menu.resources
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.GenerateResource.cache
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfoInputs.cache
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.AssemblyInfo.cs
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.csproj.CopyComplete
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.dll
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\refint\LibApp.dll
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.pdb
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\LibApp.genruntimeconfig.cache
+E:\C#\20.10.23 Библиотека\LibApp\obj\Debug\net6.0-windows\ref\LibApp.dll

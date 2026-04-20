@@ -1,0 +1,10 @@
+G:\приклакдная информатика\17.03.23\3\bin\Debug\3.exe.config
+G:\приклакдная информатика\17.03.23\3\bin\Debug\3.exe
+G:\приклакдная информатика\17.03.23\3\bin\Debug\3.pdb
+G:\приклакдная информатика\17.03.23\3\obj\Debug\3.csproj.AssemblyReference.cache
+G:\приклакдная информатика\17.03.23\3\obj\Debug\_3.Form1.resources
+G:\приклакдная информатика\17.03.23\3\obj\Debug\_3.Properties.Resources.resources
+G:\приклакдная информатика\17.03.23\3\obj\Debug\3.csproj.GenerateResource.cache
+G:\приклакдная информатика\17.03.23\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+G:\приклакдная информатика\17.03.23\3\obj\Debug\3.exe
+G:\приклакдная информатика\17.03.23\3\obj\Debug\3.pdb

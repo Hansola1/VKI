@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Database\nkdemo.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="LINQSQL.Properties.Settings" SettingsPropertyName="nkdemoConnectionString" Provider="System.Data.SqlClient" />
+</Database>

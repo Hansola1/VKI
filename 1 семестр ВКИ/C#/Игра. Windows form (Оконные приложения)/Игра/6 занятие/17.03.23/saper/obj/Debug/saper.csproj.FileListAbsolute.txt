@@ -1,0 +1,10 @@
+G:\приклакдная информатика\17.03.23\saper\bin\Debug\saper.exe.config
+G:\приклакдная информатика\17.03.23\saper\bin\Debug\saper.exe
+G:\приклакдная информатика\17.03.23\saper\bin\Debug\saper.pdb
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.csproj.AssemblyReference.cache
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.Form1.resources
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.Properties.Resources.resources
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.csproj.GenerateResource.cache
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.csproj.CoreCompileInputs.cache
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.exe
+G:\приклакдная информатика\17.03.23\saper\obj\Debug\saper.pdb

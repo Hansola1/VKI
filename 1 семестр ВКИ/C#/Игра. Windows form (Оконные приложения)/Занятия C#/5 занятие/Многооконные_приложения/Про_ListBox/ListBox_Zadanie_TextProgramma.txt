@@ -1,0 +1,106 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ListBoxTest
+{
+    public partial class Form1 : Form
+    {
+        public static int[] for_korzina = new int[100];
+        
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string summ ="";
+            if (listBox1.SelectedItems != null)
+            {
+                foreach (var item in listBox1.SelectedItems) // в таком же порядке
+                {
+                    string curItem = item.ToString();
+
+                    // Find the string in ListBox2.
+                    int index = listBox2.FindString(curItem);
+                    // If the item was not found in ListBox 2 display a message box, otherwise select it in ListBox2.
+                    if (index == -1)
+                    {
+                        listBox2.Items.Add(item);
+                    }
+                    else 
+                    {
+                        string curItem1 = item.ToString();
+                       summ += curItem1+"  ";
+
+                    }
+
+
+                }
+
+
+            }
+            if (summ != "")
+            {
+                MessageBox.Show("Вы уже взяли " + summ);
+            }
+
+
+        }
+
+       
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listBox2.SelectedItems != null)
+            {
+                foreach (var item in listBox2.SelectedItems) // в таком же порядке
+                {
+                    string curItem = item.ToString();
+
+                    // Find the string in ListBox2.
+                    int index = listBox1.FindString(curItem);
+                    // If the item was not found in ListBox 2 display a message box, otherwise select it in ListBox2.
+                    if (index == -1) listBox1.Items.Add(item);
+
+                }
+
+
+            }
+
+            string curItem2;
+            int index2 = -1;
+            int test = 0;
+            while (test != 1)
+            {
+                if (listBox2.SelectedItems != null)
+                    foreach (var item in listBox2.SelectedItems) // в таком же порядке
+                    {
+                        curItem2 = item.ToString();
+                        index2 = listBox2.FindString(curItem2);
+                    }
+
+
+                if (index2 != -1)
+                {
+                    listBox2.Items.RemoveAt(index2);
+                    index2 = -1;
+                }
+                else
+                {
+                    test = 1;
+                }
+            }
+
+
+        }
+    }
+}
+

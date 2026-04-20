@@ -1,0 +1,7 @@
+D:\Information C#\NoobTest\NoobTest\bin\Debug\NoobTest.exe.config
+D:\Information C#\NoobTest\NoobTest\bin\Debug\NoobTest.exe
+D:\Information C#\NoobTest\NoobTest\bin\Debug\NoobTest.pdb
+D:\Information C#\NoobTest\NoobTest\obj\Debug\NoobTest.csproj.AssemblyReference.cache
+D:\Information C#\NoobTest\NoobTest\obj\Debug\NoobTest.csproj.CoreCompileInputs.cache
+D:\Information C#\NoobTest\NoobTest\obj\Debug\NoobTest.exe
+D:\Information C#\NoobTest\NoobTest\obj\Debug\NoobTest.pdb

@@ -1,0 +1,15 @@
+E:\C#\TemperatureExceptions\TemperatureExceptions\bin\Debug\TemperatureExceptions.exe.config
+E:\C#\TemperatureExceptions\TemperatureExceptions\bin\Debug\TemperatureExceptions.exe
+E:\C#\TemperatureExceptions\TemperatureExceptions\bin\Debug\TemperatureExceptions.pdb
+E:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.csproj.AssemblyReference.cache
+E:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.csproj.CoreCompileInputs.cache
+E:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.exe
+E:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.pdb
+D:\C#\TemperatureExceptions\TemperatureExceptions\bin\Debug\TemperatureExceptions.exe.config
+D:\C#\TemperatureExceptions\TemperatureExceptions\bin\Debug\TemperatureExceptions.exe
+D:\C#\TemperatureExceptions\TemperatureExceptions\bin\Debug\TemperatureExceptions.pdb
+D:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.csproj.AssemblyReference.cache
+D:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.csproj.SuggestedBindingRedirects.cache
+D:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.csproj.CoreCompileInputs.cache
+D:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.exe
+D:\C#\TemperatureExceptions\TemperatureExceptions\obj\Debug\TemperatureExceptions.pdb

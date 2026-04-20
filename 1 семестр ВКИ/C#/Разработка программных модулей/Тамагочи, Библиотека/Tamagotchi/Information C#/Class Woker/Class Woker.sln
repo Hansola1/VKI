@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Woker", "Class Woker\Class Woker.csproj", "{95B53FAA-726C-4EA5-9D6D-32F17B0716DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEdit", "TextEdit\TextEdit.csproj", "{7E6566D8-1C75-4BBD-8E14-97D2F81CE869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construct", "Construct\Construct.csproj", "{F1C2D588-3967-4ADC-985F-63C9B462A852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construct 2", "Construct 2\Construct 2.csproj", "{FFC46588-6163-4375-9D0D-E74793D6AEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSet", "GetSet\GetSet.csproj", "{09D4136E-F0E2-435E-918C-BD08DF5C3C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csproj", "{947C094C-9A69-4EC3-BCAD-7E62CBAD2F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95B53FAA-726C-4EA5-9D6D-32F17B0716DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B53FAA-726C-4EA5-9D6D-32F17B0716DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B53FAA-726C-4EA5-9D6D-32F17B0716DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B53FAA-726C-4EA5-9D6D-32F17B0716DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6566D8-1C75-4BBD-8E14-97D2F81CE869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6566D8-1C75-4BBD-8E14-97D2F81CE869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6566D8-1C75-4BBD-8E14-97D2F81CE869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6566D8-1C75-4BBD-8E14-97D2F81CE869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C2D588-3967-4ADC-985F-63C9B462A852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C2D588-3967-4ADC-985F-63C9B462A852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C2D588-3967-4ADC-985F-63C9B462A852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C2D588-3967-4ADC-985F-63C9B462A852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC46588-6163-4375-9D0D-E74793D6AEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC46588-6163-4375-9D0D-E74793D6AEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC46588-6163-4375-9D0D-E74793D6AEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC46588-6163-4375-9D0D-E74793D6AEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D4136E-F0E2-435E-918C-BD08DF5C3C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D4136E-F0E2-435E-918C-BD08DF5C3C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D4136E-F0E2-435E-918C-BD08DF5C3C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D4136E-F0E2-435E-918C-BD08DF5C3C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947C094C-9A69-4EC3-BCAD-7E62CBAD2F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947C094C-9A69-4EC3-BCAD-7E62CBAD2F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947C094C-9A69-4EC3-BCAD-7E62CBAD2F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947C094C-9A69-4EC3-BCAD-7E62CBAD2F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B265E737-8FBD-4352-B099-0116169D2C91}
+	EndGlobalSection
+EndGlobal

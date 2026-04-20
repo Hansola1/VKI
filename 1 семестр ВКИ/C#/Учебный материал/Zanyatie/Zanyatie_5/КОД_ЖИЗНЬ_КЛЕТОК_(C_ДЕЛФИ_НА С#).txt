@@ -1,0 +1,205 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Жизнь_Клеток
+{
+    public partial class Form1 : Form
+    {
+        const int n= 15, dx=20, dy=20;
+        Graphics gr;
+        int x0, y0, cw, ch;
+        int fw, fh;  // Ширина и высота формы
+        bool pr_kolonia;
+        public int[,] pole = new int[n, n];
+        public int[,] pole1 = new int[n, n];
+        //  Два массива для хранения текущего и следующего поколения
+        Pen pen1 = new Pen(Color.Black);
+        SolidBrush drawBrush = new SolidBrush(Color.Green);
+        private void pole_clear()
+        {
+            int i, k;
+            for (i = 0; i < n; i++)
+                for (k = 0; k < n; k++)
+                    pole[i, k] = 0;
+        }
+        private void pole1_clear()
+        {
+            int i, k;
+            for (i = 0; i < n; i++)
+                for (k = 0; k < n; k++)
+                    pole1[i, k] = 0;
+        }
+        private void put_kletka(int i, int k, Color cl, Color cl_bordur)
+        {
+            int x, y;
+            pen1.Width = 1;
+            pen1.Color = cl_bordur;
+            drawBrush.Color = cl;
+            //x = (k - 1) * dx;
+            //y = (i - 1) * dy;
+            x = k * dx;
+            y = i * dy;
+            //if ((x < fw-(n-1)*dx) && (y < fh - (n - 1) * dy))
+            //{
+            gr.DrawRectangle(pen1, x, y, dx, dy);
+            gr.FillRectangle(drawBrush, x + 1, y + 1, dx - 2, dy - 2);
+            //}
+        }
+        private void DrawPole()
+        {
+            int i, k;
+            for (i = 0; i < n; i++)
+                for (k = 0; k < n; k++)
+                    put_kletka(i, k, Color.White, Color.Black);            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            int sum, sum1, i, k;
+            for (i = 0; i < n; i++)
+                for (k = 0; k < n; k++)
+                {
+                    sum = 0;
+                    // Подсчитаем, сколько соседей у каждой клетки
+                    if (i > 0)
+                    {
+                        sum += pole[i - 1, k];
+                        if (k > 0)
+                            sum += pole[i - 1, k - 1];
+                        if (k < n-1)
+                            sum += pole[i - 1, k + 1];
+                    }
+                    if (i < n-1)
+                    {
+                        sum += pole[i + 1, k];
+                        if (k > 0)
+                            sum += pole[i + 1, k - 1];
+                        if (k < n-1)
+                            sum += pole[i + 1, k + 1];
+                    }
+                    if (k > 0)
+                        sum += pole[i, k - 1];
+                    if (k < n-1)
+                        sum += pole[i, k + 1];
+                    // У пустой клетки три соседа, клетка начинает жить
+                    if ((pole[i, k] == 0) && (sum == 3))
+                        pole1[i, k] = 1; // В массиве pole1 – следующее поколение
+                                         // Клетка погибает, если число соседей меньше 2 и больше 3
+                    if ((sum <= 1) || (sum >= 4))
+                        pole1[i, k] = 0;
+
+                }
+            pole = pole1;
+            // Копируем измененное поле1 в поле
+            sum1 = 0;
+            //  Далее прорисовываем поле, одновременно считая "живые" клетки
+            for (i = 0; i < n; i++)
+                for (k = 0; k < n; k++)
+                {
+                    if (pole[i, k] == 1)
+                    {
+                        put_kletka(i, k, Color.Blue, Color.Black);
+                        sum1 = sum1 + 1;
+                    }
+                    else
+                        put_kletka(i, k, Color.White, Color.Black);
+                }
+            //Если "живых" клеток нет, то цикл прекращается
+            if (sum1 == 0)
+            {
+                timer1.Enabled = false;
+                // При желании можно начать сначала}
+                pole_clear();
+                pole1_clear();
+                DrawPole();
+                pr_kolonia = false;
+            }
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            int i, k, x, y;
+            if (timer1.Enabled == false)
+            {
+                // Создание начальной колонии
+                pr_kolonia = true;
+                x = e.X;
+                y = e.Y;
+                k = x % dy + 1; //Ищем координаты клетки[i, k]
+                i = y % dx + 1;
+                //Проверим, лежат ли числа i, k в интервале от 0 до n-1,
+                // а также клетка поля пустая или нет}
+
+                if ((k>=0) && (k<n) && (i >= 0) && (i < n) && (pole[i, k] == 0))
+                {
+                    pole[i, k] = 1;
+                    put_kletka(i, k, Color.Blue, Color.Black);
+                }
+            }
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            // Рисование клеток прекращается при отпускании мыши
+             pr_kolonia = false;
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            int i, k, x, y;
+            // Здесь тот же код, что и на MouseDown, зато можно
+            // "возить" мышью и красить поле
+            if (pr_kolonia)
+            {
+                x = e.X;
+                y = e.Y;
+                k = x % dy+1;
+                i = y % dx+1;
+                if ((k >= 0) && (k < n) && (i >= 0) && (i < n) && (pole[i, k] == 0)) {
+                    pole[i, k] = 1;
+                    put_kletka(i, k, Color.Blue, Color.Black);
+                }
+            }
+        }
+
+        
+
+        
+        public Form1()
+        {
+            InitializeComponent();
+            gr = this.CreateGraphics();
+            this.BackColor = Color.Aquamarine;
+            fw = this.Width;//Текущая ширина формы
+            fh = this.Height;//Текущая высота формы            
+
+        }
+        
+
+        private void Заселить_Click(object sender, EventArgs e)
+        {
+            pole_clear();
+            pole1_clear();
+            DrawPole();
+            pr_kolonia = false;
+        }
+
+        private void СТАРТ_Click(object sender, EventArgs e)
+        {
+            // Запускаем таймер 
+            timer1.Enabled = true;
+        }
+
+        private void СТОП_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled= false;
+        }
+    }
+}

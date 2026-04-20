@@ -1,0 +1,15 @@
+G:\Robot\Robot\bin\Debug\net6.0\RobotMoveSW.exe
+G:\Robot\Robot\bin\Debug\net6.0\RobotMoveSW.deps.json
+G:\Robot\Robot\bin\Debug\net6.0\RobotMoveSW.runtimeconfig.json
+G:\Robot\Robot\bin\Debug\net6.0\RobotMoveSW.dll
+G:\Robot\Robot\bin\Debug\net6.0\RobotMoveSW.pdb
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.csproj.AssemblyReference.cache
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.GeneratedMSBuildEditorConfig.editorconfig
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.AssemblyInfoInputs.cache
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.AssemblyInfo.cs
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.csproj.CoreCompileInputs.cache
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.dll
+G:\Robot\Robot\obj\Debug\net6.0\refint\RobotMoveSW.dll
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.pdb
+G:\Robot\Robot\obj\Debug\net6.0\RobotMoveSW.genruntimeconfig.cache
+G:\Robot\Robot\obj\Debug\net6.0\ref\RobotMoveSW.dll

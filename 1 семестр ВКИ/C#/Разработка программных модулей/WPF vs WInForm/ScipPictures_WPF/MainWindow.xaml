@@ -1,0 +1,17 @@
+﻿<Window x:Class="ScipPictures_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScipPictures_WPF"
+        mc:Ignorable="d"
+        Title="Меняем картиночки бублефаров" Height="400" Width="600">
+    <Grid Background="#FF72CA86">
+        <Button Content="&lt;" HorizontalAlignment="Left" Margin="412,233,0,0" VerticalAlignment="Top" Height="64" Width="89" Click="Left_Click" Background="#FF52CA6E" FontSize="24" Foreground="White" FontFamily="Unispace"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="412,302,0,0" VerticalAlignment="Top" Height="64" Width="178" Click="Exit_Click" Background="#FF52CA6E" FontSize="24" Foreground="White" FontFamily="Unispace"/>
+        <Button Content="&gt;" HorizontalAlignment="Left" Margin="506,233,0,0" VerticalAlignment="Top" Height="64" Width="84" Click="Right_Click" Background="#FF56C770" FontSize="24" Foreground="White" FontFamily="Unispace"/>
+        <Image x:Name="ImageList" HorizontalAlignment="Left" Height="352" Margin="10,10,0,0" VerticalAlignment="Top" Width="390" />
+
+
+    </Grid>
+</Window>

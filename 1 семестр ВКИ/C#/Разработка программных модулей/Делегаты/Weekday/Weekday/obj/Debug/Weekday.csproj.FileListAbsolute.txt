@@ -1,0 +1,15 @@
+E:\C#\Делегаты и события\Weekday\Weekday\bin\Debug\Weekday.exe.config
+E:\C#\Делегаты и события\Weekday\Weekday\bin\Debug\Weekday.exe
+E:\C#\Делегаты и события\Weekday\Weekday\bin\Debug\Weekday.pdb
+E:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.csproj.AssemblyReference.cache
+E:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.csproj.CoreCompileInputs.cache
+E:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.exe
+E:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.pdb
+D:\C#\Делегаты и события\Weekday\Weekday\bin\Debug\Weekday.exe.config
+D:\C#\Делегаты и события\Weekday\Weekday\bin\Debug\Weekday.exe
+D:\C#\Делегаты и события\Weekday\Weekday\bin\Debug\Weekday.pdb
+D:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.csproj.AssemblyReference.cache
+D:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.csproj.SuggestedBindingRedirects.cache
+D:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.csproj.CoreCompileInputs.cache
+D:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.exe
+D:\C#\Делегаты и события\Weekday\Weekday\obj\Debug\Weekday.pdb

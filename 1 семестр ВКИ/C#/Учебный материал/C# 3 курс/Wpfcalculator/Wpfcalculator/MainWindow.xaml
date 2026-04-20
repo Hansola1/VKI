@@ -1,0 +1,25 @@
+﻿<Window x:Class="Wpfcalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfcalculator"
+        mc:Ignorable="d"
+        Title="command" Height="450" Width="800">
+    
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" MinHeight="25">
+            <MenuItem Header="File" />
+            <MenuItem Header="Edit">
+                <MenuItem Header="Copy" CommandTarget="{Binding ElementName=txtBox}" Command="Copy"/>
+                <MenuItem Header="Paste" CommandTarget="{Binding ElementName=txtBox}" Command="Paste"/>
+
+            </MenuItem>
+            <MenuItem Header="Выход" CommandTarget="{Binding ElementName=txtBox}" Command="Close" />
+        </Menu>
+        <TextBox x:Name="txtBox" />
+    
+       
+    </DockPanel>
+</Window>

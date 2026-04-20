@@ -1,0 +1,17 @@
+Console.WriteLine(IsValidIp("0.0.0.0"));
+        Console.WriteLine(IsValidIp("12.255.56.1"));
+        Console.WriteLine(IsValidIp("137.255.156.100"));
+
+        Console.WriteLine(IsValidIp(""));
+        Console.WriteLine(IsValidIp("abc.def.ghi.jkl"));
+        Console.WriteLine(IsValidIp("123.456.789.0"));
+        Console.WriteLine(IsValidIp("12.34.56"));
+        Console.WriteLine(IsValidIp("12.34.56.00"));
+        Console.WriteLine(IsValidIp("12.34.56.7.8"));
+        Console.WriteLine(IsValidIp("12.34.256.78"));
+        Console.WriteLine(IsValidIp("1234.34.56"));
+        Console.WriteLine(IsValidIp("pr12.34.56.78"));
+        Console.WriteLine(IsValidIp("12.34.56.78sf"));
+        Console.WriteLine(IsValidIp("12.34.56 .1"));
+        Console.WriteLine(IsValidIp("12.34.56.-1"));
+        Console.WriteLine(IsValidIp("123.045.067.089"));

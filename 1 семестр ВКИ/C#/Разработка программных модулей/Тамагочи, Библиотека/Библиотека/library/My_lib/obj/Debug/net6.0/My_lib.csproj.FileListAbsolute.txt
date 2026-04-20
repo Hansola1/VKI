@@ -1,0 +1,47 @@
+G:\modul\library\My_lib\bin\Debug\net6.0\My_lib.deps.json
+G:\modul\library\My_lib\bin\Debug\net6.0\My_lib.dll
+G:\modul\library\My_lib\bin\Debug\net6.0\My_lib.pdb
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.csproj.AssemblyReference.cache
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.GeneratedMSBuildEditorConfig.editorconfig
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfoInputs.cache
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfo.cs
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.csproj.CoreCompileInputs.cache
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.dll
+G:\modul\library\My_lib\obj\Debug\net6.0\refint\My_lib.dll
+G:\modul\library\My_lib\obj\Debug\net6.0\My_lib.pdb
+G:\modul\library\My_lib\obj\Debug\net6.0\ref\My_lib.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\bin\Debug\net6.0\My_lib.deps.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\bin\Debug\net6.0\My_lib.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\bin\Debug\net6.0\My_lib.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.csproj.AssemblyReference.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfoInputs.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfo.cs
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.csproj.CoreCompileInputs.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\refint\My_lib.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\My_lib.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\My_lib\obj\Debug\net6.0\ref\My_lib.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\bin\Debug\net6.0\My_lib.deps.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\bin\Debug\net6.0\My_lib.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\bin\Debug\net6.0\My_lib.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.csproj.AssemblyReference.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.GeneratedMSBuildEditorConfig.editorconfig
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfoInputs.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfo.cs
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.csproj.CoreCompileInputs.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\refint\My_lib.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\My_lib.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\My_lib\obj\Debug\net6.0\ref\My_lib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\bin\Debug\net6.0\My_lib.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\bin\Debug\net6.0\My_lib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\bin\Debug\net6.0\My_lib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\My_lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfoInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\My_lib.AssemblyInfo.cs
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\My_lib.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\My_lib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\refint\My_lib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\My_lib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\My_lib\obj\Debug\net6.0\ref\My_lib.dll

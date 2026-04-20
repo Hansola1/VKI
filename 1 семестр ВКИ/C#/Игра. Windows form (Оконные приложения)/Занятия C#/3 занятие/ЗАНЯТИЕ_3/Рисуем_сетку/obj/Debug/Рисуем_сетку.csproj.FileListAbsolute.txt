@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\bin\Debug\Рисуем_сетку.exe.config
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\bin\Debug\Рисуем_сетку.exe
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\bin\Debug\Рисуем_сетку.pdb
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.csprojAssemblyReference.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.Form1.resources
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.Properties.Resources.resources
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.exe
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Рисуем_сетку\obj\Debug\Рисуем_сетку.pdb

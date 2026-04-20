@@ -1,0 +1,16 @@
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\bin\Debug\Wpfcalculator.exe.config
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\bin\Debug\Wpfcalculator.exe
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\bin\Debug\Wpfcalculator.pdb
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.csproj.AssemblyReference.cache
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.csproj.SuggestedBindingRedirects.cache
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\MainWindow.g.cs
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\App.g.cs
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator_MarkupCompile.cache
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator_MarkupCompile.lref
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\MainWindow.baml
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.g.resources
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.Properties.Resources.resources
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.csproj.GenerateResource.cache
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.csproj.CoreCompileInputs.cache
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.exe
+G:\C# 3 курс\Wpfcalculator\Wpfcalculator\obj\Debug\Wpfcalculator.pdb

@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\bin\Debug\Шахматная_доска.exe.config
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\bin\Debug\Шахматная_доска.exe
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\bin\Debug\Шахматная_доска.pdb
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.csprojAssemblyReference.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.Form1.resources
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.Properties.Resources.resources
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.exe
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\ЗАНЯТИЕ_3\Шахматная_доска\obj\Debug\Шахматная_доска.pdb

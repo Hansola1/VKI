@@ -1,0 +1,100 @@
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.deps.json
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.runtimeconfig.json
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.exe
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.exe
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.deps.json
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.runtimeconfig.json
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.dll
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.pdb
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.dll
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.dll
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.pdb
+G:\modul\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.pdb
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.AssemblyReference.cache
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.Form1.resources
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.GenerateResource.cache
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfoInputs.cache
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfo.cs
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CoreCompileInputs.cache
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CopyComplete
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.dll
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\refint\WinFormsLibrary.dll
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.pdb
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.genruntimeconfig.cache
+G:\modul\library\WinFormsLibrary\obj\Debug\net6.0-windows\ref\WinFormsLibrary.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.deps.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.runtimeconfig.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.exe
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.exe
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.deps.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.runtimeconfig.json
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.AssemblyReference.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.GenerateResource.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfoInputs.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfo.cs
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CopyComplete
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\refint\WinFormsLibrary.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.pdb
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.genruntimeconfig.cache
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\ref\WinFormsLibrary.dll
+C:\Users\mclie\OneDrive\Рабочий стол\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.FormLibrary.resources
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.deps.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.runtimeconfig.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.exe
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.exe
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.deps.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.runtimeconfig.json
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.AssemblyReference.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.FormLibrary.resources
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.GenerateResource.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfoInputs.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfo.cs
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CoreCompileInputs.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CopyComplete
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\refint\WinFormsLibrary.dll
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.pdb
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.genruntimeconfig.cache
+\\iscsi\profstud\KarpenkoEV\Desktop\library\WinFormsLibrary\obj\Debug\net6.0-windows\ref\WinFormsLibrary.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.runtimeconfig.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.exe
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.exe
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.runtimeconfig.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\WinFormsLibrary.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\My_lib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\bin\Debug\net6.0-windows\Vki_library.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.FormLibrary.resources
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.GenerateResource.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfoInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.AssemblyInfo.cs
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.csproj.CopyComplete
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\refint\WinFormsLibrary.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\WinFormsLibrary.genruntimeconfig.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\library\WinFormsLibrary\obj\Debug\net6.0-windows\ref\WinFormsLibrary.dll

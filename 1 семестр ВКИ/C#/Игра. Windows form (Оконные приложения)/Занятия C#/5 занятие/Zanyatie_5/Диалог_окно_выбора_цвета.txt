@@ -1,0 +1,33 @@
+//  Класс ColorDialog отображает диалоговое окно выбора цвета,
+//  позволяющее задать цвет элемента интерфейса. Свойство Color 
+//  настраивает диалог на текущий цвет и возвращает выбранный.
+//  Это работающая программа:
+
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ColorDialg
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void ВЫБОР_ЦВЕТА_Click(object sender, EventArgs e)
+        {
+            colorDialog1.Color = this.BackColor;  // Текущий цвет фона окна
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+                this.BackColor = colorDialog1.Color;  //  Новый цвет
+        }
+    }
+}

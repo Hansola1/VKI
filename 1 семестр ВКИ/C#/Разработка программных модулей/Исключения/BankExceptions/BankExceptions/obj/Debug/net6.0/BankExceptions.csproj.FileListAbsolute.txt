@@ -1,0 +1,15 @@
+D:\C#\BankExceptions\BankExceptions\bin\Debug\net6.0\BankExceptions.exe
+D:\C#\BankExceptions\BankExceptions\bin\Debug\net6.0\BankExceptions.deps.json
+D:\C#\BankExceptions\BankExceptions\bin\Debug\net6.0\BankExceptions.runtimeconfig.json
+D:\C#\BankExceptions\BankExceptions\bin\Debug\net6.0\BankExceptions.dll
+D:\C#\BankExceptions\BankExceptions\bin\Debug\net6.0\BankExceptions.pdb
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.csproj.AssemblyReference.cache
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.AssemblyInfoInputs.cache
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.AssemblyInfo.cs
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.csproj.CoreCompileInputs.cache
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.dll
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\refint\BankExceptions.dll
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.pdb
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\BankExceptions.genruntimeconfig.cache
+D:\C#\BankExceptions\BankExceptions\obj\Debug\net6.0\ref\BankExceptions.dll

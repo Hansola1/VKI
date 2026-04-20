@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <info>
+     <descr>Таблица умножения</descr>
+  </info>
+  <levels>
+      <level p="5">Отлично!</level>
+      <level p="4">Хорошо</level>
+      <level p="3">Удовлетворительно</level> 
+      <level p="2">Плохо</level>
+  </levels>  
+  <queries>  
+
+    <qw>
+       <q right="2" src="">8x6=?</q>
+       <as>
+           <a>56</a>
+           <a>48</a>
+           <a>36</a>
+           <a>86</a>
+      </as>
+    </qw>
+
+    <qw>
+       <q right="3" src="">5x6=?</q>
+       <as>
+           <a>26</a>
+           <a>35</a>
+           <a>30</a>
+           <a>36</a>
+      </as>
+    </qw>
+
+    <qw>
+       <q right="1" src="">3x4=?</q>
+       <as>
+           <a>12</a>
+           <a>24</a>
+           <a>44</a>
+           <a>24</a>
+      </as>
+    </qw>
+
+    <qw>
+       <q right="4" src="">7x8=?</q>
+       <as>
+           <a>48</a>
+           <a>58</a>
+           <a>42</a>
+           <a>56</a>
+      </as>
+    </qw>
+
+    <qw>
+       <q right="1" src="">9x7=?</q>
+       <as>
+           <a>63</a>
+           <a>81</a>
+           <a>67</a>
+           <a>97</a>
+      </as>
+    </qw>
+
+
+
+ </queries>  
+</test> 

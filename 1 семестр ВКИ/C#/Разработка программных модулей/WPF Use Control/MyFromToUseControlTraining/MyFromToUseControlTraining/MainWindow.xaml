@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyFromToUseControlTraining.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFromToUseControlTraining"
+        mc:Ignorable="d"
+        Title="Form1" Height="190" Width="350">
+    <Grid Background="#FF24A9FC">
+        <Button x:Name="Ok_button" Content="Окей!" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.015,0.263" Height="42" Width="150" Background="#FF82D1EF" Click="Ok_button_Click"/>
+        <Button x:Name="ShowD" Content="Покажии" HorizontalAlignment="Left" Margin="165,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.015,0.263" Height="42" Width="150" Background="#FF82D1EF" Click="ShowD_Click"/>
+        <Label x:Name="labelForTick" Content="Label1" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top"/>
+        <local:MyUseControlForPassword HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="43" Width="288"/>
+    </Grid>
+</Window>

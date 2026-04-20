@@ -1,0 +1,198 @@
+Библиотека. Программ
+using LogicLib;
+using System.Xml.Linq;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+
+
+Books b;
+List<Books> books = new List<Books>();
+List<Reader> readers = new List<LogicLib.Reader>();
+
+int id = 0, ageBook = 0, countBook = 0;
+string author = "undifined", nameBook = "undifined", suname = "undifined", name = "undifined", group = "undifined";
+
+bool exit = true;
+do
+{
+    Menu(ref exit, id, author, nameBook, ageBook, countBook, suname, name, group);
+} while (exit);
+
+void Menu(ref bool exit, int id, string author, string nameBook, int ageBook, int countBook, string surname, string name, string group)
+{
+    Console.WriteLine("Меню:\n1 - Добавить книгу\n2 - Добавить читателя\n3 - Поиск книги\n4 - Выдать книгу\n5 - Выйти\n");
+    int key = int.Parse(Console.ReadLine());
+    switch (key)
+    {
+        case 1: AddBook(id, author, nameBook, ageBook, countBook); break;
+        case 2: AddReader(suname, name, group); break;
+        case 3: SearchBook(books); break;
+        case 4: PrintBook(books); break;
+        case 5: Exit(); break;
+    }
+}
+
+void AddBook(int id, string author, string nameBook, int ageBook, int countBook)
+{
+    Books b;
+    id = int.Parse(Console.ReadLine());
+    author = Console.ReadLine();
+    nameBook = Console.ReadLine();
+    ageBook = int.Parse(Console.ReadLine());
+    countBook = int.Parse(Console.ReadLine());
+
+    b = new Books(id, author, nameBook, ageBook, countBook);
+    books.Add(b);
+    b = new Books(id, author, nameBook, ageBook, countBook);
+    books.Add(b);
+}
+void AddReader(string suname, string name, string group)
+{
+    Reader r;
+    suname = Console.ReadLine();
+    name = Console.ReadLine();
+    group = Console.ReadLine();
+
+    r = new Reader(suname, name, group);
+    readers.Add(r);
+}
+
+void SearchBook(List<Books> books)
+{
+    Console.WriteLine("По чему искать? По автору - 1/По артиклю - 2/По названию - 3");
+    int sort;
+    sort = int.Parse(Console.ReadLine());
+    string write = Console.ReadLine();
+    foreach (Books book in books)
+    {
+        switch (sort)
+        {
+            case 1:
+                {
+                    if (Convert.ToString(book.Id) == write)
+                    {
+                        Console.WriteLine($"\nАртикул: {book.Id}\nАвтор: {book.Author}\nНазвание: {book.NameBook}\nГод издания: {book.AgeBook}\nКоличество экземпляров: {book.CountBook}\n");
+                    }
+                    break;
+                }
+            case 2:
+                {
+                    if (book.Author == write)
+                    {
+                        Console.WriteLine($"\nАртикул: {book.Id}\nАвтор: {book.Author}\nНазвание: {book.NameBook}\nГод издания: {book.AgeBook}\nКоличество экземпляров: {book.CountBook}\n");
+                    }
+                    break;
+                }
+            case 3:
+                {
+                    if (book.NameBook == write)
+                    {
+                        Console.WriteLine($"\nАртикул: {book.Id}\nАвтор: {book.Author}\nНазвание: {book.NameBook}\nГод издания: {book.AgeBook}\nКоличество экземпляров: {book.CountBook}\n");
+                    }
+                    break;
+                }
+            default:
+                {
+                    Console.WriteLine("Нет похожих книг");
+                    break;
+                }
+        }
+    }
+}
+
+
+void PrintBook(List<Books> books)
+{
+    foreach (Books book in books)
+    {
+        Console.WriteLine(book.ToString());
+    }
+    Console.WriteLine("Название книги");
+    string s; s = Console.ReadLine();
+
+    foreach (Books book in books)
+    {
+        if (s == book.NameBook)
+        {
+            if (book.CountBook > 0)
+            {
+                book.CountBook--;
+                Console.WriteLine("Книга выдана");
+            }
+            else
+            {
+                Console.WriteLine("Книг нет");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Такой книги нет");
+        }
+    }
+}
+
+void Exit()
+{
+    exit = false;
+}
+  
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogicLib
+{
+    public class Books
+    {
+        public Books(int id, string author, string nameBook, int ageBook, int countBook)
+        {
+            Id = id;
+            Author = author;
+            NameBook = nameBook;
+            AgeBook = ageBook;
+            CountBook = countBook;
+        }
+
+        public int Id { get { return Id; } set { Id = value; } }
+        public string Author { get { return Author; } set { Author = value; } }
+        public string NameBook { get { return NameBook; } set { NameBook = value; } }
+        public int AgeBook { get { return AgeBook; } set { AgeBook = value; } }
+        public int CountBook { get { return CountBook; } set { CountBook = value; } }
+
+        public override string ToString()
+        {
+            return string.Format($"{Id} {Author}\n{NameBook}\n{AgeBook}\n{CountBook}");
+        }
+    }
+}
+using System.Text.RegularExpressions;
+using System.Xml.Linq;
+
+namespace LogicLib
+{
+    public class Reader
+    {   
+        public Reader(string surname, string group, string name)
+        {
+            Suname = surname;
+            Group = group;
+            Books = new List<Books>();
+            Name = name;
+        }
+
+        public string Suname { get { return Suname; } set { Suname = value; } }
+        public string Name { get { return Name; } set { Name = value; } }
+        
+        public string Group { get { return Group; } set { Group = value; } }
+        public List<Books> Books { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format($"{Suname}{Name}\n{Group}\n{Books}\n");
+        }
+    }
+}
+ 

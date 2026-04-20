@@ -1,0 +1,14 @@
+D:\Tamogochi\Tamogochi\bin\Debug\Tamogochi.exe.config
+D:\Tamogochi\Tamogochi\bin\Debug\Tamogochi.exe
+D:\Tamogochi\Tamogochi\bin\Debug\Tamogochi.pdb
+D:\Tamogochi\Tamogochi\obj\Debug\Tamogochi.csproj.AssemblyReference.cache
+D:\Tamogochi\Tamogochi\obj\Debug\Tamogochi.csproj.CoreCompileInputs.cache
+D:\Tamogochi\Tamogochi\obj\Debug\Tamogochi.exe
+D:\Tamogochi\Tamogochi\obj\Debug\Tamogochi.pdb
+E:\C#\Information C#\Tamogochi\Tamogochi\obj\Debug\Tamogochi.csproj.AssemblyReference.cache
+E:\C#\Information C#\Tamogochi\Tamogochi\obj\Debug\Tamogochi.csproj.CoreCompileInputs.cache
+E:\C#\Information C#\Tamogochi\Tamogochi\obj\Debug\Tamogochi.exe
+E:\C#\Information C#\Tamogochi\Tamogochi\obj\Debug\Tamogochi.pdb
+E:\C#\Information C#\Tamogochi\Tamogochi\bin\Debug\Tamogochi.exe.config
+E:\C#\Information C#\Tamogochi\Tamogochi\bin\Debug\Tamogochi.exe
+E:\C#\Information C#\Tamogochi\Tamogochi\bin\Debug\Tamogochi.pdb

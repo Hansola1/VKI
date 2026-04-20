@@ -1,0 +1,14 @@
+[OPTIONS]
+Contents file =npv.hhc
+Title=Чистый дисконтированный доход
+
+[FILES]
+npv_01.htm
+npv_02.htm
+npv_03.htm
+npv_04.htm
+npv_05.htm
+
+[MAP]
+#include npv.h
+

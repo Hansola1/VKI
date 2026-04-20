@@ -1,0 +1,80 @@
+G:\20.10.23 B\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+G:\20.10.23 B\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+G:\20.10.23 B\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.AssemblyReference.cache
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+G:\20.10.23 B\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.AssemblyReference.cache
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 B\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+E:\C#\20.10.23 B\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 B\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 B\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll
+E:\C#\20.10.23 B WF\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+E:\C#\20.10.23 B WF\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 B WF\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll
+G:\20.10.23 B WF\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+G:\20.10.23 B WF\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+G:\20.10.23 B WF\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.AssemblyReference.cache
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+G:\20.10.23 B WF\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll
+E:\C#\20.10.23 VKI version\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+E:\C#\20.10.23 VKI version\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 VKI version\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 VKI version\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll
+E:\C#\20.10.23 Библиотека\20.10.23 B\bin\Debug\net6.0\LogicLib.deps.json
+E:\C#\20.10.23 Библиотека\20.10.23 B\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 Библиотека\20.10.23 B\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\LogicLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfoInputs.cache
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\LogicLib.AssemblyInfo.cs
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\LogicLib.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\refint\LogicLib.dll
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 Библиотека\20.10.23 B\obj\Debug\net6.0\ref\LogicLib.dll

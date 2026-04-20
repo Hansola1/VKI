@@ -1,0 +1,49 @@
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\bin\Debug\MyFromToUseControlTraining.exe.config
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\bin\Debug\MyFromToUseControlTraining.exe
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\bin\Debug\MyFromToUseControlTraining.pdb
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.AssemblyReference.cache
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MainWindow.g.cs
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyUseControlForPassword.g.cs
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\App.g.cs
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining_MarkupCompile.cache
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining_MarkupCompile.lref
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MainWindow.baml
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyUseControlForPassword.baml
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.g.resources
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.Properties.Resources.resources
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.GenerateResource.cache
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.CoreCompileInputs.cache
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.exe
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.pdb
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\myForm.g.cs
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\myForm.baml
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.MyComponent1.resources
+E:\C#\Разработка программных модулей\WPF\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\bin\Debug\MyFromToUseControlTraining.exe.config
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\bin\Debug\MyFromToUseControlTraining.exe
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\bin\Debug\MyFromToUseControlTraining.pdb
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.AssemblyReference.cache
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.SuggestedBindingRedirects.cache
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MainFormForTaskTwoxaml.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MainWindow.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\myForm.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyUseControlForPassword.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\PersonRecordEditDialog.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\PersonRecordUserControl,.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\App.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining_MarkupCompile.cache
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining_MarkupCompile.lref
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MainFormForTaskTwoxaml.baml
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MainWindow.baml
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\myForm.baml
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyUseControlForPassword.baml
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\PersonRecordEditDialog.baml
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\PersonRecordUserControl,.baml
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.g.resources
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.MyComponent1.resources
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.Properties.Resources.resources
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.GenerateResource.cache
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.csproj.CoreCompileInputs.cache
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.exe
+D:\C#\Разработка программных модулей\WPF Use Control\MyFromToUseControlTraining\MyFromToUseControlTraining\obj\Debug\MyFromToUseControlTraining.pdb

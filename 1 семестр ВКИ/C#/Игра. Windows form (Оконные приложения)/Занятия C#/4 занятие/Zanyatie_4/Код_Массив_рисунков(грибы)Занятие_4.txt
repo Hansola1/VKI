@@ -1,0 +1,77 @@
+namespace Массив_рисунков
+{
+    public partial class Form1 : Form
+    {
+        const int x0 = 10;
+        const int y0 = 10;
+        const int n = 5;
+        const int h= 40;
+        int[,] pole = new int[n, n];
+        private Image[] ris = new Bitmap[n];
+        string str = "";
+        Random rnd = new Random();
+        Graphics g;
+        SolidBrush br1 = new SolidBrush(Color.White);
+        Pen Pen1 = new Pen(Color.Black, 2);
+        Font currFont = new Font("Times New Roman", 16);
+      
+   public void setka(int x0, int y0)
+        {
+            int x, y, i, j;
+            for (i = 0; i < n; i++)
+            {
+                x = x0 + i * h;
+                for (j = 0; j < n; j++)
+                {
+                    y = y0 + j * h;
+                    g.DrawRectangle(Pen1, x, y, h, h);  // Обводим черным квадратик
+                    g.FillRectangle(br1, x, y, h, h);  // Заливаем его белым цветом
+                    g.DrawImage(ris[pole[i, j]-1], x+5, y+5, 30, 30);  // Копируем в него рисунок
+                }
+            }
+        }
+        
+         public void mas_ris(int n)
+        {
+            int i;
+            for (i = 0; i < n; i++)
+            {
+                str = " G:/Базовый проект/Занятие4/Массив рисунков/гриб" + Convert.ToString(i+1) + ".bmp";
+                ris[i] = new Bitmap(str);
+            }
+        }
+
+        public void zapoln3(int n)
+        {
+            int i, j, c, d;
+            for (i = 0; i < n; i++)
+                for (j = 0; j < n; j++)
+                    pole[i, j] = 0;
+            for (i = 1; i <= n; i++)
+                for (j = 1; j <= n; j++)
+                {
+                    do
+                    {
+                        c = rnd.Next(0, n);
+                        d = rnd.Next(0, n);
+                    }
+                    while (pole[c, d] != 0);
+                    pole[c, d] = i; // 5 единиц, 5 двоек и т.д. на случайные места
+                }
+        }
+
+            public Form1()
+        { 
+            InitializeComponent();
+            g = this.CreateGraphics();
+            this.Width = 240;
+            this.Height = 300;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mas_ris(n);  // Массив рисунков скопирован в оперативную память
+            zapoln3(n);  //  Заполнен числовой массив
+            setka(x0, y0);  // Нарисована сетка с рисунками в соответствии с числовым массивом
+        }
+    }

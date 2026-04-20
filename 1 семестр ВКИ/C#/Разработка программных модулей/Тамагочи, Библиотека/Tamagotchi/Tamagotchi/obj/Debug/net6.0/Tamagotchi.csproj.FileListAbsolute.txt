@@ -1,0 +1,29 @@
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.exe
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.deps.json
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.runtimeconfig.json
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.dll
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.dll
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\refint\Tamagotchi.dll
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Рабочий стол\Tamagotchi\Tamagotchi\obj\Debug\net6.0\ref\Tamagotchi.dll
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.exe
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.deps.json
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.runtimeconfig.json
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.dll
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\bin\Debug\net6.0\Tamagotchi.pdb
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.csproj.AssemblyReference.cache
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.GeneratedMSBuildEditorConfig.editorconfig
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.AssemblyInfoInputs.cache
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.AssemblyInfo.cs
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.csproj.CoreCompileInputs.cache
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.dll
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\refint\Tamagotchi.dll
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.pdb
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\Tamagotchi.genruntimeconfig.cache
+\\iscsi\profstud\BorodinaAV\Desktop\Tamagotchi\Tamagotchi\obj\Debug\net6.0\ref\Tamagotchi.dll

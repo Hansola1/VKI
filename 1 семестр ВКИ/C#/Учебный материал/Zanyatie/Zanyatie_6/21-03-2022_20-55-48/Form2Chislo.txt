@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace UgadayChislo
+{
+    public partial class Form2 : Form
+    {
+        
+        public Form1 frm1;
+        public static int c=0;
+        public static int k = 0;
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void button_F2_Play_Click(object sender, EventArgs e)
+        {
+            frm1 = new Form1();//Создаем указатель на форму2
+            frm1.frm2 = this;//Передаем форме2 указатель на форму1
+            int b, d = 0;
+            bool f = true;
+            Random rnd = new Random();
+            string s = textBox_NumPlayer.Text;  // считываем число игрока
+            try
+            {//Проверка: вдруг не число
+                d = Convert.ToInt32(s);
+                c++;  //счет ходов
+            }
+            catch
+            {
+                textBox_NumPlayer.Text = "";
+                f = false;
+            }
+            if (f)
+            {  //Если число
+                b = rnd.Next(1,3);
+                if (d == b)
+                {
+                    k++;  //Счет совпадений
+                }
+                s = s + " - " + b.ToString();
+                listBox1.Items.Add(s);
+            }
+            if (c == 5)  //Всего пять ходов
+            {
+                textBox_NumPlayer.Enabled = false;
+                button_F2_Play.Enabled = false;
+            }
+        }
+
+        private void button_F2_Vyhod_Click(object sender, EventArgs e)
+        {
+            this.Hide();//Прячем форму2
+            frm1.Show();//Показывем форму1
+            frm1.labelShowOchki.Text += " " + k.ToString();  //Передаем
+                                                     // очки на Form1
+
+        }
+    }
+    
+}

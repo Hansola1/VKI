@@ -1,0 +1,6 @@
+  <levels>
+      <level p="5">Отлично!</level>
+      <level p="4">Хорошо</level>
+      <level p="3">Удовлетворительно</level> 
+      <level p="2">Плохо</level>
+  </levels>

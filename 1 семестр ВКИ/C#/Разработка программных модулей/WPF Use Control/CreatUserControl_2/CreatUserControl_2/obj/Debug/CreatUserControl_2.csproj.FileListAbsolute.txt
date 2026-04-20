@@ -1,0 +1,55 @@
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.exe.config
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.exe
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.pdb
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.AssemblyReference.cache
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\MainWindow.g.cs
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\usState.g.cs
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\App.g.cs
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2_MarkupCompile.cache
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2_MarkupCompile.lref
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\MainWindow.baml
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\usState.baml
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.g.resources
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.Properties.Resources.resources
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.GenerateResource.cache
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.CoreCompileInputs.cache
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.exe
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.pdb
+E:\C#\Разработка программных модулей\WPF\CreatUserControl_2\CreatUserControl_2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.exe.config
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.exe
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.pdb
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.AssemblyReference.cache
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\MainWindow.g.cs
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\usState.g.cs
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\App.g.cs
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2_MarkupCompile.cache
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2_MarkupCompile.lref
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\MainWindow.baml
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\usState.baml
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.g.resources
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.Properties.Resources.resources
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.GenerateResource.cache
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.CoreCompileInputs.cache
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.exe
+E:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.pdb
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.exe.config
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.exe
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\bin\Debug\CreatUserControl_2.pdb
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.AssemblyReference.cache
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.SuggestedBindingRedirects.cache
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\MainWindow.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\usState.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\App.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2_MarkupCompile.cache
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2_MarkupCompile.lref
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\MainWindow.baml
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\usState.baml
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.g.resources
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.Properties.Resources.resources
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.GenerateResource.cache
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.csproj.CoreCompileInputs.cache
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.exe
+D:\C#\Разработка программных модулей\WPF Use Control\CreatUserControl_2\CreatUserControl_2\obj\Debug\CreatUserControl_2.pdb

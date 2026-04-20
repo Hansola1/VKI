@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book>
+    <Author>Культин</Author>
+    <Title>Visual C# в примерах</Title>
+  </book>
+  <book>
+    <Author>Культин</Author>
+    <Title>Самоучитьель Visual C#</Title>
+  </book>
+  <book>
+    <Author>Культин</Author>
+    <Title>Основы программирования в Turbo Pascal 7.0 и Delphi</Title>
+  </book>
+  <book>
+    <Author>Шапошников</Author>
+    <Title>Справочник WEB-мастера. XML</Title>
+  </book>
+  <book>
+     <Author>Шапошников</Author>
+     <Title>Интернет-программирование</Title>   
+  </book>
+  <book>
+    <Author>Wei-Meng Lee</Author>
+    <Title>Windows Vista Gadgets Programming</Title>
+  </book>
+  <book>
+    <Author>Joseph Albahari</Author>
+    <Title>LINQ Pocked Refference</Title>
+  </book>
+  <book>
+    <Author>Культин Н.Б.</Author>
+    <Title>Инструменты управления проектами: Project Expert, Microsoft Project</Title>
+  </book>
+</books>

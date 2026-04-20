@@ -1,0 +1,16 @@
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\bin\Debug\Раздел 3 и 4  WPF.exe.config
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\bin\Debug\Раздел 3 и 4  WPF.exe
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\bin\Debug\Раздел 3 и 4  WPF.pdb
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.csproj.AssemblyReference.cache
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.csproj.SuggestedBindingRedirects.cache
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\MainWindow.g.cs
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\App.g.cs
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF_MarkupCompile.cache
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF_MarkupCompile.lref
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\MainWindow.baml
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.g.resources
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел_3_и_4__WPF.Properties.Resources.resources
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.csproj.GenerateResource.cache
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.csproj.CoreCompileInputs.cache
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.exe
+G:\C# 3 курс\Раздел 3 и 4  WPF\Раздел 3 и 4  WPF\obj\Debug\Раздел 3 и 4  WPF.pdb

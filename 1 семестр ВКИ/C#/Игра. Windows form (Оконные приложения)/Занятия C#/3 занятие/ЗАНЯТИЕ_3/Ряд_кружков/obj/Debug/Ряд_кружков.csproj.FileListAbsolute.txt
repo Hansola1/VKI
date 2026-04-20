@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.csprojAssemblyReference.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.Form1.resources
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.Properties.Resources.resources
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\bin\Debug\Ряд_кружков.exe.config
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\bin\Debug\Ряд_кружков.exe
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\bin\Debug\Ряд_кружков.pdb
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.exe
+C:\Users\User\Desktop\C#_ ЯЗЫК_ПРОЕКТ_1_курс\Ряд_кружков\obj\Debug\Ряд_кружков.pdb

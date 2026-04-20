@@ -1,0 +1,236 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Saper
+{
+    public partial class Form1 : Form
+    {
+        Graphics g;
+        Button[,] bt = new Button[12, 12];//Массив кнопок
+        Bitmap Mina;
+        Bitmap Flag;
+        Bitmap Vopros;
+        int[,] a = new int[12, 12];//Контрольный массив
+        //int nx = 50;
+        //int ny = 20;
+        int nx = 0;
+        int ny = 0;
+        //int dx = 30;
+        // int dy = 30;
+        int dx = 54;
+        int dy = 50;
+
+        public Form1()
+        {
+            InitializeComponent();
+            g = this.CreateGraphics();
+            Mina = new Bitmap("C:\\Users\\Administrator\\source\\repos\\Saper\\MinaRis.jpg");
+            Flag = new Bitmap("C:\\Users\\Administrator\\source\\repos\\Saper\\Flag.jpg");
+            Vopros = new Bitmap("C:\\Users\\Administrator\\source\\repos\\Saper\\Vopros.jpg");
+
+        }
+
+        public void Create_pole()
+        {
+            int i, j, k, l; ;//Заполняем контрольный массив
+            for (i = 0; i < 12; i++)
+                for (j = 0; j < 12; j++)
+                    if ((i == 0) || (j == 0) || (i == 11) || (j == 11))
+                        a[i, j] = -1;
+                    else
+                        a[i, j] = 0;
+            int n = 0;
+            Random rnd = new Random();
+            while (n < 10)//Расстановка мин
+            {
+                k = rnd.Next(1, 11);
+                l = rnd.Next(1, 11);
+                if (a[k, l] == 0)
+                {
+                    a[k, l] = -5;
+                    n++;
+                }
+            }
+            //Расстановка количества мин в соседник клетках
+            for (i = 1; i < 11; i++)
+                for (j = 1; j < 11; j++)
+                    if (a[i, j] != -5)
+                    {
+                        n = 0;
+                        for (k = i - 1; k < i + 2; k++)
+                            for (l = j - 1; l < j + 2; l++)
+                                if (!((k == i) && (l == j)) && (a[k, l] == -5))
+                                    n = n + 1;
+                        a[i, j] = n;
+                    }
+        }
+        private void Open(int i, int j)
+        {//Рекурсивная функция
+            int k, l, n;
+            switch (a[i, j])
+            {
+                case 0:
+                    {//Если пустая клетка
+                        if ((int)bt[i, j].Tag == 0)
+                        {
+                            bt[i, j].Tag = 1;
+                            bt[i, j].BackColor = Color.White;
+                            bt[i, j].ForeColor = Color.Red;
+                            bt[i, j].Text = a[i, j].ToString();
+                            for (k = i - 1; k < i + 2; k++)
+                                for (l = j - 1; l < j + 2; l++)
+                                    Open(k, l);
+                        }
+                        break;
+                    }//Если цифра
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                    {
+                        if ((int)bt[i, j].Tag == 0)
+                        {
+                            bt[i, j].Tag = 1;
+                            bt[i, j].BackColor = Color.White;
+                            bt[i, j].ForeColor = Color.Red;
+                            bt[i, j].Text = a[i, j].ToString();
+
+                        }
+                        break;
+                    }
+                case -5://Если мина
+                    {
+                        if ((int)bt[i, j].Tag != -5)
+                        {
+                            for (i = 1; i < 11; i++)
+                                for (j = 1; j < 11; j++)
+                                    if (a[i, j] == -5)
+                                        bt[i, j].Image = Mina;
+                                    else
+                                    {
+                                        bt[i, j].ForeColor = Color.Red;
+                                        bt[i, j].BackColor = Color.White;
+                                        bt[i, j].Text = a[i, j].ToString();
+                                    }
+                        }
+                        break;
+                    }
+
+            }
+        }
+
+    
+
+public void bt_MouseDown(object sender, MouseEventArgs e)
+        {
+            int i, j, k, l;
+            int x, y;
+            Button Tb;
+            Tb = sender as Button;
+            Tb.FlatStyle = (FlatStyle)0;
+            //  j = Tb.Left / dx - 1;
+            j = Tb.Left / dx;//Это измененная строчка
+            i = Tb.Top / dy;
+            textBox1.Text = j.ToString();//для отладки
+            textBox2.Text = i.ToString();
+            if (e.Button == MouseButtons.Left)
+                Open(i, j);
+
+            else//Если правая кнопка
+                switch ((int)bt[i, j].Tag)
+                {
+                    case 0:
+                        {//Ставим флажок
+                            bt[i, j].Image = Flag;
+                            bt[i, j].Tag = -5;
+                            break;
+                        }
+                    case -5:
+                        {//Вопрос
+                            bt[i, j].Image = Vopros;
+                            bt[i, j].Tag = 2;
+                            break;
+                        }
+   case 2:
+                        {//Убираем флажок и вопрос
+                            bt[i, j].Image = null;
+                            bt[i, j].Tag = 0;
+                            break;
+                        }
+                    case 1:
+                        {//Щелчок по цифре
+                            int n = 0;
+
+
+                            for (k = i - 1; k < i + 2; k++)
+                                for (l = j - 1; l < j + 2; l++)
+                                    if ((int)bt[k, l].Tag == -5)
+                                        n++;//Считаем мины вокруг
+                            if (n < a[i, j])
+                                MessageBox.Show("мало мин");
+
+                            else
+
+                            {
+                                for (k = i - 1; k < i + 2; k++)
+                                    for (l = j - 1; l < j + 2; l++)
+                                        if (((int)bt[k, l].Tag == -5) && (a[k, l] != -5))
+                                            MessageBox.Show("Взрыв");//Мина стоит неправильно
+                                        else//Все правильно
+                                            Open(k, l);
+                            }
+
+                            break;
+                        }
+                }
+        }
+            private void Create_Buttons()
+        {//Массив кнопок
+            int i, j;
+            for (i = 0; i < 12; i++)
+                for (j = 0; j < 12; j++)
+                    if (this.Controls.Contains(bt[i, j]))
+                        this.Controls.Remove(bt[i, j]);
+            for (i = 0; i < 12; i++)
+                for (j = 0; j < 12; j++)
+                {
+                    bt[i, j] = new Button();
+                    bt[i, j].Left = nx + (j) * dx;
+                    bt[i, j].Top = ny + (i) * dy;
+                    bt[i, j].Width = dx;
+                    bt[i, j].Height = dy;
+                    if ((i == 0) || (j == 0) || (i == 11) || (j == 11))
+                    {
+                        bt[i, j].Visible = false;
+                        bt[i, j].Tag = 0;
+                    }
+                    else
+                    {
+                        bt[i, j].BackColor = Color.Green;
+                        bt[i, j].MouseDown += bt_MouseDown;
+                        bt[i, j].Tag = 0;
+                    }
+                    Controls.Add(bt[i, j]);
+                }
+        }
+
+
+        private void button_Create_pole_Click(object sender, EventArgs e)
+        {
+            Create_pole();
+            //Drawpole();
+            Create_Buttons();
+
+        }
+    }
+}

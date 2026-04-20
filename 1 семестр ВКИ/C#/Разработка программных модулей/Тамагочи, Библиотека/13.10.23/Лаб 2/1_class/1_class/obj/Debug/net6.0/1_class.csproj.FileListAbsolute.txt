@@ -1,0 +1,15 @@
+E:\C#\Лаб 2\1_class\1_class\bin\Debug\net6.0\1_class.exe
+E:\C#\Лаб 2\1_class\1_class\bin\Debug\net6.0\1_class.deps.json
+E:\C#\Лаб 2\1_class\1_class\bin\Debug\net6.0\1_class.runtimeconfig.json
+E:\C#\Лаб 2\1_class\1_class\bin\Debug\net6.0\1_class.dll
+E:\C#\Лаб 2\1_class\1_class\bin\Debug\net6.0\1_class.pdb
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.csproj.AssemblyReference.cache
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.AssemblyInfoInputs.cache
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.AssemblyInfo.cs
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.csproj.CoreCompileInputs.cache
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.dll
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\refint\1_class.dll
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.pdb
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\1_class.genruntimeconfig.cache
+E:\C#\Лаб 2\1_class\1_class\obj\Debug\net6.0\ref\1_class.dll

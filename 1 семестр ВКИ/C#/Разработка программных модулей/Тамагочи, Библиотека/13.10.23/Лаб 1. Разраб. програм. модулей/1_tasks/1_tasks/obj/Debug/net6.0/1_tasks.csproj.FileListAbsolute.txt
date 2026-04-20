@@ -1,0 +1,44 @@
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.csproj.AssemblyReference.cache
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.AssemblyInfoInputs.cache
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.AssemblyInfo.cs
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.csproj.CoreCompileInputs.cache
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.exe
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.deps.json
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.runtimeconfig.json
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.dll
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.pdb
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.dll
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\refint\1_tasks.dll
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.pdb
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.genruntimeconfig.cache
+E:\C#\2 семестр\РПМ\1_tasks\1_tasks\obj\Debug\net6.0\ref\1_tasks.dll
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.exe
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.deps.json
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.runtimeconfig.json
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.dll
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.pdb
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.csproj.AssemblyReference.cache
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.AssemblyInfoInputs.cache
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.AssemblyInfo.cs
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.csproj.CoreCompileInputs.cache
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.dll
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\refint\1_tasks.dll
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.pdb
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.genruntimeconfig.cache
+E:\C#\2 семестр\Лаб 1\1_tasks\1_tasks\obj\Debug\net6.0\ref\1_tasks.dll
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.exe
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.deps.json
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.runtimeconfig.json
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.dll
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\bin\Debug\net6.0\1_tasks.pdb
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.AssemblyInfoInputs.cache
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.AssemblyInfo.cs
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.csproj.CoreCompileInputs.cache
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.dll
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\refint\1_tasks.dll
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.pdb
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\1_tasks.genruntimeconfig.cache
+E:\C#\Лаб 1. Разраб. програм. модулей\1_tasks\1_tasks\obj\Debug\net6.0\ref\1_tasks.dll

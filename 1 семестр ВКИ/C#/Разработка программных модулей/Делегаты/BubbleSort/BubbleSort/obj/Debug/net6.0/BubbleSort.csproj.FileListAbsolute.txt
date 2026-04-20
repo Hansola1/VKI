@@ -1,0 +1,15 @@
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\bin\Debug\net6.0\BubbleSort.exe
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\bin\Debug\net6.0\BubbleSort.deps.json
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\bin\Debug\net6.0\BubbleSort.runtimeconfig.json
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\bin\Debug\net6.0\BubbleSort.dll
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\bin\Debug\net6.0\BubbleSort.pdb
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.csproj.AssemblyReference.cache
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.AssemblyInfoInputs.cache
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.AssemblyInfo.cs
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.csproj.CoreCompileInputs.cache
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.dll
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\refint\BubbleSort.dll
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.pdb
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\BubbleSort.genruntimeconfig.cache
+D:\C#\Делегаты и события\BubbleSort\BubbleSort\obj\Debug\net6.0\ref\BubbleSort.dll

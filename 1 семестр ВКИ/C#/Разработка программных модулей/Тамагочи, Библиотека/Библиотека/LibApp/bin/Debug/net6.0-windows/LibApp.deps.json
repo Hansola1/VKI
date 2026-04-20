@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LibApp/1.0.0": {
+        "dependencies": {
+          "LogicLib": "1.0.0",
+          "TestLibConsole": "1.0.0"
+        },
+        "runtime": {
+          "LibApp.dll": {}
+        }
+      },
+      "LogicLib/1.0.0": {
+        "runtime": {
+          "LogicLib.dll": {}
+        }
+      },
+      "TestLibConsole/1.0.0": {
+        "dependencies": {
+          "LogicLib": "1.0.0"
+        },
+        "runtime": {
+          "TestLibConsole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogicLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestLibConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

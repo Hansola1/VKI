@@ -1,0 +1,72 @@
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.AssemblyReference.cache
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfoInputs.cache
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfo.cs
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\TestLibConsole.exe
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\TestLibConsole.deps.json
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\TestLibConsole.runtimeconfig.json
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\TestLibConsole.dll
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\TestLibConsole.pdb
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 B\TestLib\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CopyComplete
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.dll
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\refint\TestLibConsole.dll
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.pdb
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\TestLibConsole.genruntimeconfig.cache
+E:\C#\20.10.23 B\TestLib\obj\Debug\net6.0\ref\TestLibConsole.dll
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\TestLibConsole.exe
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\TestLibConsole.deps.json
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\TestLibConsole.runtimeconfig.json
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\TestLibConsole.dll
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\TestLibConsole.pdb
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 VKI version\TestLib\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.AssemblyReference.cache
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfoInputs.cache
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfo.cs
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CopyComplete
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.dll
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\refint\TestLibConsole.dll
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.pdb
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\TestLibConsole.genruntimeconfig.cache
+E:\C#\20.10.23 VKI version\TestLib\obj\Debug\net6.0\ref\TestLibConsole.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\TestLibConsole.exe
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\TestLibConsole.deps.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\TestLibConsole.runtimeconfig.json
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\TestLibConsole.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\TestLibConsole.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\LogicLib.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\bin\Debug\net6.0\LogicLib.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfoInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfo.cs
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CopyComplete
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\refint\TestLibConsole.dll
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.pdb
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\TestLibConsole.genruntimeconfig.cache
+C:\Users\Анастасия\Desktop\20.10.23 VKI version 05\TestLib\obj\Debug\net6.0\ref\TestLibConsole.dll
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\TestLibConsole.exe
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\TestLibConsole.deps.json
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\TestLibConsole.runtimeconfig.json
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\TestLibConsole.dll
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\TestLibConsole.pdb
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\LogicLib.dll
+E:\C#\20.10.23 Библиотека\TestLib\bin\Debug\net6.0\LogicLib.pdb
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.AssemblyReference.cache
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfoInputs.cache
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.AssemblyInfo.cs
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CoreCompileInputs.cache
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.csproj.CopyComplete
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.dll
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\refint\TestLibConsole.dll
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.pdb
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\TestLibConsole.genruntimeconfig.cache
+E:\C#\20.10.23 Библиотека\TestLib\obj\Debug\net6.0\ref\TestLibConsole.dll

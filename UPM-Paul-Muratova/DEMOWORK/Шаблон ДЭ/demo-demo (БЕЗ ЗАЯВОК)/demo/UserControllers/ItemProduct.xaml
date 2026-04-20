@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="demo.UserControllers.ItemProduct"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:demo.UserControllers"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="1200"
+             Background="White">
+    <DockPanel Width="1200">
+        <Border DockPanel.Dock="Left"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Margin="5">
+            <Image Height="200" Width="300" Name="BoxImage"/>
+        </Border>
+        
+        <Border DockPanel.Dock="Right"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Margin="5"
+                MinWidth="250"
+                Name="BoxDiscount">
+            <TextBlock FontSize="40" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center">
+                <Run Text="{Binding Discount}"/>
+                <Run Text="%"/>
+            </TextBlock>
+        </Border>
+        
+        <Border BorderBrush="Black"
+                BorderThickness="1"
+                Margin="5">
+            <StackPanel Margin="5 0 0 0">
+                <TextBlock FontSize="25" FontWeight="Bold">
+                    <Run Text="{Binding Manufacturer.Name}"/>
+                    <Run Text=" | "/>
+                    <Run Text="{Binding Name.Name}"/>
+                </TextBlock>
+                <TextBlock FontSize="18" TextWrapping="Wrap">
+                    <Run Text="Описание товара: "/>
+                    <Run Text="{Binding Description}"/>
+                </TextBlock>
+                <TextBlock FontSize="18">
+                    <Run Text="Производитель: "/>
+                    <Run Text="{Binding Manufacturer.Name}"/>
+                </TextBlock>
+                <TextBlock FontSize="18">
+                    <Run Text="Поставщик: "/>
+                    <Run Text="{Binding Supplier.Name}"/>
+                </TextBlock>
+                <TextBlock FontSize="18">
+                    <Run Text="Цена: "/>
+                    <Run Text="{Binding Price}" Name="BoxPrice"/>
+                    <Run Name="BoxNewPrice"/>
+                </TextBlock>
+                <TextBlock FontSize="18">
+                    <Run Text="Единица измерения: "/>
+                    <Run Text="{Binding Unit}"/>
+                </TextBlock>
+                <TextBlock FontSize="18" Name="BoxCount">
+                    <Run Text="Количество на складе: "/>
+                    <Run Text="{Binding Count}"/>
+                </TextBlock>
+            </StackPanel>
+        </Border>
+    </DockPanel>
+</UserControl>

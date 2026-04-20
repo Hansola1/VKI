@@ -1,0 +1,14 @@
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.AssemblyInfoInputs.cache
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.AssemblyInfo.cs
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.csproj.CoreCompileInputs.cache
+E:\C#\13.10.23\13.10.23\bin\Debug\net6.0\AthleteConsole.exe
+E:\C#\13.10.23\13.10.23\bin\Debug\net6.0\AthleteConsole.deps.json
+E:\C#\13.10.23\13.10.23\bin\Debug\net6.0\AthleteConsole.runtimeconfig.json
+E:\C#\13.10.23\13.10.23\bin\Debug\net6.0\AthleteConsole.dll
+E:\C#\13.10.23\13.10.23\bin\Debug\net6.0\AthleteConsole.pdb
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.dll
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\refint\AthleteConsole.dll
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.pdb
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\AthleteConsole.genruntimeconfig.cache
+E:\C#\13.10.23\13.10.23\obj\Debug\net6.0\ref\AthleteConsole.dll

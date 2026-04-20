@@ -1,0 +1,15 @@
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\bin\Debug\net6.0\MathCalculat.exe
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\bin\Debug\net6.0\MathCalculat.deps.json
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\bin\Debug\net6.0\MathCalculat.runtimeconfig.json
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\bin\Debug\net6.0\MathCalculat.dll
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\bin\Debug\net6.0\MathCalculat.pdb
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.csproj.AssemblyReference.cache
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.AssemblyInfoInputs.cache
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.AssemblyInfo.cs
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.csproj.CoreCompileInputs.cache
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.dll
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\refint\MathCalculat.dll
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.pdb
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\MathCalculat.genruntimeconfig.cache
+D:\C#\Делегаты и события\MathCalculat\MathCalculat\obj\Debug\net6.0\ref\MathCalculat.dll
