@@ -1,0 +1,14 @@
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.AssemblyInfoInputs.cache
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.AssemblyInfo.cs
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.csproj.CoreCompileInputs.cache
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.sourcelink.json
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\bin\Debug\net8.0\SpecificatioNuget.deps.json
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\bin\Debug\net8.0\SpecificatioNuget.dll
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\bin\Debug\net8.0\SpecificatioNuget.pdb
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\bin\Debug\net8.0\SpecificatioNuget.xml
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.dll
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\refint\SpecificatioNuget.dll
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.xml
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\SpecificatioNuget.pdb
+D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\SpecificatioNuget\obj\Debug\net8.0\ref\SpecificatioNuget.dll
