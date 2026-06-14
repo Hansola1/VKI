@@ -5,19 +5,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   
-	  <PackageId>SQLCloneLibrary</PackageId>
+	  <PackageId>ToolsUIWPF</PackageId>
     <Version>1.0.0</Version>
     <Authors>Hansola</Authors>
     <Description>Tools move</Description>
     <PackageTags>tools wpf</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <!--PackageReadmeFile>README.md</PackageReadmeFile -->
     
     <!-- Генерация XML-документации -->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="README.md" />
-  </ItemGroup>
 </Project>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Tools move")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ab2ad8acb25855bc07e6d6b64b9d2e7c9228bf1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea1d81ae8ad9bb0f9c05f5d9d2c9e79d578cc9b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpecificatioNuget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpecificatioNuget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
