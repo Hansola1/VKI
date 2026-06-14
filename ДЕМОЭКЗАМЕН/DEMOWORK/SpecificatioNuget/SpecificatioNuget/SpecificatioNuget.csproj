@@ -7,13 +7,11 @@
   
 	  <PackageId>SQLCloneLibrary</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Ваше Имя</Authors>
-    <Company>ООО «БАЙТ»</Company>
-    <Description>Библиотека для работы с VHD-образами и клонами баз данных Microsoft SQL Server</Description>
-    <PackageTags>sql-server;vhd;cloning;database</PackageTags>
+    <Authors>Hansola</Authors>
+    <Description>Tools move</Description>
+    <PackageTags>tools wpf</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/ваш-репозиторий</RepositoryUrl>
     
     <!-- Генерация XML-документации -->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

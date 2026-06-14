@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpecificatioNuget",
+              "Title": "SpecificatioNuget.csproj",
               "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\SpecificatioNuget\\SpecificatioNuget.csproj",
               "RelativeDocumentMoniker": "SpecificatioNuget\\SpecificatioNuget.csproj",
               "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\SpecificatioNuget\\SpecificatioNuget.csproj",
               "RelativeToolTip": "SpecificatioNuget\\SpecificatioNuget.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-06-14T06:20:47.174Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "SpecificatioNuget\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T06:15:33.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T06:15:33.752Z"
             }
           ]
         }
