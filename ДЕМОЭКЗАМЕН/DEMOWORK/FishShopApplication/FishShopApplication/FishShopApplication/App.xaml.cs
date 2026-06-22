@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using demo;
 
 namespace FishShopApplication
 {
@@ -9,6 +10,7 @@ namespace FishShopApplication
     /// </summary>
     public partial class App : Application
     {
+        demo.Models.Category category;
     }
 
 }

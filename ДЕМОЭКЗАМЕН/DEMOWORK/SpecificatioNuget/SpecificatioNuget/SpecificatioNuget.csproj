@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   
-	  <PackageId>ToolsUIWPF</PackageId>
-    <Version>1.0.1</Version>
-    <Authors>Hansola</Authors>
+	<PackageId>ToolsUIWPF</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>HansolaDE</Authors>
     <Description>Tools move</Description>
     <PackageTags>tools wpf</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

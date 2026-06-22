@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\",
+  "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\usercontrols\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\usercontrols\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\usercontrols\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\usercontrols\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\fishshopapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\fishshopapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\fishshopapplication\\fishshopapplication\\fishshopapplication\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D1FA76B6-B6E7-43BC-827C-A3F4CF176BFB}|FishShopApplication\\FishShopApplication.csproj|solutionrelative:fishshopapplication\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -30,15 +38,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FishShopApplication\\App.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\App.xaml.cs*",
+              "RelativeToolTip": "FishShopApplication\\App.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:35:40.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FishShopApplication",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\FishShopApplication.csproj",
+              "RelativeDocumentMoniker": "FishShopApplication\\FishShopApplication.csproj",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\FishShopApplication.csproj*",
+              "RelativeToolTip": "FishShopApplication\\FishShopApplication.csproj*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-16T15:26:32.701Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ProductCardControl.xaml",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\UserControls\\ProductCardControl.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\UserControls\\ProductCardControl.xaml",
               "RelativeDocumentMoniker": "FishShopApplication\\View\\UserControls\\ProductCardControl.xaml",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\UserControls\\ProductCardControl.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\UserControls\\ProductCardControl.xaml",
               "RelativeToolTip": "FishShopApplication\\View\\UserControls\\ProductCardControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-16T15:55:56.861Z",
@@ -46,11 +80,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\MainWindow.xaml",
               "RelativeDocumentMoniker": "FishShopApplication\\MainWindow.xaml",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\MainWindow.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\MainWindow.xaml",
               "RelativeToolTip": "FishShopApplication\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-16T15:54:36.9Z",
@@ -58,11 +92,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AddEditPage.xaml",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml",
               "RelativeDocumentMoniker": "FishShopApplication\\View\\AddEditPage.xaml",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml",
               "RelativeToolTip": "FishShopApplication\\View\\AddEditPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-08T16:38:25.627Z",
@@ -70,11 +104,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AddEditPage.xaml.cs",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml.cs",
               "RelativeDocumentMoniker": "FishShopApplication\\View\\AddEditPage.xaml.cs",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\AddEditPage.xaml.cs",
               "RelativeToolTip": "FishShopApplication\\View\\AddEditPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,11 +117,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProductsPage.xaml",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml",
               "RelativeDocumentMoniker": "FishShopApplication\\View\\ProductsPage.xaml",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\FishShopApplication\\FishShopApplication\\FishShopApplication\\View\\ProductsPage.xaml",
               "RelativeToolTip": "FishShopApplication\\View\\ProductsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-08T15:02:01.091Z",

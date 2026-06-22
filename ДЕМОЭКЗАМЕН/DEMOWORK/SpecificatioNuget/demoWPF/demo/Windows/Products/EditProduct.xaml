@@ -1,0 +1,85 @@
+﻿<Window x:Class="demo.Windows.Products.EditProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demo.Windows.Products"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="Изменение продукта" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
+            Orientation="Horizontal">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <TextBox Width="120"
+                     Name="BoxName"/>
+                <Label Content="Название"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <ComboBox Width="120"
+                    Name="BoxCategory"
+                      SelectedIndex="0"/>
+                <Label Content="Категория товара"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <TextBox Width="120"
+                    Name="BoxDescription"/>
+                <Label Content="Описание"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <ComboBox Width="120"
+                    Name="BoxManufacturer"
+                    SelectedIndex="0"/>
+                <Label Content="Производитель"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <ComboBox Width="120"
+                    Name="BoxSupplier"
+                      SelectedIndex="0"/>
+                <Label Content="Поставщик"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <TextBox Width="120"
+                    Name="BoxPrice"/>
+                <Label Content="Цена"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <TextBox Width="120"
+                    Name="BoxUnit"/>
+                <Label Content="единица измерения,"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <TextBox Width="120"
+                    Name="BoxCount"/>
+                <Label Content="количество на складе"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                    Margin="5">
+                <TextBox Width="120"
+                    Name="BoxDiscount"/>
+                <Label Content="скидка"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="  Сохранить изменения  "
+                    Click="ButtonSaveProduct"
+                    Margin="5"/>
+                <Button Content="Отмена"
+                    Click="ButtonExit"
+                    Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel>
+            <Image Name="BoxImage" Height="200" Width="200"/>
+            <Button Content="Изменить изображение" Margin="5"
+                Click="ButtonLoadImage"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

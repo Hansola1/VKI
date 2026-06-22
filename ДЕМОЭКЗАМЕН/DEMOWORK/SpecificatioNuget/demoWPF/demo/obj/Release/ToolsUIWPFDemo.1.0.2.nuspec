@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ToolsUIWPFDemo</id>
+    <version>1.0.2</version>
+    <authors>HansolaDE</authors>
+    <description>Tools move</description>
+    <tags>tools wpf</tags>
+    <repository type="git" commit="07b15b86d8aece6555147db530f632b22082d524" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="9.0.13" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\demoWPF\demo\bin\Release\net8.0-windows\demo.runtimeconfig.json" target="lib\net8.0-windows7.0\demo.runtimeconfig.json" />
+    <file src="D:\CodeData\homeworkFile\ДЕМОЭКЗАМЕН\DEMOWORK\SpecificatioNuget\demoWPF\demo\bin\Release\net8.0-windows\demo.dll" target="lib\net8.0-windows7.0\demo.dll" />
+  </files>
+</package>

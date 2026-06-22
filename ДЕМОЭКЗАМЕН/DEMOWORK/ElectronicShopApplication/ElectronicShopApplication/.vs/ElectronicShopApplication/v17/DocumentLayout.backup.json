@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\",
+  "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3962411A-B481-45F0-A261-626ED1C353F8}|ElectronicShopLib\\ElectronicShopLib.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\electronicshopapplication\\electronicshopapplication\\electronicshoplib\\electronicshoplib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3962411A-B481-45F0-A261-626ED1C353F8}|ElectronicShopLib\\ElectronicShopLib.csproj|solutionrelative:electronicshoplib\\electronicshoplib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3E118CF0-D1E9-4C96-855D-67FB76FCCBF2}|ElectronicShopApplication\\ElectronicShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\electronicshopapplication\\electronicshopapplication\\electronicshopapplication\\views\\addeditproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E118CF0-D1E9-4C96-855D-67FB76FCCBF2}|ElectronicShopApplication\\ElectronicShopApplication.csproj|solutionrelative:electronicshopapplication\\views\\addeditproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3962411A-B481-45F0-A261-626ED1C353F8}|ElectronicShopLib\\ElectronicShopLib.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\electronicshopapplication\\electronicshopapplication\\electronicshoplib\\helpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3962411A-B481-45F0-A261-626ED1C353F8}|ElectronicShopLib\\ElectronicShopLib.csproj|solutionrelative:electronicshoplib\\helpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E118CF0-D1E9-4C96-855D-67FB76FCCBF2}|ElectronicShopApplication\\ElectronicShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\electronicshopapplication\\electronicshopapplication\\electronicshopapplication\\views\\addeditproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E118CF0-D1E9-4C96-855D-67FB76FCCBF2}|ElectronicShopApplication\\ElectronicShopApplication.csproj|solutionrelative:electronicshopapplication\\views\\addeditproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3962411A-B481-45F0-A261-626ED1C353F8}|ElectronicShopLib\\ElectronicShopLib.csproj|d:\\codedata\\homeworkfile\\upm-paul-muratova\\demowork\\electronicshopapplication\\electronicshopapplication\\electronicshoplib\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{3962411A-B481-45F0-A261-626ED1C353F8}|ElectronicShopLib\\ElectronicShopLib.csproj|solutionrelative:electronicshoplib\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{3E118CF0-D1E9-4C96-855D-67FB76FCCBF2}|ElectronicShopApplication\\ElectronicShopApplication.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\electronicshopapplication\\electronicshopapplication\\electronicshopapplication\\viewmodels\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E118CF0-D1E9-4C96-855D-67FB76FCCBF2}|ElectronicShopApplication\\ElectronicShopApplication.csproj|solutionrelative:electronicshopapplication\\viewmodels\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopLib\\README.md",
-              "RelativeDocumentMoniker": "ElectronicShopLib\\README.md",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopLib\\README.md",
-              "RelativeToolTip": "ElectronicShopLib\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-23T14:26:44.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ElectronicShopLib",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopLib\\ElectronicShopLib.csproj",
-              "RelativeDocumentMoniker": "ElectronicShopLib\\ElectronicShopLib.csproj",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopLib\\ElectronicShopLib.csproj",
-              "RelativeToolTip": "ElectronicShopLib\\ElectronicShopLib.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-23T14:23:27.949Z",
+              "Title": "AddEditProductPage.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\Views\\AddEditProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "ElectronicShopApplication\\Views\\AddEditProductPage.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\Views\\AddEditProductPage.xaml.cs",
+              "RelativeToolTip": "ElectronicShopApplication\\Views\\AddEditProductPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:10:21.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HelpCode.cs",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopLib\\HelpCode.cs",
-              "RelativeDocumentMoniker": "ElectronicShopLib\\HelpCode.cs",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopLib\\HelpCode.cs",
-              "RelativeToolTip": "ElectronicShopLib\\HelpCode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "AddEditProductPage.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\Views\\AddEditProductPage.xaml",
+              "RelativeDocumentMoniker": "ElectronicShopApplication\\Views\\AddEditProductPage.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\Views\\AddEditProductPage.xaml",
+              "RelativeToolTip": "ElectronicShopApplication\\Views\\AddEditProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T13:10:14.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductView.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\ViewModels\\ProductView.cs",
+              "RelativeDocumentMoniker": "ElectronicShopApplication\\ViewModels\\ProductView.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\ViewModels\\ProductView.cs",
+              "RelativeToolTip": "ElectronicShopApplication\\ViewModels\\ProductView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T14:22:03.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T13:10:10.135Z"
             }
           ]
         }

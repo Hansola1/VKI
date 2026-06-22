@@ -4023,11 +4023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication.csproj",
-      "projectName": "ElectronicShopApplication",
-      "projectPath": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication.csproj",
+      "projectUniqueName": "D:\\CodeData\\homeworkFile\\ДЕМОЭКЗАМЕН\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication.csproj",
+      "projectName": "ElectronicShopLib",
+      "projectPath": "D:\\CodeData\\homeworkFile\\ДЕМОЭКЗАМЕН\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication.csproj",
       "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
-      "outputPath": "D:\\CodeData\\homeworkFile\\UPM-Paul-Muratova\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\obj\\",
+      "outputPath": "D:\\CodeData\\homeworkFile\\ДЕМОЭКЗАМЕН\\DEMOWORK\\ElectronicShopApplication\\ElectronicShopApplication\\ElectronicShopApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4041,6 +4041,7 @@
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4105,7 +4106,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

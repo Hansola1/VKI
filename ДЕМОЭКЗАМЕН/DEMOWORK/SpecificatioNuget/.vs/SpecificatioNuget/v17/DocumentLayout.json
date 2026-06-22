@@ -3,12 +3,55 @@
   "WorkspaceRootPath": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0631F8B6-4404-4F46-87BD-3FC40C0B9D7C}|SpecificatioNuget\\SpecificatioNuget.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\specificationuget\\specificationuget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0631F8B6-4404-4F46-87BD-3FC40C0B9D7C}|SpecificatioNuget\\SpecificatioNuget.csproj|solutionrelative:specificationuget\\specificationuget.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0631F8B6-4404-4F46-87BD-3FC40C0B9D7C}|SpecificatioNuget\\SpecificatioNuget.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\specificationuget\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0631F8B6-4404-4F46-87BD-3FC40C0B9D7C}|SpecificatioNuget\\SpecificatioNuget.csproj|solutionrelative:specificationuget\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\usercontrollers\\itemproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\usercontrollers\\itemproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\usercontrollers\\itemproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\usercontrollers\\itemproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\windows\\products\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\windows\\products\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\windows\\products\\editproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\windows\\products\\editproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\windows\\products\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\windows\\products\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\data\\democontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\data\\democontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\windows\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\windows\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\windows\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\windows\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\windows\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\windows\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\AppData\\Local\\Temp\\.vsdbgsrc\\a71d115807b23ef63abda3a5389eab0c6036e3f4196e9297ce3c159e280d34b2\\SqlConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|d:\\codedata\\homeworkfile\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\demowork\\specificationuget\\demowpf\\demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54B9614F-9AAB-D786-DDC4-5ECF56680279}|demoWPF\\demo\\demo.csproj|solutionrelative:demowpf\\demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +61,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpecificatioNuget.csproj",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\SpecificatioNuget\\SpecificatioNuget.csproj",
-              "RelativeDocumentMoniker": "SpecificatioNuget\\SpecificatioNuget.csproj",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\SpecificatioNuget\\SpecificatioNuget.csproj",
-              "RelativeToolTip": "SpecificatioNuget\\SpecificatioNuget.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAApwAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-14T06:20:47.174Z",
+              "DocumentIndex": 11,
+              "Title": "SqlConnection.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\AppData\\Local\\Temp\\.vsdbgsrc\\a71d115807b23ef63abda3a5389eab0c6036e3f4196e9297ce3c159e280d34b2\\SqlConnection.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\AppData\\Local\\Temp\\.vsdbgsrc\\a71d115807b23ef63abda3a5389eab0c6036e3f4196e9297ce3c159e280d34b2\\SqlConnection.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAADAGAAAAAAAAAAAqwDwGAAA4AAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:32:03.597Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditProduct.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Products\\EditProduct.xaml.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Windows\\Products\\EditProduct.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Products\\EditProduct.xaml.cs",
+              "RelativeToolTip": "demoWPF\\demo\\Windows\\Products\\EditProduct.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwGsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:54:15.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemProduct.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\UserControllers\\ItemProduct.xaml.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\UserControllers\\ItemProduct.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\UserControllers\\ItemProduct.xaml.cs",
+              "RelativeToolTip": "demoWPF\\demo\\UserControllers\\ItemProduct.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:52:09.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\SpecificatioNuget\\Class1.cs",
-              "RelativeDocumentMoniker": "SpecificatioNuget\\Class1.cs",
-              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\SpecificatioNuget\\Class1.cs",
-              "RelativeToolTip": "SpecificatioNuget\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Title": "ItemProduct.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\UserControllers\\ItemProduct.xaml",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\UserControllers\\ItemProduct.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\UserControllers\\ItemProduct.xaml",
+              "RelativeToolTip": "demoWPF\\demo\\UserControllers\\ItemProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T13:46:07.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demo.csproj",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\demo.csproj",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\demo.csproj",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\demo.csproj",
+              "RelativeToolTip": "demoWPF\\demo\\demo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-16T13:43:04.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProduct.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Products\\AddProduct.xaml.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Windows\\Products\\AddProduct.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Products\\AddProduct.xaml.cs",
+              "RelativeToolTip": "demoWPF\\demo\\Windows\\Products\\AddProduct.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwF4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T06:15:33.752Z",
+              "WhenOpened": "2026-06-16T14:17:02.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Authorization.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Authorization.xaml.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Windows\\Authorization.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Authorization.xaml.cs",
+              "RelativeToolTip": "demoWPF\\demo\\Windows\\Authorization.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:20:26.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Main.xaml",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Windows\\Main.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Main.xaml",
+              "RelativeToolTip": "demoWPF\\demo\\Windows\\Main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T14:23:27.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Windows\\Main.xaml.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Main.xaml.cs",
+              "RelativeToolTip": "demoWPF\\demo\\Windows\\Main.xaml.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAmwMoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:25:51.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Models\\Role.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Models\\Role.cs",
+              "RelativeToolTip": "demoWPF\\demo\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:27:42.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DemoContext.cs",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Data\\DemoContext.cs",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Data\\DemoContext.cs",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Data\\DemoContext.cs",
+              "RelativeToolTip": "demoWPF\\demo\\Data\\DemoContext.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAawJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:30:50.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddProduct.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Products\\AddProduct.xaml",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\Windows\\Products\\AddProduct.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\Windows\\Products\\AddProduct.xaml",
+              "RelativeToolTip": "demoWPF\\demo\\Windows\\Products\\AddProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T14:48:36.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\App.xaml",
+              "RelativeDocumentMoniker": "demoWPF\\demo\\App.xaml",
+              "ToolTip": "D:\\CodeData\\homeworkFile\\\u0414\u0415\u041C\u041E\u042D\u041A\u0417\u0410\u041C\u0415\u041D\\DEMOWORK\\SpecificatioNuget\\demoWPF\\demo\\App.xaml",
+              "RelativeToolTip": "demoWPF\\demo\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T14:25:50.69Z",
               "EditorCaption": ""
             }
           ]
